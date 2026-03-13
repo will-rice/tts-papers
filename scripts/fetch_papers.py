@@ -24,8 +24,6 @@ Usage::
     python scripts/fetch_papers.py --days 30
 """
 
-from __future__ import annotations
-
 import argparse
 import csv
 import os
