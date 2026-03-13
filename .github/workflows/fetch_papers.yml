@@ -17,6 +17,11 @@ on:
           - "false"
           - "true"
 
+  # Trigger on push to populate the readme initially
+  push:
+    branches:
+      - copilot/run-paper-collection-job
+
 permissions:
   contents: write
 
@@ -34,11 +39,11 @@ jobs:
           python-version: "3.12"
 
       - name: Fetch papers (incremental)
-        if: ${{ github.event.inputs.full != 'true' }}
+        if: ${{ github.event.inputs.full != 'true' && github.event_name != 'push' }}
         run: python scripts/fetch_papers.py --days 8
 
       - name: Fetch papers (full historical)
-        if: ${{ github.event.inputs.full == 'true' }}
+        if: ${{ github.event.inputs.full == 'true' || github.event_name == 'push' }}
         run: python scripts/fetch_papers.py --full
 
       - name: Commit updated paper list
