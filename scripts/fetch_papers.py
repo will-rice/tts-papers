@@ -272,6 +272,9 @@ def _build_table(papers_by_id: dict[str, dict]) -> str:
                 authors = ", ".join(authors.split(", ")[:4]) + " et al."
             date_str = row.get("submitted", "")[:10]
             abstract = row.get("abstract", "")
+            # Truncate long abstracts for readability
+            if len(abstract) > 300:
+                abstract = abstract[:297] + "..."
             # Escape pipe characters inside cells
             title_link = title_link.replace("|", "\\|")
             authors = authors.replace("|", "\\|")
@@ -354,6 +357,7 @@ def main() -> None:
         print(f"Removed {removed} existing paper(s) matching negative keywords.")
 
     new_count = 0
+    abstract_updated = 0
     for keywords in SEARCH_QUERIES:
         print(f"\nQuerying arXiv for: {keywords!r} …")
         try:
@@ -368,12 +372,15 @@ def main() -> None:
                 existing[pid] = paper
                 new_count += 1
                 print(f"  + {pid}: {paper['title'][:70]}")
+            elif not existing[pid].get("abstract") and paper.get("abstract"):
+                existing[pid]["abstract"] = paper["abstract"]
+                abstract_updated += 1
 
         time.sleep(API_DELAY_SECONDS)
 
-    print(f"\nFound {new_count} new papers. Total: {len(existing)}.")
+    print(f"\nFound {new_count} new papers. Updated abstracts for {abstract_updated} existing paper(s). Total: {len(existing)}.")
 
-    if new_count > 0 or removed > 0 or not PAPERS_CSV.exists():
+    if new_count > 0 or removed > 0 or abstract_updated > 0 or not PAPERS_CSV.exists():
         save_papers(existing)
         print(f"Saved to {PAPERS_CSV}.")
 
