@@ -372,7 +372,7 @@ def main() -> None:
                 existing[pid] = paper
                 new_count += 1
                 print(f"  + {pid}: {paper['title'][:70]}")
-            elif not existing[pid].get("abstract") and paper.get("abstract"):
+            elif pid in existing and not existing[pid].get("abstract") and paper.get("abstract"):
                 existing[pid]["abstract"] = paper["abstract"]
                 abstract_updated += 1
 
