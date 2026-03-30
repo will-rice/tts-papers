@@ -39,6 +39,26 @@ The following keyword queries are used against arXiv title and abstract fields:
 <!-- PAPERS_TABLE_START -->
 ### 2026
 
+#### [Voxtral TTS](https://arxiv.org/abs/2603.25551)
+**Alexander H. Liu, Alexis Tacnet, Andy Ehrenberg, Andy Lo et al.** · 2026-03-26
+
+<details>
+<summary>Abstract</summary>
+
+We introduce Voxtral TTS, an expressive multilingual text-to-speech model that generates natural speech from as little as 3 seconds of reference audio. Voxtral TTS adopts a hybrid architecture that combines auto-regressive generation of semantic speech tokens with flow-matching for acoustic tokens. These tokens are encoded and decoded with Voxtral Codec, a speech tokenizer trained from scratch with a hybrid VQ-FSQ quantization scheme. In human evaluations conducted by native speakers, Voxtral TTS is preferred for multilingual voice cloning due to its naturalness and expressivity, achieving a 68.4\% win rate over ElevenLabs Flash v2.5. We release the model weights under a CC BY-NC license.
+
+</details>
+
+#### [OmniACBench: A Benchmark for Evaluating Context-Grounded Acoustic Control in Omni-Modal Models](https://arxiv.org/abs/2603.23938)
+**Seunghee Kim, Bumkyu Park, Kyudan Jung, Joosung Lee et al.** · 2026-03-25
+
+<details>
+<summary>Abstract</summary>
+
+Most testbeds for omni-modal models assess multimodal understanding via textual outputs, leaving it unclear whether these models can properly speak their answers. To study this, we introduce OmniACBench, a benchmark for evaluating context-grounded acoustic control in omni-modal models. Given a spoken instruction, a text script, and an image, a model must read the script aloud with an appropriate tone and manner. OmniACBench comprises 3,559 verified instances covering six acoustic features: speech rate, phonation, pronunciation, emotion, global accent, and timbre. Extensive experiments on eight models reveal their limitations in the proposed setting, despite their strong performance on prior textual-output evaluations. Our analyses show that the main bottleneck lies not in processing individual modalities, but in integrating multimodal context for faithful speech generation. Moreover, we identify three common failure modes-weak direct control, failed implicit inference, and failed multimodal grounding-providing insights for developing models that can verbalize responses effectively.
+
+</details>
+
 #### [Gesture2Speech: How Far Can Hand Movements Shape Expressive Speech?](https://arxiv.org/abs/2603.19831)
 **Lokesh Kumar, Nirmesh Shah, Ashishkumar P. Gudmalwar, Pankaj Wasnik** · 2026-03-20
 
