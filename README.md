@@ -39,6 +39,126 @@ The following keyword queries are used against arXiv title and abstract fields:
 <!-- PAPERS_TABLE_START -->
 ### 2026
 
+#### [GAP-URGENet: A Generative-Predictive Fusion Framework for Universal Speech Enhancement](https://arxiv.org/abs/2604.01832)
+**Xiaobin Rong, Yushi Wang, Zheng Wang, Jing Lu** · 2026-04-02
+
+<details>
+<summary>Abstract</summary>
+
+We introduce GAP-URGENet, a generative-predictive fusion framework developed for Track 1 of the ICASSP 2026 URGENT Challenge. The system integrates a generative branch, which performs full-stack speech restoration in a self-supervised representation domain and reconstructs the waveform via a neural vocoder, along with a predictive branch that performs spectrogram-domain enhancement, providing complementary cues. Outputs from both branches are fused by a post-processing module, which also performs bandwidth extension to generate the enhanced waveform at 48 kHz, later downsampled to the original sampling rate. This generative-predictive fusion improves robustness and perceptual quality, achieving top performance in the blind-test phase and ranking 1st in the objective evaluation. Audio examples are available at https://xiaobin-rong.github.io/gap-urgenet_demo.
+
+</details>
+
+#### [T5Gemma-TTS Technical Report](https://arxiv.org/abs/2604.01760)
+**Chihiro Arata, Kiyoshi Kurihara** · 2026-04-02
+
+<details>
+<summary>Abstract</summary>
+
+Autoregressive neural codec language models have shown strong zero-shot voice cloning ability, but decoder-only architectures treat input text as a prefix that competes with the growing audio sequence for positional capacity, weakening text conditioning over long utterances. We present T5Gemma-TTS, an encoder-decoder codec language model that maintains persistent text conditioning by routing bidirectional text representations through cross-attention at every decoder layer. Built on the T5Gemma pretrained encoder-decoder backbone (2B encoder + 2B decoder; 4B parameters), it inherits rich linguistic knowledge without phoneme conversion and processes text directly at the subword level. To improve duration control, we introduce Progress-Monitoring Rotary Position Embedding (PM-RoPE) in all 26 cross-attention layers, injecting normalized progress signals that help the decoder track target speech length. Trained on 170,000 hours of multilingual speech in English, Chinese, and Japanese, T5Gemma-TTS achieves a statistically significant speaker-similarity gain on Japanese over XTTSv2 (0.677 vs. 0.622; non-overlapping 95% confidence intervals) and the highest numerical Korean speaker similarity (0.747) despite Korean not being included in training, although this margin over XTTSv2 (0.741) is not statistically conclusive. It also attains the lowest numerical Japanese character error rate among five baselines (0.126), though this ranking should be interpreted cautiously because of partial confidence-interval overlap with Kokoro. English results on LibriSpeech should be viewed as an upper-bound estimate because LibriHeavy is a superset of LibriSpeech. Using the same checkpoint, disabling PM-RoPE at inference causes near-complete synthesis failure: CER degrades from 0.129 to 0.982 and duration accuracy drops from 79% to 46%. Code and weights are available at https://github.com/Aratako/T5Gemma-TTS.
+
+</details>
+
+#### [Acoustic and perceptual differences between standard and accented Chinese speech and their voice clones](https://arxiv.org/abs/2604.01562)
+**Tianle Yang, Chengzhe Sun, Phil Rose, Siwei Lyu** · 2026-04-02
+
+<details>
+<summary>Abstract</summary>
+
+Voice cloning is often evaluated in terms of overall quality, but less is known about accent preservation and its perceptual consequences. We compare standard and heavily accented Mandarin speech and their voice clones using a combined computational and perceptual design. Embedding-based analyses show no reliable accented-standard difference in original-clone distances across systems. In the perception study, clones are rated as more similar to their originals for standard than for accented speakers, and intelligibility increases from original to clone, with a larger gain for accented speech. These results show that accent variation can shape perceived identity match and intelligibility in voice cloning even when it is not reflected in an off-the-shelf speaker-embedding distance, and they motivate evaluating speaker identity preservation and accent preservation as separable dimensions.
+
+</details>
+
+#### [OmniVoice: Towards Omnilingual Zero-Shot Text-to-Speech with Diffusion Language Models](https://arxiv.org/abs/2604.00688)
+**Han Zhu, Lingxuan Ye, Wei Kang, Zengwei Yao et al.** · 2026-04-01
+
+<details>
+<summary>Abstract</summary>
+
+We present OmniVoice, a massive multilingual zero-shot text-to-speech (TTS) model that scales to over 600 languages. At its core is a novel diffusion language model-style discrete non-autoregressive (NAR) architecture. Unlike conventional discrete NAR models that suffer from performance bottlenecks in complex two-stage (text-to-semantic-to-acoustic) pipelines, OmniVoice directly maps text to multi-codebook acoustic tokens. This simplified approach is facilitated by two key technical innovations: (1) a full-codebook random masking strategy for efficient training, and (2) initialization from a pre-trained LLM to ensure superior intelligibility. By leveraging a 581k-hour multilingual dataset curated entirely from open-source data, OmniVoice achieves the broadest language coverage to date and delivers state-of-the-art performance across Chinese, English, and diverse multilingual benchmarks. Our code and pre-trained models are publicly available at https://github.com/k2-fsa/OmniVoice.
+
+</details>
+
+#### [MambaVoiceCloning: Efficient and Expressive Text-to-Speech via State-Space Modeling and Diffusion Control](https://arxiv.org/abs/2604.00292)
+**Sahil Kumar, Namrataben Patel, Honggang Wang, Youshan Zhang** · 2026-03-31
+
+<details>
+<summary>Abstract</summary>
+
+MambaVoiceCloning (MVC) asks whether the conditioning path of diffusion-based TTS can be made fully SSM-only at inference, removing all attention and explicit RNN-style recurrence layers across text, rhythm, and prosody, while preserving or improving quality under controlled conditions. MVC combines a gated bidirectional Mamba text encoder, a Temporal Bi-Mamba supervised by a lightweight alignment teacher discarded after training, and an Expressive Mamba with AdaLN modulation, yielding linear-time O(T) conditioning with bounded activation memory and practical finite look-ahead streaming. Unlike prior Mamba-TTS systems that remain hybrid at inference, MVC removes attention-based duration and style modules under a fixed StyleTTS2 mel-diffusion-vocoder backbone. Trained on LJSpeech/LibriTTS and evaluated on VCTK, CSS10 (ES/DE/FR), and long-form Gutenberg passages, MVC achieves modest but statistically reliable gains over StyleTTS2, VITS, and Mamba-attention hybrids in MOS/CMOS, F0 RMSE, MCD, and WER, while reducing encoder parameters to 21M and improving throughput by 1.6x. Diffusion remains the dominant latency source, but SSM-only conditioning improves memory footprint, stability, and deployability.
+
+</details>
+
+#### [Covertly improving intelligibility with data-driven adaptations of speech timing](https://arxiv.org/abs/2603.30032)
+**Paige Tuttösí, Angelica Lim, H. Henny Yeung, Yue Wang et al.** · 2026-03-31
+
+<details>
+<summary>Abstract</summary>
+
+Human talkers often address listeners with language-comprehension challenges, such as hard-of-hearing or non-native adults, by globally slowing down their speech. However, it remains unclear whether this strategy actually makes speech more intelligible. Here, we take advantage of recent advancements in machine-generated speech allowing more precise control of speech rate in order to systematically examine how targeted speech-rate adjustments may improve comprehension. We first use reverse-correlation experiments to show that the temporal influence of speech rate prior to a target vowel contrast (ex. the tense-lax distinction) in fact manifests in a scissor-like pattern, with opposite effects in early versus late context windows; this pattern is remarkably stable both within individuals and across native L1-English listeners and L2-English listeners with French, Mandarin, and Japanese L1s. Second, we show that this speech rate structure not only facilitates L2 listeners' comprehension of the target vowel contrast, but that native listeners also rely on this pattern in challenging acoustic conditions. Finally, we build a data-driven text-to-speech algorithm that replicates this temporal structure on novel speech sequences. Across a variety of sentences and vowel contrasts, listeners remained unaware that such targeted slowing improved word comprehension. Strikingly, participants instead judged the common strategy of global slowing as clearer, even though it actually increased comprehension errors. Together, these results show that targeted adjustments to speech rate significantly aid intelligibility under challenging conditions, while often going unnoticed. More generally, this paper provides a data-driven methodology to improve the accessibility of machine-generated speech which can be extended to other aspects of speech comprehension and a wide variety of listeners and environments.
+
+</details>
+
+#### [LongCat-AudioDiT: High-Fidelity Diffusion Text-to-Speech in the Waveform Latent Space](https://arxiv.org/abs/2603.29339)
+**Detai Xin, Shujie Hu, Chengzuo Yang, Chen Huang et al.** · 2026-03-31
+
+<details>
+<summary>Abstract</summary>
+
+We present LongCat-AudioDiT, a novel, non-autoregressive diffusion-based text-to-speech (TTS) model that achieves state-of-the-art (SOTA) performance. Unlike previous methods that rely on intermediate acoustic representations such as mel-spectrograms, the core innovation of LongCat-AudioDiT lies in operating directly within the waveform latent space. This approach effectively mitigates compounding errors and drastically simplifies the TTS pipeline, requiring only a waveform variational autoencoder (Wav-VAE) and a diffusion backbone. Furthermore, we introduce two critical improvements to the inference process: first, we identify and rectify a long-standing training-inference mismatch; second, we replace traditional classifier-free guidance with adaptive projection guidance to elevate generation quality. Experimental results demonstrate that, despite the absence of complex multi-stage training pipelines or high-quality human-annotated datasets, LongCat-AudioDiT achieves SOTA zero-shot voice cloning performance on the Seed benchmark while maintaining competitive intelligibility. Specifically, our largest variant, LongCat-AudioDiT-3.5B, outperforms the previous SOTA model (Seed-TTS), improving the speaker similarity (SIM) scores from 0.809 to 0.818 on Seed-ZH, and from 0.776 to 0.797 on Seed-Hard. Finally, through comprehensive ablation studies and systematic analysis, we validate the effectiveness of our proposed modules. Notably, we investigate the interplay between the Wav-VAE and the TTS backbone, revealing the counterintuitive finding that superior reconstruction fidelity in the Wav-VAE does not necessarily lead to better overall TTS performance. Code and model weights are released to foster further research within the speech community.
+
+</details>
+
+#### [From Natural Alignment to Conditional Controllability in Multimodal Dialogue](https://arxiv.org/abs/2603.29162)
+**Zeyu Jin, Songtao Zhou, Haoyu Wang, Minghao Tian et al.** · 2026-03-31
+
+<details>
+<summary>Abstract</summary>
+
+The recent advancement of Artificial Intelligence Generated Content (AIGC) has led to significant strides in modeling human interaction, particularly in the context of multimodal dialogue. While current methods impressively generate realistic dialogue in isolated modalities like speech or vision, challenges remain in controllable Multimodal Dialogue Generation (MDG). This paper focuses on the natural alignment between speech, vision, and text in human interaction, aiming for expressive dialogue generation through multimodal conditional control. To address the insufficient richness and diversity of dialogue expressiveness in existing datasets, we introduce a novel multimodal dialogue annotation pipeline to curate dialogues from movies and TV series with fine-grained annotations in interactional characteristics. The resulting MM-Dia dataset (360+ hours, 54,700 dialogues) facilitates explicitly controlled MDG, specifically through style-controllable dialogue speech synthesis. In parallel, MM-Dia-Bench (309 highly expressive dialogues with visible single-/dual-speaker scenes) serves as a rigorous testbed for implicit cross-modal MDG control, evaluating audio-visual style consistency across modalities. Extensive experiments demonstrate that training on MM-Dia significantly enhances fine-grained controllability, while evaluations on MM-Dia-Bench reveal limitations in current frameworks to replicate the nuanced expressiveness of human interaction. These findings provides new insights and challenges for multimodal conditional dialogue generation.
+
+</details>
+
+#### [Evaluating Generalization and Robustness in Russian Anti-Spoofing: The RuASD Initiative](https://arxiv.org/abs/2604.02374)
+**Ksenia Lysikova, Kirill Borodin, Kirill Borodin** · 2026-03-31
+
+<details>
+<summary>Abstract</summary>
+
+RuASD (Russian AntiSpoofing Dataset) is a dedicated, reproducible benchmark for Russian-language speech anti-spoofing designed to evaluate both in-domain discrimination and robustness to deployment-style distribution shifts. It combines a large spoof subset synthesized using 37 modern Russian-capable TTS and voice-cloning systems with a bona fide subset curated from multiple heterogeneous open Russian speech corpora, enabling systematic evaluation across diverse data sources. To emulate typical dissemination and channel effects in a controlled and reproducible manner, RuASD includes configurable simulations of platform and transmission distortions, including room reverberation, additive noise/music, and a range of speech-codec transcodings implemented via a unified processing chain. We benchmark a diverse set of publicly available anti-spoofing countermeasures spanning lightweight supervised architectures, graph-attention models, SSL-based detectors, and large-scale pretrained systems, and report reference results on both clean and simulated conditions to characterize robustness under realistic perturbation pipelines. The dataset is publickly available at \href{https://huggingface.co/datasets/MTUCI/RuASD}{\underline{Hugging Face}} and \href{https://modelscope.cn/datasets/lab260/RuASD}{\underline{ModelScope}}.
+
+</details>
+
+#### [MOSS-VoiceGenerator: Create Realistic Voices with Natural Language Descriptions](https://arxiv.org/abs/2603.28086)
+**Kexin Huang, Liwei Fan, Botian Jiang, Yaozhou Jiang et al.** · 2026-03-30
+
+<details>
+<summary>Abstract</summary>
+
+Voice design from natural language aims to generate speaker timbres directly from free-form textual descriptions, allowing users to create voices tailored to specific roles, personalities, and emotions. Such controllable voice creation benefits a wide range of downstream applications-including storytelling, game dubbing, role-play agents, and conversational assistants, making it a significant task for modern Text-to-Speech models. However, existing models are largely trained on carefully recorded studio data, which produces speech that is clean and well-articulated, yet lacks the lived-in qualities of real human voices. To address these limitations, we present MOSS-VoiceGenerator, an open-source instruction-driven voice generation model that creates new timbres directly from natural language prompts. Motivated by the hypothesis that exposure to real-world acoustic variation produces more perceptually natural voices, we train on large-scale expressive speech data sourced from cinematic content. Subjective preference studies demonstrate its superiority in overall performance, instruction-following, and naturalness compared to other voice design models.
+
+</details>
+
+#### [Hydra: Unifying Document Retrieval and Generation in a Single Vision-Language Model](https://arxiv.org/abs/2603.28554)
+**Athos Georgiou** · 2026-03-30
+
+<details>
+<summary>Abstract</summary>
+
+Visual document understanding typically requires separate retrieval and generation models, doubling memory and system complexity. We present Hydra, a dual-head approach that provides both ColBERT-style late-interaction retrieval and autoregressive generation from a single vision-language model (VLM). A single LoRA adapter, trained only for retrieval, is toggled at inference: enabling it produces multi-vector embeddings; disabling it recovers the base model's generation quality -- byte-identical outputs in 100% of 10,500 greedy and stochastic samples, with max delta-ANLS = 0.0044 across 15,301 samples on four VQA benchmarks (three informative; ChartQA is near-zero for both models under greedy decoding) when compared against an independent base-model pipeline. We identify three engineering requirements (attention-mode restoration, lm_head preservation, KV-cache-aware decoding) whose omission silently breaks generation despite correct weight recovery. On ViDoRe V1, Hydra (4B) is within 1 percentage point of a controlled single-head baseline in a single training run, with higher aggregate scores on V2 and V3 that are concentrated on a subset of tasks; multi-seed experiments are needed to confirm these trends. The single-model design reduces peak GPU memory by 41%, though adapter switching introduces throughput overhead under concurrent serving loads. An ablation shows that GritLM-style joint training provides no benefit within the LoRA-based (r=16) training regime. A proof-of-concept extension to Qwen2.5-Omni-3B demonstrates that the mechanism generalizes to audio retrieval and video embedding, with speech generation.
+
+</details>
+
+#### [VoxAnchor: Grounding Speech Authenticity in Throat Vibration via mmWave Radar](https://arxiv.org/abs/2603.27562)
+**Mingda Han, Huanqi Yang, Chaoqun Li, Wenhao Li et al.** · 2026-03-29
+
+<details>
+<summary>Abstract</summary>
+
+Rapid advances in speech synthesis and audio editing have made realistic forgeries increasingly accessible, yet existing detection methods remain vulnerable to tampering or depend on visual/wearable sensors. In this paper, we present VoxAnchor, a system that physically grounds audio authentication in vocal dynamics by leveraging the inherent coherence between speech acoustics and radar-sensed throat vibrations. VoxAnchor uses contactless millimeter-wave radar to capture fine-grained throat vibrations that are tightly coupled with human speech production, establishing a hard-to-forge anchor rooted in human physiology. The design comprises three main components: (1) a cross-modal frame-work that uses modality-specific encoders and contrastive learning to detect subtle mismatches at word granularity; (2) a phase-aware pipeline that extracts physically consistent, temporally faithful throat vibrations; and (3) a dual-stage strategy that combines signal-level onset detection and semantic-level coherence to align asynchronous radar and audio streams. Unlike liveness detection, which only confirms whether speech occurred, VoxAnchor verifies what was spoken through word-level content consistency, exposing localized edits that preserve identity and global authenticity cues. Extensive evaluations show that VoxAnchor achieves robust, fine-grained detection across diverse forgeries (editing, splicing, replay, deepfake) and conditions, with an overall EER of 0.017, low latency, and modest computational cost.
+
+</details>
+
 #### [Voxtral TTS](https://arxiv.org/abs/2603.25551)
 **Alexander H. Liu, Alexis Tacnet, Andy Ehrenberg, Andy Lo et al.** · 2026-03-26
 
