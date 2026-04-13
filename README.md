@@ -39,6 +39,146 @@ The following keyword queries are used against arXiv title and abstract fields:
 <!-- PAPERS_TABLE_START -->
 ### 2026
 
+#### [PS-TTS: Phonetic Synchronization in Text-to-Speech for Achieving Natural Automated Dubbing](https://arxiv.org/abs/2604.09111)
+**Changi Hong, Yoonah Song, Hwayoung Park, Chaewoon Bang et al.** · 2026-04-10
+
+<details>
+<summary>Abstract</summary>
+
+Recently, artificial intelligence-based dubbing technology has advanced, enabling automated dubbing (AD) to convert the source speech of a video into target speech in different languages. However, natural AD still faces synchronization challenges such as duration and lip-synchronization (lip-sync), which are crucial for preserving the viewer experience. Therefore, this paper proposes a synchronization method for AD processes that paraphrases translated text, comprising two steps: isochrony for timing constraints and phonetic synchronization (PS) to preserve lip-sync. First, we achieve isochrony by paraphrasing the translated text with a language model, ensuring the target speech duration matches that of the source speech. Second, we introduce PS, which employs dynamic time warping (DTW) with local costs of vowel distances measured from training data so that the target text composes vowels with pronunciations similar to source vowels. Third, we extend this approach to PSComet, which jointly considers semantic and phonetic similarity to preserve meaning better. The proposed methods are incorporated into text-to-speech systems, PS-TTS and PS-Comet TTS. The performance evaluation using Korean and English lip-reading datasets and a voice-actor dubbing dataset demonstrates that both systems outperform TTS without PS on several objective metrics and outperform voice actors in Korean-to-English and English-to-Korean dubbing. We extend the experiments to French, testing all pairs among these languages to evaluate cross-linguistic applicability. Across all language pairs, PS-Comet performed best, balancing lip-sync accuracy with semantic preservation, confirming that PS-Comet achieves more accurate lip-sync with semantic preservation than PS alone.
+
+</details>
+
+#### [DDSP-QbE++: Improving Speech Quality for Speech Anonymisation for Atypical Speech](https://arxiv.org/abs/2604.09246)
+**Suhita Ghosh, Yamini Sinha, Sebastian Stober** · 2026-04-10
+
+<details>
+<summary>Abstract</summary>
+
+Differentiable Digital Signal Processing (DDSP) pipelines for voice conversion rely on subtractive synthesis, where a periodic excitation signal is shaped by a learned spectral envelope to reconstruct the target voice. In DDSP-QbE, the excitation is generated via phase accumulation, producing a sawtooth-like waveform whose abrupt discontinuities introduce aliasing artefacts that manifest perceptually as buzziness and spectral distortion, particularly at higher fundamental frequencies. We propose two targeted improvements to the excitation stage of the DDSP-QbE subtractive synthesizer. First, we incorporate explicit voicing detection to gate the harmonic excitation, suppressing the periodic component in unvoiced regions and replacing it with filtered noise, thereby avoiding aliased harmonic content where it is most perceptually disruptive. Second, we apply Polynomial Band-Limited Step (PolyBLEP) correction to the phase-accumulated oscillator, substituting the hard waveform discontinuity at each phase wrap with a smooth polynomial residual that cancels alias-generating components without oversampling or spectral truncation. Together, these modifications yield a cleaner harmonic roll-off, reduced high-frequency artefacts, and improved perceptual naturalness, as measured by MOS. The proposed approach is lightweight, differentiable, and integrates seamlessly into the existing DDSP-QbE training pipeline with no additional learnable parameters.
+
+</details>
+
+#### [AudioGuard: Toward Comprehensive Audio Safety Protection Across Diverse Threat Models](https://arxiv.org/abs/2604.08867)
+**Mintong Kang, Chen Fang, Bo Li** · 2026-04-10
+
+<details>
+<summary>Abstract</summary>
+
+Audio has rapidly become a primary interface for foundation models, powering real-time voice assistants. Ensuring safety in audio systems is inherently more complex than just "unsafe text spoken aloud": real-world risks can hinge on audio-native harmful sound events, speaker attributes (e.g., child voice), impersonation/voice-cloning misuse, and voice-content compositional harms, such as child voice plus sexual content. The nature of audio makes it challenging to develop comprehensive benchmarks or guardrails against this unique risk landscape. To close this gap, we conduct large-scale red teaming on audio systems, systematically uncover vulnerabilities in audio, and develop a comprehensive, policy-grounded audio risk taxonomy and AudioSafetyBench, the first policy-based audio safety benchmark across diverse threat models. AudioSafetyBench supports diverse languages, suspicious voices (e.g., celebrity/impersonation and child voice), risky voice-content combinations, and non-speech sound events. To defend against these threats, we propose AudioGuard, a unified guardrail consisting of 1) SoundGuard for waveform-level audio-native detection and 2) ContentGuard for policy-grounded semantic protection. Extensive experiments on AudioSafetyBench and four complementary benchmarks show that AudioGuard consistently improves guardrail accuracy over strong audio-LLM-based baselines with substantially lower latency.
+
+</details>
+
+#### [Enhancing Conversational TTS with Cascaded Prompting and ICL-Based Online Reinforcement Learning](https://arxiv.org/abs/2604.08709)
+**Zhicheng Ouyang, Seong-Gyun Leem, Bach Viet Do, Haibin Wu et al.** · 2026-04-09
+
+<details>
+<summary>Abstract</summary>
+
+Conversational AI has made significant progress, yet generating expressive and controllable text-to-speech (TTS) remains challenging. Specifically, controlling fine-grained voice styles and emotions is notoriously difficult and typically requires massive amounts of heavily annotated training data. To overcome this data bottleneck, we present a scalable, data-efficient cascaded framework that pairs textual style tokens with human-curated, high-quality audio prompts. This approach enables single-shot adaptation to fine-grained speaking styles and character voices. In the context of TTS, this audio prompting acts as In-Context Learning (ICL), guiding the model's prosody and timbre without requiring massive parameter updates or large-scale retraining. To further enhance generation quality and mitigate hallucinations, we introduce a novel ICL-based online reinforcement learning (RL) strategy. This strategy directly optimizes the autoregressive prosody model using subjective aesthetic rewards while being constrained by Connectionist Temporal Classification (CTC) alignment to preserve intelligibility. Comprehensive human perception evaluations demonstrate significant improvements in both the naturalness and expressivity of the synthesized speech, establishing the efficacy of our ICL-based online RL approach.
+
+</details>
+
+#### [AVGen-Bench: A Task-Driven Benchmark for Multi-Granular Evaluation of Text-to-Audio-Video Generation](https://arxiv.org/abs/2604.08540)
+**Ziwei Zhou, Zeyuan Lai, Rui Wang, Yifan Yang et al.** · 2026-04-09
+
+<details>
+<summary>Abstract</summary>
+
+Text-to-Audio-Video (T2AV) generation is rapidly becoming a core interface for media creation, yet its evaluation remains fragmented. Existing benchmarks largely assess audio and video in isolation or rely on coarse embedding similarity, failing to capture the fine-grained joint correctness required by realistic prompts. We introduce AVGen-Bench, a task-driven benchmark for T2AV generation featuring high-quality prompts across 11 real-world categories. To support comprehensive assessment, we propose a multi-granular evaluation framework that combines lightweight specialist models with Multimodal Large Language Models (MLLMs), enabling evaluation from perceptual quality to fine-grained semantic controllability. Our evaluation reveals a pronounced gap between strong audio-visual aesthetics and weak semantic reliability, including persistent failures in text rendering, speech coherence, physical reasoning, and a universal breakdown in musical pitch control. Code and benchmark resources are available at http://aka.ms/avgenbench.
+
+</details>
+
+#### [CapTalk: Unified Voice Design for Single-Utterance and Dialogue Speech Generation](https://arxiv.org/abs/2604.08363)
+**Xiaosu Su, Zihan Sun, Peilei Jia, Jun Gao** · 2026-04-09
+
+<details>
+<summary>Abstract</summary>
+
+Voice design from natural language descriptions is emerging as a new task in text-to-speech multimodal generation, aiming to synthesize speech with target timbre and speaking style without relying on reference audio. However, existing methods mainly focus on single-utterance generation, leaving conversational voice design largely unexplored. In this work, we extend voice design to dialogue, enabling better target speaker modeling and turn-level expressive control in natural conversational settings. We propose CapTalk, a unified caption-conditioned text-audio autoregressive framework for both single-utterance and dialogue voice design. CapTalk uses utterance-level captions for single-utterance voice design and speaker-level captions for dialogue speaker modeling, and further introduces a CoT control sequence in dialogue to explicitly plan turn-level dynamic attributes. To resolve the conflict between stable timbre preservation and context-adaptive expression, we propose a hierarchical variational conditioning module with an utterance-level speaker encoder to better balance stable timbre preservation and context-adaptive expression. This enables timbre reuse while keeping expression adaptive to the current utterance and, in dialogue, the surrounding context. We also build a comprehensive evaluation protocol for both single-utterance and dialogue settings. Experiments show that CapTalk achieves state-of-the-art performance on a single-utterance voice design benchmark and delivers better expression controllability and contextual appropriateness in multi-turn dialogue. Audio samples are available at: https://anonymous.4open.science/api/repo/Captalk-D601/file/index.html.
+
+</details>
+
+#### [Cross-Modal Emotion Transfer for Emotion Editing in Talking Face Video](https://arxiv.org/abs/2604.07786)
+**Chanhyuk Choi, Taesoo Kim, Donggyu Lee, Siyeol Jung et al.** · 2026-04-09
+
+<details>
+<summary>Abstract</summary>
+
+Talking face generation has gained significant attention as a core application of generative models. To enhance the expressiveness and realism of synthesized videos, emotion editing in talking face video plays a crucial role. However, existing approaches often limit expressive flexibility and struggle to generate extended emotions. Label-based methods represent emotions with discrete categories, which fail to capture a wide range of emotions. Audio-based methods can leverage emotionally rich speech signals - and even benefit from expressive text-to-speech (TTS) synthesis - but they fail to express the target emotions because emotions and linguistic contents are entangled in emotional speeches. Images-based methods, on the other hand, rely on target reference images to guide emotion transfer, yet they require high-quality frontal views and face challenges in acquiring reference data for extended emotions (e.g., sarcasm). To address these limitations, we propose Cross-Modal Emotion Transfer (C-MET), a novel approach that generates facial expressions based on speeches by modeling emotion semantic vectors between speech and visual feature spaces. C-MET leverages a large-scale pretrained audio encoder and a disentangled facial expression encoder to learn emotion semantic vectors that represent the difference between two different emotional embeddings across modalities. Extensive experiments on the MEAD and CREMA-D datasets demonstrate that our method improves emotion accuracy by 14% over state-of-the-art methods, while generating expressive talking face videos - even for unseen extended emotions. Code, checkpoint, and demo are available at https://chanhyeok-choi.github.io/C-MET/
+
+</details>
+
+#### [AT-ADD: All-Type Audio Deepfake Detection Challenge Evaluation Plan](https://arxiv.org/abs/2604.08184)
+**Yuankun Xie, Haonan Cheng, Jiayi Zhou, Xiaoxuan Guo et al.** · 2026-04-09
+
+<details>
+<summary>Abstract</summary>
+
+The rapid advancement of Audio Large Language Models (ALLMs) has enabled cost-effective, high-fidelity generation and manipulation of both speech and non-speech audio, including sound effects, singing voices, and music. While these capabilities foster creativity and content production, they also introduce significant security and trust challenges, as realistic audio deepfakes can now be generated and disseminated at scale. Existing audio deepfake detection (ADD) countermeasures (CMs) and benchmarks, however, remain largely speech-centric, often relying on speech-specific artifacts and exhibiting limited robustness to real-world distortions, as well as restricted generalization to heterogeneous audio types and emerging spoofing techniques. To address these gaps, we propose the All-Type Audio Deepfake Detection (AT-ADD) Grand Challenge for ACM Multimedia 2026, designed to bridge controlled academic evaluation with practical multimedia forensics. AT-ADD comprises two tracks: (1) Robust Speech Deepfake Detection, which evaluates detectors under real-world scenarios and against unseen, state-of-the-art speech generation methods; and (2) All-Type Audio Deepfake Detection, which extends detection beyond speech to diverse, unknown audio types and promotes type-agnostic generalization across speech, sound, singing, and music. By providing standardized datasets, rigorous evaluation protocols, and reproducible baselines, AT-ADD aims to accelerate the development of robust and generalizable audio forensic technologies, supporting secure communication, reliable media verification, and responsible governance in an era of pervasive synthetic audio.
+
+</details>
+
+#### [Lexical Tone is Hard to Quantize: Probing Discrete Speech Units in Mandarin and Yorùbá](https://arxiv.org/abs/2604.07467)
+**Opeyemi Osakuade, Simon King** · 2026-04-08
+
+<details>
+<summary>Abstract</summary>
+
+Discrete speech units (DSUs) are derived by quantising representations from models trained using self-supervised learning (SSL). They are a popular representation for a wide variety of spoken language tasks, including those where prosody matters. DSUs are especially convenient for tasks where text and speech are jointly modelled, such as text-to-speech and multimodal dialogue systems. But we have found that DSUs encode suprasegmental information less reliably than segmental structure, which we demonstrate in this work using lexical tone, though this limitation likely extends to other suprasegmental features such as prosody. Our investigations using the tone languages Mandarin and Yorùbá show that the SSL latent representations themselves do encode tone, yet DSUs obtained using quantisation tend to prioritise phonetic structure, which makes lexical tone less reliably encoded. This remains true for a variety of quantisation methods, not only the most common, K-means. We conclude that current DSU quantisation strategies have limitations for suprasegmental features, which suggests a need for new, tone-aware (or prosody-aware) techniques in speech representation learning. We point towards a potential form of the solution by performing K-means clustering once to encode phonetic information, then again on the residual representation, which better encodes lexical tone.
+
+</details>
+
+#### [In-Context Learning in Speech Language Models: Analyzing the Role of Acoustic Features, Linguistic Structure, and Induction Heads](https://arxiv.org/abs/2604.06356)
+**Charlotte Pouw, Hosein Mohebbi, Afra Alishahi, Willem Zuidema** · 2026-04-07
+
+<details>
+<summary>Abstract</summary>
+
+In-Context Learning (ICL) has been extensively studied in text-only Language Models, but remains largely unexplored in the speech domain. Here, we investigate how linguistic and acoustic features affect ICL in Speech Language Models. We focus on the Text-to-Speech (TTS) task, which allows us to analyze ICL from two angles: (1) how accurately the model infers the task from the demonstrations (i.e., generating the correct spoken content), and (2) to what extent the model mimics the acoustic characteristics of the demonstration speech in its output. We find that speaking rate strongly affects ICL performance and is also mimicked in the output, whereas pitch range and intensity have little impact on performance and are not consistently reproduced. Finally, we investigate the role of induction heads in speech-based ICL and show that these heads play a causal role: ablating the top-k induction heads completely removes the model's ICL ability, mirroring findings from text-based ICL.
+
+</details>
+
+#### [A Novel Automatic Framework for Speaker Drift Detection in Synthesized Speech](https://arxiv.org/abs/2604.06327)
+**Jia-Hong Huang, Seulgi Kim, Yi Chieh Liu, Yixian Shen et al.** · 2026-04-07
+
+<details>
+<summary>Abstract</summary>
+
+Recent diffusion-based text-to-speech (TTS) models achieve high naturalness and expressiveness, yet often suffer from speaker drift, a subtle, gradual shift in perceived speaker identity within a single utterance. This underexplored phenomenon undermines the coherence of synthetic speech, especially in long-form or interactive settings. We introduce the first automatic framework for detecting speaker drift by formulating it as a binary classification task over utterance-level speaker consistency. Our method computes cosine similarity across overlapping segments of synthesized speech and prompts large language models (LLMs) with structured representations to assess drift. We provide theoretical guarantees for cosine-based drift detection and demonstrate that speaker embeddings exhibit meaningful geometric clustering on the unit sphere. To support evaluation, we construct a high-quality synthetic benchmark with human-validated speaker drift annotations. Experiments with multiple state-of-the-art LLMs confirm the viability of this embedding-to-reasoning pipeline. Our work establishes speaker drift as a standalone research problem and bridges geometric signal analysis with LLM-based perceptual reasoning in modern TTS.
+
+</details>
+
+#### [Controllable Singing Style Conversion with Boundary-Aware Information Bottleneck](https://arxiv.org/abs/2604.05526)
+**Zhetao Hu, Yiquan Zhou, Wenyu Wang, Zhiyu Wu et al.** · 2026-04-07
+
+<details>
+<summary>Abstract</summary>
+
+This paper presents the submission of the S4 team to the Singing Voice Conversion Challenge 2025 (SVCC2025)-a novel singing style conversion system that advances fine-grained style conversion and control within in-domain settings. To address the critical challenges of style leakage, dynamic rendering, and high-fidelity generation with limited data, we introduce three key innovations: a boundary-aware Whisper bottleneck that pools phoneme-span representations to suppress residual source style while preserving linguistic content; an explicit frame-level technique matrix, enhanced by targeted F0 processing during inference, for stable and distinct dynamic style rendering; and a perceptually motivated high-frequency band completion strategy that leverages an auxiliary standard 48kHz SVC model to augment the high-frequency spectrum, thereby overcoming data scarcity without overfitting. In the official SVCC2025 subjective evaluation, our system achieves the best naturalness performance among all submissions while maintaining competitive results in speaker similarity and technique control, despite using significantly less extra singing data than other top-performing systems. Audio samples are available online.
+
+</details>
+
+#### [ClickAIXR: On-Device Multimodal Vision-Language Interaction with Real-World Objects in Extended Reality](https://arxiv.org/abs/2604.04905)
+**Dawar Khan, Alexandre Kouyoumdjian, Xinyu Liu, Omar Mena et al.** · 2026-04-06
+
+<details>
+<summary>Abstract</summary>
+
+We present ClickAIXR, a novel on-device framework for multimodal vision-language interaction with objects in extended reality (XR). Unlike prior systems that rely on cloud-based AI (e.g., ChatGPT) or gaze-based selection (e.g., GazePointAR), ClickAIXR integrates an on-device vision-language model (VLM) with a controller-based object selection paradigm, enabling users to precisely click on real-world objects in XR. Once selected, the object image is processed locally by the VLM to answer natural language questions through both text and speech. This object-centered interaction reduces ambiguity inherent in gaze- or voice-only interfaces and improves transparency by performing all inference on-device, addressing concerns around privacy and latency. We implemented ClickAIXR in the Magic Leap SDK (C API) with ONNX-based local VLM inference. We conducted a user study comparing ClickAIXR with Gemini 2.5 Flash and ChatGPT 5, evaluating usability, trust, and user satisfaction. Results show that latency is moderate and user experience is acceptable. Our findings demonstrate the potential of click-based object selection combined with on-device AI to advance trustworthy, privacy-preserving XR interactions. The source code and supplementary materials are available at: nanovis.org/ClickAIXR.html
+
+</details>
+
+#### [Subspace Control: Turning Constrained Model Steering into Controllable Spectral Optimization](https://arxiv.org/abs/2604.04231)
+**Yancheng Huang, Changsheng Wang, Chongyu Fan, Yicheng Lang et al.** · 2026-04-05
+
+<details>
+<summary>Abstract</summary>
+
+Foundation models, such as large language models (LLMs), are powerful but often require customization before deployment to satisfy practical constraints such as safety, privacy, and task-specific requirements, leading to "constrained" optimization problems for model steering and adaptation. However, solving such problems remains largely underexplored and is particularly challenging due to interference between the primary objective and constraint objectives during optimization. In this paper, we propose a subspace control framework for constrained model training. Specifically, (i) we first analyze, from a model merging perspective, how spectral cross-task interference arises and show that it can be resolved via a one-shot solution that orthogonalizes the merged subspace; (ii) we establish a connection between this solution and gradient orthogonalization in the spectral optimizer Muon; and (iii) building on these insights, we introduce SIFT (spectral interference-free training), which leverages a localization scheme to selectively intervene during optimization, enabling controllable updates that mitigate objective-constraint conflicts. We evaluate SIFT across four representative applications: (a) machine unlearning, (b) safety alignment, (c) text-to-speech adaptation, and (d) hallucination mitigation. Compared to both control-based and control-free baselines, SIFT consistently achieves substantial and robust performance improvements across all tasks. Code is available at https://github.com/OPTML-Group/SIFT.
+
+</details>
+
 #### [GAP-URGENet: A Generative-Predictive Fusion Framework for Universal Speech Enhancement](https://arxiv.org/abs/2604.01832)
 **Xiaobin Rong, Yushi Wang, Zheng Wang, Jing Lu** · 2026-04-02
 
