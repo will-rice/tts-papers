@@ -39,6 +39,76 @@ The following keyword queries are used against arXiv title and abstract fields:
 <!-- PAPERS_TABLE_START -->
 ### 2026
 
+#### [Linked Multi-Model Data on Russian Domestic and Foreign Policy Speeches](https://arxiv.org/abs/2605.15886)
+**Daria Blinova, Gayathri Emuru, Rakesh Emuru, Kushagradheer Shridheer Srivastava et al.** · 2026-05-15
+
+<details>
+<summary>Abstract</summary>
+
+This paper introduces a dataset of interlinked multimodal political communications from the Russian government, addressing persistent deficiencies in the availability of social text- and image-based data for authoritarian politics contexts. The dataset comprises two large corpora of official speeches delivered by senior actors within the Kremlin and the Russian Ministry of Foreign Affairs over multiple decades. For each speech, we provide Russian- and English-language texts, associated images and captions where available, and harmonized metadata including (e.g.) dates, speakers, (geo)locations, and official government content tags. Unique identifiers link images to speeches and align Russian and English versions of the same communication texts. We further augment these linked datasets with validated topical annotations for both speech texts and speech images, which are generated via transformer-based multimodal topic modeling and refined by a Russian politics expert. The resulting data resources support multimodal, multilingual, temporal, and/or spatial analyses of (authoritarian) political communication and offer a valuable testbed for social science research and large language model (LLM) applications in political domains.
+
+</details>
+
+#### [From Text to Voice: A Reproducible and Verifiable Framework for Evaluating Tool Calling LLM Agents](https://arxiv.org/abs/2605.15104)
+**Md Tahmid Rahman Laskar, Xue-Yong Fu, Seyyed Saeed Sarfjoo, Quinten McNamara et al.** · 2026-05-14
+
+<details>
+<summary>Abstract</summary>
+
+Voice agents increasingly require reliable tool use from speech, whereas prominent tool-calling benchmarks remain text-based. We study whether verified text benchmarks can be converted into controlled audio-based tool calling evaluations without re-annotating the tool schema and gold labels. Our dataset-agnostic framework uses text-to-speech, speaker variation, and environmental noise to create paired text-audio instances while preserving the original dataset annotations. Based on extensive evaluation of 7 omni-modal models on audio-converted versions of Confetti and When2Call, our framework demonstrates that the performance is strongly model- and task-dependent: Gemini-3.1-Flash-Live obtains the highest Confetti score (70.4), whereas GPT-Realtime-1.5 performs best on When2Call (71.9). On Confetti, the text-to-voice gap ranges from 1.8 points for Qwen3-Omni to 4.8 points for GPT-Realtime-1.5. A targeted analysis of failure cases demonstrates that degradations most often reflect misunderstandings of argument values in the speech. Considering real-world deployment scenarios, we further report text-only results, an ambiguity-based reformulation stress test, and a reference-free LLM-as-judge protocol validated against human preferences. Notably, we find that open-source Qwen3 judges with at least 8B parameters exceed 80% agreement with proprietary judges, supporting privacy-preserving evaluation. Overall, our framework provides a verifiable and reproducible first-stage diagnostic that complements purpose-built audio corpora.
+
+</details>
+
+#### [Exploiting Pre-trained Encoder-Decoder Transformers for Sequence-to-Sequence Constituent Parsing](https://arxiv.org/abs/2605.13373)
+**Daniel Fernández-González, Cristina Outeiriño Cid** · 2026-05-13
+
+<details>
+<summary>Abstract</summary>
+
+To achieve deep natural language understanding, syntactic constituent parsing plays a crucial role and is widely required by many artificial intelligence systems for processing both text and speech. A recent approach involves using standard sequence-to-sequence models to handle constituent parsing as a machine translation problem, moving away from traditional task-specific parsers. These models are typically initialized with pre-trained encoder-only language models like BERT or RoBERTa. However, the use of pre-trained encoder-decoder language models for constituency parsing has not been thoroughly explored. To bridge this gap, we extend the sequence-to-sequence framework by investigating parsers built on pre-trained encoder-decoder architectures, including BART, mBART, and T5. We fine-tune them to generate linearized parse trees and extensively evaluate them on different linearization strategies across both continuous treebanks and more complex discontinuous benchmarks. Our results demonstrate that our approach outperforms all prior sequence-to-sequence models and performs competitively with leading task-specific constituent parsers on continuous constituent parsing.
+
+</details>
+
+#### [The Deepfakes We Missed: We Built Detectors for a Threat That Didn't Arrive](https://arxiv.org/abs/2605.12075)
+**Shaina Raza** · 2026-05-12
+
+<details>
+<summary>Abstract</summary>
+
+Nearly a decade of Machine Learning (ML) research on deepfake detection has been organized around a threat model inherited from 2017--2019, revolving around face-swap and talking-head manipulation of public figures, motivated by concerns about large-scale misinformation and video-evidence fraud. This position paper argues that the threat the field prepared for did not arrive, and the threats that did arrive are substantially different. An accounting of deepfake incidents in 2022--2026 shows that the dominant observed harms are peer-generated Non-Consensual Intimate Imagery (NCII), voice-clone scam calls targeting families and finance workers, and emotional-manipulation fraud. The predicted large-scale public-figure deepfake catastrophe did not materialize during the 2024 global information environment despite extensive preparation. Meanwhile, research effort, benchmarks, and detection methods remain concentrated on the inherited threat model. The central claim of this paper is that this misalignment is now the dominant bottleneck on real-world deepfake defense, not model capability. We argue the ML research community should substantially rebalance its research agenda toward the harm categories that are actually growing. We support this position with empirical accounting of research effort and harm distribution, identify the structural reasons the misalignment persists, and outline three concrete technical research agendas for the under-defended harm categories.
+
+</details>
+
+#### [AuDirector: A Self-Reflective Closed-Loop Framework for Immersive Audio Storytelling](https://arxiv.org/abs/2605.11866)
+**Yiming Ren, Xuenan Xu, Ziyang Zhang, Wen Wu et al.** · 2026-05-12
+
+<details>
+<summary>Abstract</summary>
+
+Despite advances in text and visual generation, creating coherent long-form audio narratives remains challenging. Existing frameworks often exhibit limitations such as mismatched character settings with voice performance, insufficient self-correction mechanisms, and limited human interactivity. To address these challenges, we propose AuDirector, a self-reflective closed-loop multi-agent framework. Specifically, it involves an Identity-Aware Pre-production mechanism that transforms narrative texts into character profiles and utterance-level emotional instructions to retrieve suitable voice candidates and guide expressive speech synthesis, thereby promoting context-aligned voice adaptation. To enhance quality, a Collaborative Synthesis and Correction module introduces a closed-loop self-correction mechanism to systematically audit and regenerate defective audio components. Furthermore, a Human-Guided Interactive Refinement module facilitates user control by interpreting natural language feedback to interactively refine the underlying scripts. Experiments demonstrate that AuDirector achieves superior performance compared to state-of-the-art baselines in structural coherence, emotional expressiveness, and acoustic fidelity. Audio samples can be found at https://anonymous-itsh.github.io/.
+
+</details>
+
+#### [AffectCodec: Emotion-Preserving Neural Speech Codec for Expressive Speech Modeling](https://arxiv.org/abs/2605.11098)
+**Jiacheng Shi, Hongfei Du, Xinyuan Song, Y. Alicia Hong et al.** · 2026-05-11
+
+<details>
+<summary>Abstract</summary>
+
+Neural speech codecs provide discrete representations for speech language models, but emotional cues are often degraded during quantization. Existing codecs mainly optimize acoustic reconstruction, leaving emotion expressiveness insufficiently modeled at the representation level. We propose an emotion-guided neural speech codec that explicitly preserves emotional information while maintaining semantic fidelity and prosodic naturalness. Our framework combines emotion-semantic guided latent modulation, relation-preserving emotional-semantic distillation, and emotion-weighted semantic alignment to retain emotionally salient cues under compression. Extensive evaluations across speech reconstruction, emotion recognition, and downstream text-to-speech generation demonstrate improved emotion consistency and perceptual quality without sacrificing content accuracy.
+
+</details>
+
+#### [Kinetic-Optimal Scheduling with Moment Correction for Metric-Induced Discrete Flow Matching in Zero-Shot Text-to-Speech](https://arxiv.org/abs/2605.09386)
+**Dong Yang, Yiyi Cai, Haoyu Zhang, Yuki Saito et al.** · 2026-05-10
+
+<details>
+<summary>Abstract</summary>
+
+Metric-induced discrete flow matching (MI-DFM) exploits token-latent geometry for discrete generation, but its practical use is limited by two issues: heuristic schedulers requiring hyperparameter search, and finite-step path-tracking error from its first-order continuous-time Markov chain (CTMC) solver. We address both issues. First, we derive a kinetic-optimal scheduler for prescribed scalar-parameterized probability paths, and instantiate it for MI-DFM as a training-free numerical schedule that traverses the path at constant Fisher-Rao speed. Second, we introduce a finite-step moment correction that adjusts the jump probability while preserving the CTMC jump destination distribution. We validate the resulting method, GibbsTTS, on codec-based zero-shot text-to-speech (TTS). Under controlled comparisons with a unified architecture and large-scale dataset, GibbsTTS achieves the best objective naturalness and is preferred in subjective evaluations over masked discrete generative baselines. Additionally, in comparison with the evaluated state-of-the-art TTS systems, GibbsTTS shows strong speaker similarity, achieving the highest similarity on three of four test sets and ranking second on the fourth. Project page: https://ydqmkkx.github.io/GibbsTTSProject
+
+</details>
+
 #### [Minimizing Modality Gap from the Input Side: Your Speech LLM Can Be a Prosody-Aware Text LLM](https://arxiv.org/abs/2605.05927)
 **Wenqian Cui, Xiao-Hui Li, Daxin Tan, Qiyong Zheng et al.** · 2026-05-07
 
