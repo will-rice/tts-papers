@@ -1,8 +1,8 @@
-"""Fetch text-to-speech-related papers from the arXiv API.
+"""Fetch text-to-speech-related papers from multiple academic sources.
 
-This script queries the arXiv API for papers related to text-to-speech
-synthesis, neural vocoders, voice conversion, and related topics.  It is
-designed to be run in two modes:
+This script queries arXiv and Hugging Face Papers for papers
+related to text-to-speech synthesis, neural vocoders, voice conversion, and
+related topics.  It is designed to be run in two modes:
 
 * **Historical (first run)**: pulls everything submitted since Tacotron /
   WaveNet era (2017-01-01 onwards).
@@ -24,9 +24,11 @@ Usage::
     python scripts/fetch_papers.py --days 30
 """
 
+from __future__ import annotations
+
 import argparse
 import csv
-import os
+import json
 import re
 import sys
 import time
@@ -85,6 +87,106 @@ NEGATIVE_KEYWORDS = [
     "speaker recognition",
     "speaker verification",
     "speaker identification",
+    # Neuroscience / brain-computer interfaces
+    "speech neuroprosthesis",
+    "cochlear implant",
+    "resting-state fmri",
+    "neural speech tracking",
+    # Medical / clinical
+    "dysarthria diagnosis",
+    "stuttering detection",
+    "alzheimer",
+    "parkinson",
+    # Hardware / physics where "synthesis" is not speech synthesis
+    "frequency synthesizer",
+    "circuit synthesis",
+]
+
+# Positive relevance keywords – papers must contain at least one of these
+# TTS/speech-generation signals in title or abstract.
+POSITIVE_RELEVANCE_KEYWORDS = [
+    "text-to-speech",
+    "text to speech",
+    "speech synthesis",
+    "speech synthesizer",
+    "voice synthesis",
+    "vocoder",
+    "voice conversion",
+    "voice cloning",
+    "speech generation",
+    "singing voice synthesis",
+    "singing voice conversion",
+    "speech editing",
+    "speech language model",
+    "spoken language model",
+    "codec language model",
+    "speech codec",
+    "audio codec",
+    "prosody",
+    "expressive speech",
+    "speech-to-speech",
+    "voice generation",
+    "audio generation",
+    "speech generative",
+    "speech restoration",
+    "speech tokenizer",
+    "speech token",
+    "spoken dialogue generation",
+]
+
+# Bare "TTS" needs word boundaries – a plain substring match would hit every
+# "https://" URL in an abstract.
+_TTS_ACRONYM_RE = re.compile(r"\btts\b")
+
+# ML keywords – papers must also look like ML/speech-AI research to pass.
+ML_KEYWORDS = [
+    "machine learning",
+    "deep learning",
+    "neural",
+    "transformer",
+    "diffusion",
+    "gan",
+    "generative",
+    "self-supervised",
+    "multimodal",
+    "learning-based",
+    "autoregressive",
+    "flow matching",
+    "flow-matching",
+    "end-to-end",
+    "sequence-to-sequence",
+    "vocoder",
+    "codec",
+    "language model",
+    "llm",
+    "zero-shot",
+    "few-shot",
+    "in-context",
+    "fine-tun",
+    "pretrain",
+    "pre-train",
+    "tokenizer",
+    "encoder",
+    "decoder",
+    "embedding",
+    "attention",
+    "reinforcement learning",
+    "foundation model",
+    "speech model",
+    "voice model",
+    "synthesis model",
+    "tts system",
+    "prediction model",
+    "adaptation",
+    "data-driven",
+    "training",
+    "learned",
+    "representation",
+    "state-of-the-art",
+    "high-fidelity",
+    "dataset",
+    "corpus",
+    "benchmark",
 ]
 
 # Delay between API requests to respect arXiv's rate-limit guidance (3 s).
@@ -92,6 +194,10 @@ API_DELAY_SECONDS = 3
 
 # Number of results to fetch per API page.
 PAGE_SIZE = 100
+
+# Hugging Face Papers search API base URL (no auth required; every result is
+# an arXiv paper, so IDs merge naturally with the arXiv source).
+HF_PAPERS_API_BASE = "https://huggingface.co/api/papers/search"
 
 
 # ---------------------------------------------------------------------------
@@ -103,8 +209,7 @@ def _build_query(keywords: str, start_date: date, end_date: date) -> str:
     """Return a URL-encoded arXiv API query string."""
     # Date range filter: submittedDate:[YYYYMMDD TO YYYYMMDD]
     date_filter = (
-        f"submittedDate:[{start_date.strftime('%Y%m%d')}0000"
-        f" TO {end_date.strftime('%Y%m%d')}2359]"
+        f"submittedDate:[{start_date.strftime('%Y%m%d')}0000 TO {end_date.strftime('%Y%m%d')}2359]"
     )
     # Title + abstract search
     term = f'(ti:"{keywords}" OR abs:"{keywords}") AND {date_filter}'
@@ -129,7 +234,7 @@ def _fetch_page(query: str, start: int, max_results: int) -> ET.Element:
                 data = resp.read()
             return ET.fromstring(data)
         except Exception as exc:  # noqa: BLE001
-            wait = min(2 ** (attempt + 1) * API_DELAY_SECONDS, 30)
+            wait = min(2**attempt * API_DELAY_SECONDS, 30)
             print(f"  [warn] request failed ({exc}); retrying in {wait}s …", file=sys.stderr)
             time.sleep(wait)
     raise RuntimeError(f"Failed to fetch arXiv page after 5 attempts: {url}")
@@ -154,8 +259,7 @@ def _parse_entry(entry: ET.Element) -> dict | None:
     submitted = published_raw[:10]  # YYYY-MM-DD
 
     categories = " ".join(
-        cat.get("term", "")
-        for cat in entry.findall("atom:category", namespaces=NS)
+        cat.get("term", "") for cat in entry.findall("atom:category", namespaces=NS)
     )
 
     url = f"https://arxiv.org/abs/{arxiv_id}"
@@ -178,12 +282,43 @@ def _parse_entry(entry: ET.Element) -> dict | None:
 
 
 _NEGATIVE_KEYWORDS_LOWER = [kw.lower() for kw in NEGATIVE_KEYWORDS]
+_POSITIVE_RELEVANCE_KEYWORDS_LOWER = [kw.lower() for kw in POSITIVE_RELEVANCE_KEYWORDS]
+_ML_KEYWORDS_LOWER = [kw.lower() for kw in ML_KEYWORDS]
+
+
+def _paper_haystack(paper: dict) -> str:
+    """Return lower-cased title+abstract text for keyword matching."""
+    return f"{paper.get('title', '')} {paper.get('abstract', '')}".lower()
+
+
+def _matches_any_keyword(haystack: str, keywords: list[str]) -> bool:
+    """Return True when any keyword is present in *haystack*."""
+    return any(kw in haystack for kw in keywords)
 
 
 def _is_excluded(paper: dict) -> bool:
     """Return True if the paper matches any negative keyword."""
-    haystack = f"{paper.get('title', '')} {paper.get('abstract', '')}".lower()
-    return any(kw in haystack for kw in _NEGATIVE_KEYWORDS_LOWER)
+    return _matches_any_keyword(_paper_haystack(paper), _NEGATIVE_KEYWORDS_LOWER)
+
+
+def _has_positive_relevance_signal(paper: dict) -> bool:
+    """Return True if the paper has TTS/speech-generation relevance signals."""
+    haystack = _paper_haystack(paper)
+    return _matches_any_keyword(haystack, _POSITIVE_RELEVANCE_KEYWORDS_LOWER) or bool(
+        _TTS_ACRONYM_RE.search(haystack)
+    )
+
+
+def _has_ml_signal(paper: dict) -> bool:
+    """Return True if the paper appears to be ML/speech-AI focused."""
+    return _matches_any_keyword(_paper_haystack(paper), _ML_KEYWORDS_LOWER)
+
+
+def _is_relevant_tts_paper(paper: dict) -> bool:
+    """Return True if paper passes exclusion, ML, and positive relevance gates."""
+    return (
+        not _is_excluded(paper) and _has_ml_signal(paper) and _has_positive_relevance_signal(paper)
+    )
 
 
 def fetch_papers(keywords: str, start_date: date, end_date: date) -> list[dict]:
@@ -195,7 +330,9 @@ def fetch_papers(keywords: str, start_date: date, end_date: date) -> list[dict]:
     while True:
         root = _fetch_page(query, start=start, max_results=PAGE_SIZE)
 
-        total_el = root.find("opensearch:totalResults", {"opensearch": "http://a9.com/-/spec/opensearch/1.1/"})
+        total_el = root.find(
+            "opensearch:totalResults", {"opensearch": "http://a9.com/-/spec/opensearch/1.1/"}
+        )
         total = int(total_el.text) if total_el is not None and total_el.text else 0
 
         entries = root.findall("atom:entry", namespaces=NS)
@@ -212,6 +349,75 @@ def fetch_papers(keywords: str, start_date: date, end_date: date) -> list[dict]:
             break
 
         time.sleep(API_DELAY_SECONDS)
+
+    return papers
+
+
+# ---------------------------------------------------------------------------
+# Hugging Face Papers helpers
+# ---------------------------------------------------------------------------
+
+
+def _fetch_hf_results(keywords: str) -> list[dict]:
+    """Fetch Hugging Face Papers search results and return the parsed JSON list."""
+    params = urllib.parse.urlencode({"q": keywords})
+    url = f"{HF_PAPERS_API_BASE}?{params}"
+    for attempt in range(5):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "tts-papers-bot/1.0"})
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                return json.loads(resp.read())
+        except Exception as exc:  # noqa: BLE001
+            wait = min(2**attempt * API_DELAY_SECONDS, 30)
+            print(f"  [warn] HF request failed ({exc}); retrying in {wait}s …", file=sys.stderr)
+            time.sleep(wait)
+    raise RuntimeError(f"Failed to fetch Hugging Face Papers results after 5 attempts: {url}")
+
+
+def _parse_hf_entry(item: dict, start_date: date, end_date: date) -> dict | None:
+    """Parse a Hugging Face Papers search item into our paper dict format."""
+    paper = item.get("paper") or {}
+
+    arxiv_id = (paper.get("id") or "").strip()
+    if not arxiv_id:
+        return None
+
+    title = re.sub(r"\s+", " ", (paper.get("title") or "")).strip()
+    if not title:
+        return None
+
+    # The search endpoint has no server-side date filter; filter on publishedAt.
+    pub_date_str = (paper.get("publishedAt") or "")[:10]
+    try:
+        pub_date = date.fromisoformat(pub_date_str)
+    except ValueError:
+        return None
+    if pub_date < start_date or pub_date > end_date:
+        return None
+
+    authors = ", ".join((a.get("name") or "").strip() for a in (paper.get("authors") or []))
+    abstract = re.sub(r"\s+", " ", (paper.get("summary") or "")).strip()
+
+    return {
+        "arxiv_id": arxiv_id,
+        "title": title,
+        "authors": authors,
+        "submitted": pub_date_str,
+        "categories": "",
+        "url": f"https://arxiv.org/abs/{arxiv_id}",
+        "abstract": abstract,
+    }
+
+
+def fetch_huggingface_papers(keywords: str, start_date: date, end_date: date) -> list[dict]:
+    """Return papers from Hugging Face Papers matching *keywords* in [start_date, end_date]."""
+    items = _fetch_hf_results(keywords)
+
+    papers: list[dict] = []
+    for item in items:
+        paper = _parse_hf_entry(item, start_date, end_date)
+        if paper:
+            papers.append(paper)
 
     return papers
 
@@ -258,7 +464,7 @@ def _build_table(papers_by_id: dict[str, dict]) -> str:
 
     sections: list[str] = []
     for year in sorted(by_year.keys(), reverse=True):
-        section_lines = [f"### {year}", ""]
+        section_lines = ["<details open>", f"<summary><h3>{year}</h3></summary>", ""]
         for row in by_year[year]:
             # Truncate long author lists for readability
             authors = row.get("authors", "")
@@ -268,8 +474,14 @@ def _build_table(papers_by_id: dict[str, dict]) -> str:
             abstract = row.get("abstract", "").strip()
             title = row["title"]
             url = row["url"]
+            arxiv_id = row.get("arxiv_id", "")
 
-            section_lines.append(f"#### [{title}]({url})")
+            local_md = REPO_ROOT / "papers" / year / f"{arxiv_id}.md"
+            local_link = ""
+            if local_md.exists():
+                local_link = f" · [📄 Read](papers/{year}/{arxiv_id}.md)"
+
+            section_lines.append(f"#### [{title}]({url}){local_link}")
             section_lines.append(f"**{authors}** · {date_str}")
             section_lines.append("")
             if abstract:
@@ -283,6 +495,7 @@ def _build_table(papers_by_id: dict[str, dict]) -> str:
             else:
                 section_lines.append("")
 
+        section_lines.append("</details>")
         sections.append("\n".join(section_lines))
 
     return "\n\n".join(sections)
@@ -317,8 +530,40 @@ def update_readme(papers_by_id: dict[str, dict]) -> None:
 # ---------------------------------------------------------------------------
 
 
+def _collect_from_source(
+    source_name: str,
+    fetch_fn,
+    keywords_list: list[str],
+    start_date: date,
+    end_date: date,
+    existing: dict[str, dict],
+) -> int:
+    """Query *fetch_fn* for each keyword and merge results into *existing*."""
+    new_count = 0
+    for keywords in keywords_list:
+        print(f"\nQuerying {source_name} for: {keywords!r} …")
+        try:
+            papers = fetch_fn(keywords, start_date, end_date)
+        except RuntimeError as exc:
+            print(f"  [error] {exc}", file=sys.stderr)
+            continue
+
+        for paper in papers:
+            pid = paper["arxiv_id"]
+            if pid not in existing and _is_relevant_tts_paper(paper):
+                existing[pid] = paper
+                new_count += 1
+                print(f"  + {pid}: {paper['title'][:70]}")
+
+        time.sleep(API_DELAY_SECONDS)
+
+    return new_count
+
+
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Fetch TTS papers from arXiv.")
+    parser = argparse.ArgumentParser(
+        description="Fetch TTS papers from arXiv and Hugging Face Papers."
+    )
     mode = parser.add_mutually_exclusive_group()
     mode.add_argument(
         "--full",
@@ -352,38 +597,29 @@ def main() -> None:
     existing = load_existing_papers()
     print(f"Loaded {len(existing)} existing papers from {PAPERS_CSV.name}.")
 
-    # Remove any previously saved papers that match negative keywords.
+    # Remove any previously saved papers that no longer pass relevance gates.
     before = len(existing)
-    existing = {pid: p for pid, p in existing.items() if not _is_excluded(p)}
+    existing = {pid: p for pid, p in existing.items() if _is_relevant_tts_paper(p)}
     removed = before - len(existing)
     if removed:
-        print(f"Removed {removed} existing paper(s) matching negative keywords.")
+        print(f"Removed {removed} existing paper(s) failing relevance filters.")
 
     new_count = 0
-    abstract_updated = 0
-    for keywords in SEARCH_QUERIES:
-        print(f"\nQuerying arXiv for: {keywords!r} …")
-        try:
-            papers = fetch_papers(keywords, start_date, end_date)
-        except RuntimeError as exc:
-            print(f"  [error] {exc}", file=sys.stderr)
-            continue
+    new_count += _collect_from_source(
+        "arXiv", fetch_papers, SEARCH_QUERIES, start_date, end_date, existing
+    )
+    new_count += _collect_from_source(
+        "Hugging Face Papers",
+        fetch_huggingface_papers,
+        SEARCH_QUERIES,
+        start_date,
+        end_date,
+        existing,
+    )
 
-        for paper in papers:
-            pid = paper["arxiv_id"]
-            if pid not in existing and not _is_excluded(paper):
-                existing[pid] = paper
-                new_count += 1
-                print(f"  + {pid}: {paper['title'][:70]}")
-            elif pid in existing and not existing[pid].get("abstract") and paper.get("abstract"):
-                existing[pid]["abstract"] = paper["abstract"]
-                abstract_updated += 1
+    print(f"\nFound {new_count} new papers. Total: {len(existing)}.")
 
-        time.sleep(API_DELAY_SECONDS)
-
-    print(f"\nFound {new_count} new papers. Updated abstracts for {abstract_updated} existing paper(s). Total: {len(existing)}.")
-
-    if new_count > 0 or removed > 0 or abstract_updated > 0 or not PAPERS_CSV.exists():
+    if new_count > 0 or removed > 0 or not PAPERS_CSV.exists():
         save_papers(existing)
         print(f"Saved to {PAPERS_CSV}.")
 
