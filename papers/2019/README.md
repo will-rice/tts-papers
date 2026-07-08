@@ -1,6 +1,6 @@
 # 2019
 
-170 papers in this year.
+171 papers in this year.
 
 ### [Using a Pitch-Synchronous Residual Codebook for Hybrid HMM/Frame Selection Speech Synthesis](1912.12887.md)
 **Thomas Drugman, Alexis Moinet, Thierry Dutoit, Geoffrey Wilfart** · 2019-12-30
@@ -621,6 +621,16 @@ Many real-world problems, including multi-speaker text-to-speech synthesis, can 
 <summary>Abstract</summary>
 
 Cross-lingual voice conversion (CLVC) is a quite challenging task since the source and target speakers speak different languages. This paper proposes a CLVC framework based on bottleneck features and deep neural network (DNN). In the proposed method, the bottleneck features extracted from a deep auto-encoder (DAE) are used to represent speaker-independent features of speech signals from different languages. A DNN model is trained to learn the mapping between bottleneck features and the corresponding spectral features of the target speaker. The proposed method can capture speaker-specific characteristics of a target speaker, and hence requires no speech data from source speaker during training. The performance of the proposed method is evaluated using data from three Indian languages: Telugu, Tamil and Malayalam. The experimental results show that the proposed method outperforms the baseline Gaussian mixture model (GMM)-based CLVC approach.
+
+</details>
+
+### [Lhasa-Tibetan Speech Synthesis Using End-to-End Model](s2:1aae660ace27f9b8be93f251469b9ff8dc8d1af2.md)
+**Yue Zhao, Panhua Hu, Xiaona Xu, Licheng Wu et al.** · 2019-09-09
+
+<details>
+<summary>Abstract</summary>
+
+With the development of deep learning technology, speech synthesis based on deep neural networks has gradually become the mainstream method in the field of speech synthesis. In this paper, we explored the Tacotron2 model for Lhasa-Tibetan dialect speech synthesis by constructing a feature prediction network with a seq2seq structure which maps the character vector to Mel spectrum, and combining with the WaveNet model trained in a semi-supervised way to synthesize the Mel spectrum into a time domain waveform. The model avoids processing front-end text analysis that requires extensive prior knowledge in Lhasa-Tibetan dialect and reduces the need of a large amount of transcribed speech data. Experimental results show that the proposed method is effective and has higher clarity and naturalness than other related synthesis models for Lhasa-Tibetan dialect.
 
 </details>
 

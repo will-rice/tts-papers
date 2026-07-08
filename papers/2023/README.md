@@ -1,6 +1,6 @@
 # 2023
 
-408 papers in this year.
+409 papers in this year.
 
 ### [Boosting Large Language Model for Speech Synthesis: An Empirical Study](2401.00246.md)
 **Hongkun Hao et.al.** · 2023-12-30
@@ -944,6 +944,16 @@ Diffusion models have recently been shown to be relevant for high-quality speech
 
 ### [Evaluating Speech Synthesis by Training Recognizers on Synthetic Speech](2310.00706.md)
 **Dareen Alharthi et.al.** · 2023-10-01
+
+### [The limits of the Mean Opinion Score for speech synthesis evaluation](s2:009d0132d9457493f978b79ab187774ecba81689.md)
+**Sébastien Le Maguer, Simon King, Naomi Harte** · 2023-10-01
+
+<details>
+<summary>Abstract</summary>
+
+The release of WaveNet and Tacotron has forever transformed the speech synthesis landscape. Thanks to these game-changing innovations, the quality of synthetic speech has reached unprecedented levels. However, to measure this leap in quality, an overwhelming majority of studies still rely on the Absolute Category Rating (ACR) protocol and compare systems using its output; the Mean Opinion Score (MOS). This protocol is not without controversy, and as the current state-of-the-art synthesis systems now produce outputs remarkably close to human speech, it is now vital to determine how reliable this score is. To do so, we conducted a series of four experiments replicating and following the 2013 edition of the Blizzard Challenge. With these experiments, we asked four questions about the MOS: How stable is the MOS of a system across time? How do the scores of lower quality systems influence the MOS of higher quality systems? How does the introduction of modern technologies influence the scores of past systems? How does the MOS of modern technologies evolve in isolation? The results of our experiments are manyfold. Firstly, we verify the superiority of modern technologies in comparison to historical synthesis. Then, we show that despite its origin as an absolute category rating, MOS is a relative score. While minimal variations are observed during the replication of the 2013-EH2 task, these variations can still lead to di ff erent conclusions for the intermediate systems. Our experiments also illustrate the sensitivity of MOS to the presence / absence of lower and higher anchors. Overall, our experiments suggest that we may have reached the end of a cul-de-sac by only evaluating the overall quality with MOS. We must embark on a new road and develop di ff erent evaluation protocols better suited to the analysis of modern speech synthesis technologies.
+
+</details>
 
 ### [Diffusion-Based Mel-Spectrogram Enhancement for Personalized Speech Synthesis with Found Data](2305.10891.md)
 **Yusheng Tian et.al.** · 2023-09-30

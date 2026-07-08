@@ -1,6 +1,6 @@
 # 2025
 
-718 papers in this year.
+720 papers in this year.
 
 ### [Defense Against Synthetic Speech: Real-Time Detection of RVC Voice Conversion Attacks](2601.04227.md)
 **Prajwal Chinchmalatpure, Suyash Chinchmalatpure, Siddharth Chavan** · 2025-12-31
@@ -4428,6 +4428,16 @@ Speech synthesis is crucial for human-computer interaction, enabling natural and
 ### [Collective Learning Mechanism based Optimal Transport Generative Adversarial Network for Non-parallel Voice Conversion](2504.13791.md)
 **Sandipan Dhar et.al.** · 2025-04-18
 
+### [Prosody Predictor based Diffusion Models Techniques for Enhanced Speech Synthesis](s2:0eda71a1d570363cd56bdda1ce43ca3afac974d6.md)
+**Dr. K. Aruna Bhaskar, D. Lal, Dr. M. Bhaskar, S. Sushma et al.** · 2025-04-18
+
+<details>
+<summary>Abstract</summary>
+
+A prosody predictor based on a diffusion model is crucial to the new zero shot approach of voice synthesis. Since diffusion models excel at capturing complicated distributions, they are perfect for simulating the complex patterns of prosody in speech. These models have recently attracted interest in a number of generative tasks. By repeatedly changing an initial chaotic input into an output that nearly matches the intended goal, a diffusion model acts by gradually refining the input. The diffusion model iteratively refines an initial rough estimate of the prosody pattern in the context of prosody prediction. To get realistic sounding speech, it is necessary to capture small prosody fluctuations in pitch, length, and loudness. This approach enables the model to do just that. Training on massive speech corpora teaches the diffusion model-based prosody predictor to mimic reference speech in its prosody pattern generation. During inference, the model makes use of the learnt prosody patterns to anticipate the target speech’s prosody, guaranteeing that the produced speech is expressive and authentic, even while the speaker is unseen.
+
+</details>
+
 ### [Voice Conversion with Diverse Intonation using Conditional Variational Auto-Encoder](2504.12005.md)
 **Soobin Suh, Dabi Ahn, Heewoong Park, Jonghun Park** · 2025-04-16
 
@@ -4514,6 +4524,16 @@ We introduce SIFT (Speech Instruction Fine-Tuning), a 50M-example dataset design
 <summary>Abstract</summary>
 
 Voice conversion (VC) transforms source speech into a target voice by preserving the content. However, timbre information from the source speaker is inherently embedded in the content representations, causing significant timbre leakage and reducing similarity to the target speaker. To address this, we introduce a Universal Semantic Matching (USM) residual block to a content extractor. The residual block consists of two weighted branches: 1) universal semantic dictionary based Content Feature Re-expression (CFR) module, supplying timbre-free content representation. 2) skip connection to the original content layer, providing complementary fine-grained information. In the CFR module, each dictionary entry in the universal semantic dictionary represents a phoneme class, computed statistically using speech from multiple speakers, creating a stable, speaker-independent semantic set. We introduce a CFR method to obtain timbre-free content representations by expressing each content frame as a weighted linear combination of dictionary entries using corresponding phoneme posteriors as weights. Extensive experiments across various VC frameworks demonstrate that our approach effectively mitigates timbre leakage and significantly improves similarity to the target speaker.
+
+</details>
+
+### [StableVC: Style Controllable Zero-Shot Voice Conversion with Conditional Flow Matching](s2:6cf3630b618be023c348f4c2376c64d6471fcaa2.md)
+**Jixun Yao, Yuguang Yang, Yu Pan, Ziqian Ning et al.** · 2025-04-11
+
+<details>
+<summary>Abstract</summary>
+
+Zero-shot voice conversion (VC) aims to transfer the timbre from the source speaker to an arbitrary unseen speaker while preserving the original linguistic content. Despite recent advancements in zero-shot VC using language model-based or diffusion-based approaches, several challenges remain: 1) current approaches primarily focus on adapting timbre from unseen speakers and are unable to transfer style and timbre to different unseen speakers independently; 2) these approaches often suffer from slower inference speeds due to the autoregressive modeling methods or the need for numerous sampling steps; 3) the quality and similarity of the converted samples are still not fully satisfactory. To address these challenges, we propose a Style controllable zero-shot VC approach named StableVC, which aims to transfer timbre and style from source speech to different unseen target speakers. Specifically, we decompose speech into linguistic content, timbre, and style, and then employ a conditional flow matching module to reconstruct the high-quality mel-spectrogram based on these decomposed features. To effectively capture timbre and style in a zero-shot manner, we introduce a novel dual attention mechanism with an adaptive gate, rather than using conventional feature concatenation. With this non-autoregressive design, StableVC can efficiently capture the intricate timbre and style from different unseen speakers and generate high-quality speech significantly faster than real-time. Experiments demonstrate that our proposed StableVC outperforms state-of-the-art baseline systems in zero-shot VC and achieves flexible control over timbre and style from different unseen speakers. Moreover, StableVC offers approximately 25x and 1.65x faster sampling compared to autoregressive and diffusion-based baselines.
 
 </details>
 
