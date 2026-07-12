@@ -2,19 +2,19 @@
 arxiv_id: s2:f3e773c4fc72bfacdeedc0313db39d995f996dfe
 title: Modeling Irregular Voice in End-to-End Speech Synthesis via Speaker Adaptation
 authors:
-- Ali Raheem Mandeel
-- M. Al-Radhi
-- T. Csapó
-submitted: '2023-10-25'
+  - Ali Raheem Mandeel
+  - M. Al-Radhi
+  - T. Csapó
+submitted: "2023-10-25"
 categories: []
 arxiv_url: https://www.semanticscholar.org/paper/f3e773c4fc72bfacdeedc0313db39d995f996dfe
 source: metadata-only
 converter: none
 llm_remediated: false
 citations_resolved: 0/0
-citations_resolved_at: '2026-07-07T16:20:20+00:00'
+citations_resolved_at: "2026-07-07T16:20:20+00:00"
 references_parsed: 0
-arxiv_version: ''
+arxiv_version: ""
 ---
 
 ## Abstract

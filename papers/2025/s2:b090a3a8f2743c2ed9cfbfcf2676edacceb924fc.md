@@ -2,19 +2,19 @@
 arxiv_id: s2:b090a3a8f2743c2ed9cfbfcf2676edacceb924fc
 title: Speech synthesis for Walloon, an under-resourced minority language
 authors:
-- Jose Felipe Espinosa Orjuela
-- Philippe Boula de Mareüil
-- Marc Evrard
-submitted: '2025-08-24'
+  - Jose Felipe Espinosa Orjuela
+  - Philippe Boula de Mareüil
+  - Marc Evrard
+submitted: "2025-08-24"
 categories: []
 arxiv_url: https://www.semanticscholar.org/paper/b090a3a8f2743c2ed9cfbfcf2676edacceb924fc
 source: metadata-only
 converter: none
 llm_remediated: false
 citations_resolved: 0/0
-citations_resolved_at: '2026-07-07T15:56:28+00:00'
+citations_resolved_at: "2026-07-07T15:56:28+00:00"
 references_parsed: 0
-arxiv_version: ''
+arxiv_version: ""
 ---
 
 ## Abstract

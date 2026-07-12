@@ -2,18 +2,18 @@
 arxiv_id: s2:fb3fe3bdded908cff0d3dd63f4311fffd7381fb7
 title: End-to-End Kurdish Speech Synthesis Based on Transfer Learning
 authors:
-- Sabat S. Muhamad
-- H. Veisi
-submitted: '2022-08-26'
+  - Sabat S. Muhamad
+  - H. Veisi
+submitted: "2022-08-26"
 categories: []
 arxiv_url: https://www.semanticscholar.org/paper/fb3fe3bdded908cff0d3dd63f4311fffd7381fb7
 source: metadata-only
 converter: none
 llm_remediated: false
 citations_resolved: 0/0
-citations_resolved_at: '2026-07-07T16:31:15+00:00'
+citations_resolved_at: "2026-07-07T16:31:15+00:00"
 references_parsed: 0
-arxiv_version: ''
+arxiv_version: ""
 ---
 
 ## Abstract
