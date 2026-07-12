@@ -63,7 +63,7 @@ The following keyword queries are used against arXiv title and abstract fields a
 ## Papers
 
 <!-- PAPERS_TABLE_START -->
-_Showing the last 30 days (80 of 3276 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (75 of 3276 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
@@ -815,56 +815,6 @@ Recent advances in speech generation have significantly improved the naturalness
 <summary>Abstract</summary>
 
 For the last couple of years, the field of speech synthesis has improved dramatically thanks to deep learning. There are more and more deep learning-based TTS systems developed to make it possible to produce voices with high intelligibility and naturalness. Meanwhile, controlling the expressiveness is yet a big deal, generating speech in different styles or manners has received a lot of attention from community recently. This paper aims to give our solutions to deal with the task emotional speech synthesis (ESS) at VLSP 2022 which allows to generate humanlike natural-sounding voice from a given input text with desired emotional expression. By integrating speaker embedding, prosody bottleneck into FastSpeech 2, our systems can promisingly generate emotional speech of a single speaker (Sub-task 1), transfer speaking styles from another speaker to the target speaker with neutral non-expressive data while retaining the target speaker's identity (Sub-task 2).
-
-</details>
-
-#### [From Tokens to Faces: Investigating Discrete Speech Representations for 3D Facial Animation](https://arxiv.org/abs/2606.13630) · [📄 Read](papers/2026/2606.13630.md)
-**Pedro Correa, Olivier Perrotin, Samir Sadok, Paula Costa et al.** · 2026-06-11
-
-<details>
-<summary>Abstract</summary>
-
-The choice of speech representation is critical in speech-driven 3D facial animation. Representations differ in what they encode: SSL features emphasize segmental and semantic cues, neural codecs yield latents optimized for acoustic reconstruction, and ASR-style objectives produce label-based spaces. We evaluate four speech representation families for 3D facial synthesis, comparing their facial reconstruction quality across two facial decoders using objective metrics and a perceptual evaluation. We additionally conduct probing analyses that relate tokenized representations to phonetic units and to articulatory deformations. We found that encoding phonetic classes is beneficial for accurate facial animation prediction on both semantic and label-based representations with comparable facial animation quality. From the latter, we introduce an Audio Visual Text-to-Speech (AVTTS) pipeline that leverages, as a shared space, discrete representations to decode speech and 3D facial motion.
-
-</details>
-
-#### [TimeLens: On-Device Artifact Recognition with Retrieval-Augmented Question Answering for the Grand Egyptian Museum](https://arxiv.org/abs/2606.13267) · [📄 Read](papers/2026/2606.13267.md)
-**Rawan Hesham, Ali Ashraf, Amr Ahmed, Malak Alaa et al.** · 2026-06-11
-
-<details>
-<summary>Abstract</summary>
-
-TimeLens is an AI-powered bilingual mobile guide for the Grand Egyptian Museum (GEM). Pointing a phone at an exhibit, a visitor sees the artifact recognized in real time and can ask follow-up questions answered in English or Arabic. The work addresses three problems specific to in-gallery deployment: fine-grained visual similarity among 51 catalogued artifacts (many near-identical Ramesside statues), the gap between curated training data and handheld camera conditions, and the risk of an AI guide stating unsupported historical facts. Two engineering contributions are reported. First, an on-device artifact detector was developed through a data-quality-driven iteration study -- from foundation-model auto-annotation (YOLO-World), through spatial label-cleaning rules, to a fully hand-annotated dataset -- isolating label quality as the decisive factor: the final YOLOv8n model resolves every previously failing class while remaining a 5.97 MB TensorFlow Lite asset that runs in real time on a mid-range phone (mAP@0.5 = 0.995, mAP@0.5:0.95 = 0.924). Second, a bilingual Retrieval-Augmented Generation (RAG) guide, grounded in a 108-record ChromaDB knowledge base, was benchmarked across seven candidate language models, with Gemma 4 E2B (Q4 K M) selected; ten targeted optimizations reduce end-to-end latency from over 30 s to approximately 10 s. Both subsystems are integrated in a production Flutter application with bilingual interface, museum location gating, and text-to-speech support.
-
-</details>
-
-#### [Emo-LiPO: Listwise Preference Optimization for Fine-Grained Emotion Intensity Control in LLM-based Text-to-Speech](https://arxiv.org/abs/2606.13006) · [📄 Read](papers/2026/2606.13006.md)
-**Yihang Lin, Li Zhou, Congwei Cao, Dongchu Xie et al.** · 2026-06-11
-
-<details>
-<summary>Abstract</summary>
-
-Large language model (LLM)-based text-to-speech (TTS) systems enable prompt-conditioned emotional control but struggle with fine-grained emotion intensity due to the semantic -- acoustic gap between text and speech. To address this challenge, we formulate emotion intensity control in LLM-based TTS as a learning-to-rank problem and propose Emo-LiPO, a listwise preference optimization framework that aligns prompt-conditioned speech generation with relative emotion intensity expressed in text. Emo-LiPO explicitly models global intensity ordering within each emotion under fixed transcripts, enabling more faithful and continuous emotional expression. We further construct ESD-plus, a multi-speaker dataset with explicit emotion intensity variations, to support fine-grained emotion modeling and evaluation. Experiments on ESD-plus demonstrate that Emo-LiPO significantly improves emotion accuracy and intensity controllability over both supervised- and DPO-based LLM TTS baselines, with particularly pronounced gains at high intensity levels.
-
-</details>
-
-#### [PRISM: Prosody-Integrated Multi-Agent Reasoning Framework for Empathetic Spoken Dialogue](https://arxiv.org/abs/2606.12902) · [📄 Read](papers/2026/2606.12902.md)
-**Wen Zhang, Xiaocui Yang, Zhuoyue Gao, Shi Feng et al.** · 2026-06-11
-
-<details>
-<summary>Abstract</summary>
-
-Empathetic spoken dialogue systems require not only semantically appropriate responses but also emotionally aligned prosodic expression. However, cascade pipelines often discard acoustic cues during speech-to-text conversion, while end-to-end speech models lack interpretable control over emotion and knowledge integration. To address these challenges, we propose PRISM, a multi-agent framework for empathetic spoken dialogue that decouples speech perception, response generation, and speech synthesis into coordinated components. PRISM introduces a prosody-to-language translation mechanism to stabilize large language model reasoning and enables on-demand invocation of external knowledge tools for empathetic dialogue generation. Experimental results demonstrate that PRISM achieves consistent improvements in empathy, prosodic appropriateness, and text response generation quality across objective and subjective metrics. Our code is available at: https://github.com/Bxzfrm/PRISM.
-
-</details>
-
-#### [Vocal Identity Under Siege by AI Voice Cloning Technologies](https://arxiv.org/abs/2606.12812) · [📄 Read](papers/2026/2606.12812.md)
-**Jyh-An Lee, Xuan Sun** · 2026-06-11
-
-<details>
-<summary>Abstract</summary>
-
-The advent of sophisticated AI-driven voice cloning has brought to the fore critical legal and ethical challenges regarding the protection of vocal identity. Prompted by recent controversies - including the striking resemblance between OpenAI's ChatGPT-4o voice and that of Scarlett Johansson - this article examines how generative AI technologies undermine the unique value of the human voice and further complicate the legal questions surrounding personality right. Through a comparative analysis, the paper evaluates three principal legal frameworks: the right of publicity, personality rights, and the personal data protection right. Each framework - rooted in different legal traditions o offers distinct strengths and limitations in addressing the threats posed by AI-generated voice cloning. By analysing these doctrines' scope, remedies, and posthumous protections, the study offers a foundation for understanding how existing legal approaches may be applied to the evolving challenges of vocal identity in the era of generative AI.
 
 </details>
 
