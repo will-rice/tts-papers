@@ -1,0 +1,9 @@
+{
+  "name": "tts-papers",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Tooling dependencies for tts-papers (Prettier markdown formatting).",
+  "devDependencies": {
+    "prettier": "3.6.2"
+  }
+}

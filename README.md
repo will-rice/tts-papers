@@ -6,34 +6,36 @@ Beyond a reading list, this repo is built to be **browsed by LLMs**. Every paper
 
 ## How it works
 
-* Papers are sourced from [arXiv](https://arxiv.org/) and [Hugging Face Papers](https://huggingface.co/papers) via their public APIs.
-* Query this corpus over MCP: `https://wrice-papers-mcp.hf.space/tts/mcp` ([server code](https://huggingface.co/spaces/wrice/papers-mcp)).
-* A [GitHub Actions workflow](.github/workflows/fetch_papers.yml) runs **daily at 06:00 UTC** to pull papers submitted in the previous 8 days.
-* Results are filtered with a negative-keyword blacklist plus an ML signal check and a positive TTS/speech-generation relevance gate.
-* The full paper list is stored in [`papers.csv`](papers.csv) and the table below is regenerated automatically on every update.
+- Papers are sourced from [arXiv](https://arxiv.org/) and [Hugging Face Papers](https://huggingface.co/papers) via their public APIs.
+- Query this corpus over MCP: `https://wrice-papers-mcp.hf.space/tts/mcp` ([server code](https://huggingface.co/spaces/wrice/papers-mcp)).
+- A [GitHub Actions workflow](.github/workflows/fetch_papers.yml) runs **daily at 06:00 UTC** to pull papers submitted in the previous 8 days.
+- Results are filtered with a negative-keyword blacklist plus an ML signal check and a positive TTS/speech-generation relevance gate.
+- The full paper list is stored in [`papers.csv`](papers.csv) and the table below is regenerated automatically on every update.
 
 ## Markdown corpus
 
 Each paper is also available as LLM-friendly markdown under `papers/<year>/<arxiv_id>.md`. The conversion pipeline:
 
-* Converts arXiv's HTML rendering (`arxiv.org/html/<id>`, falling back to [ar5iv](https://ar5iv.labs.arxiv.org) for pre-2024 papers) — the article is extracted from the page, figures become absolute-URL images, and equations become GitHub-native ` ```math ` blocks.
-* Papers without a usable HTML rendering fall back to LaTeX source (`arxiv.org/e-print/<id>`) via [pandoc](https://pandoc.org), then PDF via [marker](https://github.com/datalab-to/marker).
-* Auto-flagged or manually-listed (`papers/.fixme.txt`) low-quality outputs go through a Claude Sonnet remediation pass.
-* Citations are rewritten as clickable links — local sibling MD when the cited paper is in this corpus, external arXiv/DOI URLs otherwise.
+- Converts arXiv's HTML rendering (`arxiv.org/html/<id>`, falling back to [ar5iv](https://ar5iv.labs.arxiv.org) for pre-2024 papers) — the article is extracted from the page, figures become absolute-URL images, and equations become GitHub-native ` ```math ` blocks.
+- Papers without a usable HTML rendering fall back to LaTeX source (`arxiv.org/e-print/<id>`) via [pandoc](https://pandoc.org), then PDF via [marker](https://github.com/datalab-to/marker).
+- Auto-flagged or manually-listed (`papers/.fixme.txt`) low-quality outputs go through a Claude Sonnet remediation pass.
+- Citations are rewritten as clickable links — local sibling MD when the cited paper is in this corpus, external arXiv/DOI URLs otherwise.
 
 Browse the corpus at [papers/README.md](papers/README.md). Each paper file has YAML frontmatter with metadata + diagnostics (`source`, `converter`, `llm_remediated`, `citations_resolved`).
 
 ## Running locally
 
-You'll need pandoc:
+You'll need pandoc and Node (for Prettier, which normalizes the generated markdown):
 
 ```bash
 # macOS
-brew install pandoc
+brew install pandoc node
 
 # Ubuntu
-sudo apt-get install pandoc
+sudo apt-get install pandoc nodejs npm
 ```
+
+Then run `npm ci` to install the pinned Prettier used by the pipeline, CI, and pre-commit.
 
 ```bash
 # Incremental fetch (last 8 days)
@@ -47,12 +49,12 @@ uv run python scripts/convert_papers.py --regenerate-all
 uv run python scripts/fetch_papers.py --days 30
 ```
 
-The fetch script uses only the Python standard library; the conversion pipeline adds `marker-pdf`, `anthropic`, `pyyaml`, and the `pandoc` system binary (managed via `uv` and your package manager).
+The fetch script uses only the Python standard library (plus a Prettier pass on the README); the conversion pipeline adds `marker-pdf`, `anthropic`, `pyyaml`, and the `pandoc` system binary (managed via `uv` and your package manager). Both scripts format the markdown they generate with the repo-pinned [Prettier](https://prettier.io/) (`npm ci`), and a [Format workflow](.github/workflows/format.yml) enforces it on every PR.
 
 ## Triggering a manual update
 
 Open the **Actions** tab → **Fetch TTS Papers** → **Run workflow**.
-Select *full = true* to back-fill from 2017 and rebuild all paper markdown, or leave it as *false* for an incremental update.
+Select _full = true_ to back-fill from 2017 and rebuild all paper markdown, or leave it as _false_ for an incremental update.
 
 ## Search terms
 
@@ -63,12 +65,14 @@ The following keyword queries are used against arXiv title and abstract fields a
 ## Papers
 
 <!-- PAPERS_TABLE_START -->
+
 _Showing the last 30 days (75 of 3276 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
 
 #### [When Synthetic Speech Is All You Have: Better Call GRPO](https://arxiv.org/abs/2607.08409) · [📄 Read](papers/2026/2607.08409.md)
+
 **Shashi Kumar, Yanis Labrak, Hasindri Watawana, Sergio Burdisso et al.** · 2026-07-09
 
 <details>
@@ -79,6 +83,7 @@ LLM-based ASR adapted to regulated domains such as banking is bottlenecked by pr
 </details>
 
 #### [Diarization-Guided Qwen-ASR Adaptation for Multilingual Two-Speaker Conversational Speech](https://arxiv.org/abs/2607.08208) · [📄 Read](papers/2026/2607.08208.md)
+
 **Hao Wu, RongQi Han, Zhen Wang, Wei Liang et al.** · 2026-07-09
 
 <details>
@@ -89,6 +94,7 @@ This paper describes our self-designed system for Task 1 of the MLC-SLM 2026 Cha
 </details>
 
 #### [WordVoice: Explicit and Decoupled Multi-Dimensional Word-Level Control for LLM-Based TTS](https://arxiv.org/abs/2607.06461) · [📄 Read](papers/2026/2607.06461.md)
+
 **Sihang Nie, Jinxin Ji, Xiaofen Xing, Deyi Tuo et al.** · 2026-07-07
 
 <details>
@@ -99,6 +105,7 @@ While recent Large Language Model (LLM)-based Text-to-Speech (TTS) systems have 
 </details>
 
 #### [Fréchet Distance Loss on Speech Representations for Text-to-Speech Synthesis](https://arxiv.org/abs/2607.06027) · [📄 Read](papers/2026/2607.06027.md)
+
 **Ho-Lam Chung, Kuan-Po Huang, Bo-Ru Lu, Hung-yi Lee** · 2026-07-07
 
 <details>
@@ -109,6 +116,7 @@ Few-step diffusion and flow-matching text-to-speech (TTS) models are usually tra
 </details>
 
 #### [Hierarchical Acoustic-Semantic Modeling: Modality Separation and Semantic Coherence for Full-Duplex SLMs](https://arxiv.org/abs/2607.06540) · [📄 Read](papers/2026/2607.06540.md)
+
 **Zhenyu Liu, Yunxin Li, Xuanyu Zhang, Qixun Teng et al.** · 2026-07-07
 
 <details>
@@ -119,6 +127,7 @@ Developing seamless, high-performance, native intelligent full-duplex Spoken Lan
 </details>
 
 #### [ProPS: Prompted Profile Synthesis for Natural Language-Conditioned Speaker Embedding Distributions](https://arxiv.org/abs/2607.05276) · [📄 Read](papers/2026/2607.05276.md)
+
 **Thomas Thebaud, Junhyeok Lee, Laureano Moro-Velazquez, Jesus Villalba Lopez et al.** · 2026-07-06
 
 <details>
@@ -129,6 +138,7 @@ Speaker embeddings, or x-vectors, are widely used to represent speaker identity 
 </details>
 
 #### [Streaming Neural Speech Codecs through Time-Invariant Representations](https://arxiv.org/abs/2607.05250) · [📄 Read](papers/2026/2607.05250.md)
+
 **Kélian Estève, Salima Mhdaffar, Mickael Rouvier, Richard Dufour et al.** · 2026-07-06
 
 <details>
@@ -139,6 +149,7 @@ Neural speech codecs are increasingly used as intermediate representations in co
 </details>
 
 #### [Towards Digital Preservation of Efik: TTS for a Low-Resource African Language](https://arxiv.org/abs/2607.04515) · [📄 Read](papers/2026/2607.04515.md)
+
 **Offiong Bassey Edet, Emmanuel Oyo-Ita, Archibong Okon Archibong, David Effanga Bassey et al.** · 2026-07-05
 
 <details>
@@ -149,6 +160,7 @@ Efik, a tonal language spoken by about 3 million second language speakers and 1.
 </details>
 
 #### [DELTA-TTS: Adapting Autoregressive Model into Diffusion Language Model for Text-to-Speech](https://arxiv.org/abs/2607.04140) · [📄 Read](papers/2026/2607.04140.md)
+
 **Junwon Moon, Seungbeom Kim, Yejin Lee, Hoseong Ahn et al.** · 2026-07-05
 
 <details>
@@ -159,6 +171,7 @@ Autoregressive (AR) text-to-speech (TTS) models generate discrete speech tokens 
 </details>
 
 #### [TRACE-EVC: Text-Guided Relative Affective Control for Zero-Shot Emotional Voice Conversion](https://arxiv.org/abs/2607.03666) · [📄 Read](papers/2026/2607.03666.md)
+
 **Zihan Zhang, Shreeram Suresh Chandra, Zongyang Du, Xiutian Zhao et al.** · 2026-07-04
 
 <details>
@@ -169,6 +182,7 @@ Traditional emotional voice conversion (EVC) conditions generation on explicit t
 </details>
 
 #### [VisionAId: An Offline-First Multimodal Android Assistant for People with Visual Impairment, Featuring Personalized Object Retrieval](https://arxiv.org/abs/2607.02371) · [📄 Read](papers/2026/2607.02371.md)
+
 **Cristian-Gabriel Florea, Stelian Spînu** · 2026-07-02
 
 <details>
@@ -179,6 +193,7 @@ Over 285 million people worldwide live with a visual impairment, for whom everyd
 </details>
 
 #### [LuxSQA: Ask Me in Luxembourgish with TTS-Augmented Spoken Question Answering](https://arxiv.org/abs/2607.02763) · [📄 Read](papers/2026/2607.02763.md)
+
 **Nina Hosseini-Kivanani, Marco Matassoni, Alessio Brutti** · 2026-07-02
 
 <details>
@@ -189,6 +204,7 @@ Spoken Question Answering (SQA) remains largely focused on high-resource languag
 </details>
 
 #### [GRAFT: Grafted Reference Audio for Fine-grained Pronunciation in Zero-shot Text-to-Speech](https://arxiv.org/abs/2607.02633) · [📄 Read](papers/2026/2607.02633.md)
+
 **Antonis Asonitis, Francesco Verdini, Aref Farhadipour, Vijeta Avijeet et al.** · 2026-07-02
 
 <details>
@@ -199,6 +215,7 @@ We present GRAFT, a per-word pronunciation conditioning mechanism for text-to-sp
 </details>
 
 #### [A Geometric Perspective on Composable Emotion Steering in Text-to-Speech Models](https://arxiv.org/abs/2607.00946) · [📄 Read](papers/2026/2607.00946.md)
+
 **Siyi Wang, James Bailey, Ting Dang** · 2026-07-01
 
 <details>
@@ -209,6 +226,7 @@ While prior work has explored emotion control in hybrid text-to-speech systems, 
 </details>
 
 #### [Enhancing Flow Matching with A Unified Guidance Framework for Efficient and Robust Speech Synthesis](https://arxiv.org/abs/2607.00363) · [📄 Read](papers/2026/2607.00363.md)
+
 **Zuda Yu, Qianhui Xu, Ting Chen, Junhui Zhang et al.** · 2026-07-01
 
 <details>
@@ -219,6 +237,7 @@ Flow Matching (FM) has emerged as a powerful paradigm for speech generation but 
 </details>
 
 #### [LuxEmo: Expressive Text-to-Speech Corpus for Luxembourgish](https://arxiv.org/abs/2606.31947) · [📄 Read](papers/2026/2606.31947.md)
+
 **Nina Hosseini-Kivanani, Sandipana Dowerah** · 2026-06-30
 
 <details>
@@ -229,6 +248,7 @@ State-of-the-art speech datasets predominantly focus on widely spoken languages,
 </details>
 
 #### [Is Natural Always Appropriate? Investigating Naturalness and Appropriateness Across Different Domains for TTS Evaluation](https://arxiv.org/abs/2606.31729) · [📄 Read](papers/2026/2606.31729.md)
+
 **Dominika Woszczyk, Andreas Triantafyllopoulos, Jura Miniota, Éva Székely et al.** · 2026-06-30
 
 <details>
@@ -239,6 +259,7 @@ Text-to-speech (TTS) evaluation is an open challenge. While the primary target w
 </details>
 
 #### [Beyond Cross-Reconstruction: Probing-Based Disentanglement Evaluation for Acoustic Teleportation Codecs](https://arxiv.org/abs/2606.31365) · [📄 Read](papers/2026/2606.31365.md)
+
 **Philipp Grundhuber, Emanuël A. P. Habets** · 2026-06-30
 
 <details>
@@ -249,6 +270,7 @@ Some neural audio codecs disentangle speech into latent subspaces encoding conte
 </details>
 
 #### [Preserving Speech-to-Text LLM Capabilities in Speech-to-Speech Generation](https://arxiv.org/abs/2606.30944) · [📄 Read](papers/2026/2606.30944.md)
+
 **Yuxuan Hu, Heng Lu, Ruchao Fan, Yao Qian et al.** · 2026-06-29
 
 <details>
@@ -259,6 +281,7 @@ Strong speech-to-text (S2T) LLMs already provide robust speech perception and te
 </details>
 
 #### [DialogPII: A multilingual dataset of synthetic dialog transcripts to detect personal information](https://arxiv.org/abs/2606.30312) · [📄 Read](papers/2026/2606.30312.md)
+
 **Roland Roller, Vera Czehmann, Derya Erman, Luke Flanagan et al.** · 2026-06-29
 
 <details>
@@ -269,6 +292,7 @@ Conversational data collected in domains such as healthcare or social sciences i
 </details>
 
 #### [FacePlex: Full-Duplex Joint Speech-Facial Motion Generation for Conversational Avatars](https://arxiv.org/abs/2606.30145) · [📄 Read](papers/2026/2606.30145.md)
+
 **Habin Lim, Jae-Ho Lee, Hah Min Lew, Ji-Su Kang et al.** · 2026-06-29
 
 <details>
@@ -279,6 +303,7 @@ Natural face-to-face conversation requires real-time speech generation together 
 </details>
 
 #### [VeRe-Flow: Guiding Flow Matching toward Clean Speech via Velocity Contrastive Regularization and Representation Alignment for Noise-Robust Bandwidth Expansion](https://arxiv.org/abs/2606.29450) · [📄 Read](papers/2026/2606.29450.md)
+
 **Sujin Koo, Sangyoon Kim, Ji Sub Um, Hoirin Kim** · 2026-06-28
 
 <details>
@@ -289,6 +314,7 @@ Noise-robust bandwidth expansion aims to reconstruct high-fidelity wideband spee
 </details>
 
 #### [HPRO: Hierarchical Progressive Reward Optimization via Preference Extraction for Emotional Text-to-Speech](https://arxiv.org/abs/2606.28249) · [📄 Read](papers/2026/2606.28249.md)
+
 **Sihang Nie, Xiaofen Xing, Rui Xing, Haoming Li et al.** · 2026-06-26
 
 <details>
@@ -299,6 +325,7 @@ Recently, Large Language Model (LLM)-based Text-to-Speech (TTS) models have achi
 </details>
 
 #### [Closing the Quality Gap in Low-Resource Text-to-Speech: LoRA Fine-Tuning of VoxCPM2 for Khmer and Korean](https://arxiv.org/abs/2606.26618) · [📄 Read](papers/2026/2606.26618.md)
+
 **Phannet Pov, Sovandara Chhoun, Hyun Woo Park, Wan-Sup Cho et al.** · 2026-06-25
 
 <details>
@@ -309,6 +336,7 @@ Large pretrained text-to-speech (TTS) models sound almost human for well-resourc
 </details>
 
 #### [VoiceTTA: Enhancing Zero-Shot Text-to-Speech via Reinforcement Learning-Based Test-Time Adaptation](https://arxiv.org/abs/2606.26534) · [📄 Read](papers/2026/2606.26534.md)
+
 **Tianxin Xie, Chenxing Li, Dong Yu, Li Liu** · 2026-06-25
 
 <details>
@@ -319,6 +347,7 @@ Recently, zero-shot text-to-speech (TTS) has enabled high-fidelity and expressiv
 </details>
 
 #### [Joint Residual Reweighting for Classifier Free Guidance in Flow-Matching Zero-Shot TTS](https://arxiv.org/abs/2606.25672) · [📄 Read](papers/2026/2606.25672.md)
+
 **Runwu Shi, Yujin Wang, Hongjin Song, Chunxiang Jin** · 2026-06-24
 
 <details>
@@ -329,6 +358,7 @@ Classifier-free guidance (CFG) is widely used in flow-matching-based zero-shot t
 </details>
 
 #### [Adaptive Oscillatory Inductive Bias for Modeling Sharp Prosodic Dynamics in Diffusion-Based TTS](https://arxiv.org/abs/2606.25424) · [📄 Read](papers/2026/2606.25424.md)
+
 **Sandipan Dhar, Nirmesh J. Shah, Ashishkumar P. Gudmalwar, Pankaj Wasnik** · 2026-06-24
 
 <details>
@@ -339,6 +369,7 @@ Diffusion-based text-to-speech (TTS) models have achieved significant improvemen
 </details>
 
 #### [CrossAccent-TTS: Cross-Lingual Accent-Intensity Controllable Text-to-Speech via Disentangled Speaker and Accent Representations](https://arxiv.org/abs/2606.25403) · [📄 Read](papers/2026/2606.25403.md)
+
 **Ram Annamdevula, Ankit Tatawat, Ashishkumar P. Gudmalwar, Nirmesh J. Shah et al.** · 2026-06-24
 
 <details>
@@ -349,6 +380,7 @@ Accent conversion and controllability remain fundamental challenges in cross-lin
 </details>
 
 #### [Sarashina2.2-TTS: Tackling Kanji Polyphony in Japanese Speech Generation via Data Scaling and Targeted Data Synthesis](https://arxiv.org/abs/2606.25369) · [📄 Read](papers/2026/2606.25369.md)
+
 **Lianbo Liu, Shiao Zhu, Kai Washizaki, Reo Yoneyama et al.** · 2026-06-24
 
 <details>
@@ -359,6 +391,7 @@ While large language model (LLM)-based text-to-speech (TTS) systems have achieve
 </details>
 
 #### [CN-NewsTTS Bench: a target-level automatic benchmark for raw-input Chinese news TTS pronunciation](https://arxiv.org/abs/2606.24714) · [📄 Read](papers/2026/2606.24714.md)
+
 **Shijun Luo** · 2026-06-23
 
 <details>
@@ -369,6 +402,7 @@ Chinese news text contains dense written forms such as scores, hyphenated model 
 </details>
 
 #### [ZONOS2 Technical Report](https://arxiv.org/abs/2606.24320) · [📄 Read](papers/2026/2606.24320.md)
+
 **Gabriel Clark, Sofian Mejjoute, Mohamed Osman, George Close et al.** · 2026-06-23
 
 <details>
@@ -379,6 +413,7 @@ We present ZONOS2 8B, our latest TTS model, which achieves state-of-the-art natu
 </details>
 
 #### [On the Effect of Segmentation Width and Cluster Size on Speech Resynthesis and Continuation in Generative Spoken Language Models](https://arxiv.org/abs/2606.23285) · [📄 Read](papers/2026/2606.23285.md)
+
 **Shunsuke Kando, Wataru Nakata, Shinnosuke Takamichi, Yusuke Miyao** · 2026-06-22
 
 <details>
@@ -389,6 +424,7 @@ Generative Spoken Language Modeling (GSLM) enables text-free speech modeling by 
 </details>
 
 #### [FlowTTS-GRPO: Online Reinforcement Learning with Multi-Objective Reward Optimization for Flow-Matching Based Text-to-Speech](https://arxiv.org/abs/2606.23190) · [📄 Read](papers/2026/2606.23190.md)
+
 **Haoxu Wang, Biao Tian, Weiqing Li, Xiang Lv et al.** · 2026-06-22
 
 <details>
@@ -399,6 +435,7 @@ Existing Reinforcement Learning (RL) research for Text-to-Speech (TTS) focuses o
 </details>
 
 #### [Synthesizing the Lombard Effect: Multi-Level Control of Speech Clarity and Vocal Effort in TTS](https://arxiv.org/abs/2606.23176) · [📄 Read](papers/2026/2606.23176.md)
+
 **Seymanur Akti, Alexander Waibel** · 2026-06-22
 
 <details>
@@ -409,6 +446,7 @@ Humans tend to speak louder and clearer in challenging environments, such as noi
 </details>
 
 #### [Bagpiper-TTS: Natural Language Guided Universal Speech Synthesis](https://arxiv.org/abs/2606.22811) · [📄 Read](papers/2026/2606.22811.md)
+
 **Jinchuan Tian, Haoran Wang, Siddhant Arora, Takashi Maekaku et al.** · 2026-06-22
 
 <details>
@@ -419,6 +457,7 @@ Classical TTS systems typically rely on rigid input formats and predefined metad
 </details>
 
 #### [Benchmarking Large Language Models for Grapheme-to-Phoneme Conversion: A Japanese Case Study](https://arxiv.org/abs/2606.22009) · [📄 Read](papers/2026/2606.22009.md)
+
 **Tomoki Koriyama** · 2026-06-20
 
 <details>
@@ -429,6 +468,7 @@ Grapheme-to-phoneme (G2P) conversion is essential for controllable and robust te
 </details>
 
 #### [ISCSLP 2026 CoT-TTS Challenge: Chain-of-Thought Reasoning for Context-Aware Text-to-Speech](https://arxiv.org/abs/2606.21933) · [📄 Read](papers/2026/2606.21933.md)
+
 **Wei Xue, Junlan Feng, Shilei Zhang, Yue Wang et al.** · 2026-06-20
 
 <details>
@@ -439,6 +479,7 @@ Recent advances in text-to-speech (TTS) have greatly improved speech naturalness
 </details>
 
 #### [Streaming T5-based Text-to-Speech Synthesis with Limited Lookahead](https://arxiv.org/abs/2606.21882) · [📄 Read](papers/2026/2606.21882.md)
+
 **Muyang Du, Jason Roche, Junjie Lai** · 2026-06-20
 
 <details>
@@ -449,6 +490,7 @@ Streaming text-to-speech synthesis in cascaded LLM-TTS systems still faces laten
 </details>
 
 #### [AugCodec: A Low-Bitrate Disentangled Neural Speech Codec via Data Augmentation](https://arxiv.org/abs/2606.21893) · [📄 Read](papers/2026/2606.21893.md)
+
 **Dongmei Wang, Xiaohang Sun, Yang Liu, Fanjie Kong et al.** · 2026-06-20
 
 <details>
@@ -459,6 +501,7 @@ We propose AugCodec, a low-bitrate disentangled neural speech codec that leverag
 </details>
 
 #### [ProsoCodec: Prosody-Oriented Speech Codec for Voice Conversion](https://arxiv.org/abs/2606.21888) · [📄 Read](papers/2026/2606.21888.md)
+
 **Jeongsoo Choi, Ji-Hoon Kim, Shujie Hu, Joon Son Chung** · 2026-06-20
 
 <details>
@@ -469,6 +512,7 @@ Neural speech codecs efficiently compress speech and have become a foundation fo
 </details>
 
 #### [An Evaluation Framework for Text-to-Speech Voice Reconstruction](https://arxiv.org/abs/2606.21343) · [📄 Read](papers/2026/2606.21343.md)
+
 **Ariadna Sanchez, Christoph Minixhofer, Korin Richmond, Ondrej Klejch et al.** · 2026-06-19
 
 <details>
@@ -479,6 +523,7 @@ Voice reconstruction using Text-to-Speech (TTS) offers a communication method fo
 </details>
 
 #### [Backdoor Attacks on Speech Emotion Recognition via TTS-Generated Poisoning](https://arxiv.org/abs/2606.21052) · [📄 Read](papers/2026/2606.21052.md)
+
 **Yongbin Huang, Xihao Xie, Jia Zhang** · 2026-06-19
 
 <details>
@@ -489,6 +534,7 @@ Speech Emotion Recognition (SER) systems increasingly leverage self-supervised a
 </details>
 
 #### [SDP-Codec: A Speaker-Decoupled Speech Codec with Pitch Injection for Low-Bitrate Coding and Zero-Shot Voice Conversion](https://arxiv.org/abs/2606.21157) · [📄 Read](papers/2026/2606.21157.md)
+
 **Hounsu Kim, Juhan Nam** · 2026-06-19
 
 <details>
@@ -499,6 +545,7 @@ Speaker-decoupled speech codecs can reduce bitrate by separating global speaker 
 </details>
 
 #### [LambdaMark: Semantic Audio Watermarking for Robustness and Radioactivity](https://arxiv.org/abs/2606.21365) · [📄 Read](papers/2026/2606.21365.md)
+
 **Kexin Li, Xiao Hu, Ilya Grishchenko, David Lie** · 2026-06-19
 
 <details>
@@ -509,6 +556,7 @@ Recent advances in generative audio have made voice cloning increasingly effortl
 </details>
 
 #### [How Do Instructions Shape Speech? Cross-Attention Attribution for Style-Captioned Text-to-Speech](https://arxiv.org/abs/2606.20532) · [📄 Read](papers/2026/2606.20532.md)
+
 **Nityanand Mathur, Hamees Sayed, Wasim Madha, Apoorv Singh et al.** · 2026-06-18
 
 <details>
@@ -519,6 +567,7 @@ Style-captioned text-to-speech systems use natural language to control voice cha
 </details>
 
 #### [FlowEdit: Associative Memory for Lifelong Pronunciation Adaptation in Flow-Matching TTS](https://arxiv.org/abs/2606.20518) · [📄 Read](papers/2026/2606.20518.md)
+
 **Harshit Singh, Ayush Pratap Singh, Nityanand Mathur** · 2026-06-18
 
 <details>
@@ -529,6 +578,7 @@ Flow-matching text-to-speech systems achieve remarkable zero-shot quality but re
 </details>
 
 #### [Transcript-Free Flow-Matching Text-to-Speech via Speech Feature Conditioning](https://arxiv.org/abs/2606.20266) · [📄 Read](papers/2026/2606.20266.md)
+
 **SooHwan Eom, Hee Suk Yoon, Eunseop Yoon, Mark Hasegawa-Johnson et al.** · 2026-06-18
 
 <details>
@@ -539,6 +589,7 @@ Recent flow-matching text-to-speech (TTS) models, such as F5-TTS, rely on a refe
 </details>
 
 #### [PASQA: Pitch-Accent-Focused Speech Quality Assessment Model Trained on Synthetic Speech with Accent Errors](https://arxiv.org/abs/2606.20137) · [📄 Read](papers/2026/2606.20137.md)
+
 **Masaya Kawamura, Yuma Shirahata, Kentaro Mitsui, Reo Shimizu** · 2026-06-18
 
 <details>
@@ -549,6 +600,7 @@ Existing mean opinion score (MOS) prediction models typically predict utterance-
 </details>
 
 #### [Investigating Human-Model Discrepancies in Speech Quality Assessment via Acoustic and Prosodic Perturbations](https://arxiv.org/abs/2606.19951) · [📄 Read](papers/2026/2606.19951.md)
+
 **Masato Takagi, Masaya Kawamura, Reo Shimizu, Yuma Shirahata** · 2026-06-18
 
 <details>
@@ -559,6 +611,7 @@ Mean opinion score (MOS) prediction models are widely used as proxy metrics in t
 </details>
 
 #### [Exploring Pre-training Benefits on Phoneme Addition through Fine-tuning in Speech Synthesis](https://arxiv.org/abs/2606.19792) · [📄 Read](papers/2026/2606.19792.md)
+
 **Masato Murata, Koichi Miyazaki, Tomoki Koriyama, Tomoki Toda** · 2026-06-18
 
 <details>
@@ -569,6 +622,7 @@ Transfer learning is widely used for low-resource text-to-speech. When the targe
 </details>
 
 #### [Repurposing a Speech Classifier for Guided Diffusion-Based Speech Generation](https://arxiv.org/abs/2606.20457) · [📄 Read](papers/2026/2606.20457.md)
+
 **Rostislav Makarov, Timo Gerkmann** · 2026-06-18
 
 <details>
@@ -579,6 +633,7 @@ Classifier guidance is a way to control diffusion generation by using a noise-co
 </details>
 
 #### [Interpreting Content and Speaker Characteristics in Factorised Self-Supervised Subspaces](https://arxiv.org/abs/2606.19974) · [📄 Read](papers/2026/2606.19974.md)
+
 **Kyle Janse van Rensburg, Herman Kamper** · 2026-06-18
 
 <details>
@@ -589,6 +644,7 @@ Self-supervised speech features encode both content and speaker information. Rec
 </details>
 
 #### [Zero-VC: Zero-Lookahead Streaming Voice Conversion via Speaker Anonymization](https://arxiv.org/abs/2606.20218) · [📄 Read](papers/2026/2606.20218.md)
+
 **Yudong Li, Zihao Fang, Junwen Qiu, Ruihai Jing et al.** · 2026-06-18
 
 <details>
@@ -599,6 +655,7 @@ Streaming zero-shot voice conversion struggles to disentangle timbre from lingui
 </details>
 
 #### [PhysDrift: Bridging the Embodiment Gap in Humanoid Co-Speech Motion Generation](https://arxiv.org/abs/2606.19935) · [📄 Read](papers/2026/2606.19935.md)
+
 **Zhangzhao Liang, Xiaofen Xing, Mingyue Yang, Wenlve Zhou et al.** · 2026-06-18
 
 <details>
@@ -609,6 +666,7 @@ Humanoid robots require co-speech motions that are not only expressive and speec
 </details>
 
 #### [FineCombo-TTS: Collaborative and Precise Controllable Speech Synthesis Using Text Descriptions and Reference Speech](https://arxiv.org/abs/2606.19209) · [📄 Read](papers/2026/2606.19209.md)
+
 **Shuoyi Zhou, Yixuan Zhou, Peiji Yang, Yifan Hu et al.** · 2026-06-17
 
 <details>
@@ -619,6 +677,7 @@ Controllable text-to-speech (TTS) has become a key research focus. However, meth
 </details>
 
 #### [Augmenting Dysarthric Speech Severity Assessment with MOS Supervision](https://arxiv.org/abs/2606.18645) · [📄 Read](papers/2026/2606.18645.md)
+
 **Kaimeng Jia, Minzhu Tu, Zengrui Jin, Siyin Wang et al.** · 2026-06-17
 
 <details>
@@ -629,6 +688,7 @@ Dysarthria is a speech disorder marked by reduced intelligibility and communicat
 </details>
 
 #### [Generating Natural and Expressive Robot Gestures through Iterative Reinforcement Learning with Human Feedback using LLMs](https://arxiv.org/abs/2606.18747) · [📄 Read](papers/2026/2606.18747.md)
+
 **Chris Lee, Flora Salim, Benjamin Tag, Francisco Cruz** · 2026-06-17
 
 <details>
@@ -639,6 +699,7 @@ Expressive gestures are essential for natural and effective communication, compl
 </details>
 
 #### [GRIDEX: Grid-Grounded Forensic Explanations for Deepfake Spectrogram Analysis](https://arxiv.org/abs/2606.18738) · [📄 Read](papers/2026/2606.18738.md)
+
 **Thi Ngan Ha Do, Tingmin Wu, Alsharif Abuadbba, Kristen Moore** · 2026-06-17
 
 <details>
@@ -649,6 +710,7 @@ The advancement of speech generation technologies has made artificial speech inc
 </details>
 
 #### [MagpieTTS-LF: Inference-Time Long-Form Speech Generation Without Training on Long-Form data](https://arxiv.org/abs/2606.18485) · [📄 Read](papers/2026/2606.18485.md)
+
 **Subhankar Ghosh, Jason Li, Paarth Neekhara, Shehzeen Hussain et al.** · 2026-06-16
 
 <details>
@@ -659,6 +721,7 @@ Neural Text-to-Speech (TTS) systems achieve remarkable quality on short utteranc
 </details>
 
 #### [Reliable Neural-Codec Text-to-Speech by ASR Self-Verification and Distillation: Near-Zero Catastrophic Failures Across Models and Codecs](https://arxiv.org/abs/2606.18323) · [📄 Read](papers/2026/2606.18323.md)
+
 **Ali Asaria, Tony Salomone, Deep Gandhi** · 2026-06-16
 
 <details>
@@ -669,6 +732,7 @@ Open autoregressive neural-codec text-to-speech (TTS) models sound excellent on 
 </details>
 
 #### [One-Step Token-to-Waveform Generation with MeanFlow in Latent Space](https://arxiv.org/abs/2606.18072) · [📄 Read](papers/2026/2606.18072.md)
+
 **Zheqi Dai, Guangyan Zhang, Zhen Ye, Jingyu Li et al.** · 2026-06-16
 
 <details>
@@ -679,6 +743,7 @@ Neural audio codecs are central to modern LLM-based Text-to-Speech (TTS) and mul
 </details>
 
 #### [Mind Companion: An Embodied Conversational Agent for Process-Based Psychotherapy](https://arxiv.org/abs/2606.17789) · [📄 Read](papers/2026/2606.17789.md)
+
 **Sofie Kamber, Lukas Diebold, Pascal Riachi, Stella Brogna et al.** · 2026-06-16
 
 <details>
@@ -689,6 +754,7 @@ Access to evidence-based psychotherapy remains limited worldwide, with long wait
 </details>
 
 #### [PhASE-Flow: Phonetic-Conditioned Acoustic Flow Matching in SSL Representation Domain for Speech Enhancement](https://arxiv.org/abs/2606.17806) · [📄 Read](papers/2026/2606.17806.md)
+
 **Jun Gao, Xiaobin Rong, Yu Sun, Dahan Wang et al.** · 2026-06-16
 
 <details>
@@ -699,6 +765,7 @@ Flow matching (FM) enables high-fidelity generation, while self-supervised learn
 </details>
 
 #### [CraBERT: Efficient Phoneme Encoder Pre-Training via Cascade Fusion of Subword Representations for Text-to-Speech](https://arxiv.org/abs/2606.16668) · [📄 Read](papers/2026/2606.16668.md)
+
 **Dong Yang, Yuki Saito, Wataru Nakata, Hiroshi Saruwatari** · 2026-06-15
 
 <details>
@@ -709,6 +776,7 @@ This paper introduces CraBERT, a pre-trained phoneme encoder (PPEnc) designed fo
 </details>
 
 #### [Joycent: Diffusion-based Accent TTS without Accented Phone Prediction](https://arxiv.org/abs/2606.16417) · [📄 Read](papers/2026/2606.16417.md)
+
 **Xintong Wang, Ye Wang** · 2026-06-15
 
 <details>
@@ -719,6 +787,7 @@ Accent text-to-speech (TTS) aims to synthesize speech with target accents. Exist
 </details>
 
 #### [Probing Low Frame Rate Degradation in Neural Audio Codecs](https://arxiv.org/abs/2606.16969) · [📄 Read](papers/2026/2606.16969.md)
+
 **Alex Gichamba, Moise Busogi** · 2026-06-15
 
 <details>
@@ -729,6 +798,7 @@ Low frame rates in neural audio codecs are attractive for autoregressive speech 
 </details>
 
 #### [Vibrato Expression Control for Singing Voice Conversion with Improving Independent Control](https://arxiv.org/abs/2606.17126) · [📄 Read](papers/2026/2606.17126.md)
+
 **Joon-Seung Choi, Dong-Min Byun, Seong-Whan Lee** · 2026-06-15
 
 <details>
@@ -739,6 +809,7 @@ Singing style is a crucial aspect of a natural and expressive singing voice. Sin
 </details>
 
 #### [Robust Spoofed Speech Detection via Temporal Pyramid Modeling](https://arxiv.org/abs/2606.16837) · [📄 Read](papers/2026/2606.16837.md)
+
 **Mahtab Masoudi Nezhad, Nima Karimian** · 2026-06-15
 
 <details>
@@ -749,6 +820,7 @@ Spoofed speech detection is increasingly challenged by realistic synthesis, voic
 </details>
 
 #### [Dynamic Prosody Prediction in LLM-based TTS for Improving Speaker Similarity](https://arxiv.org/abs/2606.15267) · [📄 Read](papers/2026/2606.15267.md)
+
 **Zhenwei Mou, Liping Chen, Yajun Hu, Zhen-Hua Ling et al.** · 2026-06-13
 
 <details>
@@ -759,6 +831,7 @@ Personalized text-to-speech (TTS) aims to clone the target speaker in the synthe
 </details>
 
 #### [DuraMark: Duration-Embedded Watermarking in LLM-based TTS](https://arxiv.org/abs/2606.15264) · [📄 Read](papers/2026/2606.15264.md)
+
 **Zhenwei Mou, Weili Jiang, Liping Chen, Zhen-Hua Ling et al.** · 2026-06-13
 
 <details>
@@ -769,6 +842,7 @@ Large language model (LLM)-based text-to-speech (TTS) models have achieved remar
 </details>
 
 #### [VoxWatermark: A Large-Scale Benchmark for Audio Watermark Detection under Perturbations](https://arxiv.org/abs/2606.15187) · [📄 Read](papers/2026/2606.15187.md)
+
 **Farnaz Sedaghati, Yuxi Wang, Zicheng Weng, Wei Rao** · 2026-06-13
 
 <details>
@@ -779,6 +853,7 @@ With the rapid deployment of speech generation systems in open environments, pro
 </details>
 
 #### [Mask, Sample, Revise: A Revisable CTMC Inference Stack for Guided Discrete Flow Matching Text-to-Speech](https://arxiv.org/abs/2606.13989) · [📄 Read](papers/2026/2606.13989.md)
+
 **Alef Iury Siqueira Ferreira, Lucas Rafael Stefanel Gris, Luiz Fernando de Araújo Vidal, Frederico Santos de Oliveira et al.** · 2026-06-12
 
 <details>
@@ -789,6 +864,7 @@ Recent alignment-free non-autoregressive (NAR) text-to-speech (TTS) models formu
 </details>
 
 #### [Unsupervised Approaches for Global Prosodic Embedding Extraction](https://arxiv.org/abs/2606.14004) · [📄 Read](papers/2026/2606.14004.md)
+
 **Martin Meza, Luciana Ferrer, Pablo Riera** · 2026-06-12
 
 <details>
@@ -799,6 +875,7 @@ Prosody is central to oral communication, conveying information like the emotion
 </details>
 
 #### [From Self-Supervised Speech Models to Mixture-of-Experts for Robust Anti-Spoofing](https://arxiv.org/abs/2606.14639) · [📄 Read](papers/2026/2606.14639.md)
+
 **Hugo Daumain, Driss Matrouf, Khaled Khelif, Mickael Rouvier** · 2026-06-12
 
 <details>
@@ -809,6 +886,7 @@ Recent advances in speech generation have significantly improved the naturalness
 </details>
 
 #### [An Empirical Study on Learning Latent Representations for Emotional Speech Synthesis](https://arxiv.org/abs/2606.14922) · [📄 Read](papers/2026/2606.14922.md)
+
 **Vinh Dang Quang, Huy Ngo Quang** · 2026-06-12
 
 <details>
