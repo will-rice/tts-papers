@@ -66,12 +66,34 @@ The following keyword queries are used against arXiv title and abstract fields a
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (73 of 3278 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (72 of 3280 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
 
-#### [FreyaTTS Technical Report](https://arxiv.org/abs/2607.09530)
+#### [VoxENES 2026: Benchmarking Generalization of Speech Spoofing Detectors Against LLM-Era TTS and Voice Conversion](https://arxiv.org/abs/2607.11706)
+
+**Aastha Sharma, Guangjing Wang** · 2026-07-13
+
+<details>
+<summary>Abstract</summary>
+
+Modern LLM-driven text-to-speech (TTS) and voice conversion (VC) systems produce synthetic speech that differs from the generators represented in many legacy spoofing benchmarks. This mismatch creates a temporal generalization gap that can overestimate detector robustness under real-world post-processing conditions. We bridge this gap by introducing VoxENES 2026, a bilingual (English and Spanish) benchmark of 53,628 audio samples generated using 10 contemporary speech synthesis methods and evaluated under 10 standardized post-processing conditions. Using VoxENES 2026, we benchmark eight pretrained detectors without fine-tuning and observe substantial performance degradation: the best model achieves 28.98\% EER overall, while most perform near or below random chance across modern generators and perturbations. Our results highlight the reliance on brittle artifacts in current detectors and establish VoxENES 2026 as a practical testbed for developing robust audio spoofing countermeasures.
+
+</details>
+
+#### [Data Augmentation for L2 English Speaking Assessment using TTS](https://arxiv.org/abs/2607.10790)
+
+**Stefano Bannò, Penny Karanasou, Mengjie Qian, Kate M. Knill et al.** · 2026-07-12
+
+<details>
+<summary>Abstract</summary>
+
+Automated assessment of second language (L2) speaking proficiency relies on large-scale annotated speech data, which remains scarce compared to widely available written learner corpora. A promising direction for addressing this imbalance is to use text-to-speech (TTS) and voice cloning to convert written L2 production into synthetic speech. However, written and spoken L2 differ fundamentally: spontaneous speech includes disfluencies and discourse markers, while writing is more planned and complex. This raises the question of what is required to generate synthetic L2 speech suitable for assessment. We address this through a systematic analysis of speaker-text relationships using COREFL, a publicly available corpus containing paired spoken and written responses from the same L2 learners to the same questions across modalities. In our proposed framework, we first address the structural differences between written and spoken language by transforming written responses into spoken-style transcripts ("speechification") using a large language model. These transcripts are then converted into speech using a TTS/voice-cloning model. To assign a voice to each synthetic response, we investigate different speaker-text pairing strategies based on shared learner attributes (proficiency level, first language, both, or neither). We evaluate our data augmentation techniques on the language assessment task, with improvements shown in both wav2vec2 (audio-based) and ModernBERT (text-based) scoring systems. Results show that matching speakers and texts by proficiency level yields the most robust synthetic speech. Moreover, raw written text leads to a strong mismatch with spoken language, while speechification substantially reduces this gap and improves grading performance.
+
+</details>
+
+#### [FreyaTTS Technical Report](https://arxiv.org/abs/2607.09530) · [📄 Read](papers/2026/2607.09530.md)
 
 **Ahmet Erdem Pamuk, Ömer Yentür, Ahmet Tunga Bayrak, Yavuz Alp Sencer Öztürk et al.** · 2026-07-10
 
@@ -82,7 +104,7 @@ We introduce Freya-TTS, a compact, tokenizer-free, Turkish-first text-to-speech 
 
 </details>
 
-#### [ReGen: Hierarchical Multi-Prompt Representation Generation for Efficient Waveform Diffusion Models](https://arxiv.org/abs/2607.09134)
+#### [ReGen: Hierarchical Multi-Prompt Representation Generation for Efficient Waveform Diffusion Models](https://arxiv.org/abs/2607.09134) · [📄 Read](papers/2026/2607.09134.md)
 
 **Sang-Hoon Lee, Ha-Yeong Choi** · 2026-07-10
 
@@ -838,39 +860,6 @@ Singing style is a crucial aspect of a natural and expressive singing voice. Sin
 <summary>Abstract</summary>
 
 Spoofed speech detection is increasingly challenged by realistic synthesis, voice conversion, and replay attacks, with cross-dataset generalization remaining a major limitation. This work we propose a Temporal Pyramid Adapter that utilize parallel temporal convolutions with varying receptive fields to capture multi-scale spoofing cues, ranging from local artifacts to global prosodic irregularities. We also integrated self-supervised XLS-R representations combined with front-end adapters, including Mel, Sinc, and a Temporal Pyramid design for multi-scale temporal modeling. The proposed model is evaluated cross multiple benchmark including ASVspoof 2017, ASVspoof 2021 (DF/LA), PartialSpoof, DiffSSD, and multilingual HQ-MPSD datasets. Experimental results demonstrate that Temporal Pyramid model obtained AUC of 99.24% and a EER of 3.87% on the PartialSpoof database, which is significantly outperforming the base model and several SOTA baseline such as LCNN-BLSTM (9.87% EER) and TRACE (8.08% EER). Additionally, multilingual evaluations confirm that while spoofing artifact are independent from language. While self-supervised representations improve robustness, performance degrades under domain and language shifts, highlighting the need for better adaptation and calibration strategies.
-
-</details>
-
-#### [Dynamic Prosody Prediction in LLM-based TTS for Improving Speaker Similarity](https://arxiv.org/abs/2606.15267) · [📄 Read](papers/2026/2606.15267.md)
-
-**Zhenwei Mou, Liping Chen, Yajun Hu, Zhen-Hua Ling et al.** · 2026-06-13
-
-<details>
-<summary>Abstract</summary>
-
-Personalized text-to-speech (TTS) aims to clone the target speaker in the synthesized speech, imitating both the voice and speaking style. Current large language model (LLM)-based TTS methods ignore the style-specific prosodic patterns in generated speech, resulting in deficient style learning and thus limiting speaker similarity in synthesized speech. To this end, we investigate the prosody learning conditioned on the synthesized speech, and propose to predict the prosody of the current syllable based on previously predicted speech. Experimental results obtained on three datasets demonstrated the efficacy of the proposed dynamic prosody prediction method in enhancing the prosody learning capability, thereby improving the speaker similarity of the generated speech. Audio samples are available at https://muzw.github.io/dynapros/.
-
-</details>
-
-#### [DuraMark: Duration-Embedded Watermarking in LLM-based TTS](https://arxiv.org/abs/2606.15264) · [📄 Read](papers/2026/2606.15264.md)
-
-**Zhenwei Mou, Weili Jiang, Liping Chen, Zhen-Hua Ling et al.** · 2026-06-13
-
-<details>
-<summary>Abstract</summary>
-
-Large language model (LLM)-based text-to-speech (TTS) models have achieved remarkable voice cloning capabilities, raising concerns about potential deepfake misuse. Speech watermarking mitigates this by embedding traceable information into generated speech. Mainstream watermarking methods operate at the signal level (waveform or spectrogram), rendering the watermark vulnerable to generative attacks (e.g., neural codec and vocoder). To address this, we propose DuraMark, a robust information-level watermarking framework. It utilizes syllable duration editing to achieve watermark embedding. Specifically, DuraMark integrates a duration-controllable LLM-based TTS model to edit syllable durations during synthesis, coupled with a duration extractor to extract these durations for detection. Experiments demonstrate DuraMark's superior robustness against generative attacks, significantly outperforming signal-level baselines. Audio samples are available at https://muzw.github.io/duramark_demo/.
-
-</details>
-
-#### [VoxWatermark: A Large-Scale Benchmark for Audio Watermark Detection under Perturbations](https://arxiv.org/abs/2606.15187) · [📄 Read](papers/2026/2606.15187.md)
-
-**Farnaz Sedaghati, Yuxi Wang, Zicheng Weng, Wei Rao** · 2026-06-13
-
-<details>
-<summary>Abstract</summary>
-
-With the rapid deployment of speech generation systems in open environments, providing verifiable source attribution and copyright accountability for audio content has become critical. A gap in current research is the lack of a unified benchmark that systematically compares different watermark injection methods under realistic distribution shifts. To address this, we build VoxWatermark by applying 10 watermarking methods (4 neural and 6 traditional) with unified injection and annotation on multilingual, multi-source corpora, and introducing no-box, black-box, and white-box perturbations to simulate real recording and transmission conditions. Based on this benchmark, we propose AudioWMD as a robust baseline detector for large-scale, multi-method, cross-distribution settings. Results show that injection-method diversity and distribution shifts affect detection stability, while validating the effectiveness and scalability of AudioWMD. Dataset and code are publicly available.
 
 </details>
 
