@@ -66,12 +66,45 @@ The following keyword queries are used against arXiv title and abstract fields a
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (72 of 3280 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (75 of 3283 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
 
-#### [VoxENES 2026: Benchmarking Generalization of Speech Spoofing Detectors Against LLM-Era TTS and Voice Conversion](https://arxiv.org/abs/2607.11706)
+#### [AutoSIFT: Automatic Style Sifting for Controllable Speech Generation with Arbitrary Style Infilling](https://arxiv.org/abs/2607.12706)
+
+**Haowei Lou, Junda Wu, Chengkai Huang, Tong Yu et al.** · 2026-07-14
+
+<details>
+<summary>Abstract</summary>
+
+State-of-the-art text-to-speech (TTS) models achieve impressive naturalness and expressiveness, yet fine-grained, disentangled control over speaking styles remains challenging. In professional scenarios such as film dubbing, game voice acting, and video content generation, users often need to modify a specific style category, such as emotion, age, or gender, while preserving all others. Existing style-controllable TTS methods typically rely on either text-described styles or speech-reference style transfer, making it difficult to jointly control explicit semantic attributes and preserve subtle, text-undescribed prosodic details. We propose AutoSIFT, a controllable speech generation framework for category-level style editing. AutoSIFT decomposes speaking style into known text-describable categories and unknown residual styles that capture non-verbal prosody and speaker-specific nuances. It consists of a generalized Style Disentangler, which extracts category-aware style prototypes from reference speech, and an Arbitrary Style Infiller, which selectively infills unspecified style categories from the reference. By replacing only text-specified style categories while preserving residual speech-derived styles, AutoSIFT enables natural, expressive, and highly customizable speech generation.
+
+</details>
+
+#### [A Semi-Automated System for Generating Dialogue-Based TTS Lessons Using Large Language Models: An Exploratory Study of Educational Potential](https://arxiv.org/abs/2607.12235)
+
+**Gendo Kumoi, Fumie Watanabe, Tota Suko, Takashi Ishida et al.** · 2026-07-14
+
+<details>
+<summary>Abstract</summary>
+
+This study proposes a semi-automated system for generating dialogue-based lessons using Large Language Models (LLMs) and Text-to-Speech (TTS) technology, and exploratorily examines its educational potential via a practical quasi-experiment. The system augments rather than replaces educators through a three-stage human-in-the-loop workflow (LLM-based slide/narration generation, educator review, automated audiovisual integration), and introduces a novel method for generating Expert-Novice dialogue narration based on cognitive apprenticeship theory. In a study of 245 first-year high school students who sequentially experienced three lesson formats (instructor voice, single-speaker TTS, dialogue TTS; content differed across sessions, limiting format/content separation), we conducted within-subject (Friedman test, N<=183) and repeated cross-sectional (Mann-Whitney U, N=229/206) analyses. TTS audio did not substantially degrade the learning experience versus instructor voice, supported by TOST equivalence testing. Dialogue TTS was significantly superior to single TTS in comprehension (p=.006, q=.025) and cognitive engagement (p=.019, q=.048); enjoyment was non-significant after FDR correction (q=.081) but reached significance after controlling for prior knowledge (proportional-odds model, OR=1.65, q=.025), and these advantages were not attributable to prior-knowledge imbalance. Conversely, single TTS was superior in audio naturalness (p<.001, q<.001, r=-.238), revealing a trade-off between dialogue's benefits and higher extraneous cognitive load. Dialogue format was preferred by 66.9% of learners as most enjoyable (p<.001). These results reflect a fixed-order design; replication is needed before generalizing them as effects of lesson format. This study provides a theoretical and empirical basis for the educational acceptability of TTS audio and for TTS lesson-format design.
+
+</details>
+
+#### [Explainable-by-Design Audio Deepfake Detection via Wiener-Hopf Linear Prediction](https://arxiv.org/abs/2607.12584)
+
+**Mattia Tamiazzo, Simone Milani, Massimo Iuliani, Marco Fontani** · 2026-07-14
+
+<details>
+<summary>Abstract</summary>
+
+The rapid advancement of synthetic speech generation methods has made audio deepfake detection a critical challenge in multimedia forensics. While recent approaches achieve high detection accuracy, they typically rely on black-box architectures that offer limited interpretability and high computational complexity. In this paper, we propose an explainable-by-design audio deepfake detection framework based on Wiener-Hopf linear prediction, processed by a lightweight 2D Convolutional Neural Network (CNN). This design enables a direct and transparent connection between classification outcomes and the acoustic properties of the signal. Experimental results on benchmark datasets demonstrate competitive detection performance while maintaining significantly lower computational complexity compared to state-of-the-art solutions. The interpretability analysis using Grad-CAM reveals that the classifier focuses on low-order predictor coefficients and on silence and transitional regions, suggesting that the Wiener-Hopf predictor captures reverberation characteristics and subtle statistical inconsistencies in synthetic speech. Finally, robustness experiments show that fine-tuning effectively recovers detection performance under common post-processing degradations, including additive noise, MP3 compression, and telephone filtering.
+
+</details>
+
+#### [VoxENES 2026: Benchmarking Generalization of Speech Spoofing Detectors Against LLM-Era TTS and Voice Conversion](https://arxiv.org/abs/2607.11706) · [📄 Read](papers/2026/2607.11706.md)
 
 **Aastha Sharma, Guangjing Wang** · 2026-07-13
 
@@ -82,7 +115,7 @@ Modern LLM-driven text-to-speech (TTS) and voice conversion (VC) systems produce
 
 </details>
 
-#### [Data Augmentation for L2 English Speaking Assessment using TTS](https://arxiv.org/abs/2607.10790)
+#### [Data Augmentation for L2 English Speaking Assessment using TTS](https://arxiv.org/abs/2607.10790) · [📄 Read](papers/2026/2607.10790.md)
 
 **Stefano Bannò, Penny Karanasou, Mengjie Qian, Kate M. Knill et al.** · 2026-07-12
 
