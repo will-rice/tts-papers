@@ -66,7 +66,7 @@ The following keyword queries are used against arXiv title and abstract fields a
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (71 of 3284 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (66 of 3284 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
@@ -104,7 +104,7 @@ The rapid advancement of synthetic speech generation methods has made audio deep
 
 </details>
 
-#### [Adapting a Diffusion-Based Music Synthesis Model to Human Voice Conversion](https://arxiv.org/abs/2607.13278)
+#### [Adapting a Diffusion-Based Music Synthesis Model to Human Voice Conversion](https://arxiv.org/abs/2607.13278) · [📄 Read](papers/2026/2607.13278.md)
 
 **Ben Maman, Frank Zalkow, Hans-Ulrich Berendes, Paolo Sani et al.** · 2026-07-14
 
@@ -794,61 +794,6 @@ Expressive gestures are essential for natural and effective communication, compl
 <summary>Abstract</summary>
 
 The advancement of speech generation technologies has made artificial speech increasingly realistic. Although modern classification models can achieve high accuracy when it comes to deepfake detection, they do not produce evidences such as indicating where spoof cues appear in the spectrogram and what they imply acoustically, limiting their usefulness in forensic settings. Manual analysis of full spectrograms is resource-intensive, so evidence should narrow attention to the most diagnostic regions. Moreover, existing explainability methods have limited capabilities in connecting contextual attributes to localized evidence, making explanations harder to verify. To overcome this limitation, we propose GRIDEX, a pipeline that, when given a deepfake spectrogram, generates forensic explanations of its anomalies. The pipeline (i) selects top-K anomalous regions in the spectrogram and (ii) produces an explanation for each anomaly. The explanations follow a schema of categorical acoustic fields, including temporal, spectral, phonetic information and interpretation text. To our knowledge, this is the first framework to generate structured forensic explanations using regional grounding for deepfake spectrograms. GRIDEX is trained with a two-stage learning paradigm that combines supervised fine-tuning (SFT) with Group Relative Policy Optimization (GRPO). Experiments on our dataset show improved artifact localization and explanation quality over strong vision-language model (VLM) baselines. The dataset and code will be released upon publication.
-
-</details>
-
-#### [MagpieTTS-LF: Inference-Time Long-Form Speech Generation Without Training on Long-Form data](https://arxiv.org/abs/2606.18485) · [📄 Read](papers/2026/2606.18485.md)
-
-**Subhankar Ghosh, Jason Li, Paarth Neekhara, Shehzeen Hussain et al.** · 2026-06-16
-
-<details>
-<summary>Abstract</summary>
-
-Neural Text-to-Speech (TTS) systems achieve remarkable quality on short utterances but long-form speech generation shows prosodic drift, speaker inconsistencies and sentence boundary artifacts. Existing approaches either compress sequences, increase context length or naively concatenate independently synthesized chunks. We present an inference-time approach called MagpieTTS-LF that enables MagpieTTS to produce coherent long-form speech without model retraining. Our method introduces three key innovations: (1) soft attention priors to guide monotonic alignment while preserving past and future context; (2) a stateful inference algorithm that maintains context across sentence chunks, ensuring prosodic continuity; (3) history-aware text encoding that uses past text for discourse-level prosodic planning. Experiments on long texts show significant improvements in long-range intelligibility, prosodic coherence, speaker consistency, and boundary naturalness compared to other baselines.
-
-</details>
-
-#### [Reliable Neural-Codec Text-to-Speech by ASR Self-Verification and Distillation: Near-Zero Catastrophic Failures Across Models and Codecs](https://arxiv.org/abs/2606.18323) · [📄 Read](papers/2026/2606.18323.md)
-
-**Ali Asaria, Tony Salomone, Deep Gandhi** · 2026-06-16
-
-<details>
-<summary>Abstract</summary>
-
-Open autoregressive neural-codec text-to-speech (TTS) models sound excellent on typical inputs yet suffer stochastic catastrophic failures: on a meaningful fraction of utterances they emit silence, terminate early, or collapse into repetitive or hallucinated content. We show this failure mode is cheap to remove. Under a single format-robust metric (a catastrophic-failure rate via an ASR round-trip), best-of-N ASR self-verification drives failures to near-zero: no observed failures remain by N=2 on a standard corpus (LibriSpeech) and by N=4 on a hard prompt set. This is not an artifact of one model: the reduction replicates across four open codec-TTS systems and three neural codecs (XCodec2, SNAC, Mimi), reaching the near-zero floor by N=2 on three of the four. We then make the fix free at inference time by distilling the self-verified behaviour into the model, which recovers much of the robustness in single-shot decoding, closing ~52-58% of the failure mass on hard inputs at no test-time cost. The distillation gain concentrates where it is needed (hard inputs); on already-reliable prose there is no headroom and no detectable change. A controlled comparison adds a clean negative: offline direct preference optimization (DPO/IPO) does not beat plain supervised distillation, and an online iterative variant is promising but not statistically separable at our evaluation size. We report honestly the one model that resists (a larger Llasa where scale did not obviously help) and a rare-word capability ceiling that no self-distillation method overcomes
-
-</details>
-
-#### [One-Step Token-to-Waveform Generation with MeanFlow in Latent Space](https://arxiv.org/abs/2606.18072) · [📄 Read](papers/2026/2606.18072.md)
-
-**Zheqi Dai, Guangyan Zhang, Zhen Ye, Jingyu Li et al.** · 2026-06-16
-
-<details>
-<summary>Abstract</summary>
-
-Neural audio codecs are central to modern LLM-based Text-to-Speech (TTS) and multimodal systems. As low-bitrate semantic codecs gain prominence, the Token-to-Waveform (Token2Wav) decoder becomes a bottleneck determining both perceptual quality and system efficiency. Conventional multi-step flow-matching decoders offer superior quality but suffer from high inference latency due to iterative sampling, creating a severe quality-speed trade-off. In this paper, we propose a novel Token2Wav architecture that overcomes this limitation by applying MeanFlow in a highly compressed latent space. By modeling the average velocity rather than the instantaneous velocity field, MeanFlow enables true one-step generation. Operating in the latent domain mitigates the memory and stability issues of waveform-level flows, yielding up to a 17$\times$ improvement in Real-Time Factor (RTF) compared to multi-step baselines with negligible quality degradation. Furthermore, we introduce refinement strategies that mitigate latent mismatch, including decoder-only fine-tuning with the MeanFlow generator frozen and end-to-end joint fine-tuning, improving fidelity without increasing inference-time cost. Code and demo are publicly available.
-
-</details>
-
-#### [Mind Companion: An Embodied Conversational Agent for Process-Based Psychotherapy](https://arxiv.org/abs/2606.17789) · [📄 Read](papers/2026/2606.17789.md)
-
-**Sofie Kamber, Lukas Diebold, Pascal Riachi, Stella Brogna et al.** · 2026-06-16
-
-<details>
-<summary>Abstract</summary>
-
-Access to evidence-based psychotherapy remains limited worldwide, with long waitlists even in high-income regions. Recent advances in large language models (LLMs) offer potential for scalable mental health support when designed with clinical oversight and safety mechanisms. We present Mind Companion, an LLM-based embodied conversational agent integrating multi-layered psychological analysis with process-based therapy principles. The system performs real-time analysis of client statements across fact extraction, psychological flexibility process detection, emotion recognition, and safety monitoring. Analysis results are stored for supervising clinicians to inform therapeutic planning. Response generation incorporates retrieval-augmented generation from evidence-based therapeutic literature and context-aware prompting. Responses are delivered through an embodied avatar with synchronized speech synthesis and animation. We evaluated three LLM configurations (GPT-4.1-mini, GPT-5.2, Claude Sonnet 4.5) against therapist responses from real therapy sessions using automated LLM-judge assessment and expert evaluation with 11 professional psychotherapists. GPT-5.2 achieved higher ratings than human therapist responses across understanding, interpersonal effectiveness, collaboration, and therapeutic alignment in both evaluations, demonstrating the feasibility of LLM-based conversational agents as tools to complement clinical care.
-
-</details>
-
-#### [PhASE-Flow: Phonetic-Conditioned Acoustic Flow Matching in SSL Representation Domain for Speech Enhancement](https://arxiv.org/abs/2606.17806) · [📄 Read](papers/2026/2606.17806.md)
-
-**Jun Gao, Xiaobin Rong, Yu Sun, Dahan Wang et al.** · 2026-06-16
-
-<details>
-<summary>Abstract</summary>
-
-Flow matching (FM) enables high-fidelity generation, while self-supervised learning (SSL) speech models provide hierarchical representations spanning acoustic and phonetic levels. However, existing FM-based speech enhancement (SE) methods operate primarily in the spectral domain, treating SSL features only as external conditions rather than modeling directly in the SSL latent space. To fully exploit the structural richness of SSL representations, we propose PhASE-Flow, an FM-based SE framework that operates entirely in the SSL space. It models the conditional distribution of clean acoustic representations given phonetic ones, reconstructing the waveform via a neural vocoder. Experiments show that PhASE-Flow outperforms state-of-the-art baselines in perceptual quality and intelligibility. Notably, it achieves competitive performance with only four sampling steps, enabling highly efficient inference. Audio demos are available at https://anonymous.4open.science/w/phase-flow_demo-E6E1/.
 
 </details>
 
