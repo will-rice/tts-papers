@@ -66,7 +66,7 @@ The following keyword queries are used against arXiv title and abstract fields a
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (66 of 3284 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (62 of 3284 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
@@ -750,50 +750,6 @@ Streaming zero-shot voice conversion struggles to disentangle timbre from lingui
 <summary>Abstract</summary>
 
 Humanoid robots require co-speech motions that are not only expressive and speech-aligned, but also physically executable under embodiment constraints. Existing co-speech generation pipelines are predominantly human-centric: motions are first generated in human-body representations such as SMPL-X and subsequently retargeted to humanoid robots. In this work, we identify a fundamental embodiment gap in this paradigm, where the mismatch between human motion manifolds and humanoid embodiment constraints disrupts embodiment consistency during motion transfer and physical execution. Through extensive analysis, we show that although retargeting can preserve coarse motion semantics, it significantly compresses motion diversity and weakens prosody-motion synchronization, limiting expressive humanoid behaviors. To address this problem, we first propose IK-EER, a prosody-preserving humanoid motion curation framework that jointly optimizes kinematic feasibility and speech-motion temporal alignment during retargeting. Building upon the curated robot-native motion dataset, we further introduce PhysDrift, an embodiment-aware co-speech motion generation framework that directly predicts executable humanoid joint trajectories from speech without relying on intermediate human-body representations. Unlike conventional human-centric pipelines, PhysDrift maintains embodiment consistency throughout both training and inference while incorporating physical regularization to stabilize robot motion dynamics. Extensive experiments and real-world humanoid deployment demonstrate that embodiment-aware robot-native generation substantially improves speech-motion alignment, physical plausibility, motion smoothness, inference efficiency, and real-time interaction capability.
-
-</details>
-
-#### [FineCombo-TTS: Collaborative and Precise Controllable Speech Synthesis Using Text Descriptions and Reference Speech](https://arxiv.org/abs/2606.19209) · [📄 Read](papers/2026/2606.19209.md)
-
-**Shuoyi Zhou, Yixuan Zhou, Peiji Yang, Yifan Hu et al.** · 2026-06-17
-
-<details>
-<summary>Abstract</summary>
-
-Controllable text-to-speech (TTS) has become a key research focus. However, methods based on either reference speech or text descriptions lack flexibility and precise control, and recent joint approaches remain loosely coupled, with speech modeling timbre and text controlling global style. We propose FineCombo-TTS, a unified framework for speech synthesis grounded in reference speech and guided by text descriptions, enabling flexible and precise control over acoustic attributes. Instead of explicit attribute disentanglement, we learn a unified acoustic representation and introduce a Conditional Flow Matching (CFM)-based Speech Variance Predictor to model fine-grained reference-to-target transformations guided by text descriptions. To support relative attribute control, we construct FineEdit, a structured paired dataset that explicitly encodes source-to-target attribute variations. Experiments demonstrate that our approach achieves flexible, precise, and expressive controllable TTS.
-
-</details>
-
-#### [Augmenting Dysarthric Speech Severity Assessment with MOS Supervision](https://arxiv.org/abs/2606.18645) · [📄 Read](papers/2026/2606.18645.md)
-
-**Kaimeng Jia, Minzhu Tu, Zengrui Jin, Siyin Wang et al.** · 2026-06-17
-
-<details>
-<summary>Abstract</summary>
-
-Dysarthria is a speech disorder marked by reduced intelligibility and communicative effectiveness. Automatic utterance-level assessment of dysarthric speech can support scalable speech monitoring and therapy-related analysis. Yet training such systems is bottlenecked by the scarcity of clinically annotated dysarthric speech. This work proposes to augment dysarthric speech assessment using data from speech synthesis evaluations, specifically human-annotated utterances with Mean Opinion Score (MOS) labels from the QualiSpeech corpus. Experiments show that fine-tuning on speech synthesis assessment data consistently improves performance on both intelligibility and naturalness prediction, while joint training yields gains primarily on naturalness. These results suggest that synthesis artifacts and dysarthric speech share perceptual commonalities, and speech synthesis evaluation corpora offer a practical augmentation source that reduces reliance on scarce clinical annotations.
-
-</details>
-
-#### [Generating Natural and Expressive Robot Gestures through Iterative Reinforcement Learning with Human Feedback using LLMs](https://arxiv.org/abs/2606.18747) · [📄 Read](papers/2026/2606.18747.md)
-
-**Chris Lee, Flora Salim, Benjamin Tag, Francisco Cruz** · 2026-06-17
-
-<details>
-<summary>Abstract</summary>
-
-Expressive gestures are essential for natural and effective communication, complementing speech when verbal cues alone are insufficient (e.g., pointing). For social robots such as the humanoid Pepper, producing natural and expressive movements is critical for improving human-robot interaction (HRI) and long-term acceptance. However, generating gestures remains challenging due to reliance on expert-authored animations, resulting in rigid behaviors that are impractical for dynamic and diverse environments. Alternatively, machine learning approaches often struggle to capture perceived naturalness, becoming increasingly challenging with more degrees of freedom. Consequently, producing expressive robot gestures requires a system that can adapt to the environment while adhering to social norms and physical constraints. Recent advances in large language models (LLMs) enable dynamic code generation, offering new opportunities for runtime gesture synthesis from natural language. In this paper, we integrate ChatGPT into the humanoid robot Pepper to generate co-speech gestures aligned with conversational output. While this baseline enables flexible gesture generation, the resulting motions are often perceived as stiff and unnatural. To address this limitation, we introduce an iterative reinforcement learning with human feedback (RLHF) system that finetunes gesture generation based on user evaluations, leveraging an iterative user study to compare Pepper's generated gestures. Our results show that RLHF improved the LLM's co-speech generative capabilities, producing more expressive, relevant and fluid movements.
-
-</details>
-
-#### [GRIDEX: Grid-Grounded Forensic Explanations for Deepfake Spectrogram Analysis](https://arxiv.org/abs/2606.18738) · [📄 Read](papers/2026/2606.18738.md)
-
-**Thi Ngan Ha Do, Tingmin Wu, Alsharif Abuadbba, Kristen Moore** · 2026-06-17
-
-<details>
-<summary>Abstract</summary>
-
-The advancement of speech generation technologies has made artificial speech increasingly realistic. Although modern classification models can achieve high accuracy when it comes to deepfake detection, they do not produce evidences such as indicating where spoof cues appear in the spectrogram and what they imply acoustically, limiting their usefulness in forensic settings. Manual analysis of full spectrograms is resource-intensive, so evidence should narrow attention to the most diagnostic regions. Moreover, existing explainability methods have limited capabilities in connecting contextual attributes to localized evidence, making explanations harder to verify. To overcome this limitation, we propose GRIDEX, a pipeline that, when given a deepfake spectrogram, generates forensic explanations of its anomalies. The pipeline (i) selects top-K anomalous regions in the spectrogram and (ii) produces an explanation for each anomaly. The explanations follow a schema of categorical acoustic fields, including temporal, spectral, phonetic information and interpretation text. To our knowledge, this is the first framework to generate structured forensic explanations using regional grounding for deepfake spectrograms. GRIDEX is trained with a two-stage learning paradigm that combines supervised fine-tuning (SFT) with Group Relative Policy Optimization (GRPO). Experiments on our dataset show improved artifact localization and explanation quality over strong vision-language model (VLM) baselines. The dataset and code will be released upon publication.
 
 </details>
 
