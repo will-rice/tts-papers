@@ -66,10 +66,21 @@ The following keyword queries are used against arXiv title and abstract fields a
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (52 of 3284 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (49 of 3285 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
+
+#### [AuEmoChat: Authentic Emotion Understanding and Rendering for Conversational Speech Synthesis](https://arxiv.org/abs/2607.15755)
+
+**Zhenqi Jia, Yuan Zhao, Aruukhan, Rui Liu et al.** · 2026-07-17
+
+<details>
+<summary>Abstract</summary>
+
+Conversational Speech Synthesis (CSS) aims to synthesize speech with human-like emotional expression and contextual consistency in user-agent interactions. Existing CSS methods struggle to render authentic human emotions due to limited predefined emotion label spaces (e.g., seven emotion categories), while redundant multimodal tokens in multi-turn dialogue history interfere with context understanding. To address these issues, we propose AuEmoChat, a CSS framework for authentic emotion understanding and rendering. First, we develop AuEmoCodec, which learns a discrete authentic emotion token space from large-scale emotional speech via finite scalar quantization, enabling a more authentic emotion representation than limited basic emotion categories. We further propose AuEmoToMe, an authentic-emotion-guided token merging algorithm that merges redundant tokens in multimodal dialogue history while preserving emotion-relevant context. We integrate it into an autoregressive text-speech model to predict the target authentic emotion token and speech tokens. Finally, we propose Authentic Emotion Flow Matching, which renders speech by jointly conditioning on merged dialogue context, target authentic emotion, and acoustic priors. Extensive experiments on the NCSSD-EmCap dataset demonstrate that AuEmoChat outperforms state-of-the-art CSS baselines and generates more expressive and authentic emotional speech.
+
+</details>
 
 #### [AutoSIFT: Automatic Style Sifting for Controllable Speech Generation with Arbitrary Style Infilling](https://arxiv.org/abs/2607.12706) · [📄 Read](papers/2026/2607.12706.md)
 
@@ -596,50 +607,6 @@ We propose AugCodec, a low-bitrate disentangled neural speech codec that leverag
 <summary>Abstract</summary>
 
 Neural speech codecs efficiently compress speech and have become a foundation for speech generation, but they are typically learned as holistic representations that intertwine linguistic content, speaker identity, and prosody. While this design is effective for zero-shot voice cloning, it hinders downstream tasks that require prosody preservation or transfer, such as voice conversion. To address this, we introduce ProsoCodec, a prosody-oriented speech codec that models prosody as a conditional residual rather than as a disentangled stream. Specifically, by conditioning both the encoder and decoder on text and speaker embeddings as prefix tokens, the discrete bottleneck is encouraged to capture prosodic variation not explained by content and speaker. To further preserve prosody, we use the low-frequency mel band and train the model on paired same-speaker utterances. Experiments on voice conversion show improved prosody preservation and reduced source-timbre leakage.
-
-</details>
-
-#### [An Evaluation Framework for Text-to-Speech Voice Reconstruction](https://arxiv.org/abs/2606.21343) · [📄 Read](papers/2026/2606.21343.md)
-
-**Ariadna Sanchez, Christoph Minixhofer, Korin Richmond, Ondrej Klejch et al.** · 2026-06-19
-
-<details>
-<summary>Abstract</summary>
-
-Voice reconstruction using Text-to-Speech (TTS) offers a communication method for people with speech disorders, which aims to retain their speaker identity while improving intelligibility. Previous work generally relies on Mean Opinion Score (MOS) to evaluate naturalness and speaker similarity, but this has limited sensitivity and reliability. We propose an evaluation framework with subjective and objective components. Subjectively, we evaluate perceived intelligibility and speaker identity using Best Worst Scaling (BWS) with situational framing. Objectively, we demonstrate that standard measures fail to predict reconstruction success for highly unintelligible speakers, so we introduce a novel dual-reference distributional measure to assess the trade-off between intelligibility and speaker identity. By evaluating the output of 17 zero-shot TTS systems for 193 speakers, we show that our framework provides a reliable and task-aligned approach for assessing voice reconstruction.
-
-</details>
-
-#### [Backdoor Attacks on Speech Emotion Recognition via TTS-Generated Poisoning](https://arxiv.org/abs/2606.21052) · [📄 Read](papers/2026/2606.21052.md)
-
-**Yongbin Huang, Xihao Xie, Jia Zhang** · 2026-06-19
-
-<details>
-<summary>Abstract</summary>
-
-Speech Emotion Recognition (SER) systems increasingly leverage self-supervised acoustic representations, yet their vulnerability to training-time attacks remains largely underexplored. This paper presents the first systematic study of poisoning-based backdoor attacks on SER, with a focus on threats enabled by text-to-speech (TTS) generated audio. We introduce a stealthy, low-energy acoustic trigger that can be embedded imperceptibly into both natural and synthetic speech, enabling scalable and consistent poisoning. Our experiments demonstrate that SER models can be reliably compromised with high attack success rates under low poisoning ratios, while maintaining near-clean performance on benign inputs. We further show that backdoor patterns exhibit strong cross-model transferability and that self-supervised representations are particularly susceptible to learning these triggers. These findings reveal that TTS technology dramatically lowers the barrier to effective backdoor attacks, exposing critical vulnerabilities in modern SER pipelines and motivating the urgent need for dedicated defenses.
-
-</details>
-
-#### [SDP-Codec: A Speaker-Decoupled Speech Codec with Pitch Injection for Low-Bitrate Coding and Zero-Shot Voice Conversion](https://arxiv.org/abs/2606.21157) · [📄 Read](papers/2026/2606.21157.md)
-
-**Hounsu Kim, Juhan Nam** · 2026-06-19
-
-<details>
-<summary>Abstract</summary>
-
-Speaker-decoupled speech codecs can reduce bitrate by separating global speaker attributes from local content and prosody, while supporting voice conversion. Existing speaker-decoupled codecs face a trade-off: methods that explicitly suppress speaker leakage often rely on multi-stage or auxiliary training, whereas simpler designs can leave residual speaker information in local tokens. We propose SDP-Codec, a speaker-decoupled, pitch-injected codec trained with a single-stage optimization pipeline. SDP-Codec derives local tokens from continuous pre-quantization features of a pretrained self-supervised encoder and injects normalized F0 via a pitch encoder-decoder with global-conditioned denormalization and soft-label pitch reconstruction objective. Across 16 kHz and 24 kHz settings, SDP-Codec achieves competitive reconstruction and strong zero-shot voice conversion at comparable bitrates, with the lowest speaker-probing accuracy among compared systems, suggesting reduced speaker leakage.
-
-</details>
-
-#### [LambdaMark: Semantic Audio Watermarking for Robustness and Radioactivity](https://arxiv.org/abs/2606.21365) · [📄 Read](papers/2026/2606.21365.md)
-
-**Kexin Li, Xiao Hu, Ilya Grishchenko, David Lie** · 2026-06-19
-
-<details>
-<summary>Abstract</summary>
-
-Recent advances in generative audio have made voice cloning increasingly effortless, enabling voice fraud, impersonation, and other forms of unauthorized use. A common attack finetunes a speech generation model on recordings of a target speaker, allowing the model to synthesize speech in that speaker's voice. Audio watermarking offers a promising defense by embedding detectable signals into audio. A practical watermark must satisfy two key properties: robustness and radioactivity. Existing audio watermarking methods typically embed signals into low-level representations, such as waveforms or spectrograms, which makes them vulnerable to signal-level manipulations and limits their transfer to downstream models. We introduce LambdaMark -- the first generic radioactive watermarking scheme. Unlike all previous approaches, LambdaMark achieves generic radioactivity by embedding multi-bit watermark information into semantic audio latent representations. Our watermarks have semantic interpretation and are thus more likely to be learned by a downstream model through finetuning. LambdaMark includes a lightweight watermark encoder to inject multi-bit message-dependent perturbations into semantic audio representations and a decoder to detect watermark presence and recover the embedded bit information. Encoder and decoder are trained using a custom multi-component loss that preserves fidelity of the watermarked audio, increases bit-level recovery rate, and improves robustness against common distortions and adversarial removal attempts. Experiments show that LambdaMark achieves near-perfect robustness under common distortions. LambdaMark is also the only watermark that is robust against all evaluated removal attacks. Furthermore, LambdaMark exhibits general and robust radioactivity and remains robust to distortions and adversarial removal attacks even on the generated outputs of those finetuned models.
 
 </details>
 
