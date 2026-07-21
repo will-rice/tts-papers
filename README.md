@@ -66,12 +66,34 @@ The following keyword queries are used against arXiv title and abstract fields a
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (49 of 3285 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (46 of 3287 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
 
-#### [AuEmoChat: Authentic Emotion Understanding and Rendering for Conversational Speech Synthesis](https://arxiv.org/abs/2607.15755)
+#### [SSTMark: Robust Training-Free Semantic-Level Speech Watermarking](https://arxiv.org/abs/2607.17592)
+
+**Kuan-Lin Chu, Jun-Cheng Chen, Chun-Shien Lu** · 2026-07-20
+
+<details>
+<summary>Abstract</summary>
+
+As speech generation models become increasingly realistic and widely accessible, concerns about the misuse, attribution, and governance of synthetic speech continue to grow. Watermarking provides a practical way to make synthesized speech traceable and verifiable. Most existing speech watermarking methods embed watermark information into signal-level representations, such as waveforms or spectrograms. Under sufficiently strong distortions, the embedded watermark may be weakened or destroyed, leading to degraded detectability. In this paper, we propose SSTMark, a training-free speech watermarking framework that operates at the semantic level through text watermarking. Unlike conventional signal-level watermarking methods, SSTMark encodes watermark information into the semantic content conveyed by generated speech, and detects the watermark from the recovered linguistic content. Experiments on AudioMarkBench demonstrate that SSTMark exhibits the strongest average robustness. Compared with the state-of-the-art baselines at a fixed false positive rate of 1\%, SSTMark improves the average detection rate by 4.6\% and 16.9\% on signal-processing edits and compression edits, respectively.
+
+</details>
+
+#### [Harness TTS: Towards Context-Aware Expressive Speech Synthesis with Harness Layer](https://arxiv.org/abs/2607.17900)
+
+**Shengfan Shen, Di Wu, Xingchen Song, Dinghao Zhou et al.** · 2026-07-20
+
+<details>
+<summary>Abstract</summary>
+
+Expressive speech synthesis for voice assistants requires flexible style control that adapts to explicit requests and broader interaction context. We propose Harness TTS, a lightweight control layer that wraps around a TTS engine to externalize and govern its expressive behavior. It reformulates style control as closed-set prompt-tool routing: offline, a compact registry of stylistic prompt tools is constructed with structured metadata; online, an LLM planner selects the appropriate tool based on a priority-aware observation schema, and the TTS executor synthesizes speech using the corresponding prompt audio. We evaluate Harness TTS on both routing and synthesis tasks. In routing, Qwen3-4B achieves Top-1 accuracies of 74.3%, 43.0%, and 64.6% on explicit, implicit, and conflict subsets. For synthesis, experiments on CosyVoice3 and VoxCPM2 show that Harness TTS outperforms instruction-only control, achieving higher instruction-following win rates (margins of 23.1-35.6 points on CosyVoice3 and 13.8-20.0 points on VoxCPM2) and improving UTMOSv2 scores by 0.11-0.38. Moreover, the 4B planner delivers its first tool recommendation in under 50 ms in standard mode, introducing negligible latency for real-time interaction. These results demonstrate that equipping TTS engines with a dedicated Harness layer offers a practical, auditable, and context-aware solution for voice assistant expression control.
+
+</details>
+
+#### [AuEmoChat: Authentic Emotion Understanding and Rendering for Conversational Speech Synthesis](https://arxiv.org/abs/2607.15755) · [📄 Read](papers/2026/2607.15755.md)
 
 **Zhenqi Jia, Yuan Zhao, Aruukhan, Rui Liu et al.** · 2026-07-17
 
@@ -552,61 +574,6 @@ Humans tend to speak louder and clearer in challenging environments, such as noi
 <summary>Abstract</summary>
 
 Classical TTS systems typically rely on rigid input formats and predefined metadata slots, limiting their ability to fulfill flexible user requirements. This paper introduces Bagpiper-TTS, a universal speech synthesis system that deals with diverse natural language user requests. Given a natural language prompt, Bagpiper-TTS first reasons over the users' intent to derive a rich caption, i.e., a comprehensive textual blueprint encompassing both transcription and nuanced metadata. Subsequently, this caption guides the synthesis of the target speech. Our model inherently supports a broad spectrum of tasks besides classical TTS applications, including multi-talker, intent-to-speech, role-play synthesis, singing voice synthesis, and more. Experimental results demonstrate that Bagpiper-TTS achieves an 1.7% Word Error Rate (WER) on the Seed-TTS-Eval benchmark and match the performance of dedicated models in both LLM-as-a-judge and human subjective evaluations across multiple applications.
-
-</details>
-
-#### [Benchmarking Large Language Models for Grapheme-to-Phoneme Conversion: A Japanese Case Study](https://arxiv.org/abs/2606.22009) · [📄 Read](papers/2026/2606.22009.md)
-
-**Tomoki Koriyama** · 2026-06-20
-
-<details>
-<summary>Abstract</summary>
-
-Grapheme-to-phoneme (G2P) conversion is essential for controllable and robust text-to-speech, and large language models (LLMs), with broad linguistic knowledge, offer a promising approach. We benchmarked over 30 LLMs on Japanese G2P, comparing them with conventional morphological analyzers on 3000 manually annotated sentences. We evaluated two prompting strategies: a parse mode, where the LLM performs morphological analysis followed by rule-based kana conversion, and a direct mode, where the LLM directly predicts kana readings. The results show that model size, version, and Japanese-specialized training are key factors, with the best LLMs achieving kana character error rate below 0.52\% vs. the best conventional tool (1.03\%). Parse mode outperforms direct mode for most models, as rule-based post-processing relieves the LLM of handling complex pronunciation rules. We also show that feeding LLM-predicted kana into a kana-input TTS yields better pronunciation than end-to-end TTS.
-
-</details>
-
-#### [ISCSLP 2026 CoT-TTS Challenge: Chain-of-Thought Reasoning for Context-Aware Text-to-Speech](https://arxiv.org/abs/2606.21933) · [📄 Read](papers/2026/2606.21933.md)
-
-**Wei Xue, Junlan Feng, Shilei Zhang, Yue Wang et al.** · 2026-06-20
-
-<details>
-<summary>Abstract</summary>
-
-Recent advances in text-to-speech (TTS) have greatly improved speech naturalness, speaker similarity, and controllability. However, most existing controllable TTS systems still rely on explicit user-provided style prompts, making it difficult to automatically determine how a sentence should be spoken in long and complex conversational scenarios. This proposal introduces the ISCSLP 2026 CoT-TTS Challenge, which aims to evaluate whether a system can infer the intended speaking manner from contextual information and generate speech consistent with both the reasoning output and the surrounding scene. The challenge contains two tracks: text-context-aware CoT-TTS and audio-context-aware CoT-TTS. We construct a large-scale bilingual training set from speech-rich media and provide carefully filtered evaluation data for leaderboard comparison. Each system is required to output both a chain-of-thought reasoning analysis and the generated speech waveform. The official evaluation combines objective metrics, multimodal LLM-based evaluation, and human subjective assessment. To facilitate reproducibility, we provide inference code together with a fine-tuning recipe for a 0.6B Qwen3-based model trained via a three-stage strategy. This challenge is expected to support research on context understanding, chain-of-thought reasoning, and expressive speech generation for applications such as film dubbing, audiobook production, virtual characters, and spoken dialogue agents. Further information about the associated challenge is available at:https://iscslp2026-cot-tts.github.io/challenge-website/
-
-</details>
-
-#### [Streaming T5-based Text-to-Speech Synthesis with Limited Lookahead](https://arxiv.org/abs/2606.21882) · [📄 Read](papers/2026/2606.21882.md)
-
-**Muyang Du, Jason Roche, Junjie Lai** · 2026-06-20
-
-<details>
-<summary>Abstract</summary>
-
-Streaming text-to-speech synthesis in cascaded LLM-TTS systems still faces latency challenges as most TTS models require full context before initiating generation. We present S5-TTS, a streaming variant of T5-TTS that enables low-latency, word-by-word incremental speech synthesis through encoder-decoder language modeling and monotonic alignment learning. S5-TTS begins generating speech immediately after receiving the first few words, substantially reducing end-to-end response latency. To maintain quality under limited lookahead, we introduce a lookahead-causal masking mechanism with Conv-based auxiliary attention that preserves intelligibility and speaker similarity, and employ interleaved multi-source distillation to further restore naturalness. Experiments show that S5-TTS achieves comparable quality to full-context T5-TTS, supports zero-shot synthesis with high speaker similarity, and significantly reduces end-to-end latency for practical conversational AI systems.
-
-</details>
-
-#### [AugCodec: A Low-Bitrate Disentangled Neural Speech Codec via Data Augmentation](https://arxiv.org/abs/2606.21893) · [📄 Read](papers/2026/2606.21893.md)
-
-**Dongmei Wang, Xiaohang Sun, Yang Liu, Fanjie Kong et al.** · 2026-06-20
-
-<details>
-<summary>Abstract</summary>
-
-We propose AugCodec, a low-bitrate disentangled neural speech codec that leverages data augmentation to decompose speech into three distinct components: semantic, speaker, and prosody tokens. Specifically, we employ tailored augmenta tion strategies to transform speech into distinct variants, each serving as input for extracting tokens that preserve the target attribute while suppressing others. This disentanglement strategy enables substantial reduction in token rate. Further more, we introduce an augmentation loss that aligns semantic encoder outputs between source and voice-converted speech, encouraging speaker-agnostic embeddings while mitigating the acoustic mismatch induced by voice conversion. Experiments on LibriSpeech test-clean demonstrate that AugCodec significantly outperforms state-of-the-art methods in both reconstruction quality and disentanglement, while operating at only 12.5Hz with three token streams.
-
-</details>
-
-#### [ProsoCodec: Prosody-Oriented Speech Codec for Voice Conversion](https://arxiv.org/abs/2606.21888) · [📄 Read](papers/2026/2606.21888.md)
-
-**Jeongsoo Choi, Ji-Hoon Kim, Shujie Hu, Joon Son Chung** · 2026-06-20
-
-<details>
-<summary>Abstract</summary>
-
-Neural speech codecs efficiently compress speech and have become a foundation for speech generation, but they are typically learned as holistic representations that intertwine linguistic content, speaker identity, and prosody. While this design is effective for zero-shot voice cloning, it hinders downstream tasks that require prosody preservation or transfer, such as voice conversion. To address this, we introduce ProsoCodec, a prosody-oriented speech codec that models prosody as a conditional residual rather than as a disentangled stream. Specifically, by conditioning both the encoder and decoder on text and speaker embeddings as prefix tokens, the discrete bottleneck is encouraged to capture prosodic variation not explained by content and speaker. To further preserve prosody, we use the low-frequency mel band and train the model on paired same-speaker utterances. Experiments on voice conversion show improved prosody preservation and reduced source-timbre leakage.
 
 </details>
 
