@@ -66,12 +66,23 @@ The following keyword queries are used against arXiv title and abstract fields a
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (46 of 3287 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (48 of 3289 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
 
-#### [SSTMark: Robust Training-Free Semantic-Level Speech Watermarking](https://arxiv.org/abs/2607.17592)
+#### [CS-ETS: Chaos-Inspired Samba-Based EMG-To-Speech Synthesis with Nonlinear Chaotic Losses](https://arxiv.org/abs/2607.18629)
+
+**Sajid Fardin Dipto, Tarikul Islam Tamiti, David Vergano, Luke Baja-Ricketts et al.** · 2026-07-21
+
+<details>
+<summary>Abstract</summary>
+
+We propose a chaos-inspired new architecture for EMG-to-Speech (ETS) synthesis called CS-ETS, which combines a Samba-based encoder with two novel chaos-inspired loss functions -- Lyapunov Exponent Regularization (LER) and Multi-Scale Detrended Fluctuation Analysis (MSDFA). LER is designed based on Lyapunov exponents to capture nonlinear fluctuations and sensitivity to initial conditions. MSDFA exploits detrended fluctuation analysis to quantify fractal-like, long-range temporal chaotic correlation. CS-ETS surpasses prior work with a 40.79\% lower parameter count (32M vs 54.1M) and introduces a new Post-Vocoder Alignment approach that improves LSD by 2.1x, STOI by 4.7x, and SI-SDR by 1.25x. CS-ETS reduces computation by 13.33\% while maintaining improved performance. To the best of our knowledge, for the first time, we show how ETS can be supervised by the subtle non-linear chaotic physics with Samba attention to achieve a significantly smaller model with superior performance.
+
+</details>
+
+#### [SSTMark: Robust Training-Free Semantic-Level Speech Watermarking](https://arxiv.org/abs/2607.17592) · [📄 Read](papers/2026/2607.17592.md)
 
 **Kuan-Lin Chu, Jun-Cheng Chen, Chun-Shien Lu** · 2026-07-20
 
@@ -82,7 +93,7 @@ As speech generation models become increasingly realistic and widely accessible,
 
 </details>
 
-#### [Harness TTS: Towards Context-Aware Expressive Speech Synthesis with Harness Layer](https://arxiv.org/abs/2607.17900)
+#### [Harness TTS: Towards Context-Aware Expressive Speech Synthesis with Harness Layer](https://arxiv.org/abs/2607.17900) · [📄 Read](papers/2026/2607.17900.md)
 
 **Shengfan Shen, Di Wu, Xingchen Song, Dinghao Zhou et al.** · 2026-07-20
 
@@ -90,6 +101,17 @@ As speech generation models become increasingly realistic and widely accessible,
 <summary>Abstract</summary>
 
 Expressive speech synthesis for voice assistants requires flexible style control that adapts to explicit requests and broader interaction context. We propose Harness TTS, a lightweight control layer that wraps around a TTS engine to externalize and govern its expressive behavior. It reformulates style control as closed-set prompt-tool routing: offline, a compact registry of stylistic prompt tools is constructed with structured metadata; online, an LLM planner selects the appropriate tool based on a priority-aware observation schema, and the TTS executor synthesizes speech using the corresponding prompt audio. We evaluate Harness TTS on both routing and synthesis tasks. In routing, Qwen3-4B achieves Top-1 accuracies of 74.3%, 43.0%, and 64.6% on explicit, implicit, and conflict subsets. For synthesis, experiments on CosyVoice3 and VoxCPM2 show that Harness TTS outperforms instruction-only control, achieving higher instruction-following win rates (margins of 23.1-35.6 points on CosyVoice3 and 13.8-20.0 points on VoxCPM2) and improving UTMOSv2 scores by 0.11-0.38. Moreover, the 4B planner delivers its first tool recommendation in under 50 ms in standard mode, introducing negligible latency for real-time interaction. These results demonstrate that equipping TTS engines with a dedicated Harness layer offers a practical, auditable, and context-aware solution for voice assistant expression control.
+
+</details>
+
+#### [Staged Depth-Pruning Distillation of a Flow-Matching Text-to-Speech Teacher: A Compact Hindi Speech Synthesizer](https://arxiv.org/abs/2607.18662)
+
+**Sivateja Trikutam** · 2026-07-19
+
+<details>
+<summary>Abstract</summary>
+
+We present a practical recipe for building a compact Hindi text-to-speech (TTS) model by distilling a large flow-matching teacher (IndicF5, 337M-parameter DiT) under a severe data budget (~17.6 hours). Training a small model from scratch on this much data fails outright. Instead we warm-start the student from the teacher by pruning depth only: keeping the teacher's width, text dimension, attention heads, and mel/text I/O fixed so all non-block tensors copy one-to-one, and retaining an evenly-spaced subset of transformer blocks. We first measure how much depth the teacher tolerates (it remains near-functional at -27% blocks but collapses past -50%), then descend gradually (22 -> 16 -> 12 -> 8 -> 6 blocks), re-fine-tuning after each prune, with each step gated by an objective ASR word-error-rate (WER) check. The resulting students reach WER 0.00 on unseen sentences at 249M and 190M parameters, and remain robust down to 131M; at 102M we observe a clear capacity cliff that we attribute to the data budget rather than the recipe. We also document two train/inference feature- and library-parity failures (mel filterbank and rotary-embedding library versions) that silently degrade audio, and a version-independent fix. The method yields a high-quality Hindi voice that runs in real time on a 6 GB laptop GPU. An independent 50-sentence FLEURS benchmark compares the released 190M student against its teacher and MMS-TTS-hin.
 
 </details>
 
