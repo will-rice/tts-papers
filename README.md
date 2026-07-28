@@ -66,12 +66,78 @@ The following keyword queries are used against arXiv title and abstract fields a
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (44 of 3298 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (50 of 3304 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
 
-#### [VisionPulse: A Virtual Reality System Enabling Accessible Discovery and Navigation for Blind and Low Vision Users](https://arxiv.org/abs/2607.21944)
+#### [Qwen-Audio-3.0-TTS: Freely Controllable and Highly Robust Speech Synthesis with Multi-Stage Training Paradigm](https://arxiv.org/abs/2607.23938)
+
+**Bajian Xiang, Cheng Wen, Han Zhao, Hao Wang et al.** · 2026-07-27
+
+<details>
+<summary>Abstract</summary>
+
+In this report, we present Qwen-Audio-3.0-TTS, a production-oriented speech synthesis system that jointly advances content consistency, speaker similarity, prosodic naturalness, audio quality, controllability, multilingual coverage, efficiency, and robustness. It combines a 12.5~Hz low-frame-rate speech tokenizer for reduced inference latency with a five-stage progressive training paradigm for coordinated language model (LM) and flow-matching model (FM) optimization. The model provides production-level control through free-style natural-language instructions and fine-grained inline tags, while supporting 16 languages, 20 Chinese dialect regions, one-pass long-form synthesis up to 3 minutes, and robust generation from noisy, reverberant, or unclear reference speech. Across SEED-TTS-Eval, CV3-Eval, instruction-following, long-form, and acoustic-robustness evaluations, Qwen-Audio-3.0-TTS achieves state-of-the-art performance on many reported dimensions or the strongest aggregate results. It also ranks first on the independent Artificial Analysis Text-to-Speech Leaderboard. These results establish Qwen-Audio-3.0-TTS as a strong foundation for production-level speech synthesis.
+
+</details>
+
+#### [Let Me Look at You: Advanced Facial Expression Modeling for Conversational Speech Synthesis](https://arxiv.org/abs/2607.24430)
+
+**Yifan Hu, Shuwei He, Rui Liu, Haizhou Li** · 2026-07-27
+
+<details>
+<summary>Abstract</summary>
+
+Conversational Speech Synthesis is a fundamental component of human-computer interaction, aiming to generate contextually appropriate, expressive, and empathetic speech. However, facial expressions encode subtle and rich affective cues that are crucial for empathetic speech interaction, whereas existing approaches often overlook this important modality. In addition, the lack of large-scale natural conversational datasets with both speech and visual modalities also limits the development of visual affect understanding in conversational settings.To address these limitations, we propose FacialTalker, a facial-expression-aware CSS framework built upon a large language model backbone. To efficiently encode facial expressions, we propose AUTokenizer, a single-codebook visual tokenizer that discretizes each frame-level facial expression into a compact token, trained with supervision from combinations of facial Action Units. We further introduce a dual direct preference optimization (DualDPO) strategy, which extends the DPO by jointly imposing preference constraints on both visual and speech token sequences, to enhance the model's understanding of facial expressions and speech semantics in multimodal conversational contexts. Moreover, we construct VSDD-1K, a large-scale multimodal dialogue dataset collected through a fully automated pipeline from real-world Internet conversations, comprising over 1,033 hours of synchronized speaker videos and speech, with more than 85\% of frames containing valid faces. Extensive objective and subjective experiments demonstrate that FacialTalker consistently outperforms strong baselines in facial-expression perception and speech synthesis quality, generating speech that is more natural, expressive, and better aligned with the conversational context. The results also validate the effectiveness of our training strategy and dataset construction pipeline.
+
+</details>
+
+#### [Leveraging Gradient Reversal Loss and Multitask Learning for Datasets-Aware Audio Deepfake Detection](https://arxiv.org/abs/2607.23961)
+
+**Mingrui Liang, Thomas Thebaud, Lukasz Wojciak, Laureano Moro Velazquez et al.** · 2026-07-27
+
+<details>
+<summary>Abstract</summary>
+
+Recent advances in speech synthesis and voice conversion, which pose threats to security and privacy, have underscored the need for deepfake detection technology. Although existing detection systems achieve strong performance on individual datasets, they often fail to generalize across diverse datasets. Prior methods for improving generalization, including data augmentation, adversarial training on auxiliary factors such as language or codec types, and Mixture-of-Experts (MoE), are limited by predefined augmentation coverage, difficulties in obtaining auxiliary factors, and substantial model complexity. In this work, we propose a practical dataset-aware framework for deepfake detection. Our method targets heterogeneous datasets for which auxiliary annotations such as language, codec, or spoofing method may not be consistently available. We therefore rely only on dataset identity as a naturally available supervisory signal for multitask (MT) and gradient reversal layer (GRL) training, allowing the model to investigate both dataset-aware multitask supervision and adversarial suppression of dataset-specific information. We conduct experiments following the 2025 Speech DeepFake Arena benchmark protocol, evaluating our model across multiple evaluation datasets and reporting aggregate performance in terms of Equal Error Rate (EER), including Average EER and Pooled EER. Compared with the baseline, MT reduces Average EER by 13.14% relatively, while GRL reduces Pooled EER by 5.32% relatively. These results demonstrate that our method can improve aggregate detection performance across heterogeneous evaluation datasets, offering a practical solution for deploying reliable deepfake detection systems on diverse and unseen real-world data.
+
+</details>
+
+#### [Revisiting Vocos: That Phasiness Business in Time-Frequency Neural Vocoding](https://arxiv.org/abs/2607.24323)
+
+**Ünal Ege Gaznepoğlu, Frank Zalkow, Mohammad Joshaghani, Emanuël A. P. Habets et al.** · 2026-07-27
+
+<details>
+<summary>Abstract</summary>
+
+Recently, time-frequency neural vocoders have been approaching the state-of-the-art quality of time-domain neural vocoders. Vocos is a notable example due to its efficiency, but its audio quality lags behind the time-domain vocoders and the reasons remain debated. Thus, in this study, we revisit Vocos from a phase reconstruction perspective. First, we quantify the gap between time-domain and time-frequency domain vocoders using bandlimited mel spectrograms as inputs. Later, via an ablation study, we verify the Vocos architecture is effective for magnitude modeling, but less so for phase. We then adapt the Vocos backbone to predict phase differences, a precursor for phase reconstruction, and identify 1D convolutional layers are hindering their accurate prediction. Our findings indicate that future research needs to focus on inductive biases that allow the architecture to better model the time-frequency structure of speech signals, without sacrificing the support for arbitrary input representations.
+
+</details>
+
+#### [Memory Efficient Audio Synthesis with Decoupled Temporal Depth Diffusion Transformers](https://arxiv.org/abs/2607.23811)
+
+**Dongseong Hwang, Prasanth Yadla, Kaan Elgin, Shifas Padinjaru Veettil et al.** · 2026-07-26
+
+<details>
+<summary>Abstract</summary>
+
+Siri Expressive Voices synthesize rich, configurable speech in real time and entirely on device, powered by AFM 3 Core Advanced, Apple's most powerful on-device foundation model. This work presents the memory-efficient audio synthesis architecture behind that capability: a detokenizer that converts the semantic audio tokens emitted by the foundation model into high-fidelity audio within the tight compute and memory budget of the Apple Matrix Coprocessor (AMX). We convert semantic audio tokens to a residual vector quantization (RVQ) representation with a three-component design, a streaming encoder, a temporal decoder, and a depth decoder, that systematically decouples temporal and depth processing. A single reusable depth decoder with Diffusion Transformer (DiT)-style stage conditioning generates all RVQ levels autoregressively, replacing the dedicated per-level decoders of prior multi-decoder architectures, while causal sliding window attention with fixed-window key-value caching yields constant memory complexity independent of sequence length. Deployed on the AMX, the detokenizer sustains roughly 10 ms per generation step, about 16x faster than real time, with a peak runtime memory of only 21 MB and 329 MB of on-device assets, enabling continuous streaming synthesis of 20-320 seconds of audio. This constant, small footprint replaces the linear and quadratic memory scaling of conventional transformer- and GAN-based approaches. Ablation studies validate the key architectural components, and audio quality assessment confirms that the architecture maintains synthesis fidelity while achieving efficiency gains over existing methods. Operating at a 1-billion-parameter activation size within AFM 3 Core Advanced, it improves Mean Opinion Score by +0.28 overall (4.15 vs. 3.87) and by +0.42 on conversational speech (4.24 vs. 3.82) over the prior on-device text-to-speech system.
+
+</details>
+
+#### [Singlish, Can or Not? Fine-Tuning and Evaluating Zero-Shot TTS for Singapore English](https://arxiv.org/abs/2607.23027)
+
+**Ivan Kukanov, Zheng Xin Chai** · 2026-07-25
+
+<details>
+<summary>Abstract</summary>
+
+Zero-shot text-to-speech (ZS-TTS) achieves near-human quality for standard English, but it copies regional accents poorly. Prompted with a short Singlish utterance, state-of-the-art systems reproduce a speaker's timbre while flattening the accent toward generic English. We investigate whether targeted fine-tuning off-the-shelf ZS-TTS can close the gap for Singapore English (Singlish). We fine-tune two cutting-edge ZS-TTS models, Chatterbox and CosyVoice 3, on 50 Singlish speakers from the IMDA National Speech Corpus. Three speech distributions are evaluated: real recordings against off-the-shelf and fine-tuned generation driven by the same Singlish audio prompts. The evaluation covers four dimensions: naturalness, intelligibility, speaker similarity, and accent similarity. We separate adaptation (in-domain speakers seen during fine-tuning) from consistency (held-out speakers) to test whether accent transfer generalises beyond the training data. Fine-tuning raises accent similarity on in-domain and out-of-domain speakers for both Chatterbox and CosyVoice 3. It moves the generated distribution measurably toward real Singlish, with the gain persisting on held-out speakers. To our knowledge, this is the first systematic study of Singlish-accented TTS.
+
+</details>
+
+#### [VisionPulse: A Virtual Reality System Enabling Accessible Discovery and Navigation for Blind and Low Vision Users](https://arxiv.org/abs/2607.21944) · [📄 Read](papers/2026/2607.21944.md)
 
 **Samuel Martin, Pooyan Fazli, Hasti Seifi** · 2026-07-24
 
@@ -82,7 +148,7 @@ Free exploration is an important aspect of many engaging virtual reality (VR) ex
 
 </details>
 
-#### [Synthetic Speech, Real Signal: Paralinguistic Preservation and Cross-Lingual Augmentation via Voice Cloning](https://arxiv.org/abs/2607.22304)
+#### [Synthetic Speech, Real Signal: Paralinguistic Preservation and Cross-Lingual Augmentation via Voice Cloning](https://arxiv.org/abs/2607.22304) · [📄 Read](papers/2026/2607.22304.md)
 
 **Roseline Polle, Owen Parsons, George Fairs, Luis Miguel San Martin Fernandez et al.** · 2026-07-24
 
@@ -93,7 +159,7 @@ Synthetic data augmentation in speech is common practice for linguistic tasks li
 
 </details>
 
-#### [Cycles of Discourse, Speech Dysfluency, and Active Inference](https://arxiv.org/abs/2607.22180)
+#### [Cycles of Discourse, Speech Dysfluency, and Active Inference](https://arxiv.org/abs/2607.22180) · [📄 Read](papers/2026/2607.22180.md)
 
 **Thomas Parr, Birtan Demirel, Youssuf Saleh, Sanjay Manohar** · 2026-07-24
 
@@ -126,7 +192,7 @@ Advances in AI-based voice conversion have enabled a wide range of media applica
 
 </details>
 
-#### [Probing Speaker Identity Sensitivity in Audio Deepfake Detectors](https://arxiv.org/abs/2607.21820)
+#### [Probing Speaker Identity Sensitivity in Audio Deepfake Detectors](https://arxiv.org/abs/2607.21820) · [📄 Read](papers/2026/2607.21820.md)
 
 **Daniyal Kabir Dar, Arun Ross** · 2026-07-23
 
