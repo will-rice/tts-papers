@@ -66,12 +66,12 @@ The following keyword queries are used against arXiv title and abstract fields a
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (50 of 3304 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (50 of 3305 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
 
-#### [Qwen-Audio-3.0-TTS: Freely Controllable and Highly Robust Speech Synthesis with Multi-Stage Training Paradigm](https://arxiv.org/abs/2607.23938)
+#### [Qwen-Audio-3.0-TTS: Freely Controllable and Highly Robust Speech Synthesis with Multi-Stage Training Paradigm](https://arxiv.org/abs/2607.23938) · [📄 Read](papers/2026/2607.23938.md)
 
 **Bajian Xiang, Cheng Wen, Han Zhao, Hao Wang et al.** · 2026-07-27
 
@@ -82,7 +82,7 @@ In this report, we present Qwen-Audio-3.0-TTS, a production-oriented speech synt
 
 </details>
 
-#### [Let Me Look at You: Advanced Facial Expression Modeling for Conversational Speech Synthesis](https://arxiv.org/abs/2607.24430)
+#### [Let Me Look at You: Advanced Facial Expression Modeling for Conversational Speech Synthesis](https://arxiv.org/abs/2607.24430) · [📄 Read](papers/2026/2607.24430.md)
 
 **Yifan Hu, Shuwei He, Rui Liu, Haizhou Li** · 2026-07-27
 
@@ -93,7 +93,7 @@ Conversational Speech Synthesis is a fundamental component of human-computer int
 
 </details>
 
-#### [Leveraging Gradient Reversal Loss and Multitask Learning for Datasets-Aware Audio Deepfake Detection](https://arxiv.org/abs/2607.23961)
+#### [Leveraging Gradient Reversal Loss and Multitask Learning for Datasets-Aware Audio Deepfake Detection](https://arxiv.org/abs/2607.23961) · [📄 Read](papers/2026/2607.23961.md)
 
 **Mingrui Liang, Thomas Thebaud, Lukasz Wojciak, Laureano Moro Velazquez et al.** · 2026-07-27
 
@@ -104,7 +104,7 @@ Recent advances in speech synthesis and voice conversion, which pose threats to 
 
 </details>
 
-#### [Revisiting Vocos: That Phasiness Business in Time-Frequency Neural Vocoding](https://arxiv.org/abs/2607.24323)
+#### [Revisiting Vocos: That Phasiness Business in Time-Frequency Neural Vocoding](https://arxiv.org/abs/2607.24323) · [📄 Read](papers/2026/2607.24323.md)
 
 **Ünal Ege Gaznepoğlu, Frank Zalkow, Mohammad Joshaghani, Emanuël A. P. Habets et al.** · 2026-07-27
 
@@ -115,7 +115,7 @@ Recently, time-frequency neural vocoders have been approaching the state-of-the-
 
 </details>
 
-#### [Memory Efficient Audio Synthesis with Decoupled Temporal Depth Diffusion Transformers](https://arxiv.org/abs/2607.23811)
+#### [Memory Efficient Audio Synthesis with Decoupled Temporal Depth Diffusion Transformers](https://arxiv.org/abs/2607.23811) · [📄 Read](papers/2026/2607.23811.md)
 
 **Dongseong Hwang, Prasanth Yadla, Kaan Elgin, Shifas Padinjaru Veettil et al.** · 2026-07-26
 
@@ -126,7 +126,18 @@ Siri Expressive Voices synthesize rich, configurable speech in real time and ent
 
 </details>
 
-#### [Singlish, Can or Not? Fine-Tuning and Evaluating Zero-Shot TTS for Singapore English](https://arxiv.org/abs/2607.23027)
+#### [Expose Your Disguise: Recovering Source Speaker Identity From Voice Conversion](https://arxiv.org/abs/2607.23650)
+
+**Hanlei Zhang, Zhongming Ma, Mingyang Zhang, Tengfei Liu et al.** · 2026-07-26
+
+<details>
+<summary>Abstract</summary>
+
+Voice conversion (VC) poses a significant threat to biometric security by allowing attackers to impersonate target speakers. In forensic contexts, recovering the source speaker's identity from converted audio is vital for narrowing the field of suspects. To address this, we propose TRIDENT, a retracing framework designed to restore a source speaker's original identity from a converted audio sample. TRIDENT utilizes a three-pronged architecture consisting of a primary extractor and two auxiliary branches. The first auxiliary branch identifies the underlying voice conversion mechanism. This design acknowledges that even if the exact conversion strategy is unknown, a high-performance model adopted by the attacker is typically a derivative or variant of established mainstream ones. The second auxiliary branch extracts a latent representation of the target speaker, facilitating the isolation of target-specific traits from the composite converted audio sample. Finally, the main extractor leverages insights from both auxiliary branches to decouple confounding factors and distill a highly discriminative representation of the source speaker's identity. Experimental results demonstrate that TRIDENT achieves an accuracy as high as 90.99% against 7 state-of-the-art voice conversion methods. Furthermore, TRIDENT maintains robust performance under challenging conditions, including telephony channels, unseen languages, and adaptive scenarios.
+
+</details>
+
+#### [Singlish, Can or Not? Fine-Tuning and Evaluating Zero-Shot TTS for Singapore English](https://arxiv.org/abs/2607.23027) · [📄 Read](papers/2026/2607.23027.md)
 
 **Ivan Kukanov, Zheng Xin Chai** · 2026-07-25
 
@@ -607,17 +618,6 @@ Conversational data collected in domains such as healthcare or social sciences i
 <summary>Abstract</summary>
 
 Natural face-to-face conversation requires real-time speech generation together with synchronized facial motion. Existing systems only partially address this problem: speech-only full-duplex models can generate speech in real time but do not produce facial motion, while audio-driven facial motion models animate a face from already available audio rather than jointly generating speech and motion online. To bridge this gap, we first formalize full-duplex joint speech-facial motion generation, where speech tokens and facial motion tokens are produced together every step. Building on this formulation, we propose FacePlex, a unified streaming framework with two key components. First, Rolling Flow Matching adapts flow matching to online motion generation by committing new motion frames at each streaming step. Second, Rolling Cross-Attention couples the streaming audio queue with the motion queue, allowing speech and facial motion to condition each other as generation progresses. Through extensive experiments, ablation studies, and a user study, we show that FacePlex enables full-duplex joint speech-facial motion generation under online streaming constraints, while achieving stronger lip-sync quality and motion fidelity than audio-driven facial motion baselines.
-
-</details>
-
-#### [VeRe-Flow: Guiding Flow Matching toward Clean Speech via Velocity Contrastive Regularization and Representation Alignment for Noise-Robust Bandwidth Expansion](https://arxiv.org/abs/2606.29450) · [📄 Read](papers/2026/2606.29450.md)
-
-**Sujin Koo, Sangyoon Kim, Ji Sub Um, Hoirin Kim** · 2026-06-28
-
-<details>
-<summary>Abstract</summary>
-
-Noise-robust bandwidth expansion aims to reconstruct high-fidelity wideband speech from noisy low-resolution inputs. While flow matching has shown strong performance in speech generation, accurately recovering clean speech from noisy inputs remains challenging due to the ambiguity of velocity estimation under noise. In this work, we propose VeRe-Flow, a clean-guided flow matching framework that introduces multi-level clean supervision to guide the generative process toward clean speech. At the velocity level, we introduce velocity contrastive regularization, which attracts the predicted velocity toward the clean trajectory while repelling it from noisy trajectories. At the representation level, we incorporate representation alignment that aligns intermediate features with clean self-supervised learning representations. The results demonstrate that the proposed method achieves the lowest LSD and highest DNSMOS OVRL among all baselines, and the highest MOS among generative baselines.
 
 </details>
 
