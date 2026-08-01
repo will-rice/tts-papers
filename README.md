@@ -66,12 +66,12 @@ The following keyword queries are used against arXiv title and abstract fields a
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (48 of 3309 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (46 of 3309 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
 
-#### [Teffic-Audio: Tell Fact from Fiction](https://arxiv.org/abs/2607.28351)
+#### [Teffic-Audio: Tell Fact from Fiction](https://arxiv.org/abs/2607.28351) · [📄 Read](papers/2026/2607.28351.md)
 
 **Wan Lin, Li Wang, Jindong Wang, Kunyu Feng et al.** · 2026-07-30
 
@@ -82,7 +82,7 @@ Speech deepfake detection has expanded in scope with increasingly heterogeneous 
 
 </details>
 
-#### [CrowdioSet and PaRIRset: Two Datasets Towards Live Music Source Separation](https://arxiv.org/abs/2607.27828)
+#### [CrowdioSet and PaRIRset: Two Datasets Towards Live Music Source Separation](https://arxiv.org/abs/2607.27828) · [📄 Read](papers/2026/2607.27828.md)
 
 **Enric Gusó, Xavier Serra** · 2026-07-30
 
@@ -574,28 +574,6 @@ Spoken Question Answering (SQA) remains largely focused on high-resource languag
 <summary>Abstract</summary>
 
 We present GRAFT, a per-word pronunciation conditioning mechanism for text-to-speech neural codec language modeling. Existing systems reach high intelligibility and naturalness but inherit the ambiguity of text and mispronounce rare proper nouns, loanwords and technical terms. Even phoneme-conditioned models offer no direct acoustic handle for per-word pronunciation. GRAFT controls the pronunciation of a chosen word from a short spoken sample of it, encoded with the model's own speech tokenizer and bound to the word's position in the prompt. Voice conversion during training-data construction disentangles the hint speaker from the target speaker, so the hint may come from any voice while the output stays in the target voice. In a blind English listening study, human raters rank GRAFT first by a clear margin, judging its rendering of the difficult word closest to a reference recording of that word. On a five-language objective benchmark, GRAFT reduces target-word phoneme error rate by 22-39% over the identical text-only backbone and outperforms competitive open-source zero-shot systems, both phoneme- and text-conditioned, on target-word pronunciation, while preserving speaker similarity and naturalness.
-
-</details>
-
-#### [A Geometric Perspective on Composable Emotion Steering in Text-to-Speech Models](https://arxiv.org/abs/2607.00946) · [📄 Read](papers/2026/2607.00946.md)
-
-**Siyi Wang, James Bailey, Ting Dang** · 2026-07-01
-
-<details>
-<summary>Abstract</summary>
-
-While prior work has explored emotion control in hybrid text-to-speech systems, the geometric properties of these modules, and their implications for steerability, remain poorly understood. We present the first comparative study of speech language model (SLM) and conditional flow-matching (CFM) modules as activation steering sites for mixed emotion speech synthesis. We first characterize emotion representations using linear probing and local intrinsic dimensionality (LID), and then evaluate single-site and joint steering for mixed-emotion synthesis. Our results show that SLM offers a clean, low-dimensional emotion-specific subspace with strong speaker--emotion disentanglement, while CFM exhibitspoor cross-speaker generalization due to speaker--emotion entanglement. Joint steering increases emotion intensity but degrades proportional control and speech quality on in-distribution data. These findings provide practical guidance for multi-site activation steering in hybrid TTS systems and highlight the importance of representation geometry in controllable speech generation.
-
-</details>
-
-#### [Enhancing Flow Matching with A Unified Guidance Framework for Efficient and Robust Speech Synthesis](https://arxiv.org/abs/2607.00363) · [📄 Read](papers/2026/2607.00363.md)
-
-**Zuda Yu, Qianhui Xu, Ting Chen, Junhui Zhang et al.** · 2026-07-01
-
-<details>
-<summary>Abstract</summary>
-
-Flow Matching (FM) has emerged as a powerful paradigm for speech generation but remains constrained by high inference latency and timbre leakage. To address these bottlenecks, we propose a unified guidance framework that enhances generation efficiency and robustness through two complementary strategies. On the data front, we introduce Data-guidance via heterogeneous augmentation, encouraging the model to disentangle linguistic content from acoustic residue. In parallel, we propose an enhanced Model-guidance mechanism that synergizes trajectory rectification with a novel intrinsic guidance objective. This approach distills conditional knowledge into network weights and straightens inference trajectory path, thereby eliminating Classifier-Free Guidance (CFG) overhead. Experiments demonstrate that our framework accelerates inference by nearly three times while effectively improving speaker similarity compared to state-of-the-art baselines.
 
 </details>
 
