@@ -66,12 +66,23 @@ The following keyword queries are used against arXiv title and abstract fields a
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (53 of 3320 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (53 of 3322 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
 
-#### [Embodied Empathy: A Multimodal AR and LLM-Powered System for Self-Attachment Psychotherapy with Self-Initiated Humour](https://arxiv.org/abs/2608.02283)
+#### [Towards Real-world Environment-aware Zero-shot Text-to-speech Synthesis via Disentangled Audio Infilling](https://arxiv.org/abs/2608.03011)
+
+**Ye-Xin Lu, Xin Wang, Yang Ai, Hui-Peng Du et al.** · 2026-08-04
+
+<details>
+<summary>Abstract</summary>
+
+Recent zero-shot text-to-speech (TTS) systems achieve remarkable naturalness and speaker similarity but typically require high-quality speaker prompts and either strip away or entangle the acoustic environment with speaker characteristics, limiting their real-world applicability. We present an extended DAIEN-TTS, an environment-aware zero-shot TTS framework that disentangles and jointly models speech, background noise, and reverberation, enabling independent control over timbre and acoustic environment through separate speaker and environment prompts. Built upon the flow-matching-based F5-TTS, it uses a speech-environment separation module to decompose environmental speech into speech, noise, and reverberation components, which are injected into the Diffusion Transformer for environment-aware generation. Training uses simulated data constructed by mixing clean speech with noise and room impulse responses, together with a cross-speaker conditioning strategy that suppresses speaker information leakage from the environment branch. When real-world data are available, the system can be further fine-tuned to bridge the simulated-to-real domain gap.At inference, a triple classifier-free guidance mechanism enables fine-grained control over speech, noise, and reverberation, and a signal-to-noise-ratio adaptation strategy aligns the synthesized speech with the environment prompt. Experiments on simulated and real-world test sets show that DAIEN-TTS generates environmental personalized speech with high naturalness, strong speaker similarity, and faithful noise and reverberation reproduction, while offering controllability beyond prior environment-aware TTS systems.
+
+</details>
+
+#### [Embodied Empathy: A Multimodal AR and LLM-Powered System for Self-Attachment Psychotherapy with Self-Initiated Humour](https://arxiv.org/abs/2608.02283) · [📄 Read](papers/2026/2608.02283.md)
 
 **Xinyan Ye, Gwyneth Phang, Anandha Gopalan, Abbas Edalat** · 2026-08-03
 
@@ -82,7 +93,7 @@ The growing global demand for mental health support increasingly exceeds the sup
 
 </details>
 
-#### [Domain-Specific Evaluation of Text-to-Speech Systems: A Multi-Metric Benchmarking Study](https://arxiv.org/abs/2608.02235)
+#### [Domain-Specific Evaluation of Text-to-Speech Systems: A Multi-Metric Benchmarking Study](https://arxiv.org/abs/2608.02235) · [📄 Read](papers/2026/2608.02235.md)
 
 **Ali Jafar, Amal Sarmad, Shifa Yousaf, Maryam Bashir** · 2026-08-03
 
@@ -93,7 +104,7 @@ Recent advances in neural text-to-speech (TTS) systems have substantially improv
 
 </details>
 
-#### [SwanTale: Unified Multi-Speaker Speech and Audio Generation for Instruct and Zero-Shot Tasks](https://arxiv.org/abs/2608.02023)
+#### [SwanTale: Unified Multi-Speaker Speech and Audio Generation for Instruct and Zero-Shot Tasks](https://arxiv.org/abs/2608.02023) · [📄 Read](papers/2026/2608.02023.md)
 
 **Yu Zhang, Ruiqi Li, Changhao Pan, Ke Lei et al.** · 2026-08-03
 
@@ -104,7 +115,7 @@ Speech and audio generation is often needed in animation dubbing, audio drama, m
 
 </details>
 
-#### [Beyond One-Size-Fits-All: Personalized and Culturally Adaptive Emotional TTS via Interactive Optimization of Individual Emotion Perception Spaces](https://arxiv.org/abs/2608.00998)
+#### [Beyond One-Size-Fits-All: Personalized and Culturally Adaptive Emotional TTS via Interactive Optimization of Individual Emotion Perception Spaces](https://arxiv.org/abs/2608.00998) · [📄 Read](papers/2026/2608.00998.md)
 
 **Wangzixi Zhou, Bagus Tris Atmaja, Sakriani Sakti** · 2026-08-02
 
@@ -115,7 +126,7 @@ The rise of conversational AI has increased interest in emotional Text-to-Speech
 
 </details>
 
-#### [JoyAI-Talker: Full-Duplex Speech Interactive Large Model Built for Empathetic Voice Agents](https://arxiv.org/abs/2608.01119)
+#### [JoyAI-Talker: Full-Duplex Speech Interactive Large Model Built for Empathetic Voice Agents](https://arxiv.org/abs/2608.01119) · [📄 Read](papers/2026/2608.01119.md)
 
 **Yinhao Bai, Jinming Chen, Yafeng Chen, Wei Deng et al.** · 2026-08-02
 
@@ -126,7 +137,18 @@ We present JoyAI-Talker, a full-duplex speech dialogue system that delivers robu
 
 </details>
 
-#### [REIMU: Efficient Heterogeneous Hierarchical Reasoning for SSL-Based Speech Deepfake Detection](https://arxiv.org/abs/2608.00857)
+#### [dots.tts.edit: Precisely Controlled Speech Editing with a Continuous Autoregressive Model](https://arxiv.org/abs/2608.02673)
+
+**Hankun Wang, Bohan Li, Shi Lian, Xiaoyu Gu et al.** · 2026-08-02
+
+<details>
+<summary>Abstract</summary>
+
+Speech editing for content creation requires precise control over both what an edit should do and where it should apply. Free-form natural language provides a flexible interface for expressing edit requests, but its ambiguity may leave the intended operation, parameters, or target region underspecified. We study a precise and explicit interface for speech editing: a transcript-grounded structural edit instruction with XML-style tags explicitly specifies typed operations and localizes them to transcript spans or boundaries. This semantic timeline avoids explicit timestamp alignment and provides an externally inspectable contract for compositional edits. We instantiate the interface in dots.tts.edit, an editor adapted from the continuous autoregressive dots.tts foundation model. Four representative speech-creation controls cover lexical content, affective expression, pitch and speaking-rate delivery, and temporal phrasing through text, emotion, prosody, and pause editing. Task-specific data pipelines construct operation- and scope-controlled pairs while retaining source-derived context outside each target region. We further introduce doteBench, a bilingual evaluation suite that measures precise instruction following, local preservation, and audio quality across the four controls and their composition. Experiments show leading overall instruction following and local preservation across its five editing categories, while audio quality remains comparable to existing open-source systems. Across three Seed-TTS-Eval shards, the model shows negligible differences from the base model in zero-shot TTS recognition error rate and speaker similarity. The code and model will be released soon.
+
+</details>
+
+#### [REIMU: Efficient Heterogeneous Hierarchical Reasoning for SSL-Based Speech Deepfake Detection](https://arxiv.org/abs/2608.00857) · [📄 Read](papers/2026/2608.00857.md)
 
 **Kwok-Ho Ng, Tingting Song, Bingwen Feng, Peiya Li** · 2026-08-01
 
@@ -137,7 +159,7 @@ The increasing realism of speech generated by text-to-speech and voice conversio
 
 </details>
 
-#### [Experience-Calibrated Contrastive Decoding for Mitigating Hallucinations in LM-Based Text-to-Speech](https://arxiv.org/abs/2608.00722)
+#### [Experience-Calibrated Contrastive Decoding for Mitigating Hallucinations in LM-Based Text-to-Speech](https://arxiv.org/abs/2608.00722) · [📄 Read](papers/2026/2608.00722.md)
 
 **Chenlin Liu, Minghui Fang, Zhonghao Bi, Zekai Su et al.** · 2026-08-01
 
@@ -148,7 +170,7 @@ Language model-based text-to-speech (LM-based TTS) remains vulnerable to speech 
 
 </details>
 
-#### [AnyBand: Unified Multi-Bandwidth Speech Extension via Frequency-Aware In-Context Spectral Infilling](https://arxiv.org/abs/2608.00572)
+#### [AnyBand: Unified Multi-Bandwidth Speech Extension via Frequency-Aware In-Context Spectral Infilling](https://arxiv.org/abs/2608.00572) · [📄 Read](papers/2026/2608.00572.md)
 
 **Junchuan Zhao, Minh Duc Vu, Bowen Zhang, Ye Wang** · 2026-08-01
 
@@ -159,7 +181,7 @@ Bandwidth extension (BWE) aims to recover missing high-frequency content from ba
 
 </details>
 
-#### [Beyond Prompt Adherence: Auditing Attribute-Level Voice Control in Speech Generation](https://arxiv.org/abs/2608.00545)
+#### [Beyond Prompt Adherence: Auditing Attribute-Level Voice Control in Speech Generation](https://arxiv.org/abs/2608.00545) · [📄 Read](papers/2026/2608.00545.md)
 
 **Xianhao Zhou, Jianghao Wu** · 2026-08-01
 
@@ -629,28 +651,6 @@ Speaker embeddings, or x-vectors, are widely used to represent speaker identity 
 <summary>Abstract</summary>
 
 Neural speech codecs are increasingly used as intermediate representations in codec-based speech generation systems. TiCodec introduces a factorized representation that separates time-varying speech content from time-invariant information through a Time-Invariant Representation Extraction (TIRE) module, potentially reducing the amount of information that must be modeled at the frame-level. In this work, we investigate the nature of the information captured by TIRE representations and their suitability for low-latency speech processing. Using a series of probing tasks, we analyze the influence of the encoder layer and show that intermediate layers capture complementary speaker- and environment-related information while containing little linguistic content. We further study several segment selection strategies for TIRE training and demonstrate that cross-file sampling improves the robustness of invariant representations. Based on these findings, we propose Dual-TIRE, a multi-level architecture that exploits the complementarity of different encoder layers and improves speech reconstruction quality and speaker similarity. Finally, we evaluate TiCodec in a streaming inference setting using successive 660ms processing blocks. Results show that streaming operation can be achieved without significant degradation in reconstruction performance, highlighting the potential of factorized neural codec representations for future low-latency speech generation systems.
-
-</details>
-
-#### [Towards Digital Preservation of Efik: TTS for a Low-Resource African Language](https://arxiv.org/abs/2607.04515) · [📄 Read](papers/2026/2607.04515.md)
-
-**Offiong Bassey Edet, Emmanuel Oyo-Ita, Archibong Okon Archibong, David Effanga Bassey et al.** · 2026-07-05
-
-<details>
-<summary>Abstract</summary>
-
-Efik, a tonal language spoken by about 3 million second language speakers and 1.5 million native speakers in Southeastern Nigeria, remains underrepresented in speech synthesis research. We present the first documented end-to-end text-to-speech study for Efik, introducing a curated single speaker corpus of 2,632 utterances totaling three hours and a comparative evaluation of four neural models (VITS, MMS-TTS, SpeechT5, and Orpheus-TTS) under low resource conditions. Native speakers evaluated the systems using MOS, Nat-MOS, and A-MOS. MMS-TTS achieved the highest MOS of 3.80 +/- 0.63 and produced more stable long form speech, though tonal errors persisted. Other models showed greater tonal and prosodic inconsistencies. These results provide a reproducible baseline and highlight the need for larger corpora and tone aware modeling for tonal African languages.
-
-</details>
-
-#### [DELTA-TTS: Adapting Autoregressive Model into Diffusion Language Model for Text-to-Speech](https://arxiv.org/abs/2607.04140) · [📄 Read](papers/2026/2607.04140.md)
-
-**Junwon Moon, Seungbeom Kim, Yejin Lee, Hoseong Ahn et al.** · 2026-07-05
-
-<details>
-<summary>Abstract</summary>
-
-Autoregressive (AR) text-to-speech (TTS) models generate discrete speech tokens sequentially, which makes inference slow and can degrade robustness by propagating local errors and hallucinations. This limitation stems from their left-to-right AR commitment: each token must be determined before future speech-token context is available. However, such ordering is not an inherent requirement for TTS, as the full input text is available before synthesis. In this paper, we introduce DELTA-TTS, a lightweight LoRA-based adaptation framework that converts a pretrained AR TTS model into a discrete diffusion language model (dLLM) for confidence-ordered speech-token decoding. To better capture the local structure of speech, DELTA-TTS incorporates a convolution module that injects local acoustic context, together with a $1/t$-weighted training objective and a time-shifted inference schedule that defer low-confidence positions to later steps. Trained on only $585$ hours of LibriTTS, DELTA-TTS achieves a $\textbf{1.75}\%$ WER on Seed-TTS test-en, outperforming its AR backbone while generating tokens $\textbf{3.3}\times$ faster. Further analysis shows that DELTA-TTS produces sharper text--speech alignment, increases overall decoding confidence, and mitigates hallucinations observed in AR generation.
 
 </details>
 
