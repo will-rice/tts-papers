@@ -71,7 +71,7 @@ _Showing the last 30 days (52 of 3326 papers). The full list lives in [papers.cs
 <details open>
 <summary><h3>2026</h3></summary>
 
-#### [AffectDF: The Most Comprehensive Benchmark for Speech Deepfake Detection against Emotionally Expressive Attacks](https://arxiv.org/abs/2608.05507)
+#### [AffectDF: The Most Comprehensive Benchmark for Speech Deepfake Detection against Emotionally Expressive Attacks](https://arxiv.org/abs/2608.05507) · [📄 Read](papers/2026/2608.05507.md)
 
 **Aurosweta Mahapatra, Xiutian Zhao, Shreeram Suresh Chandra, Zihan Zhang et al.** · 2026-08-06
 
@@ -82,7 +82,7 @@ Speech deepfake detection (SDD) systems achieve strong performance on convention
 
 </details>
 
-#### [LILAC: An Idempotent Neural Speech Codec](https://arxiv.org/abs/2608.05727)
+#### [LILAC: An Idempotent Neural Speech Codec](https://arxiv.org/abs/2608.05727) · [📄 Read](papers/2026/2608.05727.md)
 
 **June Young Yi, Dongwook Lee, Jiheum Yeom, Sungroh Yoon** · 2026-08-06
 
