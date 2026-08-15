@@ -71,7 +71,7 @@ _Showing the last 30 days (56 of 3340 papers). The full list lives in [papers.cs
 <details open>
 <summary><h3>2026</h3></summary>
 
-#### [FastThaiG2P: Lightning-fast Thai Grapheme-to-phoneme Conversion for Voice Agent Pipelines](https://arxiv.org/abs/2608.12814)
+#### [FastThaiG2P: Lightning-fast Thai Grapheme-to-phoneme Conversion for Voice Agent Pipelines](https://arxiv.org/abs/2608.12814) · [📄 Read](papers/2026/2608.12814.md)
 
 **Charin Polpanumas** · 2026-08-13
 
