@@ -66,12 +66,67 @@ The following keyword queries are used against arXiv title and abstract fields a
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (59 of 3344 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (64 of 3349 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
 
-#### [Content Based Video Narration of Gameplay with Vision Language Models](https://arxiv.org/abs/2608.14016)
+#### [Speaker-Normalized Semantic Speech Tokens via Iterative S2U-T2U Refinement](https://arxiv.org/abs/2608.16235)
+
+**Hanlin Zhang, Daxin Tan, Dehua Tao, Chengxi Deng et al.** · 2026-08-17
+
+<details>
+<summary>Abstract</summary>
+
+Semantic speech tokens should preserve linguistic content while suppressing speaker- and duration-dependent variation inherited from acoustic inputs. We propose Iterative Semantic Token Purification (ISTP), an alternating speech-to-unit (S2U) and text-to-unit (T2U) training procedure guided by text predictability. Starting from an initial S2U tokenizer, each iteration trains a T2U model on its deduplicated token sequences. The decoded T2U predictions then serve as connectionist temporal classification targets for a newly initialized S2U model, whose outputs supervise the next T2U model. This cycle progressively aligns the two token generators and biases the token space toward information recoverable from text. Experiments on Mandarin and English show substantially improved S2U--T2U agreement. Independently trained de-tokenizers further show that the refined S2U and T2U tokens retain sufficient content for high-intelligibility voice conversion and text-to-speech synthesis. In voice conversion, the generated speaking rate follows the reference more closely. The refined tokens also exhibit substantially improved cross-speaker consistency and reduced probe-recoverable speaker information.
+
+</details>
+
+#### [DuplexGen: Decoupling Content, Timing, and Acoustics for Synthetic Dialogue Speech](https://arxiv.org/abs/2608.16053)
+
+**Pengcheng Wang, Sheng Li, Jiyi Li, Takahiro Shinozaki** · 2026-08-17
+
+<details>
+<summary>Abstract</summary>
+
+Synthetic conversational speech has become an important resource for developing and evaluating conversational speech systems. However, existing dialogue synthesis pipelines typically generate dialogue content first and then insert interruptions, overlap, and backchannels using handcrafted markers or timing rules, making conversational timing prescribed rather than interaction-driven. We present DuplexGen, a dialogue synthesis framework that explicitly decouples content, timing, and acoustics. An LLM first generates the dialogue script, and then two full-duplex conversational models perform the script while listening to each other in real time. This allows conversational timing to emerge naturally while preserving the scripted content. Finally, a high-fidelity text-to-speech model re-renders the interaction without altering its timing. As a demonstration of the proposed framework, we construct a patient--clinician conversational speech corpus with construction-time annotations, including word timestamps, speaker activity, overlap regions, and interaction events. Experimental results show that the proposed framework produces conversational dynamics closer to real dialogue than conventional stitching-based synthesis.
+
+</details>
+
+#### [Iterative Self-Learning for Expressive Text-to-Speech Synthesis](https://arxiv.org/abs/2608.15910)
+
+**Nicholas Sanders, Gustav Eje Henter, Simon King, Korin Richmond** · 2026-08-16
+
+<details>
+<summary>Abstract</summary>
+
+Expressive text-to-speech (TTS) systems that use explicit conditioning labels provide direct and interpretable control over expressive attributes, in contrast to reference-based or prompting-based approaches, but require labeled data. Obtaining these labels at scale is costly and time-consuming, yet no prior semi-supervised framework addresses this specific bottleneck. Existing semi-supervised TTS methods instead target scarcity of paired speech-text data or transcriptions. To address the scarcity of expressive labels, we propose an Iterative Self-Learning (ISL) framework for expressive TTS, built on Invert-Classify, a classifier-free method that recovers discrete expressive labels by inverting a frozen generative model. The framework iteratively pseudo-labels unlabeled speech using the current model, retrains on the combined labeled and pseudo-labeled data, and repeats, progressively refining label quality and synthesis. We validate on two expressive tasks, word-level prominence and utterance-level emotion, across multiple low-resource data splits. We find that iterative refinement can improve pseudo-label accuracy over single-pass baselines. Furthermore, we observe that these improvements in pseudo-labeling of expressivity translate to gains in expressive label adherence and synthesis quality, confirmed by objective metrics and human listening tests. In the most data-scarce conditions, ISL-trained models outperform single-pass pseudo-labeling and further approach fully supervised performance, demonstrating that gradient-based ISL is an effective solution to expressive label scarcity in low-resource TTS.
+
+</details>
+
+#### [Adding Voice Cloning to Text-to-Audio-Video Models with a Single Zero-Initialised Layer](https://arxiv.org/abs/2608.15690)
+
+**Ivan Mikheev, Viacheslav Vasilev, Anna Dmitrienko, Alexey Letunovskiy et al.** · 2026-08-16
+
+<details>
+<summary>Abstract</summary>
+
+Text-to-audio-video (T2AV) generation models produce a video and its soundtrack from a textual description, but offer no control over whose voice speaks in the output. We show that a base T2AV model can be turned into a voice-cloning model by adding a single zero-initialized linear layer on top of its audio backbone, fine-tuning for a comparatively short training schedule, and conditioning on a short reference recording at inference time. The reference is injected through two complementary signals: its diffusion latents are prepended to the audio stream, and a global speaker embedding modulates token of the target audio. On a benchmark of 674 speaker-text pairs spanning 30 speakers we compare against five strong voice-cloning text-to-speech baselines: our enhanced 5B model attains the highest speaker-encoder cosine similarity (SECS) across three independent verification networks (ECAPA-TDNN, WavLM-SV, Resemblyzer), statistically significantly outperforming every baseline. A side product of the architecture is that the audio path can be evaluated without the video path at inference time, yielding a ~30x speed-up over the full audio-video diffusion loop while preserving the voice-cloning behaviour.
+
+</details>
+
+#### [A survey of AI-generated voices and their detection](https://arxiv.org/abs/2608.15411)
+
+**Chengzhe Sun, Tianle Yang, Siwei Lyu** · 2026-08-15
+
+<details>
+<summary>Abstract</summary>
+
+The ability of artificial intelligence (AI) models to generate highly realistic human voices has advanced rapidly. These technologies power accessibility tools, virtual assistants and creative applications, but they also enable harmful uses, including impersonation, fraud and disinformation. Recent incidents of voice cloning scams targeting businesses and political leaders underscore the urgent need for robust safeguards. Unlike image and video deepfakes, the detection of synthetic voices poses unique challenges due to the complexity of phonetics, prosody and auditory perception. This survey offers a comprehensive overview of AI voice generation and detection methods, encompassing both the technical foundations and the latest state-of-the-art advances. This study also identifies key open challenges, benchmark resources and future directions to make this survey useful for future researchers.
+
+</details>
+
+#### [Content Based Video Narration of Gameplay with Vision Language Models](https://arxiv.org/abs/2608.14016) · [📄 Read](papers/2026/2608.14016.md)
 
 **Mathew Varghese** · 2026-08-14
 
@@ -82,7 +137,7 @@ Live game commentary is scarce: it exists for professional esports broadcasts an
 
 </details>
 
-#### [S2Dialog: Multimodal Dialogue Retrieval with Semantic and Acoustic-Style Modeling](https://arxiv.org/abs/2608.14029)
+#### [S2Dialog: Multimodal Dialogue Retrieval with Semantic and Acoustic-Style Modeling](https://arxiv.org/abs/2608.14029) · [📄 Read](papers/2026/2608.14029.md)
 
 **Xueqi Wang, Zhigang Wang, Runqing Zhang, Zhenqi Jia et al.** · 2026-08-14
 
@@ -104,7 +159,7 @@ FastThaiG2P provides sub-millisecond Thai grapheme-to-phoneme conversion for tex
 
 </details>
 
-#### [VoiceChat-TTS: A Low-Latency Continuous Speech Synthesis Model for Interactive Agents](https://arxiv.org/abs/2608.13831)
+#### [VoiceChat-TTS: A Low-Latency Continuous Speech Synthesis Model for Interactive Agents](https://arxiv.org/abs/2608.13831) · [📄 Read](papers/2026/2608.13831.md)
 
 **Edresson Casanova, Jaehyeon Kim, Mariana Graterol Fuenmayor, Shehzeen Hussain et al.** · 2026-08-13
 
@@ -159,7 +214,7 @@ Human voice generation has made rapid progress in speech generation, singing voi
 
 </details>
 
-#### [VoiceDesigner: Text-to-Voice Generation and Editing via Unified Diffusion Modeling and Data Augmentation](https://arxiv.org/abs/2608.13613)
+#### [VoiceDesigner: Text-to-Voice Generation and Editing via Unified Diffusion Modeling and Data Augmentation](https://arxiv.org/abs/2608.13613) · [📄 Read](papers/2026/2608.13613.md)
 
 **Jiarui Hai, Karan Thakkar, Ke Chen, Yunyun Wang et al.** · 2026-08-12
 
