@@ -66,12 +66,23 @@ The following keyword queries are used against arXiv title and abstract fields a
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (64 of 3349 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (64 of 3350 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
 
-#### [Speaker-Normalized Semantic Speech Tokens via Iterative S2U-T2U Refinement](https://arxiv.org/abs/2608.16235)
+#### [FireRedTTS3: Unified Speech Generation and Editing with Semantically Enriched Speech Representations](https://arxiv.org/abs/2608.17492)
+
+**Feiyu Shen, Kun Xie, Yichen Wu, Ziqi Dai et al.** · 2026-08-18
+
+<details>
+<summary>Abstract</summary>
+
+Recent continuous autoregressive TTS models operate directly on continuous speech representations, preserving rich acoustic details while leveraging the instruction-following capabilities of text LLMs. This paradigm opens new possibilities for voice cloning, instruction-controlled voice design, and speech editing, but remains susceptible to error accumulation during autoregressive generation. Existing solutions often require additional semantic modules, multi-stage tokenizer training pipelines, or complex autoregressive architectures. In this work, we propose FireRedTTS3, a simple yet effective speech generation and editing framework that mitigates error accumulation at the representation level. Specifically, we leverage a frozen Audio Encoder trained on diverse speech understanding tasks as a semantic teacher to regularize the audio feature space. This improves text-speech alignment and stabilizes autoregressive generation while keeping the overall system simple. FireRedTTS3 provides two variants: FireRedTTS3-Base for multilingual and multi-dialect zero-shot voice cloning, and FireRedTTS3-Instruct for unified voice cloning, instruction-controlled voice design, and speech editing. Experiments show that FireRedTTS3-Base achieves the best average speech intelligibility and speaker similarity among compared systems on Seed-TTS-Eval and MiniMax-MLS-Test, while FireRedTTS3-Instruct outperforms competing systems on InstructTTSEval and Ming-Freeform-Audio-Edit. These results demonstrate that semantically enriched continuous speech representations, combined with a simple architecture, enable stable, controllable, and high-fidelity speech generation and editing. Code and models are available at https://github.com/FireRedTeam/FireRedTTS3.
+
+</details>
+
+#### [Speaker-Normalized Semantic Speech Tokens via Iterative S2U-T2U Refinement](https://arxiv.org/abs/2608.16235) · [📄 Read](papers/2026/2608.16235.md)
 
 **Hanlin Zhang, Daxin Tan, Dehua Tao, Chengxi Deng et al.** · 2026-08-17
 
@@ -82,7 +93,7 @@ Semantic speech tokens should preserve linguistic content while suppressing spea
 
 </details>
 
-#### [DuplexGen: Decoupling Content, Timing, and Acoustics for Synthetic Dialogue Speech](https://arxiv.org/abs/2608.16053)
+#### [DuplexGen: Decoupling Content, Timing, and Acoustics for Synthetic Dialogue Speech](https://arxiv.org/abs/2608.16053) · [📄 Read](papers/2026/2608.16053.md)
 
 **Pengcheng Wang, Sheng Li, Jiyi Li, Takahiro Shinozaki** · 2026-08-17
 
@@ -93,7 +104,7 @@ Synthetic conversational speech has become an important resource for developing 
 
 </details>
 
-#### [Iterative Self-Learning for Expressive Text-to-Speech Synthesis](https://arxiv.org/abs/2608.15910)
+#### [Iterative Self-Learning for Expressive Text-to-Speech Synthesis](https://arxiv.org/abs/2608.15910) · [📄 Read](papers/2026/2608.15910.md)
 
 **Nicholas Sanders, Gustav Eje Henter, Simon King, Korin Richmond** · 2026-08-16
 
@@ -104,7 +115,7 @@ Expressive text-to-speech (TTS) systems that use explicit conditioning labels pr
 
 </details>
 
-#### [Adding Voice Cloning to Text-to-Audio-Video Models with a Single Zero-Initialised Layer](https://arxiv.org/abs/2608.15690)
+#### [Adding Voice Cloning to Text-to-Audio-Video Models with a Single Zero-Initialised Layer](https://arxiv.org/abs/2608.15690) · [📄 Read](papers/2026/2608.15690.md)
 
 **Ivan Mikheev, Viacheslav Vasilev, Anna Dmitrienko, Alexey Letunovskiy et al.** · 2026-08-16
 
@@ -115,7 +126,7 @@ Text-to-audio-video (T2AV) generation models produce a video and its soundtrack 
 
 </details>
 
-#### [A survey of AI-generated voices and their detection](https://arxiv.org/abs/2608.15411)
+#### [A survey of AI-generated voices and their detection](https://arxiv.org/abs/2608.15411) · [📄 Read](papers/2026/2608.15411.md)
 
 **Chengzhe Sun, Tianle Yang, Siwei Lyu** · 2026-08-15
 
@@ -761,17 +772,6 @@ As speech generation models become increasingly realistic and widely accessible,
 <summary>Abstract</summary>
 
 Expressive speech synthesis for voice assistants requires flexible style control that adapts to explicit requests and broader interaction context. We propose Harness TTS, a lightweight control layer that wraps around a TTS engine to externalize and govern its expressive behavior. It reformulates style control as closed-set prompt-tool routing: offline, a compact registry of stylistic prompt tools is constructed with structured metadata; online, an LLM planner selects the appropriate tool based on a priority-aware observation schema, and the TTS executor synthesizes speech using the corresponding prompt audio. We evaluate Harness TTS on both routing and synthesis tasks. In routing, Qwen3-4B achieves Top-1 accuracies of 74.3%, 43.0%, and 64.6% on explicit, implicit, and conflict subsets. For synthesis, experiments on CosyVoice3 and VoxCPM2 show that Harness TTS outperforms instruction-only control, achieving higher instruction-following win rates (margins of 23.1-35.6 points on CosyVoice3 and 13.8-20.0 points on VoxCPM2) and improving UTMOSv2 scores by 0.11-0.38. Moreover, the 4B planner delivers its first tool recommendation in under 50 ms in standard mode, introducing negligible latency for real-time interaction. These results demonstrate that equipping TTS engines with a dedicated Harness layer offers a practical, auditable, and context-aware solution for voice assistant expression control.
-
-</details>
-
-#### [Staged Depth-Pruning Distillation of a Flow-Matching Text-to-Speech Teacher: A Compact Hindi Speech Synthesizer](https://arxiv.org/abs/2607.18662) · [📄 Read](papers/2026/2607.18662.md)
-
-**Sivateja Trikutam** · 2026-07-19
-
-<details>
-<summary>Abstract</summary>
-
-We present a practical recipe for building a compact Hindi text-to-speech (TTS) model by distilling a large flow-matching teacher (IndicF5, 337M-parameter DiT) under a severe data budget (~17.6 hours). Training a small model from scratch on this much data fails outright. Instead we warm-start the student from the teacher by pruning depth only: keeping the teacher's width, text dimension, attention heads, and mel/text I/O fixed so all non-block tensors copy one-to-one, and retaining an evenly-spaced subset of transformer blocks. We first measure how much depth the teacher tolerates (it remains near-functional at -27% blocks but collapses past -50%), then descend gradually (22 -> 16 -> 12 -> 8 -> 6 blocks), re-fine-tuning after each prune, with each step gated by an objective ASR word-error-rate (WER) check. The resulting students reach WER 0.00 on unseen sentences at 249M and 190M parameters, and remain robust down to 131M; at 102M we observe a clear capacity cliff that we attribute to the data budget rather than the recipe. We also document two train/inference feature- and library-parity failures (mel filterbank and rotary-embedding library versions) that silently degrade audio, and a version-independent fix. The method yields a high-quality Hindi voice that runs in real time on a 6 GB laptop GPU. An independent 50-sentence FLEURS benchmark compares the released 190M student against its teacher and MMS-TTS-hin.
 
 </details>
 
