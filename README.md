@@ -66,12 +66,34 @@ The following keyword queries are used against arXiv title and abstract fields a
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (64 of 3352 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (65 of 3354 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
 
-#### [X2Streaming-TTS: Causal Token-Level Text-to-Speech from Streaming Text with Speech-State Inheritance](https://arxiv.org/abs/2608.18661)
+#### [Tracking the Trend in How Speech Synthesizers Deceive People](https://arxiv.org/abs/2608.19959)
+
+**Milan Šalko, Anton Firc, Kamil Malinka, Vojtěch Staněk et al.** · 2026-08-20
+
+<details>
+<summary>Abstract</summary>
+
+Advances in speech synthesis have made deepfake audio highly realistic. Earlier studies reported 70-80% human detection accuracy, but relied primarily on older synthesizers. We compare human detection for three selected voice synthesis tools released in 2019, 2022, and 2024 with 82 IT professionals, and benchmark humans against six pretrained detectors on the same material. For fully synthetic speech (full spoofs), the F1 score drops from about 90% for RTVC and YourTTS to 48% for ElevenLabs, although listeners were explicitly warned that deepfakes were present. For partial spoofing, where only one sentence of an utterance is altered, strict accuracy falls to 9%, and listeners classify the synthetic sentence as bona fide 77% of the time. Humans and detectors fail in complementary ways, and neither reliably localizes short manipulations. Additionally, listeners increasingly mislabel bona fide speech as fake, eroding trust in unmanipulated audio. These findings show that human perception alone is unreliable for the selected modern and partial-spoof conditions and motivate procedural verification, provenance, watermarking, and segment-level detection.
+
+</details>
+
+#### [Does Listening Matter? Backchanneling and Nodding in AI Clone](https://arxiv.org/abs/2608.19527)
+
+**Koji Inoue, Kazushi Kato, Tatsuya Kawahara, Shunichi Kasahara** · 2026-08-20
+
+<details>
+<summary>Abstract</summary>
+
+AI clones that imitate a specific person typically reproduce what the person says and how they sound, but not how they listen. We investigate whether adding multimodal listening behaviors gives such a clone more presence and authenticity. We integrated verbal backchannels and head nodding, driven by real-time prediction models, into an AI clone equipped with voice cloning and LLM-based responses. In a within-subjects study (N=35), adding these behaviors significantly improved the perceived attentiveness of the avatar, the sense of talking with the real person, and the feeling of co-presence. These results indicate that AI clone fidelity should extend beyond voice and response content to include interactive listening behavior.
+
+</details>
+
+#### [X2Streaming-TTS: Causal Token-Level Text-to-Speech from Streaming Text with Speech-State Inheritance](https://arxiv.org/abs/2608.18661) · [📄 Read](papers/2026/2608.18661.md)
 
 **Rime Wen, Zehan Liu, Shawn Qin, Lights Shi et al.** · 2026-08-19
 
@@ -82,7 +104,7 @@ Streaming text-to-speech is essential for low-latency spoken dialogue systems, y
 
 </details>
 
-#### [Aslema at NADI 2026: Augmentation through Fewshot for SLU](https://arxiv.org/abs/2608.18689)
+#### [Aslema at NADI 2026: Augmentation through Fewshot for SLU](https://arxiv.org/abs/2608.18689) · [📄 Read](papers/2026/2608.18689.md)
 
 **Tajwaar Shafiq, Hunzalah Hassan Bhatti, Shammur Absar Chowdhury, Firoj Alam** · 2026-08-19
 
@@ -761,17 +783,6 @@ The trade-off between robustness, latency, and prosody critically challenges tex
 <summary>Abstract</summary>
 
 Electronic Theater Programs (ETPs) serve as critical promotional media in the performing arts, comprising a multi-page collection of heterogeneous visual assets such as theatrical posters, performance details, and character portraits. However, existing text-to-image paradigms struggle with such complex design tasks due to their inability to comprehend long-context narratives and maintain visual consistency across multiple distinct pages. To address this, we introduce ETPDesigner, a collaborative Multi-Agent framework that directly synthesizes high-quality ETPs from raw dramatic scripts. Emulating a professional design pipeline, our framework orchestrates specialized agents for semantic script analysis, core poster synthesis, functional background generation, and the stratified composition of character assets. Central to ETPDesigner is a global style anchor mechanism that extracts visual priors from the core poster to enforce strict aesthetic uniformity across all generated components. Furthermore, we elevate the ETP from a static publication to an immersive interactive companion. By integrating portrait animation, customized speech synthesis, and persona-grounded Large Language Models (LLMs), our system enables users to engage in real-time, voice-enabled conversations with the generated virtual characters. To rigorously benchmark this task, we construct ETP-Pro, a domain-specific benchmark of professional theater posters and high-quality character portraits. Extensive evaluations demonstrate our method's superiority in producing semantically faithful, aesthetically consistent, and highly interactive program sets.
-
-</details>
-
-#### [CS-ETS: Chaos-Inspired Samba-Based EMG-To-Speech Synthesis with Nonlinear Chaotic Losses](https://arxiv.org/abs/2607.18629) · [📄 Read](papers/2026/2607.18629.md)
-
-**Sajid Fardin Dipto, Tarikul Islam Tamiti, David Vergano, Luke Baja-Ricketts et al.** · 2026-07-21
-
-<details>
-<summary>Abstract</summary>
-
-We propose a chaos-inspired new architecture for EMG-to-Speech (ETS) synthesis called CS-ETS, which combines a Samba-based encoder with two novel chaos-inspired loss functions -- Lyapunov Exponent Regularization (LER) and Multi-Scale Detrended Fluctuation Analysis (MSDFA). LER is designed based on Lyapunov exponents to capture nonlinear fluctuations and sensitivity to initial conditions. MSDFA exploits detrended fluctuation analysis to quantify fractal-like, long-range temporal chaotic correlation. CS-ETS surpasses prior work with a 40.79\% lower parameter count (32M vs 54.1M) and introduces a new Post-Vocoder Alignment approach that improves LSD by 2.1x, STOI by 4.7x, and SI-SDR by 1.25x. CS-ETS reduces computation by 13.33\% while maintaining improved performance. To the best of our knowledge, for the first time, we show how ETS can be supervised by the subtle non-linear chaotic physics with Samba attention to achieve a significantly smaller model with superior performance.
 
 </details>
 
