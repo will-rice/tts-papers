@@ -66,12 +66,12 @@ The following keyword queries are used against arXiv title and abstract fields a
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (65 of 3354 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (62 of 3354 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
 
-#### [Tracking the Trend in How Speech Synthesizers Deceive People](https://arxiv.org/abs/2608.19959)
+#### [Tracking the Trend in How Speech Synthesizers Deceive People](https://arxiv.org/abs/2608.19959) · [📄 Read](papers/2026/2608.19959.md)
 
 **Milan Šalko, Anton Firc, Kamil Malinka, Vojtěch Staněk et al.** · 2026-08-20
 
@@ -82,7 +82,7 @@ Advances in speech synthesis have made deepfake audio highly realistic. Earlier 
 
 </details>
 
-#### [Does Listening Matter? Backchanneling and Nodding in AI Clone](https://arxiv.org/abs/2608.19527)
+#### [Does Listening Matter? Backchanneling and Nodding in AI Clone](https://arxiv.org/abs/2608.19527) · [📄 Read](papers/2026/2608.19527.md)
 
 **Koji Inoue, Kazushi Kato, Tatsuya Kawahara, Shunichi Kasahara** · 2026-08-20
 
@@ -750,39 +750,6 @@ Advances in AI-based voice conversion have enabled a wide range of media applica
 <summary>Abstract</summary>
 
 Audio deepfake detectors are trained to distinguish genuine speech from synthetic speech and often perform well on standard benchmarks. Yet the same detector that achieves less than 1% error on one dataset can see its error rate increase twentyfold when evaluated on a different dataset. We argue that one contributing factor is speaker-identity reliance: standard training corpora correlate speaker identity with the genuine/synthetic label, allowing detectors to partially rely on speaker-related cues rather than synthesis artifacts alone. We propose the Identity Sensitivity Score (ISS), a per-utterance diagnostic that quantifies how much a detector's output changes across different speaker identity contexts. ISS requires no ground-truth labels at inference time and can be computed from the detector score and a pool of reference speaker examples. Across two detectors and two datasets, incorrectly classified utterances have ISS scores 29 to 52 times higher than correctly classified utterances, and ISS alone predicts misclassification with area-under-curve (AUC) up to 0.954. To test whether ISS actually captures identity-sensitive behavior rather than serving only as a proxy for prediction confidence, we apply voice conversion to 500 utterances and measure the resulting detector-score shift. Utterances flagged as identity-sensitive by ISS respond 19 to 30 times more strongly to this manipulation than utterances flagged as stable. These results position ISS as a practical inference-time diagnostic for speaker-dependent failure analysis in audio deepfake detection.
-
-</details>
-
-#### [Efficient Chain-of-Modality Reasoning via Progressive Compression for Spoken Language Models](https://arxiv.org/abs/2607.19932) · [📄 Read](papers/2026/2607.19932.md)
-
-**Pengchao Feng, Chao-Hong Tan, Qian Chen, Wen Wang et al.** · 2026-07-22
-
-<details>
-<summary>Abstract</summary>
-
-Spoken language models (SLMs) enable natural human-computer interaction, but their reasoning ability still lags behind that of text-based large language models, especially on spoken mathematical question answering tasks. One important reason is that SLMs reason over purely verbalized mathematical expressions, which are harder to interpret than symbolic text. However, directly transferring text-based reasoning to SLMs is nontrivial due to architectural constraints and the additional computational requirements. To address this challenge, we propose Efficient Chain-of-Modality Reasoning (ECoM Reasoning), the first framework to introduce compressed reasoning into SLMs. By compressing the textual component so that it jointly serves as speech guidance and reasoning representation, ECoM Reasoning improves reasoning accuracy while using a smaller token budget than the standard Chain-of-Modality (CoM) architecture, which generates intermediate text before speech. To train this capability, we further propose Progressive Compression, a curriculum-based strategy that gradually trains the model from full-form reasoning to compressed reasoning. Experiments on spoken mathematical question answering benchmarks show that ECoM Reasoning improves accuracy by 21% over standard CoM without explicit reasoning, and by 3% over CoM with full reasoning traces while using only 40% of the text tokens, demonstrating that it enhances SLM reasoning while remaining inference-efficient.
-
-</details>
-
-#### [StellarTTS: Sparse Temporal Embedding for Low-Latency and Robust Speech Synthesis](https://arxiv.org/abs/2607.19859) · [📄 Read](papers/2026/2607.19859.md)
-
-**Kaicheng Luo, Xuefei Gong, Yutao Sun, Jinling He et al.** · 2026-07-22
-
-<details>
-<summary>Abstract</summary>
-
-The trade-off between robustness, latency, and prosody critically challenges text-to-speech (TTS) systems. Autoregressive models, despite fidelity, are slow and error-prone; non-autoregressive (NAR) alternatives, while fast, often sacrifice prosodic naturalness via rigid alignments. This paper introduces StellarTTS, a novel mobile-optimized NAR TTS framework based on a sparse temporal embedding strategy, enabling granular control of phoneme duration, pronunciation, and prosody. Furthermore, we propose a semantic-aware codec that facilitates efficient single-stage decoding. Conditioned on the sparse temporal embedding, our 83M-parameter lightweight masked generative transformer achieves a real-time factor (RTF) of 0.08. Experiments demonstrate that StellarTTS attains lower latency and stronger robustness compared to state-of-the-art TTS systems, while maintaining competitive performance in audio quality, prosodic naturalness, and speaker similarity.
-
-</details>
-
-#### [ETPDesigner: Multi-Agent Orchestration for Interactive Multimodal Electronic Theater Program](https://arxiv.org/abs/2607.19947) · [📄 Read](papers/2026/2607.19947.md)
-
-**Mengtian Li, Xinru Guo, Xiaoru Lin, Xiao Rong et al.** · 2026-07-22
-
-<details>
-<summary>Abstract</summary>
-
-Electronic Theater Programs (ETPs) serve as critical promotional media in the performing arts, comprising a multi-page collection of heterogeneous visual assets such as theatrical posters, performance details, and character portraits. However, existing text-to-image paradigms struggle with such complex design tasks due to their inability to comprehend long-context narratives and maintain visual consistency across multiple distinct pages. To address this, we introduce ETPDesigner, a collaborative Multi-Agent framework that directly synthesizes high-quality ETPs from raw dramatic scripts. Emulating a professional design pipeline, our framework orchestrates specialized agents for semantic script analysis, core poster synthesis, functional background generation, and the stratified composition of character assets. Central to ETPDesigner is a global style anchor mechanism that extracts visual priors from the core poster to enforce strict aesthetic uniformity across all generated components. Furthermore, we elevate the ETP from a static publication to an immersive interactive companion. By integrating portrait animation, customized speech synthesis, and persona-grounded Large Language Models (LLMs), our system enables users to engage in real-time, voice-enabled conversations with the generated virtual characters. To rigorously benchmark this task, we construct ETP-Pro, a domain-specific benchmark of professional theater posters and high-quality character portraits. Extensive evaluations demonstrate our method's superiority in producing semantically faithful, aesthetically consistent, and highly interactive program sets.
 
 </details>
 
