@@ -66,12 +66,45 @@ The following keyword queries are used against arXiv title and abstract fields a
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (59 of 3364 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (61 of 3367 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
 
-#### [CSAVocoder: A Causal Spatial Audio Vocoder Towards Real-Time Spatial Audio Generation](https://arxiv.org/abs/2608.25404)
+#### [EmoSay: Artificial Intelligence-Driven Text-to-Emotional-Speech System for Affective Communication in Extended Reality](https://arxiv.org/abs/2608.26566)
+
+**Sikiru Ademola Adewale, Sunday D. Ubur, Nikitha Donekal Chandrashekar, Onyeka Emebo et al.** · 2026-08-27
+
+<details>
+<summary>Abstract</summary>
+
+While contemporary neural text-to-speech (TTS) systems have achieved high levels of intelligibility, they frequently lack the emotional nuance required for authentic affective communication. This limitation is particularly critical in Extended Reality (XR), where the absence of emotionally expressive audio can diminish user presence and spatial immersion. We present EmoSay, an Artificial Intelligence-driven Text-to-Emotional-Speech (TTES) system designed to bridge the semantic-affective gap in immersive environments. EmoSay modulates a neural synthesis pipeline using discrete emotional prompts, delivering the output through a Unity-based interface featuring high-fidelity spatialized audio. The system was evaluated through a comprehensive user study focusing on perception, engagement, and the subjective sense of empathy. Our results demonstrate that EmoSay significantly enhances the immersive experience, achieving a System Usability Scale (SUS) score of 74.76, indicating strong usability and seamless integration within the XR workflow. Subjective assessments reveal a high degree of perceived naturalness and a strong positive correlation between emotional expressiveness and user engagement. Regression analysis identifies vocal naturalness as the strongest of the tested predictors of user satisfaction, suggesting that EmoSay's affective prosody helps meet the heightened expectations for realism in immersive settings. This work contributes a scalable, affect-aware framework for inclusive XR design and demonstrates the role synthetic emotion can play in fostering human-computer rapport through voice-first interaction.
+
+</details>
+
+#### [Your Voice Cloning System is Secretly a Voice Anonymizer](https://arxiv.org/abs/2608.27360)
+
+**Romolo Muletta, Felix Matthias Saaro, Mark Cieliebak, Jan Deriu** · 2026-08-27
+
+<details>
+<summary>Abstract</summary>
+
+Speaker anonymization suppresses speaker-identifying attributes from speech while preserving linguistic content and quality. We propose repurposing XTTSv2, a multilingual voice cloning model trained on 27k hours of speech, for speaker anonymization without retraining. Our key insight is that XTTSv2's voice cloning capabilities preserve prosodic structure independently of speaker identity, enabling voice conversion by conditioning on a pseudo-speaker. We introduce an iterative refinement strategy that balances privacy and utility by maximizing a harmonic mean of speaker dissimilarity and intelligibility. Evaluated on seven European languages across CommonVoice and Multilingual LibriSpeech, our system achieves near-optimal privacy (EER $\approx$ 0.49), competitive intelligibility, and substantially better speech quality than dedicated anonymization baselines, while requiring no language-specific training. We release the code here: https://github.com/rm00cr/coqui-tts.
+
+</details>
+
+#### [HUG-VIS: A Multimodal Benchmark for Human-centered Understanding and Generation in Visual Intelligence](https://arxiv.org/abs/2608.26517)
+
+**Fei Ma, Zebang Cheng, Minghui Li, Hongbo Xu et al.** · 2026-08-27
+
+<details>
+<summary>Abstract</summary>
+
+Visual intelligence seeks to perceive, interpret, and synthesize the visual world and is central to modern computer vision. Human-centered visual intelligence is especially demanding because it studies people as expressive, socially situated subjects whose meaning is rarely conveyed by appearance alone. It couples vision with audio and language across four representative tasks: human emotion recognition, human video generation, human voice cloning, and human video matting. Yet existing resources remain task-specific, providing modalities and annotations for individual problems rather than a shared foundation coordinating understanding and generation. This limits multimodal signal use and broader research. We address this gap with HUG-VIS, a unified benchmark for Human-centered Understanding and Generation in Visual Intelligence. It contains 8,400 seated half-body videos of 30 professional actors, each performing the same 280 emotion-action-prompt assignments under a controlled Mandarin studio protocol, with synchronized video, audio, text, and alpha mattes. We evaluate diverse open- and closed-source models across the four tasks under a unified zero-shot protocol using automatic metrics, criterion-specific mean opinion scores, and multiple cross-task analyses. Results show that (i) linguistic content dominates current emotion recognition, while purely visual affect recognition is weakest; (ii) in video generation and voice cloning, automatic metrics and human judgment agree overall but differ in their top rankings, requiring joint reporting; (iii) boundary fidelity under motion is the main remaining obstacle for human matting; and (iv) task difficulty varies across emotions, models, and metrics, with notable cross-task correlations. The dataset and results are available at https://github.com/GML-MMGroup/HUG-VIS.
+
+</details>
+
+#### [CSAVocoder: A Causal Spatial Audio Vocoder Towards Real-Time Spatial Audio Generation](https://arxiv.org/abs/2608.25404) · [📄 Read](papers/2026/2608.25404.md)
 
 **Zhiyuan Zhu, Han Wang, Wenxiang Guo, Yu Zhang et al.** · 2026-08-26
 
@@ -82,7 +115,7 @@ Spatial audio vocoders are able to convert mel-spectrograms produced by generati
 
 </details>
 
-#### [InteractGesture: Progressive Chunk Guidance for Continuous Streaming Co-Speech Gesture Control](https://arxiv.org/abs/2608.25734)
+#### [InteractGesture: Progressive Chunk Guidance for Continuous Streaming Co-Speech Gesture Control](https://arxiv.org/abs/2608.25734) · [📄 Read](papers/2026/2608.25734.md)
 
 **Ekkasit Pinyoanuntapong, Ajinkya Deogade, Paul Streli, Wenjing Zhang et al.** · 2026-08-26
 
@@ -706,17 +739,6 @@ Recent advances in generative artificial intelligence have made it easier to fab
 <summary>Abstract</summary>
 
 Zero-shot text-to-speech (TTS) clones a voice from a short audio prompt, but this reliance on reference audio is a barrier when only visual information is available, e.g. for historical figures or video-game characters. In this work, we propose a Face-to-Speech (F2S) framework that predicts a plausible voice from a static facial image. A lightweight Face Adapter, together with soft-tuning of the face encoder's upper blocks, aligns face-recognition features with the style space of a frozen StyleTTS 2 model, kept frozen during training. We evaluate on held-out identities from LRS3, a large-scale audiovisual corpus of English TED-talk videos. The synthesized speech is highly natural (UTMOS 3.7-4.0, matching or exceeding the 3.61 of ground truth), face-to-voice retrieval is consistently above chance, and the generated voice is consistent with the target speaker. Without any retraining, an English-trained adapter also produces fluent Spanish speech, indicating that the face-to-style mapping is largely language-agnostic.
-
-</details>
-
-#### [Extracting Voice Styles from Frozen TTS Models via Gradient-Based Inverse Optimization](https://arxiv.org/abs/2607.25351) · [📄 Read](papers/2026/2607.25351.md)
-
-**Gyeongmin Kim** · 2026-07-28
-
-<details>
-<summary>Abstract</summary>
-
-Some text-to-speech systems ship a synthesis model and preset style vectors but not the reference encoder that turns audio into such a vector. The model still accepts a style vector; a user with a voice of their own cannot produce one. We solve for that input directly, inverting the released pipeline by gradient descent: every weight stays frozen and only the style vector is optimized, against time-pooled WavLM statistics of one recording. Because the objective discards the time axis, the synthesized text may differ from the recording, so no transcript and no alignment are needed. On 154 speakers from two corpora, ECAPA-TDNN similarity rises from 0.132 to 0.413 and ResNet from 0.099 to 0.401, improving for every speaker; a verifier at its equal-error point accepts 53% of the recovered voices as the target, against 1% for the presets they start from.
 
 </details>
 
