@@ -66,12 +66,12 @@ The following keyword queries are used against arXiv title and abstract fields a
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (61 of 3367 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (60 of 3367 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
 
-#### [EmoSay: Artificial Intelligence-Driven Text-to-Emotional-Speech System for Affective Communication in Extended Reality](https://arxiv.org/abs/2608.26566)
+#### [EmoSay: Artificial Intelligence-Driven Text-to-Emotional-Speech System for Affective Communication in Extended Reality](https://arxiv.org/abs/2608.26566) · [📄 Read](papers/2026/2608.26566.md)
 
 **Sikiru Ademola Adewale, Sunday D. Ubur, Nikitha Donekal Chandrashekar, Onyeka Emebo et al.** · 2026-08-27
 
@@ -82,7 +82,7 @@ While contemporary neural text-to-speech (TTS) systems have achieved high levels
 
 </details>
 
-#### [Your Voice Cloning System is Secretly a Voice Anonymizer](https://arxiv.org/abs/2608.27360)
+#### [Your Voice Cloning System is Secretly a Voice Anonymizer](https://arxiv.org/abs/2608.27360) · [📄 Read](papers/2026/2608.27360.md)
 
 **Romolo Muletta, Felix Matthias Saaro, Mark Cieliebak, Jan Deriu** · 2026-08-27
 
@@ -93,7 +93,7 @@ Speaker anonymization suppresses speaker-identifying attributes from speech whil
 
 </details>
 
-#### [HUG-VIS: A Multimodal Benchmark for Human-centered Understanding and Generation in Visual Intelligence](https://arxiv.org/abs/2608.26517)
+#### [HUG-VIS: A Multimodal Benchmark for Human-centered Understanding and Generation in Visual Intelligence](https://arxiv.org/abs/2608.26517) · [📄 Read](papers/2026/2608.26517.md)
 
 **Fei Ma, Zebang Cheng, Minghui Li, Hongbo Xu et al.** · 2026-08-27
 
@@ -728,17 +728,6 @@ Most Music Source Separation (MSS) models do not generalize well to live music r
 <summary>Abstract</summary>
 
 Recent advances in generative artificial intelligence have made it easier to fabricate statements and amplify political disinformation during elections. We introduce ParlaSpoof-BR, an audio deepfake dataset derived from recordings of the Brazilian Chamber of Deputies and expanded with synthetic utterances from diverse text-to-speech and voice conversion models. Using ParlaSpoof-BR, we benchmark state-of-the-art audio deepfake detectors, examine their ability to generalize to Brazilian Portuguese political speech, and investigate potential biases in their predictions. Our analysis reveals that current systems struggle to provide consistent decisions across the diversity represented in the dataset, with methodological factors (synthesis model choice, manipulation extent) dominating over demographic disparities. ParlaSpoof-BR provides a domain-specific benchmark for studying audio deepfake detection in a socially consequential and underrepresented setting, supporting the development of more robust detection systems for electoral integrity in Brazil.
-
-</details>
-
-#### [Zero-Shot Face-to-Speech Synthesis via Latent Space Adaptation of a Style-Diffusion TTS Model](https://arxiv.org/abs/2607.26742) · [📄 Read](papers/2026/2607.26742.md)
-
-**Carlos Muñoz-Romero, Jose A. Gonzalez-Lopez** · 2026-07-29
-
-<details>
-<summary>Abstract</summary>
-
-Zero-shot text-to-speech (TTS) clones a voice from a short audio prompt, but this reliance on reference audio is a barrier when only visual information is available, e.g. for historical figures or video-game characters. In this work, we propose a Face-to-Speech (F2S) framework that predicts a plausible voice from a static facial image. A lightweight Face Adapter, together with soft-tuning of the face encoder's upper blocks, aligns face-recognition features with the style space of a frozen StyleTTS 2 model, kept frozen during training. We evaluate on held-out identities from LRS3, a large-scale audiovisual corpus of English TED-talk videos. The synthesized speech is highly natural (UTMOS 3.7-4.0, matching or exceeding the 3.61 of ground truth), face-to-voice retrieval is consistently above chance, and the generated voice is consistent with the target speaker. Without any retraining, an English-trained adapter also produces fluent Spanish speech, indicating that the face-to-style mapping is largely language-agnostic.
 
 </details>
 
