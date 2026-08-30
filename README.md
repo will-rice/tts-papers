@@ -66,7 +66,7 @@ The following keyword queries are used against arXiv title and abstract fields a
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (60 of 3367 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (57 of 3367 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
@@ -695,39 +695,6 @@ Natural-language descriptions have become a flexible interface for controlling g
 <summary>Abstract</summary>
 
 Balancing sequence length, representational capacity, and long-horizon stability is a central problem in autoregressive (AR) speech and audio generation. Representations with higher frame rates or greater capacity can preserve more signal detail, but they also make streaming generation more vulnerable to distribution drift and AR error accumulation. Conversely, shorter and more compressed representations simplify AR modeling, but their limited bandwidth may discard important components and constrain the upper bound of reconstruction fidelity and generation quality. We ask whether a low-frame-rate, high-dimensional, high-bandwidth continuous representation can be co-designed with a streaming generation framework to support robust high-fidelity reconstruction, strong single-token predictability, and superior long-horizon stability. We decompose this goal into two coupled problems: what geometric and statistical properties a high-dimensional representation space should have, and how an AR continuous-token generator should be structured to resist error accumulation. Accordingly, we propose Locodec, a locally encoded codec that shapes its representation space to improve the interpolatability of a lower-dimensional core manifold and the identifiability of the native high-dimensional coordinates, thereby improving the predictability of high-dimensional high-bandwidth tokens. We also propose MP-ELD, a single-token AR flow-matching framework that uses multi-path information routing and residual classifier-free guidance to mitigate error accumulation. Experiments with 8-Hz, 768-dimensional tokens show that our design preserves reconstruction quality, improves single-token predictability, achieves competitive WER, and maintains stable long-form synthesis, without using external SSL/ASR models, pretrained text language models, or post-training stages.
-
-</details>
-
-#### [Teffic-Audio: Tell Fact from Fiction](https://arxiv.org/abs/2607.28351) · [📄 Read](papers/2026/2607.28351.md)
-
-**Wan Lin, Li Wang, Jindong Wang, Kunyu Feng et al.** · 2026-07-30
-
-<details>
-<summary>Abstract</summary>
-
-Speech deepfake detection has expanded in scope with increasingly heterogeneous spoofing mechanisms, including speech synthesis, voice conversion, vocoder reconstruction, and neural-codec resynthesis. The resulting spoofing artifacts can be further shaped by variability in source speech, recording environments, and transmission channels. This variability makes robust generalization across heterogeneous conditions a central requirement for practical detection systems. This report presents Teffic-Audio, a general speech deepfake detection system designed for comprehensive evaluation environment. Teffic-Audio adopts a straightforward detector architecture consisting of a Conformer-based speech encoder, multi-head attentive statistics pooling, and a binary classifier. Rather than relying on additional architectural complexity, the system improves generalization through its training recipe, which integrates multi-source data, attack- and source-balanced sampling, and diverse audio augmentation. Trained only with open-source data, Teffic-Audio achieves a pooled EER of 1.454% on the 14 test sets of Speech-DF-Arena, outperforming all currently public systems on the leaderboard. It also obtains the lowest EER on five individual test sets and shows a favorable performance-complexity trade-off compared with larger leading systems. Overall, Teffic-Audio provides a strong and practical reference system for general speech deepfake detection.
-
-</details>
-
-#### [CrowdioSet and PaRIRset: Two Datasets Towards Live Music Source Separation](https://arxiv.org/abs/2607.27828) · [📄 Read](papers/2026/2607.27828.md)
-
-**Enric Gusó, Xavier Serra** · 2026-07-30
-
-<details>
-<summary>Abstract</summary>
-
-Most Music Source Separation (MSS) models do not generalize well to live music recordings because they are trained on studio recordings alone, disregarding the venue acoustics, the speaker system's response and audience noise. We propose to bridge this gap by providing and training a model on two novel datasets. First, we present CrowdioSet: a noise dataset comprising 4800 real ambience tracks from Freesound and synthetic sing-alongs for the vocals in MUSDB18 and MOISESDB datasets, generated from zero-shot singing voice conversions. CrowdioSet enables effective audio denoising for live recordings, resulting in superior separation both in objective and subjective evaluations. Second, we introduce PaRIRset, a stereo impulse response dataset captured across 40 professional concert venues using a microphone array. Our results show that adding PaRIRset RIRs increases the performance of a MSS model compared to using real RIRs from Speech Enhancement tasks alone. We make the examples, code, model weights, PaRIRset, and CrowdioSet freely available to the public.
-
-</details>
-
-#### [Cloned Voices, Real Consequences: Evaluating Bias in Political Deepfake Detection for Electoral Integrity in Brazil](https://arxiv.org/abs/2607.28770) · [📄 Read](papers/2026/2607.28770.md)
-
-**Lucas Rafael Stefanel Gris, Daniel Casanova, Frederico Santos De Oliveira, Alef Iury Ferreira et al.** · 2026-07-30
-
-<details>
-<summary>Abstract</summary>
-
-Recent advances in generative artificial intelligence have made it easier to fabricate statements and amplify political disinformation during elections. We introduce ParlaSpoof-BR, an audio deepfake dataset derived from recordings of the Brazilian Chamber of Deputies and expanded with synthetic utterances from diverse text-to-speech and voice conversion models. Using ParlaSpoof-BR, we benchmark state-of-the-art audio deepfake detectors, examine their ability to generalize to Brazilian Portuguese political speech, and investigate potential biases in their predictions. Our analysis reveals that current systems struggle to provide consistent decisions across the diversity represented in the dataset, with methodological factors (synthesis model choice, manipulation extent) dominating over demographic disparities. ParlaSpoof-BR provides a domain-specific benchmark for studying audio deepfake detection in a socially consequential and underrepresented setting, supporting the development of more robust detection systems for electoral integrity in Brazil.
 
 </details>
 
