@@ -66,7 +66,7 @@ The following keyword queries are used against arXiv title and abstract fields a
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (57 of 3367 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (56 of 3367 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
@@ -684,17 +684,6 @@ Bandwidth extension (BWE) aims to recover missing high-frequency content from ba
 <summary>Abstract</summary>
 
 Natural-language descriptions have become a flexible interface for controlling generated speech. Existing evaluations largely assess whether an output matches a prompt, but prompt matching alone does not reveal whether characteristics outside the intended change remain stable. We examine this distinction through a controlled paired audit of three speech-generation systems: CosyVoice3, VoxCPM2, and Fish-Speech-S2. The evaluation contains 5,940 outputs spanning six reference speakers, ten texts, three random seeds, and eleven conditions. Using acoustic, prosodic, content, and speaker measurements, we find that responses in the expected target direction are frequently accompanied by changes outside descriptor-specific signal-level target sets. This pattern remains among outputs whose target response exceeds baseline seed variation, and the accompanying changes differ substantially across systems. We further introduce VoDER-Cal, a training-free candidate selector that retains sufficiently strong target responses while favoring smaller off-target deviations. A three-candidate pool raises the joint success rate from 4.8% under single-sample direct generation to approximately 14% for all candidate-selection policies. Within the matched three-candidate budget, VoDER-Cal reduces held-out off-target deviation from 0.344 under target-only selection to 0.276 and improves listener-rated preservation. Preservation-sensitive evaluation therefore complements prompt-adherence evaluation, while candidate reranking offers a practical inference-time improvement. Code, configuration files, and analysis scripts are available at https://github.com/intelland/VoDER
-
-</details>
-
-#### [Stable Autoregressive Speech Generation with Low-Frame-Rate High-Dimensional Continuous Tokens](https://arxiv.org/abs/2607.29363) · [📄 Read](papers/2026/2607.29363.md)
-
-**Yi Luo, Rongzhi Gu, Jixun Yao** · 2026-07-31
-
-<details>
-<summary>Abstract</summary>
-
-Balancing sequence length, representational capacity, and long-horizon stability is a central problem in autoregressive (AR) speech and audio generation. Representations with higher frame rates or greater capacity can preserve more signal detail, but they also make streaming generation more vulnerable to distribution drift and AR error accumulation. Conversely, shorter and more compressed representations simplify AR modeling, but their limited bandwidth may discard important components and constrain the upper bound of reconstruction fidelity and generation quality. We ask whether a low-frame-rate, high-dimensional, high-bandwidth continuous representation can be co-designed with a streaming generation framework to support robust high-fidelity reconstruction, strong single-token predictability, and superior long-horizon stability. We decompose this goal into two coupled problems: what geometric and statistical properties a high-dimensional representation space should have, and how an AR continuous-token generator should be structured to resist error accumulation. Accordingly, we propose Locodec, a locally encoded codec that shapes its representation space to improve the interpolatability of a lower-dimensional core manifold and the identifiability of the native high-dimensional coordinates, thereby improving the predictability of high-dimensional high-bandwidth tokens. We also propose MP-ELD, a single-token AR flow-matching framework that uses multi-path information routing and residual classifier-free guidance to mitigate error accumulation. Experiments with 8-Hz, 768-dimensional tokens show that our design preserves reconstruction quality, improves single-token predictability, achieves competitive WER, and maintains stable long-form synthesis, without using external SSL/ASR models, pretrained text language models, or post-training stages.
 
 </details>
 
