@@ -1,10 +1,10 @@
 # Papers — Markdown Corpus
 
-Total papers: 3367
+Total papers: 3369
 
-_Generated: 2026-08-31_
+_Generated: 2026-09-01_
 
-- [2026](2026/) — 487 papers
+- [2026](2026/) — 489 papers
 - [2025](2025/) — 720 papers
 - [2024](2024/) — 557 papers
 - [2023](2023/) — 409 papers
