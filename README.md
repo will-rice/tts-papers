@@ -66,12 +66,12 @@ The following keyword queries are used against arXiv title and abstract fields a
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (52 of 3376 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (51 of 3376 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
 
-#### [PACodec: A Low-bitrate Neural Speech Codec with Parallel Additive Vector Quantization](https://arxiv.org/abs/2609.03363)
+#### [PACodec: A Low-bitrate Neural Speech Codec with Parallel Additive Vector Quantization](https://arxiv.org/abs/2609.03363) · [📄 Read](papers/2026/2609.03363.md)
 
 **Fei Liu, Yang Ai, Xiao-Hang Jiang, Zhen-Hua Ling** · 2026-09-03
 
@@ -82,7 +82,7 @@ This paper proposes PACodec, a novel low-bitrate neural speech codec based on pa
 
 </details>
 
-#### [Building and Evaluating Fixed-Voice Thai TTS from Synthetic Speech](https://arxiv.org/abs/2609.03502)
+#### [Building and Evaluating Fixed-Voice Thai TTS from Synthetic Speech](https://arxiv.org/abs/2609.03502) · [📄 Read](papers/2026/2609.03502.md)
 
 **Kunat Pipatanakul, Potsawee Manakul, Warit Sirichotedumrong, Sittipong Sripaisarnmongkol et al.** · 2026-09-03
 
@@ -93,7 +93,7 @@ In low-resource settings, deploying TTS typically requires choosing between a la
 
 </details>
 
-#### [Deep Neural Compression for RIR-Characterized Acoustic Environments with Structure-Aware Constraints](https://arxiv.org/abs/2609.04085)
+#### [Deep Neural Compression for RIR-Characterized Acoustic Environments with Structure-Aware Constraints](https://arxiv.org/abs/2609.04085) · [📄 Read](papers/2026/2609.04085.md)
 
 **Chen-Yuan Ning, Yang Ai, Hui-Peng Du, Xiao-Hang Jiang et al.** · 2026-09-03
 
@@ -629,17 +629,6 @@ Speech deepfake detection (SDD) systems achieve strong performance on convention
 <summary>Abstract</summary>
 
 Neural Audio Codecs are widely adopted in speech generation and editing. However, existing neural audio codecs are not idempotent: across the paper's twelve baseline systems, every configuration tested rewrites, on average, at least 15% of its tokens in a single decode-re-encode pass. This poses a problem for utilizing Neural Audio Codecs as token interfaces in pipelines where re-encoding decoded outputs can occur. We present LILAC, a fully convolutional 24 kHz speech codec at 9.375 Hz and 0.75 kbit/s that is codec idempotent by construction; re-encoding the decoded audio of any valid token stream returns the identical stream. LILAC achieves idempotency while maintaining competitive quality, reaching UTMOS 4.14 and 4.24 on LibriSpeech and LibriTTS-R test sets, comparable to SOTA sub-1 kbit/s Neural Audio Codecs.
-
-</details>
-
-#### [Multi Codec Discrete Diffusion Model for Text Guided Speech Inpainting and Editing](https://arxiv.org/abs/2608.06424) · [📄 Read](papers/2026/2608.06424.md)
-
-**Iftach Shoham, Tali Dror, Oren Gal, Haim Permuter et al.** · 2026-08-05
-
-<details>
-<summary>Abstract</summary>
-
-Speech recordings often contain missing, corrupted, or incorrect regions that must be reconstructed or modified without re-synthesizing the entire utterance. Speech inpainting restores missing segments, whereas speech editing replaces spoken content according to an edited transcript. Both tasks require the generated speech to express the intended words while remaining consistent with the surrounding speaker identity, prosody, timing, and recording conditions. Discrete diffusion is particularly well suited to these tasks because it can iteratively refine masked tokens while jointly conditioning on both left and right acoustic context. We introduce SIEDD, a discrete diffusion framework for text-guided speech inpainting and editing over hierarchical codec tokens. Its core architecture, HiCoDD, follows the RVQ generation order by representing previously generated codebooks as clean, committed acoustic context and applying diffusion only to the current refinement codebook. This separation enables leakage-free joint training while matching sequential coarse-to-fine inference. The model further combines phoneme-level conditioning, span-localized classifier-free guidance, and duration prediction to support both fixed-duration inpainting and variable-duration text edits. On the RealEdit benchmark, SIEDD achieves the best overall speech-editing performance among the evaluated methods. It also outperforms the evaluated autoregressive baselines across all speech-inpainting settings, on both single and multiple gaps. These results demonstrate that explicitly modeling the codec hierarchy substantially improves context-preserving speech reconstruction and editing. See our full code at https://github.com/iftachShoham/SIEDD.
 
 </details>
 
