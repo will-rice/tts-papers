@@ -66,10 +66,65 @@ The following keyword queries are used against arXiv title and abstract fields a
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (48 of 3380 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (52 of 3385 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
+
+#### [TASTE2: Text-Aligned Speech Modeling and Deployment toward Full-Duplex Voice Interaction](https://arxiv.org/abs/2609.08956)
+
+**Yi-Chang Chen, Chun Wei Chen, Dien-Ruei Wu, Jie Lin et al.** · 2026-09-08
+
+<details>
+<summary>Abstract</summary>
+
+Full-duplex voice interaction requires more than utterance-level conversion. It must process streaming speech, manage turn-taking and interruptions, while preserving pretrained linguistic competence and acoustic paralinguistic cues. We ask whether TASTE (Text-Aligned Speech Tokenization and Embedding) provides a viable path toward this goal. We present TASTE2, which transforms utterance-level TASTE into an incremental dialogue stack. A shared text-token vocabulary removes word-level averaging, while modality-aligned dialogue training predicts one continuous audio latent per text token without interleaving heterogeneous token streams. An incremental Speech Detokenizer enables streaming synthesis through CosyVoice2. After speech and dialogue training, TASTE2 (Merge) reaches 56.3% on LLaMA-Questions against a 57.3% Qwen2.5-7B Instruct text-only reference (98.2% accuracy retention), and TASTE2 (Direct) reaches 53.0% (92.4% retention). We build TASTE2 VoiceBot, which processes user speech incrementally, streams synthesized audio, and stops generation on barge-in. On Full-Duplex-Bench v1.0, TASTE2 and TASTE2 VoiceBot handle interruptions well while maintaining high conversational coherence. Natural conversation remains challenging, and deployed mean time to first audio is 2.701 s on two NVIDIA RTX A6000 after TensorRT acceleration. Finally, to our knowledge, we provide the first systematic characterization of explicit paralinguistic control in a TASTE based model. Fast speaking rate serves as a cross-strategy proof of concept after dialogue SFT, while emotion control is strategy dependent and the remaining attributes stay weak. Together, these results establish TASTE based modeling as a practical route toward full-duplex systems while identifying natural conversation robustness, speech generation latency, and feature general paralinguistic control as open challenges. Explore TASTE2 online.
+
+</details>
+
+#### [Disentangled Global-Local Feature Learning with E-Branchformer for Audio Deepfake Detection](https://arxiv.org/abs/2609.08948)
+
+**Phuong Tuan Dat, Ho Bao Thu, Nguyen Tran Trung, Pham Viet Hoang et al.** · 2026-09-08
+
+<details>
+<summary>Abstract</summary>
+
+The rapid advancement of voice synthesis technologies such as text-to-speech and voice conversion poses significant threats to speech-based authentication systems, necessitating robust deepfake detection methods. In this work, we propose a novel E-Branchformer-based architecture that effectively leverages self-supervised speech representations for audio deepfake detection. Our model employs parallel branches to simultaneously capture global contextual dependencies through multi-head self-attention and local temporal patterns through convolutional processing. To enhance discriminative capability, we integrate depthwise convolution and Squeeze-and-Excitation modules that enrich the classification token with refined patch token information after feature merging. Extensive experiments on ASVspoof 2021 LA, DF, and In-the-Wild datasets demonstrate state-of-the-art performance with equal error rates of 0.88%, 1.85%, and 6.30% respectively, substantially outperforming existing methods. Comprehensive ablation studies validate that the dual-branch architecture provides complementary discriminative information, Squeeze-and-Excitation Aggregation significantly improves SSL feature integration, and the combination of DWConv and SE modules is critical for effective class token enhancement. The superior performance on real-world scenarios demonstrates strong generalization capability to diverse acoustic conditions and unseen spoofing attacks.
+
+</details>
+
+#### [TontaubeV1: Streaming Text-to-Speech with Hierarchical Codec Modeling and Bounded Context](https://arxiv.org/abs/2609.08703)
+
+**Fritz Cremer, Jonathan Cremer** · 2026-09-08
+
+<details>
+<summary>Abstract</summary>
+
+Text-to-speech systems often face a trade-off between natural prosody and efficient inference: higher perceptual quality typically comes at increased computational cost and latency. We present TontaubeV1, a model that preserves natural prosody while enabling streaming from a single consumer GPU. Speech is encoded by the hierarchical DualCodec representation at 12.5 Hz, which separates a semantic stream from successive acoustic refinements. Our design assumes that prosodic structure is largely established when the semantic stream is generated, and allocates capacity accordingly: a Qwen3-1.7B-derived transformer predicts that stream and thereby the utterance duration, while three progressively smaller Qwen3-0.6B-derived transformers each add one acoustic refinement. Text is tokenized per character rather than by subword. Paired text and audio markers at shared positions support long-form generation with bounded context, and overlapping DualCodec reconstructions are mapped into the VibeVoice acoustic latent space and decoded causally, enabling streaming despite DualCodec's noncausal decoder. The model accepts up to one minute of reference audio for voice conditioning and is designed primarily for English and German, with additional multilingual support. The four predictors total 2.9B parameters; on a single RTX 5090 the streaming path reaches approximately 200 ms to first audio. In separate non-streaming measurements, the end-to-end real-time factor (RTF) is 0.08 for one input and the aggregate RTF is 0.02 across eight concurrent inputs. On our LLM-as-a-judge audiobook-reading benchmark, TontaubeV1 matches ElevenLabs Flash v2.5 and outperforms Fish Audio S2 Pro, the April 2026 Gradium API, and Cartesia Sonic 3 on prosody. The model weights are released on Hugging Face under the Tontaube Community Model License 1.0.
+
+</details>
+
+#### [AuK Technical Report: An Open-Source Foundational Model for Speech Generation and Editing](https://arxiv.org/abs/2609.08936)
+
+**Ziyang Ma, Zhikang Niu, Wenming Tu, Tianrui Wang et al.** · 2026-09-08
+
+<details>
+<summary>Abstract</summary>
+
+We introduce AuK, an open-source foundational model that unifies speech generation and editing through a common interface of natural-language instructions and audio context. To support this broad capability set, we construct approximately 3.03 billion instruction--audio instances and 1.95 million hours of effective supervision across five task families: speech generation, content editing, enhancement and separation, paralinguistic editing, and acoustic editing. AuK combines a multimodal large language model for semantic conditioning, an VAE jointly trained on speech, general audio, and music for acoustic conditioning, and a hybrid rectified-flow Transformer that performs dual-stream MMDiT blocks followed by unified single-stream DiT blocks for generation. Training begins with generation-only warm-up and proceeds to joint generation--editing pre-training. We then apply complementary post-training strategies: human-feedback preference optimization for open-ended editing and reward-based reinforcement learning for speech generation. To reduce inference cost, we further distill the model with consistency initialization and task-routed Decoupled DMD. The resulting AuK-Flash performs 4-step inference without classifier-free guidance and achieves a 4.5 wall-clock speedup over the full model under matched conditions. Experiments demonstrate leading performance on zero-shot and instruction-controlled speech generation and general instruction-guided editing, while remaining competitive on signal-level restoration tasks. We release both the source code and model weights to support reproducibility and further research.
+
+</details>
+
+#### [What Did I Just Say? Self-Listening for Full-Duplex Speech Models](https://arxiv.org/abs/2609.05592)
+
+**Xuanning Zhou, Junyi Ao, Xiaotong Liu, Tom Ko et al.** · 2026-09-04
+
+<details>
+<summary>Abstract</summary>
+
+Full-duplex spoken language models can listen and speak simultaneously, enabling them to handle interruptions and backchannels in human conversation. However, text generation, speech synthesis, and audio playback proceed asynchronously. As a result, what a model believes it has said may not match what has actually been played to the user. We refer to the problem of recovering from an interruption while remaining aware of the model's realized speech as anchor interruption. To address this problem, we propose Self-Listening, a full-duplex modeling approach that interleaves user speech, model text, and the model's played speech. By feeding the realized speech output back to the model as an input stream, self-listening grounds interruption recovery in what the user has actually heard. We further introduce AnchorSpeech, a collection with homogeneous training and test splits for tracking which items of structured ordered responses have actually been spoken. AnchorSpeech-test evaluates whether a model can respond consistently with the last completed item before an interruption. Experiments show that, compared with full-duplex baselines, models equipped with self-listening mechanism achieve better anchoring performance.
+
+</details>
 
 #### [PACodec: A Low-bitrate Neural Speech Codec with Parallel Additive Vector Quantization](https://arxiv.org/abs/2609.03363) · [📄 Read](papers/2026/2609.03363.md)
 
@@ -585,17 +640,6 @@ Automated Text-to-Speech (TTS) evaluation methods (Mean Opinion Score (MOS) pred
 <summary>Abstract</summary>
 
 Recent advances in speech synthesis and audio generation have made high-fidelity acoustic forgery low-cost and difficult to attribute, enabling a realistic attack scenario in which speech and background audio are independently manipulated over otherwise authentic video. Yet existing research either focuses on visual manipulation, addresses speech detection in isolation, or conflates speech and non-speech audio as a single undifferentiated audio stream, overlooking the distinct forensic challenges posed by background audio. This conflation is consequential: the two acoustic components arise from fundamentally different generative mechanisms, exhibit distinct artifact profiles, and pose different challenges to detection systems. We introduce MADBench, the first benchmark that treats speech and environmental audio as distinct acoustic components, enabling component-aware evaluation of audio deepfake detection across independently manipulated forgery sources. We benchmark representative state-of-the-art detectors and multimodal large language models under a unified protocol. Our experiments reveal that environmental audio manipulation is more detectable than synthetic speech across general-purpose encoders, while existing pretrained detectors fail on both acoustic components, and manipulated environmental audio asymmetrically degrades speech deepfake detection, findings entirely invisible under the single-label paradigm of prior benchmarks. MADBench establishes a rigorous foundation for future research into robust, component-aware audio deepfake detection.
-
-</details>
-
-#### [CuteTTS: Efficient and High-Quality Speech Synthesis via Autoregressive Modeling of Continuous Latents](https://arxiv.org/abs/2608.08638) · [📄 Read](papers/2026/2608.08638.md)
-
-**Yuqian Zhang, Yao Shi, Kexin Huang, Botian Jiang et al.** · 2026-08-09
-
-<details>
-<summary>Abstract</summary>
-
-Zero-shot text-to-speech (TTS) now supports interactive assistants, personalized media, and accessibility tools. All TTS systems require faithful linguistic rendering, consistent speaker identity, and low-latency response. Yet compact streaming systems must preserve sufficient acoustic detail in a predictable low-rate latent sequence, while iterative diffusion sampling and classifier-free guidance multiply inference cost at every autoregressive step. To strike a balance between high-fidelity synthesis and low-latency inference, we present CuteTTS, a compact continuous-autoregressive TTS system. It combines semantically aligned causal VAE latents with patch-level autoregression, explicit speaker conditioning, and a bidirectional flow-matching head. We further introduce guidance-step distillation, which absorbs classifier-free guidance and multiple solver steps into a single interval-conditioned student. Evaluations on LibriSpeech and Seed-TTS-Eval demonstrate competitive intelligibility and speaker similarity in zero-shot voice cloning, while distillation lowers first-audio latency by 23.3% and real-time factor by 40.8% relative to the base model with comparable objective and subjective quality. These results provide a practical path toward continuous-autoregressive TTS that reconciles high-fidelity generation with the latency demands of real-time interaction.
 
 </details>
 
