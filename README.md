@@ -66,12 +66,78 @@ The following keyword queries are used against arXiv title and abstract fields a
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (56 of 3391 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (62 of 3397 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
 
-#### [Seeing the Voice, Preserving the Self: A Participatory Design Approach to Deaf-Centric Text-to-Speech](https://arxiv.org/abs/2609.10199)
+#### [Not All Attacks Are Learned Equally in Speech Deepfake Detection](https://arxiv.org/abs/2609.11763)
+
+**Avantika Singh, Aurosweta Mahapatra, Ismail Rasim Ulgen, Nicholas Andrews et al.** · 2026-09-10
+
+<details>
+<summary>Abstract</summary>
+
+Speech deepfake detection (SDD) models are trained on multi-attack datasets containing diverse spoofing systems, such as text-to-speech (TTS) and voice conversion (VC). In standard classifier training on multi-attack datasets, all attacks are treated as one spoofed class, and performance is reported using overall Equal Error Rate (EER). This aggregate view obscures how individual attacks shape learning and generalization. To better understand this attack-level behavior, we first balance TTS and VC exposure using sample and attack omission. We then measure attack-wise EER at inference and analyze attack-wise training loss and predictive entropy to characterize optimization. Results show that attacks contribute unequally: some attacks have high EER sensitivity and concentrated entropy with low loss, indicating strong influence on the decision boundary. We define these as high-impact attacks. To reduce uneven generalization across attacks, we propose a replay-regularized, attack-aware curriculum that steps exposure based on measured attack influence. Experiments on ASVspoof 2019, 2021, ASVspoof 5, and Fake-or-Real show improved overall robustness and reduced attack-level imbalance compared with standard multi-attack training.
+
+</details>
+
+#### [Continuous-Time Acoustic Modelling with Neural Controlled Differential Equations](https://arxiv.org/abs/2609.11725)
+
+**Mattias Cross, Minghui Zhao, Anton Ragni** · 2026-09-10
+
+<details>
+<summary>Abstract</summary>
+
+Text-to-speech (TTS) models commonly address text--speech alignment by expanding phone-level encoder states to frame-level decoder inputs using predicted durations. While this length-regulation step resolves alignment structurally, this use of duration typically changes only where and how often latent states appear, not the values of the states themselves. This paper proposes a continuous-time mechanism for duration-aware acoustic modelling in TTS using neural controlled differential equations (CDEs). We formulate the phone representation as a temporally parameterised control path and use a neural acoustic vector field to produce a continuous-time hidden state whose values evolve with phonetic content and duration-derived timing. The resulting trajectory can be sampled at discrete points and integrated into a standard acoustic decoder pipeline. Objective results contrast CDEs and typical recurrent models. Subjective results suggest that CDE-based models evaluating one phone per step can improve rank-order agreement between synthesised and reference emotion intensity while maintaining comparable emotion-expression quality to a strong baseline. Additional experiments with half-phone step-sizes suggest that temporal resolution changes the trade-off between style tracking and absolute calibration. These results position CDEs as a promising design space for continuous-time and duration-aware style-sensitive TTS.
+
+</details>
+
+#### [Complex-Text Robustness Evaluation and Failure Diagnosis for Low-Resource Multilingual Text-to-Speech](https://arxiv.org/abs/2609.11545)
+
+**Tianlun Zuo, Ziyu Zhang, Tingzhi Mao, Zhonghua Fu et al.** · 2026-09-10
+
+<details>
+<summary>Abstract</summary>
+
+Low-resource multilingual text-to-speech (TTS) systems have expanded language coverage, but their robustness under complex text inputs remains insufficiently diagnosed. Existing evaluations mainly focus on naturalness, speaker similarity, and content consistency using regular test sentences, while providing limited insight into how multilingual TTS systems fail when handling challenging inputs such as numbers, dates, named entities, long sentences, code-switched expressions, and punctuation-related structures. This paper proposes a complex-text robustness diagnosis framework for low-resource multilingual TTS. We evaluate robustness from three dimensions: content consistency, language consistency, and generation stability. A multilingual robustness testing scheme is designed for Thai, Vietnamese, Swahili, and Indonesian, covering ordinary sentences and multiple types of complex text inputs. We further introduce automatic diagnostic metrics, including character error rate, language identification accuracy, and duration abnormal rate. To support input-level risk analysis before speech generation, we propose a lightweight Text Risk Score (TRS), which estimates synthesis risk from interpretable text features without manual annotation or model training. Experiments on three representative multilingual TTS systems, including OmniVoice, VoxCPM2, and MMS-TTS, show that complex text inputs expose systematic failure patterns that are not fully reflected by ordinary short-sentence evaluation. Different systems exhibit distinct vulnerabilities in number normalization, named entity handling, long-text generation, and code-switched input processing. Furthermore, TRS shows a positive correlation with content errors and duration abnormalities, demonstrating its usefulness as a low-cost pre-synthesis indicator for complex-text risk diagnosis in low-resource multilingual TTS.
+
+</details>
+
+#### [Post-Training Zero-Shot TTS for Fine-Grained Emotion and Duration Control via Natural Language](https://arxiv.org/abs/2609.11523)
+
+**Lianru Gao, Yujie Guo, Yong Qin** · 2026-09-10
+
+<details>
+<summary>Abstract</summary>
+
+Audiobook narration, conversational agents, and audiovisual dubbing require speech that conveys changing emotions and adapts its pacing within a single utterance. But most existing TTS systems typically rely on utterance-level style conditioning, making such fine-grained control difficult to achieve. In light of this, and inspired by the success of post-training in large language models, we propose a unified post-training framework that equips pretrained text-to-speech models with natural-language control over segment-level emotion and duration. Supervised fine-tuning establishes instruction-conditioned speech generation, while reinforcement learning with group relative policy optimization refines control accuracy using emotion and duration rewards alongside content and speaker preservation objectives. By reusing the pretrained architecture, our approach avoids additional inference-time control modules. Experiments demonstrate significantly improved fine-grained controllability while maintaining speech intelligibility and speaker identity, highlighting post-training as a practical approach to extending existing speech synthesis models.
+
+</details>
+
+#### [Flexible and Interpretable Accent Distance Measurements](https://arxiv.org/abs/2609.11458)
+
+**Charles McGhee, Mark J. F. Gales, Kate M. Knill** · 2026-09-10
+
+<details>
+<summary>Abstract</summary>
+
+Determining the differences between two speakers' accents is a fundamental task in linguistics and speech technology research. The methodology used to measure these differences depends on the specific research area. A phonetics researcher may demonstrate accent variation by comparing vowel formants in paired recordings of individual words. These results will be interpretable, but the recordings will be time-consuming to collect and may not be representative of connected speech. Accented Text-to-Speech (TTS) research has pushed towards using accent embeddings derived from accent classification tasks. These embeddings can be produced from any speech recording, but are not readily interpretable. In this paper, we demonstrate that articulatory representations created through articulatory inversion can be used as an interpretable basis for accent comparison and that optimal transport provides a framework for accent comparison across arbitrary recording types.
+
+</details>
+
+#### [ZipCodec: Ultra-Low-Frame-Rate Streaming Speech Coding](https://arxiv.org/abs/2609.11642)
+
+**Luca Della Libera, Cem Subakan, Mirco Ravanelli** · 2026-09-10
+
+<details>
+<summary>Abstract</summary>
+
+Neural audio codecs are a fundamental component of modern speech generation systems. While recent codecs achieve increasingly low bitrates, reducing frame rate remains challenging, as each token must preserve more information while maintaining reconstruction quality. We present ZipCodec, a streaming neural speech codec operating at 6.25 Hz and 0.80 kbps with a theoretical latency of 160 ms. Our approach combines large-scale WavLM distillation with a redesigned transformer-based architecture, a scalar spherical quantizer, and a latency-aware streaming decoder. Experiments show that ZipCodec substantially outperforms existing streaming codecs at comparable bitrates in both reconstruction and downstream tasks, while operating at a significantly lower frame rate. Despite its 842M parameters, ZipCodec achieves real-time single-stream inference on a consumer-grade CPU. Demo samples, code and checkpoints are available at https://lucadellalib.github.io/zipcodec-web/.
+
+</details>
+
+#### [Seeing the Voice, Preserving the Self: A Participatory Design Approach to Deaf-Centric Text-to-Speech](https://arxiv.org/abs/2609.10199) · [📄 Read](papers/2026/2609.10199.md)
 
 **Shela Atemnkeng, Patrick Boudreault, Paige DeVries, Lloyd May et al.** · 2026-09-09
 
@@ -82,7 +148,7 @@ We describe a participatory design approach toward developing Deaf-centric text-
 
 </details>
 
-#### [X2-NativeCursor: Native-Token Text Progress Tracking for Incremental-Text Streaming Codec TTS](https://arxiv.org/abs/2609.09677)
+#### [X2-NativeCursor: Native-Token Text Progress Tracking for Incremental-Text Streaming Codec TTS](https://arxiv.org/abs/2609.09677) · [📄 Read](papers/2026/2609.09677.md)
 
 **Zehan Liu, Carl Chen, Rime Wen, Kaiqi Fu et al.** · 2026-09-09
 
@@ -93,7 +159,7 @@ Incremental-text streaming text-to-speech (TTS) needs online text progress track
 
 </details>
 
-#### [SCNet: Enhancing GAN-based Speech Generation with Subband Condition Network and Magnitude-aware Phase Loss](https://arxiv.org/abs/2609.10025)
+#### [SCNet: Enhancing GAN-based Speech Generation with Subband Condition Network and Magnitude-aware Phase Loss](https://arxiv.org/abs/2609.10025) · [📄 Read](papers/2026/2609.10025.md)
 
 **Nan Xu, Mingxue Yang** · 2026-09-09
 
@@ -104,7 +170,7 @@ Recent speech generation has been predominantly driven by GAN-based networks aim
 
 </details>
 
-#### [SpeechAnnotator: A Context-Aware Multi-Agent Framework and Benchmark for Multidimensional Speech Annotation](https://arxiv.org/abs/2609.09947)
+#### [SpeechAnnotator: A Context-Aware Multi-Agent Framework and Benchmark for Multidimensional Speech Annotation](https://arxiv.org/abs/2609.09947) · [📄 Read](papers/2026/2609.09947.md)
 
 **Qirui Zhan, Shuiyuan Wang, Jingbin Hu, Haoyu Zhang et al.** · 2026-09-09
 
@@ -115,7 +181,7 @@ Recent controllable speech generation requires training data with fine-grained a
 
 </details>
 
-#### [SphereVAE: Hyperspherical Latent Autoencoders for Robust Autoregressive Speech Representation Modeling](https://arxiv.org/abs/2609.09903)
+#### [SphereVAE: Hyperspherical Latent Autoencoders for Robust Autoregressive Speech Representation Modeling](https://arxiv.org/abs/2609.09903) · [📄 Read](papers/2026/2609.09903.md)
 
 **Haoyu Zhang, Jingbin Hu, Hanke Xie, Qirui Zhan et al.** · 2026-09-09
 
@@ -170,7 +236,7 @@ We introduce AuK, an open-source foundational model that unifies speech generati
 
 </details>
 
-#### [Audio Deepfake Detection Using Temporal Coherence Analysis](https://arxiv.org/abs/2609.09489)
+#### [Audio Deepfake Detection Using Temporal Coherence Analysis](https://arxiv.org/abs/2609.09489) · [📄 Read](papers/2026/2609.09489.md)
 
 **Justin D. Norman, Sarah Barrington** · 2026-09-08
 
