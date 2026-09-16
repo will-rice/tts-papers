@@ -66,10 +66,241 @@ The following keyword queries are used against arXiv title and abstract fields a
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (52 of 3397 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (71 of 3418 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
+
+#### [LACE: Layer-Wise Compression for Dynamic Frame Rate Codecs](https://arxiv.org/abs/2609.17509)
+
+**Thanapat Trachu, Samuele Cornell, William Chen, Shinji Watanabe** · 2026-09-15
+
+<details>
+<summary>Abstract</summary>
+
+Neural audio codecs are a key component in speech language modeling. However, their high frame rates lead to long sequence lengths, increasing computational costs. Dynamic frame rate codecs mitigate this by reducing the effective frame rate using a compression step to merge multiple frames together. However, most prior methods either operate on single-codebook codecs or apply a single compression step before multi-layer quantization. This forces all quantization layers to share the same segmentation boundaries, despite the residual embeddings at different quantization layers exhibiting different rates of change over time. We propose LACE (Layer-Adaptive Codec Encoding), a dynamic frame rate codec that applies an independent compression step at each quantization layer, enabling layer-specific segmentation boundaries. To use LACE tokens in downstream text-to-speech (TTS), we further introduce union alignment and boundary anchor mechanisms to make durations consistent across layers while preserving compression benefits. Experiments on LibriTTS show that LACE offers a better rate-quality tradeoff than prior dynamic frame rate methods on the reconstruction task and improves TTS inference efficiency while maintaining competitive synthesis quality. Our code is released as part of the ESPnet3 codec recipe.
+
+</details>
+
+#### [Self-Distilled Pronunciation and Accent Control for Neural Text-to-Speech](https://arxiv.org/abs/2609.17234)
+
+**Shuhei Kato** · 2026-09-15
+
+<details>
+<summary>Abstract</summary>
+
+Text-to-speech that reads raw text has no lexicon: a rare word is read as guessed. Remedies train a reading-and-accent channel on recorded speech or edit words one at a time from exemplars. We do neither. The frozen backbone reads a sentence containing a common word it already says correctly, and its own output then serves as the teacher for the same sentence, with that word replaced by a tagged, accented reading; this training pair is the whole idea. On Sarashina2.2-TTS, screened raters at Fleiss' kappa = 0.85 hear the prescribed accent on 0.89 of unseen words against 0.57 for kana, which cannot express one; kana wins no pair; naturalness is not measurably hurt. Moved untuned to autoregressive, diffusion, and encoder-decoder backbones, it transfers reading, 0.25 to 0.47 above no edit on 319 words, and on CosyVoice 2 accent on two words in three, but not on Irodori; the paper locates why.
+
+</details>
+
+#### [Taming Long-form Text-to-Speech](https://arxiv.org/abs/2609.16989)
+
+**Rongxiang Wang, Berkin Durmus, Aysegul Orhon, Eduardo Pacheco et al.** · 2026-09-15
+
+<details>
+<summary>Abstract</summary>
+
+Long-form text-to-speech (TTS) enables multi-turn conversations with consistent prosody and higher quality voice cloning from longer reference audio. Recent open-weights autoregressive TTS models such as Qwen3-TTS and VoxCPM2 attain state-of-the-art word error rate (WER) and speaker similarity (SIM) on short-form prompts but significantly deteriorate when used with long-form prompts. We propose Localized Attention-Constrained Inference (LACI), an inference-only method to detect TTS errors in near real-time, roll back to the error onset and regenerate with temporary guardrails, adding negligible computational overhead. Using LACI, we improve worst-of-N WER across 10 RNG seeds for Qwen3-TTS-0.6B from 35.2% to 3.4% on prompts longer than 1500 words, even surpassing its short-form reliability of 5.4\% on prompts with fewer than 500 words. To demonstrate the efficacy of LACI on voice cloning reliability, we propose a sliding-window version of the SIM metric that we call wSIM. wSIM exposes several novel failure patterns that are not captured by SIM. LACI improves worst-of-N wSIM from 0.01 to 0.47 on 120 seconds of reference audio while reducing the rate of catastrophic generations with WER above 30% from 26% to below 1%
+
+</details>
+
+#### [The Evolving Bottleneck in Speech Generation: Interface Co-design and Staged Alignment from CosyVoice to Qwen-Audio-3.0-TTS](https://arxiv.org/abs/2609.16514)
+
+**Qian Chen, Xiangang Li, Xiang Lv, Han Zhao et al.** · 2026-09-15
+
+<details>
+<summary>Abstract</summary>
+
+Speech synthesis systems are commonly narrated as a sequence of larger models, better tokenizers, and broader data. This technical retrospective offers a different account of the CosyVoice lineage, from CosyVoice through CosyVoice 2 and CosyVoice 3 to Qwen-Audio-3.0-TTS: progress came from repeatedly relocating the system's dominant bottleneck. Across the lineage, a stable decomposition separates an autoregressive language model that plans speech from a flow-matching model that renders acoustics. What changes is the contract between them. CosyVoice establishes supervised semantic tokens as a content-aligned interface; CosyVoice 2 makes that interface causally available for streaming and removes the utterance-level speaker embedding from the language model; CosyVoice 3 improves the learnability and coverage of the interface through multitask supervision, scaling, and differentiable reward optimization; and Qwen-Audio-3.0-TTS reduces token rate, conditions its renderer on continuous language-model hidden states instead of token embeddings, and progressively aligns the coupled system. We formalize this history through four interface dimensions---representation, ownership, availability, and gradient reach---and separate within-paper evidence from cross-paper comparison. The resulting synthesis connects discrete autoregressive, continuous non-autoregressive, hybrid, and continuous autoregressive speech-generation paradigms, and yields practical principles for diagnosing and training modular speech generators.
+
+</details>
+
+#### [Language Orthogonalization for Zero-Shot Cross-Lingual Audio Deepfake Detection](https://arxiv.org/abs/2609.16458)
+
+**Minu Kim, Ji Sub Um, Hoirin Kim** · 2026-09-15
+
+<details>
+<summary>Abstract</summary>
+
+Audio deepfake detectors need to transfer to languages absent from training, as multilingual speech synthesis outpaces labeled anti-spoofing resources. While detectors increasingly rely on self-supervised speech models (S3Ms), these backbones encode language-dependent structure that confounds spoof cues. We address this confound through language orthogonalization, a target-free ridge map that removes S3M variation projected onto continuous language-identification (LID) embeddings. Across six languages, six S3M backbones, and all Leave-N-Out settings, it consistently reduces EER across unseen languages. Cross-lingual EER correlates with LID-space distance, where orthogonalization yields larger gains for more distant transfers.
+
+</details>
+
+#### [Reducing the Output-Mode Gap in Speech Language Models via Joint-Output On-Policy Distillation](https://arxiv.org/abs/2609.15313)
+
+**Daxin Tan, Dehua Tao, Chengxi Deng, Hanlin Zhang et al.** · 2026-09-14
+
+<details>
+<summary>Abstract</summary>
+
+Autoregressive generation of interleaved text and acoustic tokens is a common approach to spoken-response generation in speech large language models. Although this design enables streaming generation with explicit textual guidance, generated acoustic tokens become part of the context for subsequent text predictions. Given identical speech inputs, we observe markedly lower answer accuracy for the internal text generated in speech-to-text-and-speech (S2TS) mode than for speech-to-text (S2T) responses. We term this discrepancy the \emph{output-mode gap} (OMG). To reduce OMG, we propose \emph{Joint-Output On-Policy Distillation} (JO-OPD), which distills the model's stronger S2T policy into joint generation using student-generated S2TS trajectories. At each text position, the S2T teacher provides soft targets from a text-only projection of the student's preceding outputs, while the student predicts from the corresponding full interleaved history. A preservation objective further regularizes native non-text predictions. Experiments on Step-Audio-2-mini and Baichuan-Audio-Instruct reveal OMG across two interleaved generation architectures. On Step-Audio-2-mini, JO-OPD reduces OMG from 42.87 to 16.26 percentage points on Spoken-MQA and from 29.72 to 13.04 points on speech-rendered GSM8K, with little change in S2T accuracy and substantially larger reductions than matched SFT baselines. ASR-based evaluation further shows a 7.49-point improvement in spoken-answer accuracy on Spoken-MQA.
+
+</details>
+
+#### [Cross-Lingual F5-TTS 2: A Simplified Framework for Language-Agnostic Voice Cloning](https://arxiv.org/abs/2609.15184)
+
+**Qingyu Liu, Rixi Xu, Yushen Chen, Zhikang Niu et al.** · 2026-09-14
+
+<details>
+<summary>Abstract</summary>
+
+Zero-shot text-to-speech (TTS) can clone a speaker's voice from a short audio prompt, yet most TTS systems still require the audio prompt transcript during inference. This dependency prevents cross-lingual voice cloning when the audio prompt transcript is unavailable, particularly for unseen languages. Cross-Lingual F5-TTS removes this dependency and enables transcript-free cross-lingual voice cloning, but it prepares its training data with forced alignment. Forced alignment is sensitive to boundary errors, and its cost grows as more languages are covered. Its speaking rate predictor is also unreliable at estimating duration when the audio prompt begins or ends with silence. In this paper, we present Cross-Lingual F5-TTS 2, a simplified framework for transcript-free cross-lingual voice cloning without forced alignment. Instead of using forced alignment to segment real utterances, we build same-speaker prompt and target pairs using a pretrained F5-TTS model and fine-tune the same model on these constructed pairs. This simplifies data preparation and preserves the acoustic modeling capability of the pretrained model, enabling adaptation with only a short fine-tuning stage. We further make the syllable-level speaking rate predictor robust to leading and trailing silence through silence-aware augmentation. Experiments show that Cross-Lingual F5-TTS 2 reaches higher speaker similarity than F5-TTS and Cross-Lingual F5-TTS while maintaining intelligibility. All related resources are publicly available.
+
+</details>
+
+#### [Tone on a Budget: A Reference-Free Metric for Lexical Tone in Massively Multilingual Text-to-Speech](https://arxiv.org/abs/2609.14817)
+
+**Moses Daudu, Adeola Enitan Bamidele, Honor-Jesus Bezaleel** · 2026-09-13
+
+<details>
+<summary>Abstract</summary>
+
+In Yorùbá, pitch alone separates \d{o}k\d{o} (husband, Mid), \d{o}k\d{ò} (vehicle, Low), and \d{o}k\d{ó} (hoe, High) -- the diacritics ARE the tone marks. Yet character error rate (CER), the standard automated metric for text-to-speech (TTS), is in practice computed from ASR output that drops those marks: a synthesizer can ace CER and still say vehicle for husband. We introduce DunDun -- named for the dùndún, the Yorùbá talking drum that speaks through pitch alone -- an automated, reference-free lexical-tone metric that needs no tone-labelled corpus. The gold High/Mid/Low sequence is read from the input text's diacritics (in TTS that text exists by construction, so no reference recording is needed); the prediction comes from the audio's pitch track. We validate three ways. Flattening pitch with PSOLA resynthesis collapses DunDun while CER does not move. Inverting High and Low in the answer key of 300 native recordings drives the two-class readout to 0.14, symmetrically below its 0.35 chance level -- a consistency check on the scoring path, not independent evidence. And three native listeners, over 67 blind A/B trials, pick the tone-correct clip 89.6% of the time (95% CI 80.0-94.8; p < 1e-4); whether DunDun tracks those judgements trial by trial is not resolved at this sample size. Applied to a massively multilingual zero-shot TTS model, DunDun shows what CER cannot: Yorùbá tone sits near the native anchor before any Yorùbá fine-tuning (0.567 +/- 0.02 over five decode seeds vs. 0.596; chance 0.33), despite the 21.4% CER the model's own paper reports; and a few hours of clean audio halve CER (5.6% to 2.7% by 5h, 1.7% by 15h) while tone saturates within the hour. On non-tonal Swahili, CER already captures the gains: the metric a language needs is language-dependent. We release the metric and the complete validation protocol.
+
+</details>
+
+#### [Quantifying the Generation Modality Gap in Speech-Text Language Models](https://arxiv.org/abs/2609.14743)
+
+**Ju-Chieh Chou, Jiawei Zhou, Karen Livescu** · 2026-09-13
+
+<details>
+<summary>Abstract</summary>
+
+Pure speech language models often lag behind text and speech-text language models in generating coherent content, but this gap is difficult to quantify because speech and text systems are typically evaluated with different metrics and trained on different data. We study the speech-text modality gap in a family of spoken language models, based on flow matching for continuous acoustic feature generation. We construct a unified generation-based evaluation suite that compares speech-only, text-only, and speech-text language models trained on matched data distributions and evaluated in matched generation settings. We evaluate generated continuations along multiple dimensions: semantic coherence, measured by transcribing generated speech and scoring it with a reference language model; local phonetic structure, measured by phone n-gram distributional statistics; speaker consistency and acoustic quality; and emotion-based distributional metrics. Across datasets, we find that joint speech-text modeling substantially improves semantic coherence. However, the improvement is not uniform across metrics: phone-level metrics change only modestly, speaker similarity and predicted quality are lower for speech-text continuations, while emotion-based distributional metrics improve. Compared with larger-scale speech-only models, our speech-text model closes much of the scaling gap in transcript-based semantic coherence, suggesting that text provides an efficient semantic training signal for spoken language modeling.
+
+</details>
+
+#### [Dynamic Learning Solutions: A System for Personalized Educational Video Generation](https://arxiv.org/abs/2609.14408)
+
+**Siddhanth Sridhar, Shreya Chaurasia, Baddela Sai Yaswantha Reddy, Deepak Parmar et al.** · 2026-09-13
+
+<details>
+<summary>Abstract</summary>
+
+We present an automated pipeline that converts NCERT textbooks into interactive video explanations that respond directly to user queries. A user uploads a PDF and asks a question; the system then generates a video-based explanation as output, handling both text and visual elements from the PDF for multi-modal retrieval and response generation. The pipeline combines a Retrieval-Augmented Generation (RAG) model with generative multimedia components. The RAG stage is optimized for the structure of NCERT textbooks and performs best on content from those books. Given a user query, the RAG model retrieves relevant content from the PDF and generates a multi-scene script containing narrative explanations and structured visual prompts aligned with the textbook's explanatory style. These prompts are passed to a Stable Diffusion module, implemented layer by layer for interpretability and control, which generates contextually relevant images. The images are then processed by DynamiCrafter to produce animated sequences. Finally, a Google Text-to-Speech module generates synchronized narration, aligning speech with the visual scenes through time-based control. The result is a coherent video explanation integrating animation, narration, and textbook-aligned visuals, transforming static educational material into an engaging learning experience. By combining multi-modal document retrieval, generative visual models, animation frameworks, and speech synthesis, this pipeline demonstrates a scalable approach to delivering interactive, personalized digital education content.
+
+</details>
+
+#### [Modeling, Scaling, and Decoding: Optimizing Controllable Speech Generation with Nonverbal Vocalizations](https://arxiv.org/abs/2609.14231)
+
+**Ziyu Zhang, Yun Chen, Taihui Wang, Hanzhao Li et al.** · 2026-09-13
+
+<details>
+<summary>Abstract</summary>
+
+Controllable synthesis of nonverbal vocalizations (NVVs) is es- sential for natural and expressive speech, but remains challeng- ing due to their acoustic diversity and imbalanced distribution in existing corpora. To address these challenges, we develop an NVV-aware DiTAR system that models continuous speech latents, encodes the 16 target NVV categories as dedicated to- kens, and adapts stop prediction to distinguish mid-utterance vocalizations from utterance boundaries. Training begins with large-scale bilingual pre-training on diverse NVV speech, fol- lowed by continued supervised fine-tuning on a corpus en- hanced through targeted synthetic augmentation and frequency- aware rebalancing. At inference time, we select the acoustic prompt, tune the LM-guidance and noise-injection scales, and apply Best-of-N sampling with multi-metric selection to re- duce generation failures. The final system achieves an official weighted bilingual score of 62.786, ranking first in Mandarin, second in English, and first overall among participating systems in Track 2 of the ISCSLP 2026 NVVSpeech Challenge. Ab- lation studies show that targeted augmentation benefits under- represented NVV categories the most, while robust candidate selection requires balancing NVV correctness, lexical fidelity, and perceptual quality.
+
+</details>
+
+#### [Bangla Sentence Function Classification: Corpus Development, Model Benchmarking, and Interpretability](https://arxiv.org/abs/2609.13869)
+
+**Swapnil Kundu Argha, Abdullah Al Shafi, Rowzatul Zannat, Shoumik Barman Polok et al.** · 2026-09-12
+
+<details>
+<summary>Abstract</summary>
+
+Automatic sentence function identification is important for many downstream natural language processing (NLP) applications such as dialogue systems, text-to-speech synthesis, and machine translation. However, benchmark resources for Bangla sentence function classification remain limited. To mitigate this gap, this paper introduces a corpus of 10,000 Bangla sentences, manually annotated into four functional categories, namely declarative, interrogative, imperative, and exclamatory. The corpus is nearly balanced across the four classes, with high annotation reliability reflected by a Fleiss\' Kappa of 0.82. Furthermore, we evaluate multiple feature representations, including Bag-of-Words (BoW), TF-IDF, and Word2Vec, with several classical machine learning classifiers. In addition, two heterogeneous ensemble models, namely Single-Level Ensemble (SLE) and Double-Level Ensemble (DLE), are utilized to improve classification performance. Experimental results show that TF-IDF consistently outperforms Word2Vec, likely due to its ability to emphasize discriminative lexical cues associated with sentence functions, particularly given the relatively small corpus used to train Word2Vec. The DLE model with TF-IDF features achieves the best performance with accuracy and macro-F1 of 0.95, demonstrating the effectiveness of sparse lexical representations and heterogeneous ensemble learning for this task. Further cross-validation confirms the robustness of the approach, while LIME-based interpretability provides insights into model predictions. The developed corpus and model benchmarking establish strong baselines for Bangla sentence function classification.
+
+</details>
+
+#### [The VoiceMOS Challenge 2026: Evaluating Speech Enhancement, Emotional TTS and Accented TTS Systems](https://arxiv.org/abs/2609.13792)
+
+**Wen-Chin Huang, Wei Wang, Marvin Sach, Xiaoxue Gao et al.** · 2026-09-12
+
+<details>
+<summary>Abstract</summary>
+
+We present the results of the VoiceMOS Challenge 2026, the fifth edition of a scientific challenge on automatic prediction of subjective speech assessments. After expanding the scope to music and general audio in 2025, we refocused the evaluation target on speech and organized three tracks: prediction of absolute and comparative category ratings for enhanced speech, prediction of naturalness and emotion-related tasks for emotional text-to-speech systems, and prediction of speaker and accent similarity for codec-based speech synthesis systems. The challenge attracted a total of 18 teams worldwide, with most teams successfully surpassing the provided baselines. We summarize the challenge results, representative top-performing systems, participant feedback, and directions for future editions.
+
+</details>
+
+#### [DiTAR+: Dual Optimization for Robust Autoregressive Diffusion Speech Synthesis](https://arxiv.org/abs/2609.13909)
+
+**Ziyu Zhang, Tianlun Zuo, Hanzhao Li, Haoyu Zhang et al.** · 2026-09-12
+
+<details>
+<summary>Abstract</summary>
+
+Continuous-latent Autoregressive Diffusion Transformer (AR-DiT) models have demonstrated immense potential in zero-shot speech generation. However, they still suffer from limited decoding stability when synthesizing long utterances or complex linguistic structures. This instability primarily stems from a restricted historical receptive field and an acoustic inertia dependency within the diffusion decoder, which causes the model to ignore semantic conditions. To address these challenges, we propose DiTAR+, a dual-optimization framework. First, we introduce Dilated Context Sampling to expand the macro-level historical receptive field without violating physical temporal continuity, thereby preventing cumulative error propagation. Second, we propose Hierarchical Acoustic Masking to prevent shallow layers from attending to acoustic pre-context, explicitly decoupling semantic alignment from acoustic detail reconstruction. Extensive experiments show that our framework effectively mitigates pronunciation errors and semantic hallucinations, enhances generation robustness on challenging sentences, and maintains exceptionally high speaker similarity throughout the entirety of long-form utterances. On the linguistically challenging ZH-Hard set, DiTAR+ reduces the word error rate from 12.478% to 9.893%, and on extended utterances of 25 to 35 seconds it improves speaker similarity from 0.741 to 0.759 while simultaneously lowering the word error rate from 2.778% to 2.173%, outperforming both discrete-token and pure flow-matching baselines.
+
+</details>
+
+#### [CRAF: Cross-View Residual-Aware Fusion for Deepfake Speech Detection](https://arxiv.org/abs/2609.13842)
+
+**Minh-Xuan Phan, Khalid Zaman, Candy Olivia Mawalim, Masashi Unoki** · 2026-09-12
+
+<details>
+<summary>Abstract</summary>
+
+Recent advances in speech synthesis and voice conversion have made deepfake speech increasingly realistic, making generalization to unseen spoofing attacks a critical challenge. Pretrained speech and audio models offer a promising direction for improving robustness to such unseen attacks. Self-supervised learning (SSL) models capture fine-grained, low-level acoustic characteristics, whereas Auditory Large Language Models (ALLMs) provide higher-level contextual representations. These complementary views can provide useful cues for improving generalization to unseen attacks. However, direct fusion does not explicitly disentangle information shared across the two views from view-specific complementary information, limiting effective cross-view integration. To address this, we propose CRAF, a cross-view residual-aware fusion framework that uses ALLM-guided cross-view attention to enrich SSL representations and adopts ALLM as a high-level reference to separate ALLM-explainable information from complementary SSL residual information. The residual is selectively refined through adaptive gating and integrated through SSL-primary fusion. Experiments on ASVspoof 5 show that CRAF with Kimi-Audio achieves an EER of 5.96% and a minDCF of 0.1192, demonstrating robustness to unseen spoofing attacks.
+
+</details>
+
+#### [Realtime-Venus: A full-duplex interaction system with asynchronous delegation](https://arxiv.org/abs/2609.13814)
+
+**Ruixiang Zhao, Hualei Wang, Renhe Sun, Enzhi Zhou et al.** · 2026-09-12
+
+<details>
+<summary>Abstract</summary>
+
+Natural interaction in digital and physical environments requires continuous perception and timely responses. Spoken dialogue relies on acoustic and linguistic cues, while video interaction also requires grounding the conversation in evolving visual context. We present Realtime-Venus, a proactive full-duplex interaction system with two separately trained 9B models: Realtime-Venus-Omni for audio-visual interaction and Realtime-Venus-Audio for spoken interaction. Each model serves as a complete conversational frontend, integrating continuous perception, conversational control, and native speech generation through a shared causal timeline for user inputs, model outputs, and delegation events. A dual-loop runtime coordinates live interaction with background reasoning and tool execution. Foreground interaction continues while Realtime-Venus-Harness executes tasks asynchronously and returns results for integration into the ongoing dialogue. Both models follow a common post-training recipe combining offline understanding, proactive full-duplex trajectories, and delegation workflows. Among the evaluated online models, Realtime-Venus-Omni achieves the highest scores on six of eight video benchmarks, including StreamingBench (70.2%), OVO-Bench (64.7%), and Daily-Omni (81.3%). Across eight audio understanding and spoken question answering benchmarks, Realtime-Venus-Audio leads the compared models on MMAU (78.0%), MMAU-Pro (63.2%), Llama Questions (83.8%), and Speech CMMLU (67.8%), while matching the best VoiceBench AlpacaEval score of 4.81. On Full-Duplex-Bench v1.5, Realtime-Venus-Audio responds to 75% of user interruptions and achieves continuation rates of 97%, 88%, and 86% under backchannels, other-directed speech, and background speech, respectively, exceeding Gemini 3.1 Live and GPT-4o on all three continuation metrics.
+
+</details>
+
+#### [StepAudio 3 Gen Technical Report](https://arxiv.org/abs/2609.12945)
+
+**Bin Lin, Bo Zhao, Boyang Wang, Boyang Zhang et al.** · 2026-09-11
+
+<details>
+<summary>Abstract</summary>
+
+We introduce StepAudio 3 Gen, a general-purpose audio generation model that supports zero-shot text-to-speech (TTS), voice design, vocal generation, sound effects, music, vibe speech, and mixtures of multiple audio types within a unified framework. At its core, StepAudio 3 Gen is a discrete autoregressive generator that models audio directly over residual vector quantization (RVQ) tokens, departing from the diffusion Transformer-based continuous generation paradigm prevalent in recent general audio models. Its StepAudio Tokenizer represents general audio at 12.5 Hz in a shared $16 \times 2048$ residual code space, jointly quantizing semantic and waveform-level acoustic features so that each code layer preserves both types of information. For generation, the backbone predicts the first codebook along the time axis using autoregressive modeling, while a lightweight causal Transformer completes the remaining fifteen codebooks along the codebook axis. Our study further identifies three key design principles: (1) interference-aware progressive pretraining for acquiring audio capabilities while preserving the textual abilities of the large language model, (2) RVQ Adaptor for effectively incorporating multi-codebook acoustic representations, and (3) discrete autoregressive modeling over a shared representation across general audio domains. With progressive pretraining, multi-task instruction training, and supervised fine-tuning, StepAudio 3 Gen achieves state-of-the-art performance on both TTS and voice design, while retaining strong generation capabilities across speech, vocals, sound effects, and music. Audio samples are available at https://stepaudiollm.github.io/step-audio-3-gen/.
+
+</details>
+
+#### [PhaseGAN: High-Fidelity Vocoder via Decoupled Amplitude and GAN-Driven Phase Reconstruction](https://arxiv.org/abs/2609.12918)
+
+**Wenzheng Zhang, Xueliang Zhang, Shulin He, Fei Zhao et al.** · 2026-09-11
+
+<details>
+<summary>Abstract</summary>
+
+A vocoder is a pivotal component of modern text-to-speech (TTS) systems. Despite the significant progress of neural network-based vocoders, accurate phase reconstruction remains the main challenge limiting both audio quality and modeling efficiency. We introduce PhaseGAN, a lightweight vocoder that addresses this limitation through a "mel $\rightarrow$ Amplitude $\rightarrow$ Phase" reconstruction pipeline. By reconstructing amplitude and phase spectra via distinct methodologies, the proposed PhaseGAN outperforms state-of-the-art baselines while utilizing fewer model parameters and reduced computational requirements. The compact version generates high-fidelity audio with approximately 500K parameters and 1 GMAC computational load, making it highly suitable for real-time applications on edge devices. In addition, our approach exhibits exceptional musical audio synthesis capabilities despite no training on musical data, illustrating unprecedented cross-domain generalization. See https://github.com/phasegan/phasegan-audio-demo for demos of our work.
+
+</details>
+
+#### [AlignDPO: Preference-Gated Alignment for Reducing Hallucination in Decoder-Only TTS](https://arxiv.org/abs/2609.12855)
+
+**Xiao Zhou, Oisín Turbitt, Kit Bower-Morris, Jonathan Carlton et al.** · 2026-09-11
+
+<details>
+<summary>Abstract</summary>
+
+Decoder-only text-to-speech (TTS) models scale efficiently but remain prone to content hallucinations that arise from weak text-speech alignment during autoregressive generation. We find that robustness is governed by a non-monotone relation to the sharpness of the alignment-bearing attention heads: a moderate degree is best, whereas over-sharpening is no better than the unaligned backbone and even less robust. Guided by this, we present AlignDPO, a post-training method that reaches this moderate regime by folding a lightweight connectionist-temporal-classification (CTC) alignment term into Direct Preference Optimization (DPO), applied only to the chosen samples, with no architectural or inference-time change. On the Seed-TTS-Eval English set, this significantly reduces the content-hallucination and word error rates relative to a strong DPO baseline and lowers the severe content-hallucination rate to ~0.6% (from 4.4%); a listening study further finds it preferred for naturalness over both the backbone and that baseline. Alignment is thus best learned and kept moderate rather than maximized or imposed at decoding. Audio samples are available at https://align-dpo-demo.vercel.app.
+
+</details>
+
+#### [X-Pred MeanFlow for Streaming Token-to-Mel Speech Decoding](https://arxiv.org/abs/2609.12728)
+
+**Hanke Xie, Xiaming Ren, Qirui Zhan, Jingbin Hu et al.** · 2026-09-11
+
+<details>
+<summary>Abstract</summary>
+
+Recent advancements in discrete token-based speech generation have highlighted the importance of efficient token-to-waveform synthesis in streaming and dialogue scenarios. Flow-matching acoustic decoders achieve high-quality token-to-mel generation, but their iterative sampling requires multiple neural function evaluations, limiting low-latency speech synthesis. MeanFlow reduces the sampling budget by modeling the average velocity over a temporal interval, yet maintaining high acoustic quality under extremely few-step token-to-mel generation remains challenging. To address this challenge, we propose X-Pred MeanFlow, a few-step streaming token-to-mel decoder that reparameterizes MeanFlow with mel-space prediction. The decoder predicts a generalized mel field and analytically derives the corresponding average velocity for sampling, thereby preserving the MeanFlow formulation while providing a direct acoustic prediction target. We further introduce layer-selective block-wise attention to enable continuous chunk-wise generation with bounded context. Experiments show that X-Pred MeanFlow improves few-step token-to-mel synthesis over Direct-$u$ MeanFlow and supports stable streaming generation. Speech samples are available.https://renxiaming.github.io/xpred-meanflow-stream-demo
+
+</details>
+
+#### [CVSS-X: A Multilingual Speech-to-Speech Translation Corpus for 28 Languages](https://arxiv.org/abs/2609.13413)
+
+**Lucas Rafael Stefanel Gris, Alef Iury Siqueira Ferreira, Frederico Santos de Oliveira, Augusto Seben da Rosa et al.** · 2026-09-11
+
+<details>
+<summary>Abstract</summary>
+
+We introduce CVSS-X, a large-scale synthetic speech-to-speech translation corpus that extends CVSS by reversing the translation direction. While CVSS translates from 21 languages into English, CVSS-X enables translation from English into 28 target languages spanning 12 language families. The corpus comprises approximately 240,000 parallel speech pairs per language, totaling over 16,000 hours, eight times larger than CVSS. We provide two variants: CVSS-X-C with two canonical voices per language, and CVSS-X-T with cross-lingual voice cloning, both fully generated. Evaluation shows comparable translation quality to CVSS with consistent performance across typologically diverse languages. Combined with CVSS, this enables research on bidirectional and multilingual speech-to-speech translation. The code is available at https://github.com/ErmisAI/XVSS-X and the dataset under CC-BY-NC 4.0 license at https://huggingface.co/datasets/lgris/XVSS-X.
+
+</details>
 
 #### [Not All Attacks Are Learned Equally in Speech Deepfake Detection](https://arxiv.org/abs/2609.11763) · [📄 Read](papers/2026/2609.11763.md)
 
@@ -618,28 +849,6 @@ Semantic speech tokens should preserve linguistic content while suppressing spea
 <summary>Abstract</summary>
 
 Synthetic conversational speech has become an important resource for developing and evaluating conversational speech systems. However, existing dialogue synthesis pipelines typically generate dialogue content first and then insert interruptions, overlap, and backchannels using handcrafted markers or timing rules, making conversational timing prescribed rather than interaction-driven. We present DuplexGen, a dialogue synthesis framework that explicitly decouples content, timing, and acoustics. An LLM first generates the dialogue script, and then two full-duplex conversational models perform the script while listening to each other in real time. This allows conversational timing to emerge naturally while preserving the scripted content. Finally, a high-fidelity text-to-speech model re-renders the interaction without altering its timing. As a demonstration of the proposed framework, we construct a patient--clinician conversational speech corpus with construction-time annotations, including word timestamps, speaker activity, overlap regions, and interaction events. Experimental results show that the proposed framework produces conversational dynamics closer to real dialogue than conventional stitching-based synthesis.
-
-</details>
-
-#### [Iterative Self-Learning for Expressive Text-to-Speech Synthesis](https://arxiv.org/abs/2608.15910) · [📄 Read](papers/2026/2608.15910.md)
-
-**Nicholas Sanders, Gustav Eje Henter, Simon King, Korin Richmond** · 2026-08-16
-
-<details>
-<summary>Abstract</summary>
-
-Expressive text-to-speech (TTS) systems that use explicit conditioning labels provide direct and interpretable control over expressive attributes, in contrast to reference-based or prompting-based approaches, but require labeled data. Obtaining these labels at scale is costly and time-consuming, yet no prior semi-supervised framework addresses this specific bottleneck. Existing semi-supervised TTS methods instead target scarcity of paired speech-text data or transcriptions. To address the scarcity of expressive labels, we propose an Iterative Self-Learning (ISL) framework for expressive TTS, built on Invert-Classify, a classifier-free method that recovers discrete expressive labels by inverting a frozen generative model. The framework iteratively pseudo-labels unlabeled speech using the current model, retrains on the combined labeled and pseudo-labeled data, and repeats, progressively refining label quality and synthesis. We validate on two expressive tasks, word-level prominence and utterance-level emotion, across multiple low-resource data splits. We find that iterative refinement can improve pseudo-label accuracy over single-pass baselines. Furthermore, we observe that these improvements in pseudo-labeling of expressivity translate to gains in expressive label adherence and synthesis quality, confirmed by objective metrics and human listening tests. In the most data-scarce conditions, ISL-trained models outperform single-pass pseudo-labeling and further approach fully supervised performance, demonstrating that gradient-based ISL is an effective solution to expressive label scarcity in low-resource TTS.
-
-</details>
-
-#### [Adding Voice Cloning to Text-to-Audio-Video Models with a Single Zero-Initialised Layer](https://arxiv.org/abs/2608.15690) · [📄 Read](papers/2026/2608.15690.md)
-
-**Ivan Mikheev, Viacheslav Vasilev, Anna Dmitrienko, Alexey Letunovskiy et al.** · 2026-08-16
-
-<details>
-<summary>Abstract</summary>
-
-Text-to-audio-video (T2AV) generation models produce a video and its soundtrack from a textual description, but offer no control over whose voice speaks in the output. We show that a base T2AV model can be turned into a voice-cloning model by adding a single zero-initialized linear layer on top of its audio backbone, fine-tuning for a comparatively short training schedule, and conditioning on a short reference recording at inference time. The reference is injected through two complementary signals: its diffusion latents are prepended to the audio stream, and a global speaker embedding modulates token of the target audio. On a benchmark of 674 speaker-text pairs spanning 30 speakers we compare against five strong voice-cloning text-to-speech baselines: our enhanced 5B model attains the highest speaker-encoder cosine similarity (SECS) across three independent verification networks (ECAPA-TDNN, WavLM-SV, Resemblyzer), statistically significantly outperforming every baseline. A side product of the architecture is that the audio path can be evaluated without the video path at inference time, yielding a ~30x speed-up over the full audio-video diffusion loop while preserving the voice-cloning behaviour.
 
 </details>
 
