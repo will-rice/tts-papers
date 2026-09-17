@@ -66,12 +66,12 @@ The following keyword queries are used against arXiv title and abstract fields a
 
 <!-- PAPERS_TABLE_START -->
 
-_Showing the last 30 days (71 of 3418 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
+_Showing the last 30 days (69 of 3418 papers). The full list lives in [papers.csv](papers.csv); browse everything by year at [papers/README.md](papers/README.md)._
 
 <details open>
 <summary><h3>2026</h3></summary>
 
-#### [LACE: Layer-Wise Compression for Dynamic Frame Rate Codecs](https://arxiv.org/abs/2609.17509)
+#### [LACE: Layer-Wise Compression for Dynamic Frame Rate Codecs](https://arxiv.org/abs/2609.17509) · [📄 Read](papers/2026/2609.17509.md)
 
 **Thanapat Trachu, Samuele Cornell, William Chen, Shinji Watanabe** · 2026-09-15
 
@@ -82,7 +82,7 @@ Neural audio codecs are a key component in speech language modeling. However, th
 
 </details>
 
-#### [Self-Distilled Pronunciation and Accent Control for Neural Text-to-Speech](https://arxiv.org/abs/2609.17234)
+#### [Self-Distilled Pronunciation and Accent Control for Neural Text-to-Speech](https://arxiv.org/abs/2609.17234) · [📄 Read](papers/2026/2609.17234.md)
 
 **Shuhei Kato** · 2026-09-15
 
@@ -93,7 +93,7 @@ Text-to-speech that reads raw text has no lexicon: a rare word is read as guesse
 
 </details>
 
-#### [Taming Long-form Text-to-Speech](https://arxiv.org/abs/2609.16989)
+#### [Taming Long-form Text-to-Speech](https://arxiv.org/abs/2609.16989) · [📄 Read](papers/2026/2609.16989.md)
 
 **Rongxiang Wang, Berkin Durmus, Aysegul Orhon, Eduardo Pacheco et al.** · 2026-09-15
 
@@ -104,7 +104,7 @@ Long-form text-to-speech (TTS) enables multi-turn conversations with consistent 
 
 </details>
 
-#### [The Evolving Bottleneck in Speech Generation: Interface Co-design and Staged Alignment from CosyVoice to Qwen-Audio-3.0-TTS](https://arxiv.org/abs/2609.16514)
+#### [The Evolving Bottleneck in Speech Generation: Interface Co-design and Staged Alignment from CosyVoice to Qwen-Audio-3.0-TTS](https://arxiv.org/abs/2609.16514) · [📄 Read](papers/2026/2609.16514.md)
 
 **Qian Chen, Xiangang Li, Xiang Lv, Han Zhao et al.** · 2026-09-15
 
@@ -115,7 +115,7 @@ Speech synthesis systems are commonly narrated as a sequence of larger models, b
 
 </details>
 
-#### [Language Orthogonalization for Zero-Shot Cross-Lingual Audio Deepfake Detection](https://arxiv.org/abs/2609.16458)
+#### [Language Orthogonalization for Zero-Shot Cross-Lingual Audio Deepfake Detection](https://arxiv.org/abs/2609.16458) · [📄 Read](papers/2026/2609.16458.md)
 
 **Minu Kim, Ji Sub Um, Hoirin Kim** · 2026-09-15
 
@@ -126,7 +126,7 @@ Audio deepfake detectors need to transfer to languages absent from training, as 
 
 </details>
 
-#### [Reducing the Output-Mode Gap in Speech Language Models via Joint-Output On-Policy Distillation](https://arxiv.org/abs/2609.15313)
+#### [Reducing the Output-Mode Gap in Speech Language Models via Joint-Output On-Policy Distillation](https://arxiv.org/abs/2609.15313) · [📄 Read](papers/2026/2609.15313.md)
 
 **Daxin Tan, Dehua Tao, Chengxi Deng, Hanlin Zhang et al.** · 2026-09-14
 
@@ -137,7 +137,7 @@ Autoregressive generation of interleaved text and acoustic tokens is a common ap
 
 </details>
 
-#### [Cross-Lingual F5-TTS 2: A Simplified Framework for Language-Agnostic Voice Cloning](https://arxiv.org/abs/2609.15184)
+#### [Cross-Lingual F5-TTS 2: A Simplified Framework for Language-Agnostic Voice Cloning](https://arxiv.org/abs/2609.15184) · [📄 Read](papers/2026/2609.15184.md)
 
 **Qingyu Liu, Rixi Xu, Yushen Chen, Zhikang Niu et al.** · 2026-09-14
 
@@ -148,7 +148,7 @@ Zero-shot text-to-speech (TTS) can clone a speaker's voice from a short audio pr
 
 </details>
 
-#### [Tone on a Budget: A Reference-Free Metric for Lexical Tone in Massively Multilingual Text-to-Speech](https://arxiv.org/abs/2609.14817)
+#### [Tone on a Budget: A Reference-Free Metric for Lexical Tone in Massively Multilingual Text-to-Speech](https://arxiv.org/abs/2609.14817) · [📄 Read](papers/2026/2609.14817.md)
 
 **Moses Daudu, Adeola Enitan Bamidele, Honor-Jesus Bezaleel** · 2026-09-13
 
@@ -159,7 +159,7 @@ In Yorùbá, pitch alone separates \d{o}k\d{o} (husband, Mid), \d{o}k\d{ò} (veh
 
 </details>
 
-#### [Quantifying the Generation Modality Gap in Speech-Text Language Models](https://arxiv.org/abs/2609.14743)
+#### [Quantifying the Generation Modality Gap in Speech-Text Language Models](https://arxiv.org/abs/2609.14743) · [📄 Read](papers/2026/2609.14743.md)
 
 **Ju-Chieh Chou, Jiawei Zhou, Karen Livescu** · 2026-09-13
 
@@ -170,7 +170,7 @@ Pure speech language models often lag behind text and speech-text language model
 
 </details>
 
-#### [Dynamic Learning Solutions: A System for Personalized Educational Video Generation](https://arxiv.org/abs/2609.14408)
+#### [Dynamic Learning Solutions: A System for Personalized Educational Video Generation](https://arxiv.org/abs/2609.14408) · [📄 Read](papers/2026/2609.14408.md)
 
 **Siddhanth Sridhar, Shreya Chaurasia, Baddela Sai Yaswantha Reddy, Deepak Parmar et al.** · 2026-09-13
 
@@ -181,7 +181,7 @@ We present an automated pipeline that converts NCERT textbooks into interactive 
 
 </details>
 
-#### [Modeling, Scaling, and Decoding: Optimizing Controllable Speech Generation with Nonverbal Vocalizations](https://arxiv.org/abs/2609.14231)
+#### [Modeling, Scaling, and Decoding: Optimizing Controllable Speech Generation with Nonverbal Vocalizations](https://arxiv.org/abs/2609.14231) · [📄 Read](papers/2026/2609.14231.md)
 
 **Ziyu Zhang, Yun Chen, Taihui Wang, Hanzhao Li et al.** · 2026-09-13
 
@@ -192,7 +192,7 @@ Controllable synthesis of nonverbal vocalizations (NVVs) is es- sential for natu
 
 </details>
 
-#### [Bangla Sentence Function Classification: Corpus Development, Model Benchmarking, and Interpretability](https://arxiv.org/abs/2609.13869)
+#### [Bangla Sentence Function Classification: Corpus Development, Model Benchmarking, and Interpretability](https://arxiv.org/abs/2609.13869) · [📄 Read](papers/2026/2609.13869.md)
 
 **Swapnil Kundu Argha, Abdullah Al Shafi, Rowzatul Zannat, Shoumik Barman Polok et al.** · 2026-09-12
 
@@ -203,7 +203,7 @@ Automatic sentence function identification is important for many downstream natu
 
 </details>
 
-#### [The VoiceMOS Challenge 2026: Evaluating Speech Enhancement, Emotional TTS and Accented TTS Systems](https://arxiv.org/abs/2609.13792)
+#### [The VoiceMOS Challenge 2026: Evaluating Speech Enhancement, Emotional TTS and Accented TTS Systems](https://arxiv.org/abs/2609.13792) · [📄 Read](papers/2026/2609.13792.md)
 
 **Wen-Chin Huang, Wei Wang, Marvin Sach, Xiaoxue Gao et al.** · 2026-09-12
 
@@ -214,7 +214,7 @@ We present the results of the VoiceMOS Challenge 2026, the fifth edition of a sc
 
 </details>
 
-#### [DiTAR+: Dual Optimization for Robust Autoregressive Diffusion Speech Synthesis](https://arxiv.org/abs/2609.13909)
+#### [DiTAR+: Dual Optimization for Robust Autoregressive Diffusion Speech Synthesis](https://arxiv.org/abs/2609.13909) · [📄 Read](papers/2026/2609.13909.md)
 
 **Ziyu Zhang, Tianlun Zuo, Hanzhao Li, Haoyu Zhang et al.** · 2026-09-12
 
@@ -225,7 +225,7 @@ Continuous-latent Autoregressive Diffusion Transformer (AR-DiT) models have demo
 
 </details>
 
-#### [CRAF: Cross-View Residual-Aware Fusion for Deepfake Speech Detection](https://arxiv.org/abs/2609.13842)
+#### [CRAF: Cross-View Residual-Aware Fusion for Deepfake Speech Detection](https://arxiv.org/abs/2609.13842) · [📄 Read](papers/2026/2609.13842.md)
 
 **Minh-Xuan Phan, Khalid Zaman, Candy Olivia Mawalim, Masashi Unoki** · 2026-09-12
 
@@ -236,7 +236,7 @@ Recent advances in speech synthesis and voice conversion have made deepfake spee
 
 </details>
 
-#### [Realtime-Venus: A full-duplex interaction system with asynchronous delegation](https://arxiv.org/abs/2609.13814)
+#### [Realtime-Venus: A full-duplex interaction system with asynchronous delegation](https://arxiv.org/abs/2609.13814) · [📄 Read](papers/2026/2609.13814.md)
 
 **Ruixiang Zhao, Hualei Wang, Renhe Sun, Enzhi Zhou et al.** · 2026-09-12
 
@@ -247,7 +247,7 @@ Natural interaction in digital and physical environments requires continuous per
 
 </details>
 
-#### [StepAudio 3 Gen Technical Report](https://arxiv.org/abs/2609.12945)
+#### [StepAudio 3 Gen Technical Report](https://arxiv.org/abs/2609.12945) · [📄 Read](papers/2026/2609.12945.md)
 
 **Bin Lin, Bo Zhao, Boyang Wang, Boyang Zhang et al.** · 2026-09-11
 
@@ -258,7 +258,7 @@ We introduce StepAudio 3 Gen, a general-purpose audio generation model that supp
 
 </details>
 
-#### [PhaseGAN: High-Fidelity Vocoder via Decoupled Amplitude and GAN-Driven Phase Reconstruction](https://arxiv.org/abs/2609.12918)
+#### [PhaseGAN: High-Fidelity Vocoder via Decoupled Amplitude and GAN-Driven Phase Reconstruction](https://arxiv.org/abs/2609.12918) · [📄 Read](papers/2026/2609.12918.md)
 
 **Wenzheng Zhang, Xueliang Zhang, Shulin He, Fei Zhao et al.** · 2026-09-11
 
@@ -269,7 +269,7 @@ A vocoder is a pivotal component of modern text-to-speech (TTS) systems. Despite
 
 </details>
 
-#### [AlignDPO: Preference-Gated Alignment for Reducing Hallucination in Decoder-Only TTS](https://arxiv.org/abs/2609.12855)
+#### [AlignDPO: Preference-Gated Alignment for Reducing Hallucination in Decoder-Only TTS](https://arxiv.org/abs/2609.12855) · [📄 Read](papers/2026/2609.12855.md)
 
 **Xiao Zhou, Oisín Turbitt, Kit Bower-Morris, Jonathan Carlton et al.** · 2026-09-11
 
@@ -280,7 +280,7 @@ Decoder-only text-to-speech (TTS) models scale efficiently but remain prone to c
 
 </details>
 
-#### [X-Pred MeanFlow for Streaming Token-to-Mel Speech Decoding](https://arxiv.org/abs/2609.12728)
+#### [X-Pred MeanFlow for Streaming Token-to-Mel Speech Decoding](https://arxiv.org/abs/2609.12728) · [📄 Read](papers/2026/2609.12728.md)
 
 **Hanke Xie, Xiaming Ren, Qirui Zhan, Jingbin Hu et al.** · 2026-09-11
 
@@ -291,7 +291,7 @@ Recent advancements in discrete token-based speech generation have highlighted t
 
 </details>
 
-#### [CVSS-X: A Multilingual Speech-to-Speech Translation Corpus for 28 Languages](https://arxiv.org/abs/2609.13413)
+#### [CVSS-X: A Multilingual Speech-to-Speech Translation Corpus for 28 Languages](https://arxiv.org/abs/2609.13413) · [📄 Read](papers/2026/2609.13413.md)
 
 **Lucas Rafael Stefanel Gris, Alef Iury Siqueira Ferreira, Frederico Santos de Oliveira, Augusto Seben da Rosa et al.** · 2026-09-11
 
@@ -827,28 +827,6 @@ We present Aslema, our system for NADI 2026 Shared Task 5, which consists of two
 <summary>Abstract</summary>
 
 Recent continuous autoregressive TTS models operate directly on continuous speech representations, preserving rich acoustic details while leveraging the instruction-following capabilities of text LLMs. This paradigm opens new possibilities for voice cloning, instruction-controlled voice design, and speech editing, but remains susceptible to error accumulation during autoregressive generation. Existing solutions often require additional semantic modules, multi-stage tokenizer training pipelines, or complex autoregressive architectures. In this work, we propose FireRedTTS3, a simple yet effective speech generation and editing framework that mitigates error accumulation at the representation level. Specifically, we leverage a frozen Audio Encoder trained on diverse speech understanding tasks as a semantic teacher to regularize the audio feature space. This improves text-speech alignment and stabilizes autoregressive generation while keeping the overall system simple. FireRedTTS3 provides two variants: FireRedTTS3-Base for multilingual and multi-dialect zero-shot voice cloning, and FireRedTTS3-Instruct for unified voice cloning, instruction-controlled voice design, and speech editing. Experiments show that FireRedTTS3-Base achieves the best average speech intelligibility and speaker similarity among compared systems on Seed-TTS-Eval and MiniMax-MLS-Test, while FireRedTTS3-Instruct outperforms competing systems on InstructTTSEval and Ming-Freeform-Audio-Edit. These results demonstrate that semantically enriched continuous speech representations, combined with a simple architecture, enable stable, controllable, and high-fidelity speech generation and editing. Code and models are available at https://github.com/FireRedTeam/FireRedTTS3.
-
-</details>
-
-#### [Speaker-Normalized Semantic Speech Tokens via Iterative S2U-T2U Refinement](https://arxiv.org/abs/2608.16235) · [📄 Read](papers/2026/2608.16235.md)
-
-**Hanlin Zhang, Daxin Tan, Dehua Tao, Chengxi Deng et al.** · 2026-08-17
-
-<details>
-<summary>Abstract</summary>
-
-Semantic speech tokens should preserve linguistic content while suppressing speaker- and duration-dependent variation inherited from acoustic inputs. We propose Iterative Semantic Token Purification (ISTP), an alternating speech-to-unit (S2U) and text-to-unit (T2U) training procedure guided by text predictability. Starting from an initial S2U tokenizer, each iteration trains a T2U model on its deduplicated token sequences. The decoded T2U predictions then serve as connectionist temporal classification targets for a newly initialized S2U model, whose outputs supervise the next T2U model. This cycle progressively aligns the two token generators and biases the token space toward information recoverable from text. Experiments on Mandarin and English show substantially improved S2U--T2U agreement. Independently trained de-tokenizers further show that the refined S2U and T2U tokens retain sufficient content for high-intelligibility voice conversion and text-to-speech synthesis. In voice conversion, the generated speaking rate follows the reference more closely. The refined tokens also exhibit substantially improved cross-speaker consistency and reduced probe-recoverable speaker information.
-
-</details>
-
-#### [DuplexGen: Decoupling Content, Timing, and Acoustics for Synthetic Dialogue Speech](https://arxiv.org/abs/2608.16053) · [📄 Read](papers/2026/2608.16053.md)
-
-**Pengcheng Wang, Sheng Li, Jiyi Li, Takahiro Shinozaki** · 2026-08-17
-
-<details>
-<summary>Abstract</summary>
-
-Synthetic conversational speech has become an important resource for developing and evaluating conversational speech systems. However, existing dialogue synthesis pipelines typically generate dialogue content first and then insert interruptions, overlap, and backchannels using handcrafted markers or timing rules, making conversational timing prescribed rather than interaction-driven. We present DuplexGen, a dialogue synthesis framework that explicitly decouples content, timing, and acoustics. An LLM first generates the dialogue script, and then two full-duplex conversational models perform the script while listening to each other in real time. This allows conversational timing to emerge naturally while preserving the scripted content. Finally, a high-fidelity text-to-speech model re-renders the interaction without altering its timing. As a demonstration of the proposed framework, we construct a patient--clinician conversational speech corpus with construction-time annotations, including word timestamps, speaker activity, overlap regions, and interaction events. Experimental results show that the proposed framework produces conversational dynamics closer to real dialogue than conventional stitching-based synthesis.
 
 </details>
 
