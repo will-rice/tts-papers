@@ -1,0 +1,19 @@
+---
+identifier: arxiv:2009.14668
+title: Transfer Learning from Monolingual ASR to Transcription-free Cross-lingual Voice Conversion
+authors:
+- Che-Jui Chang
+published: '2020-09-30T00:00:00+00:00'
+url: https://arxiv.org/abs/2009.14668
+source: arxiv
+doi: null
+arxiv_id: '2009.14668'
+categories:
+- cs.LG
+- cs.SD
+- eess.AS
+---
+
+## Abstract
+
+Cross-lingual voice conversion (VC) is a task that aims to synthesize target voices with the same content while source and target speakers speak in different languages. Its challenge lies in the fact that the source and target data are naturally non-parallel, and it is even difficult to bridge the gaps between languages with no transcriptions provided. In this paper, we focus on knowledge transfer from monolin-gual ASR to cross-lingual VC, in order to address the con-tent mismatch problem. To achieve this, we first train a monolingual acoustic model for the source language, use it to extract phonetic features for all the speech in the VC dataset, and then train a Seq2Seq conversion model to pre-dict the mel-spectrograms. We successfully address cross-lingual VC without any transcription or language-specific knowledge for foreign speech. We experiment this on Voice Conversion Challenge 2020 datasets and show that our speaker-dependent conversion model outperforms the zero-shot baseline, achieving MOS of 3.83 and 3.54 in speech quality and speaker similarity for cross-lingual conversion. When compared to Cascade ASR-TTS method, our proposed one significantly reduces the MOS drop be-tween intra- and cross-lingual conversion.
