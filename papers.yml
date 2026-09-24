@@ -6,18 +6,30 @@ adapters:
   - name: arxiv
     enabled: true
     secret_env: null
-    lookback_days: 7
+    lookback_days: 8
+    backfill_start: 2017-01-01
+    backfill_days: 90
+    page_size: 100
+    max_pages: 5
+    max_results: 500
+    filters:
+      search_query: "ti:\"text to speech\" OR abs:\"text to speech\" OR ti:\"text-to-speech\" OR abs:\"text-to-speech\" OR ti:\"speech synthesis\" OR abs:\"speech synthesis\" OR ti:\"neural text to speech\" OR abs:\"neural text to speech\" OR ti:\"neural vocoder\" OR abs:\"neural vocoder\" OR ti:\"voice conversion\" OR abs:\"voice conversion\" OR ti:\"voice cloning\" OR abs:\"voice cloning\" OR ti:\"speech generation\" OR abs:\"speech generation\" OR ti:\"acoustic model speech\" OR abs:\"acoustic model speech\" OR ti:\"prosody prediction\" OR abs:\"prosody prediction\" OR ti:\"expressive speech synthesis\" OR abs:\"expressive speech synthesis\" OR ti:\"zero-shot TTS\" OR abs:\"zero-shot TTS\" OR ti:\"end-to-end speech synthesis\" OR abs:\"end-to-end speech synthesis\" OR ti:\"diffusion speech synthesis\" OR abs:\"diffusion speech synthesis\""
+  - name: huggingface
+    enabled: true
+    secret_env: null
+    lookback_days: 8
+    backfill_start: 2017-01-01
+    backfill_days: 90
     page_size: 100
     max_pages: 5
     max_results: 500
     filters: {}
 topic:
-  include_any:
-    - "Text-to-speech research papers"
+  include_any: []
   include_all: []
   exclude_any: []
   categories: []
-  plugin: null
+  plugin: "topic_plugin:accept_topic"
 fetch:
   request_timeout_seconds: 30
   retries: 3
