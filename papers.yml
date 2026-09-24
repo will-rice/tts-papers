@@ -7,22 +7,22 @@ adapters:
     enabled: true
     secret_env: null
     lookback_days: 8
-    backfill_start: 2017-01-01
-    backfill_days: 90
-    page_size: 100
-    max_pages: 5
-    max_results: 500
+    backfill_start: 1991-08-01
+    backfill_days: 365
+    page_size: 200
+    max_pages: 10
+    max_results: 2000
     filters:
       search_query: "ti:\"text to speech\" OR abs:\"text to speech\" OR ti:\"text-to-speech\" OR abs:\"text-to-speech\" OR ti:\"speech synthesis\" OR abs:\"speech synthesis\" OR ti:\"neural text to speech\" OR abs:\"neural text to speech\" OR ti:\"neural vocoder\" OR abs:\"neural vocoder\" OR ti:\"voice conversion\" OR abs:\"voice conversion\" OR ti:\"voice cloning\" OR abs:\"voice cloning\" OR ti:\"speech generation\" OR abs:\"speech generation\" OR ti:\"acoustic model speech\" OR abs:\"acoustic model speech\" OR ti:\"prosody prediction\" OR abs:\"prosody prediction\" OR ti:\"expressive speech synthesis\" OR abs:\"expressive speech synthesis\" OR ti:\"zero-shot TTS\" OR abs:\"zero-shot TTS\" OR ti:\"end-to-end speech synthesis\" OR abs:\"end-to-end speech synthesis\" OR ti:\"diffusion speech synthesis\" OR abs:\"diffusion speech synthesis\""
   - name: huggingface
     enabled: true
     secret_env: null
     lookback_days: 8
-    backfill_start: 2017-01-01
-    backfill_days: 90
+    backfill_start: 2023-05-04
+    backfill_days: 365
     page_size: 100
-    max_pages: 5
-    max_results: 500
+    max_pages: 100
+    max_results: 2000
     filters: {}
 topic:
   include_any: []
@@ -36,13 +36,14 @@ fetch:
   backoff_seconds: 1
   total_deadline_seconds: 900
 conversion:
-  max_batches_per_run: 4
-  max_papers: 10
-  max_cost: 100
+  max_batches_per_run: 20
+  max_papers: 50
+  max_cost: 1000
   timeout_seconds: 1800
   html_cost: 2
   latex_cost: 4
   pdf_cost: 20
+  deadline_seconds: 10800
 concurrency:
   html: 4
   latex: 2
