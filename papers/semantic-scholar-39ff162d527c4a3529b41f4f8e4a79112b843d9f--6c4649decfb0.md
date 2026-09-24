@@ -1,20 +1,14 @@
 ---
-arxiv_id: s2:39ff162d527c4a3529b41f4f8e4a79112b843d9f
-title:
-  Towards Integration of Embodiment Features for Prosodic Prominence Prediction
-  from Text
+identifier: semantic_scholar:39ff162d527c4a3529b41f4f8e4a79112b843d9f
+title: Towards Integration of Embodiment Features for Prosodic Prominence Prediction from Text
 authors:
-  - P. Madhyastha
-submitted: "2022-11-07"
+- P. Madhyastha
+published: '2022-11-07T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/39ff162d527c4a3529b41f4f8e4a79112b843d9f
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/39ff162d527c4a3529b41f4f8e4a79112b843d9f
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:29:05+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

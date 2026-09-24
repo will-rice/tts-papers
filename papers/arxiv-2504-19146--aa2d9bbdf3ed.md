@@ -1,20 +1,14 @@
 ---
-arxiv_id: "2504.19146"
-title:
-  "Muyan-TTS: A Trainable Text-to-Speech Model Optimized for Podcast Scenarios
-  with a $50K Budget"
+identifier: arxiv:2504.19146
+title: 'Muyan-TTS: A Trainable Text-to-Speech Model Optimized for Podcast Scenarios with a $50K Budget'
 authors:
-  - Xin Li et.al.
-submitted: "2025-04-27"
+- Xin Li et.al.
+published: '2025-04-27T00:00:00+00:00'
+url: https://arxiv.org/abs/2504.19146
+source: arxiv
+doi: null
+arxiv_id: '2504.19146'
 categories: []
-arxiv_url: https://arxiv.org/abs/2504.19146
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:03:38+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 # Muyan-TTS: A Trainable Text-to-Speech Model Optimized for Podcast Scenarios with a \$50K Budget

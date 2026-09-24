@@ -1,19 +1,15 @@
 ---
-arxiv_id: s2:d5c1191f15c27f6d77a97b0ac8fbecf36072e489
+identifier: semantic_scholar:d5c1191f15c27f6d77a97b0ac8fbecf36072e489
 title: An Emotion Speech Synthesis Method Based on VITS
 authors:
-  - Wei Zhao
-  - Zheng Yang
-submitted: "2023-02-09"
+- Wei Zhao
+- Zheng Yang
+published: '2023-02-09T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/d5c1191f15c27f6d77a97b0ac8fbecf36072e489
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/d5c1191f15c27f6d77a97b0ac8fbecf36072e489
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:27:27+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

@@ -1,23 +1,19 @@
 ---
-arxiv_id: "2406.06406"
+identifier: arxiv:2406.06406
 title: Controlling Emotion in Text-to-Speech with Natural Language Prompts
 authors:
-  - Thomas Bott
-  - Florian Lux
-  - Ngoc Thang Vu
-submitted: "2024-06-10"
+- Thomas Bott
+- Florian Lux
+- Ngoc Thang Vu
+published: '2024-06-10T00:00:00+00:00'
+url: https://arxiv.org/abs/2406.06406
+source: arxiv
+doi: null
+arxiv_id: '2406.06406'
 categories:
-  - cs.CL
-  - cs.SD
-  - eess.AS
-arxiv_url: https://arxiv.org/abs/2406.06406
-source: latex
-converter: pandoc
-llm_remediated: false
-citations_resolved: 13/49
-citations_resolved_at: "2026-07-07T16:15:00+00:00"
-references_parsed: 49
-arxiv_version: ""
+- cs.CL
+- cs.SD
+- eess.AS
 ---
 
 # Introduction
@@ -203,10 +199,10 @@ In this work, we propose a text-to-speech system that is conditioned on embeddin
 
 ## References
 
-1. Y.~Ren, C.~Hu, X.~Tan, T.~Qin \emph{et~al.}, ``{FastSpeech 2: Fast and High-Quality End-to-End Text to Speech},'' \emph{arXiv:2006.04558}, 2020. [arXiv:2006.04558](../2020/2006.04558.md)
-2. E.~Kharitonov, D.~Vincent, Z.~Borsos, R.~Marinier \emph{et~al.}, ``{Speak, read and prompt: High-fidelity text-to-speech with minimal supervision},'' \emph{arXiv:2302.03540}, 2023. [arXiv:2302.03540](../2023/2302.03540.md)
+1. Y.~Ren, C.~Hu, X.~Tan, T.~Qin \emph{et~al.}, ``{FastSpeech 2: Fast and High-Quality End-to-End Text to Speech},'' \emph{arXiv:2006.04558}, 2020. [arXiv:2006.04558](arxiv-2006-04558--e4e6a111ef70.md)
+2. E.~Kharitonov, D.~Vincent, Z.~Borsos, R.~Marinier \emph{et~al.}, ``{Speak, read and prompt: High-fidelity text-to-speech with minimal supervision},'' \emph{arXiv:2302.03540}, 2023. [arXiv:2302.03540](arxiv-2302-03540--2426868fc311.md)
 3. C.~Wang, S.~Chen, Y.~Wu, Z.~Zhang \emph{et~al.}, ``{Neural Codec Language Models Are Zero-Shot Text to Speech Synthesizers, 2023},'' \emph{URL: https://arxiv. org/abs/2301.02111. doi: doi}, 2023.
-4. Y.~Liu, Z.~Xu, G.~Wang, K.~Chen \emph{et~al.}, ``{DelightfulTTS: The Microsoft speech synthesis system for Blizzard Challenge 2021},'' \emph{arXiv:2110.12612}, 2021. [arXiv:2110.12612](../2021/2110.12612.md)
+4. Y.~Liu, Z.~Xu, G.~Wang, K.~Chen \emph{et~al.}, ``{DelightfulTTS: The Microsoft speech synthesis system for Blizzard Challenge 2021},'' \emph{arXiv:2110.12612}, 2021. [arXiv:2110.12612](arxiv-2110-12612--7ed537764175.md)
 5. X.~Tan, J.~Chen, H.~Liu, J.~Cong \emph{et~al.}, ``{NaturalSpeech: End-to-End Text-to-Speech Synthesis with Human-Level Quality},'' \emph{IEEE Transactions on Pattern Analysis and Machine Intelligence}, 2024.
 6. A.~Lancucki, ``{Fastpitch: Parallel Text-to-Speech with Pitch Prediction},'' in \emph{ICASSP}.\hskip 1em plus 0.5em minus 0.4em\relax {IEEE}, 2021.
 7. R.~Skerry-Ryan, E.~Battenberg, Y.~Xiao, Y.~Wang \emph{et~al.}, ``{Towards end-to-end prosody transfer for expressive speech synthesis with tacotron},'' in \emph{ICML}.\hskip 1em plus 0.5em minus 0.4em\relax PMLR, 2018.
@@ -218,13 +214,13 @@ In this work, we propose a text-to-speech system that is conditioned on embeddin
 13. Y.~Shin, Y.~Lee, S.~Jo, Y.~Hwang \emph{et~al.}, ``{Text-driven Emotional Style Control and Cross-speaker Style Transfer in Neural TTS},'' in \emph{Interspeech}.\hskip 1em plus 0.5em minus 0.4em\relax {ISCA}, 2022.
 14. Z.~Guo, Y.~Leng, Y.~Wu, S.~Zhao \emph{et~al.}, ``{Prompttts: Controllable Text-To-Speech With Text Descriptions},'' in \emph{ICASSP}, 2023.
 15. D.~Yang, S.~Liu, R.~Huang, G.~Lei \emph{et~al.}, ``{InstructTTS: Modelling Expressive TTS in Discrete Latent Space with Natural Language Style Prompt},'' \emph{arXiv}, 2023.
-16. G.~Liu, Y.~Zhang, Y.~Lei, Y.~Chen \emph{et~al.}, ``{PromptStyle: Controllable Style Transfer for Text-to-Speech with Natural Language Descriptions},'' \emph{arXiv:2305.19522}, 2023. [arXiv:2305.19522](../2023/2305.19522.md)
-17. Y.~Leng, Z.~Guo, K.~Shen, X.~Tan \emph{et~al.}, ``{Prompttts 2: Describing and generating voices with text prompt},'' \emph{arXiv:2309.02285}, 2023. [arXiv:2309.02285](../2023/2309.02285.md)
+16. G.~Liu, Y.~Zhang, Y.~Lei, Y.~Chen \emph{et~al.}, ``{PromptStyle: Controllable Style Transfer for Text-to-Speech with Natural Language Descriptions},'' \emph{arXiv:2305.19522}, 2023. [arXiv:2305.19522](arxiv-2305-19522--f0afa4979adb.md)
+17. Y.~Leng, Z.~Guo, K.~Shen, X.~Tan \emph{et~al.}, ``{Prompttts 2: Describing and generating voices with text prompt},'' \emph{arXiv:2309.02285}, 2023. [arXiv:2309.02285](arxiv-2309-02285--2086524d2979.md)
 18. A.~F.~G. Leentjens, S.~M. Wielaert, F.~van Harskamp, and F.~W. Wilmink, ``{Disturbances of affective prosody in patients with schizophrenia, a cross sectional study},'' \emph{J Neurol Neurosurg Psychiatry}, 1998.
 19. D.~A. Sauter, F.~Eisner, A.~J. Calder, and S.~K. Scott, ``{Perceptual Cues in Nonverbal Vocal Expressions of Emotion},'' \emph{Quarterly Journal of Experimental Psychology}, 2010.
 20. M.~D. Pell and S.~A. Kotz, ``{On the Time Course of Vocal Emotion Recognition},'' \emph{{PLoS} {ONE}}, 2011.
-21. J.~Tu, Z.~Cui, X.~Zhou, S.~Zheng \emph{et~al.}, ``{Contextual Expressive Text-to-Speech},'' \emph{arXiv:2211.14548}, 2022. [arXiv:2211.14548](../2022/2211.14548.md)
-22. Y.~Koizumi, H.~Zen, S.~Karita, Y.~Ding \emph{et~al.}, ``{Miipher: A Robust Speech Restoration Model Integrating Self-Supervised Speech and Text Representations},'' \emph{arXiv:2303.01664}, 2023. [arXiv:2303.01664](../2023/2303.01664.md)
+21. J.~Tu, Z.~Cui, X.~Zhou, S.~Zheng \emph{et~al.}, ``{Contextual Expressive Text-to-Speech},'' \emph{arXiv:2211.14548}, 2022. [arXiv:2211.14548](arxiv-2211-14548--b3743ad9599b.md)
+22. Y.~Koizumi, H.~Zen, S.~Karita, Y.~Ding \emph{et~al.}, ``{Miipher: A Robust Speech Restoration Model Integrating Self-Supervised Speech and Text Representations},'' \emph{arXiv:2303.01664}, 2023. [arXiv:2303.01664](arxiv-2303-01664--3b8fd3c1e224.md)
 23. H.~Zen, R.~Clark, R.~J. Weiss, V.~Dang \emph{et~al.}, ``{LibriTTS: A Corpus Derived from LibriSpeech for Text-to-Speech},'' in \emph{Interspeech}, 2019.
 24. K.~Zhou, B.~Sisman, R.~Liu, and H.~Li, ``{Seen and Unseen Emotional Style Transfer for Voice Conversion with A New Emotional Speech Dataset},'' in \emph{ICASSP}.\hskip 1em plus 0.5em minus 0.4em\relax {IEEE}, 2021.
 25. S.~R. Livingstone and F.~A. Russo, ``{The Ryerson Audio-Visual Database of Emotional Speech and Song (RAVDESS): A dynamic, multimodal set of facial and vocal expressions in North American English},'' \emph{PloS one}, 2018.
@@ -245,10 +241,10 @@ In this work, we propose a text-to-speech system that is conditioned on embeddin
 40. Y.~Jia, Y.~Zhang, R.~Weiss, Q.~Wang \emph{et~al.}, ``{Transfer learning from speaker verification to multispeaker text-to-speech synthesis},'' \emph{NeurIPS}, 2018.
 41. J.~Hu, L.~Shen, and G.~Sun, ``{Squeeze-and-excitation networks},'' in \emph{CVPR}, 2018.
 42. Y.~Wu, X.~Tan, B.~Li, L.~He, S.~Zhao \emph{et~al.}, ``{AdaSpeech 4: Adaptive Text to Speech in Zero-Shot Scenarios},'' in \emph{Interspeech}, 2022.
-43. Y.~A. Li, C.~Han, and N.~Mesgarani, ``{StyleTTS: A style-based generative model for natural and diverse text-to-speech synthesis},'' \emph{arXiv:2205.15439}, 2022. [arXiv:2205.15439](../2023/2205.15439.md)
+43. Y.~A. Li, C.~Han, and N.~Mesgarani, ``{StyleTTS: A style-based generative model for natural and diverse text-to-speech synthesis},'' \emph{arXiv:2205.15439}, 2022. [arXiv:2205.15439](arxiv-2205-15439--f6d3e33b769f.md)
 44. J.~Kong, J.~Kim, and J.~Bae, ``{HiFi-GAN: Generative Adversarial Networks for Efficient and High Fidelity Speech Synthesis},'' in \emph{NeurIPS}.\hskip 1em plus 0.5em minus 0.4em\relax Curran Associates, Inc., 2020.
-45. T.~Bak, J.~Lee, H.~Bae, J.~Yang \emph{et~al.}, ``{Avocodo: Generative adversarial network for artifact-free vocoder},'' \emph{arXiv:2206.13404}, 2022. [arXiv:2206.13404](../2022/2206.13404.md)
-46. D.~Diatlova and V.~Shutov, ``{EmoSpeech: Guiding FastSpeech2 Towards Emotional Text to Speech},'' \emph{arXiv:2307.00024}, 2023. [arXiv:2307.00024](../2023/2307.00024.md)
+45. T.~Bak, J.~Lee, H.~Bae, J.~Yang \emph{et~al.}, ``{Avocodo: Generative adversarial network for artifact-free vocoder},'' \emph{arXiv:2206.13404}, 2022. [arXiv:2206.13404](arxiv-2206-13404--1d77e661831d.md)
+46. D.~Diatlova and V.~Shutov, ``{EmoSpeech: Guiding FastSpeech2 Towards Emotional Text to Speech},'' \emph{arXiv:2307.00024}, 2023. [arXiv:2307.00024](arxiv-2307-00024--6af1fb325f58.md)
 47. D.~Snyder, D.~Garcia-Romero, A.~McCree, G.~Sell \emph{et~al.}, ``{Spoken language recognition using x-vectors.}'' in \emph{Odyssey}, 2018.
 48. M.~Ravanelli, T.~Parcollet, P.~Plantinga, A.~Rouhe \emph{et~al.}, ``{SpeechBrain: A General-Purpose Speech Toolkit},'' 2021, arXiv:2106.04624. [arXiv:2106.04624](https://arxiv.org/abs/2106.04624)
 49. H.~Cram{\'e}r, \emph{{Mathematical methods of statistics}}.\hskip 1em plus 0.5em minus 0.4em\relax Princeton university press, 1999.

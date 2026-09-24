@@ -1,22 +1,16 @@
 ---
-arxiv_id: s2:8d95944048d1c2bedb7a9ec00115fb3d3855d0b8
-title:
-  "CN-CVS: A Mandarin Audio-Visual Dataset for Large Vocabulary Continuous Visual
-  to Speech Synthesis"
+identifier: semantic_scholar:8d95944048d1c2bedb7a9ec00115fb3d3855d0b8
+title: 'CN-CVS: A Mandarin Audio-Visual Dataset for Large Vocabulary Continuous Visual to Speech Synthesis'
 authors:
-  - Cheng Chen
-  - Dong Wang
-  - T. Zheng
-submitted: "2023-06-04"
+- Cheng Chen
+- Dong Wang
+- T. Zheng
+published: '2023-06-04T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/8d95944048d1c2bedb7a9ec00115fb3d3855d0b8
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/8d95944048d1c2bedb7a9ec00115fb3d3855d0b8
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:24:38+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

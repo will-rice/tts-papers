@@ -1,25 +1,21 @@
 ---
-arxiv_id: s2:ac0e0e6cfb5bac417c7769867b1366bd64d1b8bd
+identifier: semantic_scholar:ac0e0e6cfb5bac417c7769867b1366bd64d1b8bd
 title: On the localness modeling for the self-attention based end-to-end speech synthesis
 authors:
-  - Shan Yang
-  - Heng Lu
-  - Shiyin Kang
-  - Liumeng Xue
-  - Jinba Xiao
-  - Dan Su
-  - Lei Xie
-  - Dong Yu
-submitted: "2020-02-11"
+- Shan Yang
+- Heng Lu
+- Shiyin Kang
+- Liumeng Xue
+- Jinba Xiao
+- Dan Su
+- Lei Xie
+- Dong Yu
+published: '2020-02-11T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/ac0e0e6cfb5bac417c7769867b1366bd64d1b8bd
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/ac0e0e6cfb5bac417c7769867b1366bd64d1b8bd
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:48:19+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

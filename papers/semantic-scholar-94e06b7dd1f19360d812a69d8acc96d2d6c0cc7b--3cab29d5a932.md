@@ -1,25 +1,19 @@
 ---
-arxiv_id: s2:94e06b7dd1f19360d812a69d8acc96d2d6c0cc7b
-title:
-  "EfficientTTS 2: Variational End-to-End Text-to-Speech Synthesis and Voice
-  Conversion"
+identifier: semantic_scholar:94e06b7dd1f19360d812a69d8acc96d2d6c0cc7b
+title: 'EfficientTTS 2: Variational End-to-End Text-to-Speech Synthesis and Voice Conversion'
 authors:
-  - Chenfeng Miao
-  - Qingying Zhu
-  - Minchuan Chen
-  - Jun Ma
-  - Shaojun Wang
-  - Jing Xiao
-submitted: "2024-01-01"
+- Chenfeng Miao
+- Qingying Zhu
+- Minchuan Chen
+- Jun Ma
+- Shaojun Wang
+- Jing Xiao
+published: '2024-01-01T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/94e06b7dd1f19360d812a69d8acc96d2d6c0cc7b
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/94e06b7dd1f19360d812a69d8acc96d2d6c0cc7b
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:18:31+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

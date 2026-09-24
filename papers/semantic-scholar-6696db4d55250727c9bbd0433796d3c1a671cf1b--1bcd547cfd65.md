@@ -1,27 +1,21 @@
 ---
-arxiv_id: s2:6696db4d55250727c9bbd0433796d3c1a671cf1b
-title:
-  "LEF-TTS: Lightweight and Efficient End-to-End Text-to-Speech Synthesis With
-  Multi-Stream Generator"
+identifier: semantic_scholar:6696db4d55250727c9bbd0433796d3c1a671cf1b
+title: 'LEF-TTS: Lightweight and Efficient End-to-End Text-to-Speech Synthesis With Multi-Stream Generator'
 authors:
-  - Yan Shi
-  - Jin Shi
-  - Minchuan Chen
-  - Chenfeng Miao
-  - Ming Fang
-  - Ning Cheng
-  - Shaojun Wang
-  - Jing Xiao
-submitted: "2025-04-06"
+- Yan Shi
+- Jin Shi
+- Minchuan Chen
+- Chenfeng Miao
+- Ming Fang
+- Ning Cheng
+- Shaojun Wang
+- Jing Xiao
+published: '2025-04-06T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/6696db4d55250727c9bbd0433796d3c1a671cf1b
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/6696db4d55250727c9bbd0433796d3c1a671cf1b
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:04:09+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

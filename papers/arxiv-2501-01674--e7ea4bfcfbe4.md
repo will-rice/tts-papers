@@ -1,22 +1,18 @@
 ---
-arxiv_id: "2501.01674"
+identifier: arxiv:2501.01674
 title: Controlling your Attributes in Voice
 authors:
-  - Xuyuan Li
-  - Zengqiang Shang. Li Wang
-  - Pengyuan Zhang
-submitted: "2025-01-03"
+- Xuyuan Li
+- Zengqiang Shang. Li Wang
+- Pengyuan Zhang
+published: '2025-01-03T00:00:00+00:00'
+url: https://arxiv.org/abs/2501.01674
+source: arxiv
+doi: null
+arxiv_id: '2501.01674'
 categories:
-  - cs.SD
-  - eess.AS
-arxiv_url: https://arxiv.org/abs/2501.01674
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:06:48+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.SD
+- eess.AS
 ---
 
 # Controlling your Attributes in Voice

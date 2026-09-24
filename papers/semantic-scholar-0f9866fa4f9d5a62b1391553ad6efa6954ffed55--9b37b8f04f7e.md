@@ -1,23 +1,17 @@
 ---
-arxiv_id: s2:0f9866fa4f9d5a62b1391553ad6efa6954ffed55
-title:
-  "Evolution and Perspectives of Speech Synthesis Technology: From Parametric
-  Synthesis to the Era of Large Language Models"
+identifier: semantic_scholar:0f9866fa4f9d5a62b1391553ad6efa6954ffed55
+title: 'Evolution and Perspectives of Speech Synthesis Technology: From Parametric Synthesis to the Era of Large Language Models'
 authors:
-  - Yuhao Guo
-  - Guanyu Li
-  - Chenyu Xie
-  - Qian Sun
-submitted: "2025-04-25"
+- Yuhao Guo
+- Guanyu Li
+- Chenyu Xie
+- Qian Sun
+published: '2025-04-25T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/0f9866fa4f9d5a62b1391553ad6efa6954ffed55
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/0f9866fa4f9d5a62b1391553ad6efa6954ffed55
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:03:31+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

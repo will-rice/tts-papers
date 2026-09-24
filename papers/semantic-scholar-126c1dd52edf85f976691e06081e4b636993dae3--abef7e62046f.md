@@ -1,19 +1,15 @@
 ---
-arxiv_id: s2:126c1dd52edf85f976691e06081e4b636993dae3
-title: "Wav2vec-VC: Voice Conversion via Hidden Representations of Wav2vec 2.0"
+identifier: semantic_scholar:126c1dd52edf85f976691e06081e4b636993dae3
+title: 'Wav2vec-VC: Voice Conversion via Hidden Representations of Wav2vec 2.0'
 authors:
-  - Jaemin Lim
-  - Kiyeon Kim
-submitted: "2024-04-14"
+- Jaemin Lim
+- Kiyeon Kim
+published: '2024-04-14T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/126c1dd52edf85f976691e06081e4b636993dae3
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/126c1dd52edf85f976691e06081e4b636993dae3
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:16:13+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

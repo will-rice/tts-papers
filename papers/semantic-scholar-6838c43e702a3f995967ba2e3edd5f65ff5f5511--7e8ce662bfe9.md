@@ -1,26 +1,20 @@
 ---
-arxiv_id: s2:6838c43e702a3f995967ba2e3edd5f65ff5f5511
-title:
-  SHAP-based Prediction of Mother’s History of Depression to Understand the Influence
-  on Child Behavior
+identifier: semantic_scholar:6838c43e702a3f995967ba2e3edd5f65ff5f5511
+title: SHAP-based Prediction of Mother’s History of Depression to Understand the Influence on Child Behavior
 authors:
-  - Maneesh Bilalpur
-  - Saurabh Hinduja
-  - Laura A. Cariola
-  - L. Sheeber
-  - Nicholas B. Allen
-  - Louis-philippe Morency
-  - Jeffrey F. Cohn
-submitted: "2023-10-09"
+- Maneesh Bilalpur
+- Saurabh Hinduja
+- Laura A. Cariola
+- L. Sheeber
+- Nicholas B. Allen
+- Louis-philippe Morency
+- Jeffrey F. Cohn
+published: '2023-10-09T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/6838c43e702a3f995967ba2e3edd5f65ff5f5511
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/6838c43e702a3f995967ba2e3edd5f65ff5f5511
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:20:43+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

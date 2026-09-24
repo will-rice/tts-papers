@@ -1,0 +1,37 @@
+repository:
+  name: "TTS Papers"
+  slug: "tts-papers"
+  description: "Text-to-speech research papers"
+adapters:
+  - name: arxiv
+    enabled: true
+    secret_env: null
+    lookback_days: 7
+    page_size: 100
+    max_pages: 5
+    max_results: 500
+    filters: {}
+topic:
+  include_any:
+    - "Text-to-speech research papers"
+  include_all: []
+  exclude_any: []
+  categories: []
+  plugin: null
+fetch:
+  request_timeout_seconds: 30
+  retries: 3
+  backoff_seconds: 1
+  total_deadline_seconds: 900
+conversion:
+  max_batches_per_run: 4
+  max_papers: 10
+  max_cost: 100
+  timeout_seconds: 1800
+  html_cost: 2
+  latex_cost: 4
+  pdf_cost: 20
+concurrency:
+  html: 4
+  latex: 2
+  pdf: 1

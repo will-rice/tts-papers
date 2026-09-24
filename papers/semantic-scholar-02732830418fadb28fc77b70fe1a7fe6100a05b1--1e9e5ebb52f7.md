@@ -1,22 +1,16 @@
 ---
-arxiv_id: s2:02732830418fadb28fc77b70fe1a7fe6100a05b1
-title:
-  "MIST-Tacotron: End-to-End Emotional Speech Synthesis Using Mel-Spectrogram
-  Image Style Transfer"
+identifier: semantic_scholar:02732830418fadb28fc77b70fe1a7fe6100a05b1
+title: 'MIST-Tacotron: End-to-End Emotional Speech Synthesis Using Mel-Spectrogram Image Style Transfer'
 authors:
-  - Sung-Woo Moon
-  - Sunghyun Kim
-  - Yong-Hoon Choi
-submitted: "2022-01-01"
+- Sung-Woo Moon
+- Sunghyun Kim
+- Yong-Hoon Choi
+published: '2022-01-01T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/02732830418fadb28fc77b70fe1a7fe6100a05b1
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/02732830418fadb28fc77b70fe1a7fe6100a05b1
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:36:06+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

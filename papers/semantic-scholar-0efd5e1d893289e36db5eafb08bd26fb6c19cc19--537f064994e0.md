@@ -1,18 +1,14 @@
 ---
-arxiv_id: s2:0efd5e1d893289e36db5eafb08bd26fb6c19cc19
+identifier: semantic_scholar:0efd5e1d893289e36db5eafb08bd26fb6c19cc19
 title: A Novel End-to-End Turkish Text-to-Speech (TTS) System via Deep Learning
 authors:
-  - Saadin Oyucu
-submitted: "2023-04-18"
+- Saadin Oyucu
+published: '2023-04-18T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/0efd5e1d893289e36db5eafb08bd26fb6c19cc19
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/0efd5e1d893289e36db5eafb08bd26fb6c19cc19
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:26:20+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

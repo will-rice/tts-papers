@@ -1,20 +1,14 @@
 ---
-arxiv_id: s2:dd62b9638086e422581f60e24e5b39d67f2eebe8
-title:
-  "TM-SPEECH: END-TO-END TEXT TO SPEECH BASED ON INTEGRATING TRANSFORMER AND
-  MAMBA"
+identifier: semantic_scholar:dd62b9638086e422581f60e24e5b39d67f2eebe8
+title: 'TM-SPEECH: END-TO-END TEXT TO SPEECH BASED ON INTEGRATING TRANSFORMER AND MAMBA'
 authors:
-  - Long Wang
-submitted: "2025-01-01"
+- Long Wang
+published: '2025-01-01T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/dd62b9638086e422581f60e24e5b39d67f2eebe8
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/dd62b9638086e422581f60e24e5b39d67f2eebe8
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:06:48+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

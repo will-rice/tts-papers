@@ -1,23 +1,17 @@
 ---
-arxiv_id: s2:e427d1adccfd47f322ae7ae1e83fce2164d86e15
-title:
-  Context-Aware Lexical Stress Prediction and Phonemization for Ukrainian TTS
-  Systems
+identifier: semantic_scholar:e427d1adccfd47f322ae7ae1e83fce2164d86e15
+title: Context-Aware Lexical Stress Prediction and Phonemization for Ukrainian TTS Systems
 authors:
-  - Anastasiia Senyk
-  - M. Lukianchuk
-  - V. Robeiko
-  - Yurii Paniv
-submitted: "2025-01-01"
+- Anastasiia Senyk
+- M. Lukianchuk
+- V. Robeiko
+- Yurii Paniv
+published: '2025-01-01T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/e427d1adccfd47f322ae7ae1e83fce2164d86e15
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/e427d1adccfd47f322ae7ae1e83fce2164d86e15
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:06:48+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

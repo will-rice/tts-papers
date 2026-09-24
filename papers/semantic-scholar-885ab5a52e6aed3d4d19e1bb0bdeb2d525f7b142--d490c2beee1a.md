@@ -1,23 +1,17 @@
 ---
-arxiv_id: s2:885ab5a52e6aed3d4d19e1bb0bdeb2d525f7b142
-title:
-  An Educational Study on Prosodic Symbols and Their Acoustic Realization Using
-  Japanese End-to-end Speech Synthesis
+identifier: semantic_scholar:885ab5a52e6aed3d4d19e1bb0bdeb2d525f7b142
+title: An Educational Study on Prosodic Symbols and Their Acoustic Realization Using Japanese End-to-end Speech Synthesis
 authors:
-  - Yoshizawa Fuki
-  - Kumano Tadashi
-  - Minematsu Nobuaki
-  - Kurihara Kiyoshi
-submitted: "2020-02-24"
+- Yoshizawa Fuki
+- Kumano Tadashi
+- Minematsu Nobuaki
+- Kurihara Kiyoshi
+published: '2020-02-24T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/885ab5a52e6aed3d4d19e1bb0bdeb2d525f7b142
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/885ab5a52e6aed3d4d19e1bb0bdeb2d525f7b142
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:48:13+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

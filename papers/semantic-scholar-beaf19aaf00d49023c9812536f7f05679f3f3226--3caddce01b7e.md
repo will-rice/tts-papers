@@ -1,20 +1,16 @@
 ---
-arxiv_id: s2:beaf19aaf00d49023c9812536f7f05679f3f3226
+identifier: semantic_scholar:beaf19aaf00d49023c9812536f7f05679f3f3226
 title: End-to-End Neural Formant Synthesis Using Low-Dimensional Acoustic Parameters
 authors:
-  - Sumiharu Kobayashi
-  - Tetsuo Kosaka
-  - Takashi Nose
-submitted: "2024-10-29"
+- Sumiharu Kobayashi
+- Tetsuo Kosaka
+- Takashi Nose
+published: '2024-10-29T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/beaf19aaf00d49023c9812536f7f05679f3f3226
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/beaf19aaf00d49023c9812536f7f05679f3f3226
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:08:43+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

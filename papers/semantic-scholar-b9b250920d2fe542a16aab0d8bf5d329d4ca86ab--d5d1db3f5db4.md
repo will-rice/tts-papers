@@ -1,27 +1,23 @@
 ---
-arxiv_id: s2:b9b250920d2fe542a16aab0d8bf5d329d4ca86ab
+identifier: semantic_scholar:b9b250920d2fe542a16aab0d8bf5d329d4ca86ab
 title: A neural speech decoding framework leveraging deep learning and speech synthesis
 authors:
-  - Xupeng Chen
-  - Ran Wang
-  - Amirhossein Khalilian-Gourtani
-  - Leyao Yu
-  - Patricia Dugan
-  - Daniel Friedman
-  - W. Doyle
-  - O. Devinsky
-  - Yao Wang
-  - A. Flinker
-submitted: "2024-04-01"
+- Xupeng Chen
+- Ran Wang
+- Amirhossein Khalilian-Gourtani
+- Leyao Yu
+- Patricia Dugan
+- Daniel Friedman
+- W. Doyle
+- O. Devinsky
+- Yao Wang
+- A. Flinker
+published: '2024-04-01T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/b9b250920d2fe542a16aab0d8bf5d329d4ca86ab
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/b9b250920d2fe542a16aab0d8bf5d329d4ca86ab
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-08T06:59:46+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

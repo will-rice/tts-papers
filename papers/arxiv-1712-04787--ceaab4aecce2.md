@@ -1,23 +1,17 @@
 ---
-arxiv_id: "1712.04787"
-title:
-  Creating New Language and Voice Components for the Updated MaryTTS Text-to-Speech
-  Synthesis Platform
+identifier: arxiv:1712.04787
+title: Creating New Language and Voice Components for the Updated MaryTTS Text-to-Speech Synthesis Platform
 authors:
-  - Ingmar Steiner
-  - Sébastien Le Maguer
-submitted: "2017-12-13"
+- Ingmar Steiner
+- Sébastien Le Maguer
+published: '2017-12-13T00:00:00+00:00'
+url: https://arxiv.org/abs/1712.04787
+source: arxiv
+doi: null
+arxiv_id: '1712.04787'
 categories:
-  - cs.CL
-  - cs.HC
-arxiv_url: https://arxiv.org/abs/1712.04787
-source: latex
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/20
-citations_resolved_at: "2026-07-07T16:54:16+00:00"
-references_parsed: 20
-arxiv_version: ""
+- cs.CL
+- cs.HC
 ---
 
 # Introduction

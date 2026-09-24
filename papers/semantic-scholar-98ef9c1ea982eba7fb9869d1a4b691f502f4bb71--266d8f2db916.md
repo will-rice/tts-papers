@@ -1,22 +1,16 @@
 ---
-arxiv_id: s2:98ef9c1ea982eba7fb9869d1a4b691f502f4bb71
-title:
-  Speaker Adaptation Experiments with Limited Data for End-to-End Text-To-Speech
-  Synthesis using Tacotron2
+identifier: semantic_scholar:98ef9c1ea982eba7fb9869d1a4b691f502f4bb71
+title: Speaker Adaptation Experiments with Limited Data for End-to-End Text-To-Speech Synthesis using Tacotron2
 authors:
-  - Ali Raheem Mandeel
-  - M. Al-Radhi
-  - T. Csapó
-submitted: "2022-01-01"
+- Ali Raheem Mandeel
+- M. Al-Radhi
+- T. Csapó
+published: '2022-01-01T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/98ef9c1ea982eba7fb9869d1a4b691f502f4bb71
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/98ef9c1ea982eba7fb9869d1a4b691f502f4bb71
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:36:06+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

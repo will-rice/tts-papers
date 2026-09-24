@@ -1,21 +1,15 @@
 ---
-arxiv_id: s2:9b84b9ae41797c1299bab333e69b63604d7cc1de
-title:
-  Planning the development of text-to-speech synthesis models and datasets with
-  dynamic deep learning
+identifier: semantic_scholar:9b84b9ae41797c1299bab333e69b63604d7cc1de
+title: Planning the development of text-to-speech synthesis models and datasets with dynamic deep learning
 authors:
-  - Hawraz A. Ahmad
-  - Tarik Ahmed Rashid
-submitted: "2024-07-01"
+- Hawraz A. Ahmad
+- Tarik Ahmed Rashid
+published: '2024-07-01T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/9b84b9ae41797c1299bab333e69b63604d7cc1de
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/9b84b9ae41797c1299bab333e69b63604d7cc1de
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:13:37+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

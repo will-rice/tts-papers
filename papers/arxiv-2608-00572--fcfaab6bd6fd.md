@@ -1,24 +1,18 @@
 ---
-arxiv_id: "2608.00572"
-title:
-  "AnyBand: Unified Multi-Bandwidth Speech Extension via Frequency-Aware In-Context
-  Spectral Infilling"
+identifier: arxiv:2608.00572
+title: 'AnyBand: Unified Multi-Bandwidth Speech Extension via Frequency-Aware In-Context Spectral Infilling'
 authors:
-  - Junchuan Zhao
-  - Minh Duc Vu
-  - Bowen Zhang
-  - Ye Wang
-submitted: "2026-08-01"
+- Junchuan Zhao
+- Minh Duc Vu
+- Bowen Zhang
+- Ye Wang
+published: '2026-08-01T00:00:00+00:00'
+url: https://arxiv.org/abs/2608.00572
+source: arxiv
+doi: null
+arxiv_id: '2608.00572'
 categories:
-  - cs.SD
-arxiv_url: https://arxiv.org/abs/2608.00572
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-08-04T07:10:38+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.SD
 ---
 
 # AnyBand: Unified Multi-Bandwidth Speech Extension via Frequency-Aware In-Context Spectral Infilling

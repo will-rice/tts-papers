@@ -1,32 +1,28 @@
 ---
-arxiv_id: "2411.12719"
-title: "Rethinking MUSHRA: Addressing Modern Challenges in Text-to-Speech Evaluation"
+identifier: arxiv:2411.12719
+title: 'Rethinking MUSHRA: Addressing Modern Challenges in Text-to-Speech Evaluation'
 authors:
-  - Praveen Srinivasa Varadhan
-  - Amogh Gulati
-  - Ashwin Sankar
-  - Srija Anand
-  - Anirudh Gupta
-  - Anirudh Mukherjee
-  - Shiva Kumar Marepally
-  - Ankur Bhatia
-  - Saloni Jaju
-  - Suvrat Bhooshan
-  - Mitesh M. Khapra
-submitted: "2024-11-19"
+- Praveen Srinivasa Varadhan
+- Amogh Gulati
+- Ashwin Sankar
+- Srija Anand
+- Anirudh Gupta
+- Anirudh Mukherjee
+- Shiva Kumar Marepally
+- Ankur Bhatia
+- Saloni Jaju
+- Suvrat Bhooshan
+- Mitesh M. Khapra
+published: '2024-11-19T00:00:00+00:00'
+url: https://arxiv.org/abs/2411.12719
+source: arxiv
+doi: null
+arxiv_id: '2411.12719'
 categories:
-  - cs.CL
-  - cs.LG
-  - cs.SD
-  - eess.AS
-arxiv_url: https://arxiv.org/abs/2411.12719
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/1
-citations_resolved_at: "2026-07-07T16:08:15+00:00"
-references_parsed: 1
-arxiv_version: ""
+- cs.CL
+- cs.LG
+- cs.SD
+- eess.AS
 ---
 
 # Rethinking MUSHRA: Addressing Modern Challenges in Text-to-Speech Evaluation

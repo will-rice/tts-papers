@@ -1,19 +1,15 @@
 ---
-arxiv_id: s2:9ca31730a8779aaf08c9c3be95250aff3f7765e4
+identifier: semantic_scholar:9ca31730a8779aaf08c9c3be95250aff3f7765e4
 title: PROSODY PREDICTION FOR TAMIL TEXT-TO-SPEECH SYNTHESIZER USING SENTIMENT ANALYSIS
 authors:
-  - Vaibhavi Rajendran
-  - B. Kumar
-submitted: "2017-04-01"
+- Vaibhavi Rajendran
+- B. Kumar
+published: '2017-04-01T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/9ca31730a8779aaf08c9c3be95250aff3f7765e4
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/9ca31730a8779aaf08c9c3be95250aff3f7765e4
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:54:29+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

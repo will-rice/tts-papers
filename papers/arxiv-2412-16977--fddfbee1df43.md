@@ -1,20 +1,14 @@
 ---
-arxiv_id: "2412.16977"
-title:
-  Incremental Disentanglement for Environment-Aware Zero-Shot Text-to-Speech
-  Synthesis
+identifier: arxiv:2412.16977
+title: Incremental Disentanglement for Environment-Aware Zero-Shot Text-to-Speech Synthesis
 authors:
-  - Ye-Xin Lu et.al.
-submitted: "2024-12-22"
+- Ye-Xin Lu et.al.
+published: '2024-12-22T00:00:00+00:00'
+url: https://arxiv.org/abs/2412.16977
+source: arxiv
+doi: null
+arxiv_id: '2412.16977'
 categories: []
-arxiv_url: https://arxiv.org/abs/2412.16977
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:07:17+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 # Incremental Disentanglement for Environment-Aware Zero-Shot Text-to-Speech Synthesis

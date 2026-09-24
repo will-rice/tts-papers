@@ -1,26 +1,20 @@
 ---
-arxiv_id: s2:505cebd16e54128566c6f6aae5930fa14a73d476
-title:
-  Deep Learning based Multilingual Speech Synthesis using Multi Feature Fusion
-  Methods
+identifier: semantic_scholar:505cebd16e54128566c6f6aae5930fa14a73d476
+title: Deep Learning based Multilingual Speech Synthesis using Multi Feature Fusion Methods
 authors:
-  - P. Nuthakki
-  - Madhavi Katamaneni
-  - C. J. N.
-  - Kumari Gubbala
-  - B. Domathoti
-  - Venkata Rao Maddumala
-  - K. Jetti
-submitted: "2023-09-04"
+- P. Nuthakki
+- Madhavi Katamaneni
+- C. J. N.
+- Kumari Gubbala
+- B. Domathoti
+- Venkata Rao Maddumala
+- K. Jetti
+published: '2023-09-04T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/505cebd16e54128566c6f6aae5930fa14a73d476
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/505cebd16e54128566c6f6aae5930fa14a73d476
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:22:23+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

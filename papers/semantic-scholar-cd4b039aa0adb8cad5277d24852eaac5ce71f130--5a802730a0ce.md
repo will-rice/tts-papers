@@ -1,21 +1,17 @@
 ---
-arxiv_id: s2:cd4b039aa0adb8cad5277d24852eaac5ce71f130
+identifier: semantic_scholar:cd4b039aa0adb8cad5277d24852eaac5ce71f130
 title: End-to-End Multi-speaker Speech Synthesis with Controllable Stress
 authors:
-  - Ting Liang
-  - Askar Hamdulla
-  - Hao Yin
-  - Yunlin Chen
-submitted: "2022-07-22"
+- Ting Liang
+- Askar Hamdulla
+- Hao Yin
+- Yunlin Chen
+published: '2022-07-22T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/cd4b039aa0adb8cad5277d24852eaac5ce71f130
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/cd4b039aa0adb8cad5277d24852eaac5ce71f130
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:31:33+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

@@ -1,19 +1,15 @@
 ---
-arxiv_id: s2:3c9f9e6160d1376addeb47691e1fa908f40e242f
+identifier: semantic_scholar:3c9f9e6160d1376addeb47691e1fa908f40e242f
 title: Invertible Voice Conversion with Parallel Data
 authors:
-  - Zexin Cai
-  - Ming Li
-submitted: "2024-04-14"
+- Zexin Cai
+- Ming Li
+published: '2024-04-14T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/3c9f9e6160d1376addeb47691e1fa908f40e242f
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/3c9f9e6160d1376addeb47691e1fa908f40e242f
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:16:14+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

@@ -1,25 +1,19 @@
 ---
-arxiv_id: "2107.02527"
-title:
-  "Location, Location: Enhancing the Evaluation of Text-to-Speech Synthesis Using
-  the Rapid Prosody Transcription Paradigm"
+identifier: arxiv:2107.02527
+title: 'Location, Location: Enhancing the Evaluation of Text-to-Speech Synthesis Using the Rapid Prosody Transcription Paradigm'
 authors:
-  - Elijah Gutierrez
-  - Pilar Oplustil-Gallegos
-  - Catherine Lai
-submitted: "2021-07-06"
+- Elijah Gutierrez
+- Pilar Oplustil-Gallegos
+- Catherine Lai
+published: '2021-07-06T00:00:00+00:00'
+url: https://arxiv.org/abs/2107.02527
+source: arxiv
+doi: null
+arxiv_id: '2107.02527'
 categories:
-  - eess.AS
-  - cs.CL
-  - cs.SD
-arxiv_url: https://arxiv.org/abs/2107.02527
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:39:25+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.CL
+- cs.SD
+- eess.AS
 ---
 
 # Location, Location: Enhancing the Evaluation of Text-to-Speech synthesis using the Rapid Prosody Transcription Paradigm

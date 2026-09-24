@@ -1,20 +1,16 @@
 ---
-arxiv_id: s2:b26e9b78deda6f13d36e5728a551191d9ab46b77
+identifier: semantic_scholar:b26e9b78deda6f13d36e5728a551191d9ab46b77
 title: Fast Inference End-to-End Speech Synthesis with Style Diffusion
 authors:
-  - Hui Sun
-  - Jiyeoun Song
-  - Yi Jiang
-submitted: "2025-07-15"
+- Hui Sun
+- Jiyeoun Song
+- Yi Jiang
+published: '2025-07-15T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/b26e9b78deda6f13d36e5728a551191d9ab46b77
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/b26e9b78deda6f13d36e5728a551191d9ab46b77
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T15:58:26+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

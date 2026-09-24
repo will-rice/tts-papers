@@ -1,18 +1,14 @@
 ---
-arxiv_id: "2506.02958"
-title: "PartialEdit: Identifying Partial Deepfakes in the Era of Neural Speech Editing"
+identifier: arxiv:2506.02958
+title: 'PartialEdit: Identifying Partial Deepfakes in the Era of Neural Speech Editing'
 authors:
-  - You Zhang et.al.
-submitted: "2025-06-03"
+- You Zhang et.al.
+published: '2025-06-03T00:00:00+00:00'
+url: https://arxiv.org/abs/2506.02958
+source: arxiv
+doi: null
+arxiv_id: '2506.02958'
 categories: []
-arxiv_url: https://arxiv.org/abs/2506.02958
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:01:00+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 \interspeechcameraready

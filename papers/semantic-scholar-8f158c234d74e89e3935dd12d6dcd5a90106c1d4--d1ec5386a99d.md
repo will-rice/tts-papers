@@ -1,19 +1,15 @@
 ---
-arxiv_id: s2:8f158c234d74e89e3935dd12d6dcd5a90106c1d4
+identifier: semantic_scholar:8f158c234d74e89e3935dd12d6dcd5a90106c1d4
 title: Mandarin Prosody Prediction Based on Attention Mechanism and Multi-model Ensemble
 authors:
-  - Kun Xie
-  - W. Pan
-submitted: "2018-08-15"
+- Kun Xie
+- W. Pan
+published: '2018-08-15T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/8f158c234d74e89e3935dd12d6dcd5a90106c1d4
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/8f158c234d74e89e3935dd12d6dcd5a90106c1d4
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:53:09+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

@@ -1,22 +1,16 @@
 ---
-arxiv_id: s2:6e6fcfae782b4bbb53f396ca2d7902bc18a4c1ca
-title:
-  Prosody prediction for arabic via the open-source boundary-annotated qur’an
-  corpus
+identifier: semantic_scholar:6e6fcfae782b4bbb53f396ca2d7902bc18a4c1ca
+title: Prosody prediction for arabic via the open-source boundary-annotated qur’an corpus
 authors:
-  - M. Sawalha
-  - C. Brierley
-  - E. Atwell
-submitted: "2021-02-04"
+- M. Sawalha
+- C. Brierley
+- E. Atwell
+published: '2021-02-04T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/6e6fcfae782b4bbb53f396ca2d7902bc18a4c1ca
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/6e6fcfae782b4bbb53f396ca2d7902bc18a4c1ca
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:42:28+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

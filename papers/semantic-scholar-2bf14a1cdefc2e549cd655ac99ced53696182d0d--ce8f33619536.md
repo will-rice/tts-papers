@@ -1,22 +1,16 @@
 ---
-arxiv_id: s2:2bf14a1cdefc2e549cd655ac99ced53696182d0d
-title:
-  Adaptive End-to-End Text-to-Speech Synthesis Based on Error Correction Feedback
-  from Humans
+identifier: semantic_scholar:2bf14a1cdefc2e549cd655ac99ced53696182d0d
+title: Adaptive End-to-End Text-to-Speech Synthesis Based on Error Correction Feedback from Humans
 authors:
-  - Kazuki Fujii
-  - Yuki Saito
-  - H. Saruwatari
-submitted: "2022-11-07"
+- Kazuki Fujii
+- Yuki Saito
+- H. Saruwatari
+published: '2022-11-07T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/2bf14a1cdefc2e549cd655ac99ced53696182d0d
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/2bf14a1cdefc2e549cd655ac99ced53696182d0d
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:29:05+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

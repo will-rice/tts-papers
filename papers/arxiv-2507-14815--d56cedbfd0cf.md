@@ -1,26 +1,20 @@
 ---
-arxiv_id: "2507.14815"
-title:
-  "FastLongSpeech: Enhancing Large Speech-Language Models for Efficient Long-Speech
-  Processing"
+identifier: arxiv:2507.14815
+title: 'FastLongSpeech: Enhancing Large Speech-Language Models for Efficient Long-Speech Processing'
 authors:
-  - Shoutao Guo
-  - Shaolei Zhang
-  - Qingkai Fang
-  - Zhengrui Ma
-  - Min Zhang
-  - Yang Feng
-submitted: "2025-07-20"
+- Shoutao Guo
+- Shaolei Zhang
+- Qingkai Fang
+- Zhengrui Ma
+- Min Zhang
+- Yang Feng
+published: '2025-07-20T00:00:00+00:00'
+url: https://arxiv.org/abs/2507.14815
+source: arxiv
+doi: null
+arxiv_id: '2507.14815'
 categories:
-  - cs.CL
-arxiv_url: https://arxiv.org/abs/2507.14815
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/1
-citations_resolved_at: "2026-07-07T15:58:22+00:00"
-references_parsed: 1
-arxiv_version: ""
+- cs.CL
 ---
 
 # FastLongSpeech: Enhancing Large Speech-Language Models for Efficient Long-Speech Processing

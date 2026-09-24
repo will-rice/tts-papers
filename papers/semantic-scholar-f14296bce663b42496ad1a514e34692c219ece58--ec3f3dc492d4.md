@@ -1,23 +1,17 @@
 ---
-arxiv_id: s2:f14296bce663b42496ad1a514e34692c219ece58
-title:
-  Controlling Emotion Strength with Relative Attribute for End-to-End Speech
-  Synthesis
+identifier: semantic_scholar:f14296bce663b42496ad1a514e34692c219ece58
+title: Controlling Emotion Strength with Relative Attribute for End-to-End Speech Synthesis
 authors:
-  - Xiaolian Zhu
-  - Shan Yang
-  - Geng Yang
-  - Lei Xie
-submitted: "2019-12-01"
+- Xiaolian Zhu
+- Shan Yang
+- Geng Yang
+- Lei Xie
+published: '2019-12-01T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/f14296bce663b42496ad1a514e34692c219ece58
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/f14296bce663b42496ad1a514e34692c219ece58
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:48:54+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

@@ -1,23 +1,17 @@
 ---
-arxiv_id: s2:39206ad9fe0859a0043bd8caea2e3f8202b67533
-title:
-  Improving End-to-End Speech Synthesis with Local Recurrent Neural Network Enhanced
-  Transformer
+identifier: semantic_scholar:39206ad9fe0859a0043bd8caea2e3f8202b67533
+title: Improving End-to-End Speech Synthesis with Local Recurrent Neural Network Enhanced Transformer
 authors:
-  - Yibin Zheng
-  - Xinhui Li
-  - Fenglong Xie
-  - Li Lu
-submitted: "2020-05-01"
+- Yibin Zheng
+- Xinhui Li
+- Fenglong Xie
+- Li Lu
+published: '2020-05-01T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/39206ad9fe0859a0043bd8caea2e3f8202b67533
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/39206ad9fe0859a0043bd8caea2e3f8202b67533
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:47:30+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

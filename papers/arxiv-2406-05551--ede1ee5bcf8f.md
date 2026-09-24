@@ -1,18 +1,14 @@
 ---
-arxiv_id: "2406.05551"
+identifier: arxiv:2406.05551
 title: Autoregressive Diffusion Transformer for Text-to-Speech Synthesis
 authors:
-  - Zhijun Liu et.al.
-submitted: "2024-06-08"
+- Zhijun Liu et.al.
+published: '2024-06-08T00:00:00+00:00'
+url: https://arxiv.org/abs/2406.05551
+source: arxiv
+doi: null
+arxiv_id: '2406.05551'
 categories: []
-arxiv_url: https://arxiv.org/abs/2406.05551
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/1
-citations_resolved_at: "2026-07-07T16:15:06+00:00"
-references_parsed: 1
-arxiv_version: ""
 ---
 
 # Autoregressive Diffusion Transformer for Text-to-Speech Synthesis

@@ -1,19 +1,15 @@
 ---
-arxiv_id: s2:734f04fe481a547cb56dce8d6b3c6aa2e24aa3cc
+identifier: semantic_scholar:734f04fe481a547cb56dce8d6b3c6aa2e24aa3cc
 title: Chinese Speech Synthesis System Based on End to End
 authors:
-  - Hao Zhang
-  - Xiaojun Huang
-submitted: "2020-10-16"
+- Hao Zhang
+- Xiaojun Huang
+published: '2020-10-16T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/734f04fe481a547cb56dce8d6b3c6aa2e24aa3cc
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/734f04fe481a547cb56dce8d6b3c6aa2e24aa3cc
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:44:29+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

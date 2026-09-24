@@ -1,24 +1,18 @@
 ---
-arxiv_id: "2409.18622"
-title:
-  Audio-Based Linguistic Feature Extraction for Enhancing Multi-lingual and Low-Resource
-  Text-to-Speech
+identifier: arxiv:2409.18622
+title: Audio-Based Linguistic Feature Extraction for Enhancing Multi-lingual and Low-Resource Text-to-Speech
 authors:
-  - Youngjae Kim
-  - Yejin Jeon
-  - Gary Geunbae Lee
-submitted: "2024-09-27"
+- Youngjae Kim
+- Yejin Jeon
+- Gary Geunbae Lee
+published: '2024-09-27T00:00:00+00:00'
+url: https://arxiv.org/abs/2409.18622
+source: arxiv
+doi: null
+arxiv_id: '2409.18622'
 categories:
-  - cs.SD
-  - eess.AS
-arxiv_url: https://arxiv.org/abs/2409.18622
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:10:17+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.SD
+- eess.AS
 ---
 
 # Audio-Based Linguistic Feature Extraction for Enhancing Multi-lingual and Low-Resource Text-to-Speech

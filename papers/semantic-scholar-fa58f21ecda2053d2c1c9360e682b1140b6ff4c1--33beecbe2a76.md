@@ -1,36 +1,30 @@
 ---
-arxiv_id: s2:fa58f21ecda2053d2c1c9360e682b1140b6ff4c1
-title:
-  Online speech synthesis using a chronically implanted brain–computer interface
-  in an individual with ALS
+identifier: semantic_scholar:fa58f21ecda2053d2c1c9360e682b1140b6ff4c1
+title: Online speech synthesis using a chronically implanted brain–computer interface in an individual with ALS
 authors:
-  - M. Angrick
-  - S. Luo
-  - Q. Rabbani
-  - D. Candrea
-  - Samyak Shah
-  - G. Milsap
-  - W. Anderson
-  - C. R. Gordon
-  - Kathryn R Rosenblatt
-  - L. Clawson
-  - D. Tippett
-  - N. Maragakis
-  - F. Tenore
-  - M. Fifer
-  - H. Hermansky
-  - N. Ramsey
-  - N. Crone
-submitted: "2024-04-26"
+- M. Angrick
+- S. Luo
+- Q. Rabbani
+- D. Candrea
+- Samyak Shah
+- G. Milsap
+- W. Anderson
+- C. R. Gordon
+- Kathryn R Rosenblatt
+- L. Clawson
+- D. Tippett
+- N. Maragakis
+- F. Tenore
+- M. Fifer
+- H. Hermansky
+- N. Ramsey
+- N. Crone
+published: '2024-04-26T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/fa58f21ecda2053d2c1c9360e682b1140b6ff4c1
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/fa58f21ecda2053d2c1c9360e682b1140b6ff4c1
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:16:05+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

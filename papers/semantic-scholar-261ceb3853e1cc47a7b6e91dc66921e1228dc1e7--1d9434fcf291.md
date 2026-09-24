@@ -1,24 +1,18 @@
 ---
-arxiv_id: s2:261ceb3853e1cc47a7b6e91dc66921e1228dc1e7
-title:
-  Efficient and Natural Tibetan Speech Synthesis via Gaussian Noise-Improved
-  Monotonic Alignment Search and Lightweight iSTFT Multiband Decoder
+identifier: semantic_scholar:261ceb3853e1cc47a7b6e91dc66921e1228dc1e7
+title: Efficient and Natural Tibetan Speech Synthesis via Gaussian Noise-Improved Monotonic Alignment Search and Lightweight iSTFT Multiband Decoder
 authors:
-  - Shiqi Wu
-  - Yue Zhao
-  - Jing Yu
-  - Xiaona Xu
-  - Haizhou Li
-submitted: "2025-09-01"
+- Shiqi Wu
+- Yue Zhao
+- Jing Yu
+- Xiaona Xu
+- Haizhou Li
+published: '2025-09-01T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/261ceb3853e1cc47a7b6e91dc66921e1228dc1e7
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/261ceb3853e1cc47a7b6e91dc66921e1228dc1e7
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T15:56:15+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

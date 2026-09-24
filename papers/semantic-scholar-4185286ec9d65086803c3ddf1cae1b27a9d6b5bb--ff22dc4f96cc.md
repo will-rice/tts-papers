@@ -1,31 +1,27 @@
 ---
-arxiv_id: s2:4185286ec9d65086803c3ddf1cae1b27a9d6b5bb
-title: "Tacotron: A Fully End-to-End Text-To-Speech Synthesis Model"
+identifier: semantic_scholar:4185286ec9d65086803c3ddf1cae1b27a9d6b5bb
+title: 'Tacotron: A Fully End-to-End Text-To-Speech Synthesis Model'
 authors:
-  - Yuxuan Wang
-  - R. Skerry-Ryan
-  - Daisy Stanton
-  - Yonghui Wu
-  - Ron J. Weiss
-  - N. Jaitly
-  - Zongheng Yang
-  - Y. Xiao
-  - Z. Chen
-  - Samy Bengio
-  - Quoc V. Le
-  - Yannis Agiomyrgiannakis
-  - R. Clark
-  - R. Saurous
-submitted: "2017-03-29"
+- Yuxuan Wang
+- R. Skerry-Ryan
+- Daisy Stanton
+- Yonghui Wu
+- Ron J. Weiss
+- N. Jaitly
+- Zongheng Yang
+- Y. Xiao
+- Z. Chen
+- Samy Bengio
+- Quoc V. Le
+- Yannis Agiomyrgiannakis
+- R. Clark
+- R. Saurous
+published: '2017-03-29T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/4185286ec9d65086803c3ddf1cae1b27a9d6b5bb
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/4185286ec9d65086803c3ddf1cae1b27a9d6b5bb
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:54:32+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

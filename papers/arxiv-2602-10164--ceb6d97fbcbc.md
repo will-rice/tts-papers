@@ -1,20 +1,14 @@
 ---
-arxiv_id: "2602.10164"
-title:
-  Emotion-Coherent Speech Data Augmentation and Self-Supervised Contrastive Style
-  Training for Enhancing Kids's Story Speech Synthesis
+identifier: arxiv:2602.10164
+title: Emotion-Coherent Speech Data Augmentation and Self-Supervised Contrastive Style Training for Enhancing Kids's Story Speech Synthesis
 authors:
-  - Raymond Chung et.al.
-submitted: "2026-02-10"
+- Raymond Chung et.al.
+published: '2026-02-10T00:00:00+00:00'
+url: https://arxiv.org/abs/2602.10164
+source: arxiv
+doi: null
+arxiv_id: '2602.10164'
 categories: []
-arxiv_url: https://arxiv.org/abs/2602.10164
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T15:49:51+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 # Emotion-Coherent Speech Data Augmentation and Self-Supervised Contrastive Style Training for Enhancing Kids’s Story Speech Synthesis

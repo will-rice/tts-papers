@@ -1,25 +1,19 @@
 ---
-arxiv_id: s2:a80deca1ff9d0a7940afdcdb69789a1c34441223
-title:
-  Dynamic Soft Windowing and Language Dependent Style Token for Code-Switching
-  End-to-End Speech Synthesis
+identifier: semantic_scholar:a80deca1ff9d0a7940afdcdb69789a1c34441223
+title: Dynamic Soft Windowing and Language Dependent Style Token for Code-Switching End-to-End Speech Synthesis
 authors:
-  - Ruibo Fu
-  - J. Tao
-  - Zhengqi Wen
-  - Jiangyan Yi
-  - Chunyu Qiang
-  - Tao Wang
-submitted: "2020-10-25"
+- Ruibo Fu
+- J. Tao
+- Zhengqi Wen
+- Jiangyan Yi
+- Chunyu Qiang
+- Tao Wang
+published: '2020-10-25T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/a80deca1ff9d0a7940afdcdb69789a1c34441223
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/a80deca1ff9d0a7940afdcdb69789a1c34441223
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:44:13+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

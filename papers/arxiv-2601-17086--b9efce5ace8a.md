@@ -1,20 +1,14 @@
 ---
-arxiv_id: "2601.17086"
-title:
-  "SonoEdit: Null-Space Constrained Knowledge Editing for Pronunciation Correction
-  in LLM-Based TTS"
+identifier: arxiv:2601.17086
+title: 'SonoEdit: Null-Space Constrained Knowledge Editing for Pronunciation Correction in LLM-Based TTS'
 authors:
-  - Ayush Pratap Singh et.al.
-submitted: "2026-01-23"
+- Ayush Pratap Singh et.al.
+published: '2026-01-23T00:00:00+00:00'
+url: https://arxiv.org/abs/2601.17086
+source: arxiv
+doi: null
+arxiv_id: '2601.17086'
 categories: []
-arxiv_url: https://arxiv.org/abs/2601.17086
-source: latex
-converter: pandoc
-llm_remediated: false
-citations_resolved: 17/39
-citations_resolved_at: "2026-07-07T15:50:37+00:00"
-references_parsed: 39
-arxiv_version: ""
 ---
 
 # Experiments
@@ -121,14 +115,14 @@ Table <a href="#tab:ablation" data-reference-type="ref" data-reference="tab:abla
 8. Prefix-tuning: Optimizing continuous prompts for generation [arXiv:2101.00190](https://arxiv.org/abs/2101.00190)
 9. Natural TTS synthesis by conditioning WaveNet on mel spectrogram predictions
 10. FastSpeech 2: Fast and high-quality end-to-end text to speech
-11. Better speech synthesis through scaling [arXiv:2305.07243](../2023/2305.07243.md)
+11. Better speech synthesis through scaling [arXiv:2305.07243](arxiv-2305-07243--025e255a4a8a.md)
 12. YourTTS: Towards zero-shot multi-speaker TTS and zero-shot voice conversion for everyone
-13. Neural codec language models are zero-shot text to speech synthesizers [arXiv:2301.02111](../2023/2301.02111.md)
+13. Neural codec language models are zero-shot text to speech synthesizers [arXiv:2301.02111](arxiv-2301-02111--eb219f8c52a7.md)
 14. AudioLM: A language modeling approach to audio generation
 15. SoundStorm: Efficient parallel audio generation [arXiv:2305.09636](https://arxiv.org/abs/2305.09636)
-16. Speak, read and prompt: High-fidelity text-to-speech with minimal supervision [arXiv:2302.03540](../2023/2302.03540.md)
-17. Voicebox: Text-guided multilingual universal speech generation at scale [arXiv:2306.15687](../2023/2306.15687.md)
-18. NaturalSpeech 2: Latent diffusion models are natural and zero-shot speech and singing synthesizers [arXiv:2304.09116](../2023/2304.09116.md)
+16. Speak, read and prompt: High-fidelity text-to-speech with minimal supervision [arXiv:2302.03540](arxiv-2302-03540--2426868fc311.md)
+17. Voicebox: Text-guided multilingual universal speech generation at scale [arXiv:2306.15687](arxiv-2306-15687--72a5d166ff6d.md)
+18. NaturalSpeech 2: Latent diffusion models are natural and zero-shot speech and singing synthesizers [arXiv:2304.09116](arxiv-2304-09116--5d9e84411626.md)
 19. High fidelity neural audio compression [arXiv:2210.13438](https://arxiv.org/abs/2210.13438)
 20. SoundStream: An end-to-end neural audio codec
 21. Analysis methods in neural language processing: A survey
@@ -148,5 +142,5 @@ Table <a href="#tab:ablation" data-reference-type="ref" data-reference="tab:abla
 35. The CMU Arctic speech databases
 36. The llama 3 herd of models [arXiv:2407.21783](https://arxiv.org/abs/2407.21783)
 37. Libritts: A corpus derived from librispeech for text-to-speech [arXiv:1904.02882](https://arxiv.org/abs/1904.02882)
-38. Utmos: Utokyo-sarulab system for voicemos challenge 2022 [arXiv:2204.02152](../2022/2204.02152.md)
+38. Utmos: Utokyo-sarulab system for voicemos challenge 2022 [arXiv:2204.02152](arxiv-2204-02152--d9336d67fb34.md)
 39. SNAC: Multi-Scale Neural Audio Codec [arXiv:2410.14411](https://arxiv.org/abs/2410.14411)

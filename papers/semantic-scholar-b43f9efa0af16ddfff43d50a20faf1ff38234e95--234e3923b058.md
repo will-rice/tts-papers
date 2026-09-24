@@ -1,24 +1,18 @@
 ---
-arxiv_id: s2:b43f9efa0af16ddfff43d50a20faf1ff38234e95
-title:
-  "Focusing on Attention: Prosody Transfer and Adaptative Optimization Strategy
-  for Multi-Speaker End-to-End Speech Synthesis"
+identifier: semantic_scholar:b43f9efa0af16ddfff43d50a20faf1ff38234e95
+title: 'Focusing on Attention: Prosody Transfer and Adaptative Optimization Strategy for Multi-Speaker End-to-End Speech Synthesis'
 authors:
-  - Ruibo Fu
-  - J. Tao
-  - Zhengqi Wen
-  - Jiangyan Yi
-  - Tao Wang
-submitted: "2020-05-01"
+- Ruibo Fu
+- J. Tao
+- Zhengqi Wen
+- Jiangyan Yi
+- Tao Wang
+published: '2020-05-01T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/b43f9efa0af16ddfff43d50a20faf1ff38234e95
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/b43f9efa0af16ddfff43d50a20faf1ff38234e95
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:47:30+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

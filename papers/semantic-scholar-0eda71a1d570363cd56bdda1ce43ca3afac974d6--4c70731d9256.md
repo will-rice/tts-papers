@@ -1,24 +1,20 @@
 ---
-arxiv_id: s2:0eda71a1d570363cd56bdda1ce43ca3afac974d6
+identifier: semantic_scholar:0eda71a1d570363cd56bdda1ce43ca3afac974d6
 title: Prosody Predictor based Diffusion Models Techniques for Enhanced Speech Synthesis
 authors:
-  - Dr. K. Aruna Bhaskar
-  - D. Lal
-  - Dr. M. Bhaskar
-  - S. Sushma
-  - N. Praveen
-  - A. Siva
-  - K. Reddy
-submitted: "2025-04-18"
+- Dr. K. Aruna Bhaskar
+- D. Lal
+- Dr. M. Bhaskar
+- S. Sushma
+- N. Praveen
+- A. Siva
+- K. Reddy
+published: '2025-04-18T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/0eda71a1d570363cd56bdda1ce43ca3afac974d6
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/0eda71a1d570363cd56bdda1ce43ca3afac974d6
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-08T06:59:45+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

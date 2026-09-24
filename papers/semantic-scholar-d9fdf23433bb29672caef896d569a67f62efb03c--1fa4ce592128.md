@@ -1,24 +1,18 @@
 ---
-arxiv_id: s2:d9fdf23433bb29672caef896d569a67f62efb03c
-title:
-  Learning Hierarchical Representations for Expressive Speaking Style in End-to-End
-  Speech Synthesis
+identifier: semantic_scholar:d9fdf23433bb29672caef896d569a67f62efb03c
+title: Learning Hierarchical Representations for Expressive Speaking Style in End-to-End Speech Synthesis
 authors:
-  - Xiaochun An
-  - Yuxuan Wang
-  - Shan Yang
-  - Zejun Ma
-  - Lei Xie
-submitted: "2019-12-01"
+- Xiaochun An
+- Yuxuan Wang
+- Shan Yang
+- Zejun Ma
+- Lei Xie
+published: '2019-12-01T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/d9fdf23433bb29672caef896d569a67f62efb03c
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/d9fdf23433bb29672caef896d569a67f62efb03c
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:48:54+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

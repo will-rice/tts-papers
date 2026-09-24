@@ -1,25 +1,19 @@
 ---
-arxiv_id: s2:d7186392cf0f2aa8805be525ab20e8d4f5b13f0e
-title:
-  "GST-BERT-TTS: Prosody Prediction Without Accentual Labels For Multi-Speaker
-  TTS Using BERT With Global Style Tokens"
+identifier: semantic_scholar:d7186392cf0f2aa8805be525ab20e8d4f5b13f0e
+title: 'GST-BERT-TTS: Prosody Prediction Without Accentual Labels For Multi-Speaker TTS Using BERT With Global Style Tokens'
 authors:
-  - Tadashi Ogura
-  - T. Okamoto
-  - Yamato Ohtani
-  - Erica Cooper
-  - Tomoki Toda
-  - Hisashi Kawai
-submitted: "2025-08-17"
+- Tadashi Ogura
+- T. Okamoto
+- Yamato Ohtani
+- Erica Cooper
+- Tomoki Toda
+- Hisashi Kawai
+published: '2025-08-17T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/d7186392cf0f2aa8805be525ab20e8d4f5b13f0e
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/d7186392cf0f2aa8805be525ab20e8d4f5b13f0e
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T15:56:48+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

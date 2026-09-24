@@ -1,22 +1,18 @@
 ---
-arxiv_id: s2:be2ee91e2e9b746d4a3a1aa5707d071dc072fca7
+identifier: semantic_scholar:be2ee91e2e9b746d4a3a1aa5707d071dc072fca7
 title: An Efficient and High Fidelity Vietnamese Streaming End-to-End Speech Synthesis
 authors:
-  - Tho Tran
-  - The Chuong Chu
-  - V. Hoang
-  - Trung Bui
-  - H. Trương
-submitted: "2022-09-18"
+- Tho Tran
+- The Chuong Chu
+- V. Hoang
+- Trung Bui
+- H. Trương
+published: '2022-09-18T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/be2ee91e2e9b746d4a3a1aa5707d071dc072fca7
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/be2ee91e2e9b746d4a3a1aa5707d071dc072fca7
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:30:51+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

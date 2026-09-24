@@ -1,25 +1,21 @@
 ---
-arxiv_id: "2008.05284"
+identifier: arxiv:2008.05284
 title: Modeling Prosodic Phrasing with Multi-Task Learning in Tacotron-based TTS
 authors:
-  - Rui Liu
-  - Berrak Sisman
-  - Feilong Bao
-  - Guanglai Gao
-  - Haizhou Li
-submitted: "2020-08-11"
+- Rui Liu
+- Berrak Sisman
+- Feilong Bao
+- Guanglai Gao
+- Haizhou Li
+published: '2020-08-11T00:00:00+00:00'
+url: https://arxiv.org/abs/2008.05284
+source: arxiv
+doi: null
+arxiv_id: '2008.05284'
 categories:
-  - eess.AS
-  - cs.CL
-  - cs.SD
-arxiv_url: https://arxiv.org/abs/2008.05284
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:45:39+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.CL
+- cs.SD
+- eess.AS
 ---
 
 # Modeling Prosodic Phrasing with Multi-Task Learning in Tacotron-based TTS

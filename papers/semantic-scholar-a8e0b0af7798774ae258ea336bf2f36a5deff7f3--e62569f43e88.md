@@ -1,23 +1,17 @@
 ---
-arxiv_id: s2:a8e0b0af7798774ae258ea336bf2f36a5deff7f3
-title:
-  Disentangling Speaker Representations from Intuitive Prosodic Features for
-  Speaker-Adaptative and Prosody-Controllable Speech Synthesis
+identifier: semantic_scholar:a8e0b0af7798774ae258ea336bf2f36a5deff7f3
+title: Disentangling Speaker Representations from Intuitive Prosodic Features for Speaker-Adaptative and Prosody-Controllable Speech Synthesis
 authors:
-  - Pengyu Cheng
-  - Zhenhua Ling
-  - Meng Meng
-  - Yujun Wang
-submitted: "2024-12-03"
+- Pengyu Cheng
+- Zhenhua Ling
+- Meng Meng
+- Yujun Wang
+published: '2024-12-03T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/a8e0b0af7798774ae258ea336bf2f36a5deff7f3
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/a8e0b0af7798774ae258ea336bf2f36a5deff7f3
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:07:53+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

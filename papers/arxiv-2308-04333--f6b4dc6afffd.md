@@ -1,29 +1,25 @@
 ---
-arxiv_id: "2308.04333"
+identifier: arxiv:2308.04333
 title: Towards an AI to Win Ghana's National Science and Maths Quiz
 authors:
-  - George Boateng
-  - Jonathan Abrefah Mensah
-  - Kevin Takyi Yeboah
-  - William Edor
-  - Andrew Kojo Mensah-Onumah
-  - Naafi Dasana Ibrahim
-  - Nana Sam Yeboah
-submitted: "2023-08-08"
+- George Boateng
+- Jonathan Abrefah Mensah
+- Kevin Takyi Yeboah
+- William Edor
+- Andrew Kojo Mensah-Onumah
+- Naafi Dasana Ibrahim
+- Nana Sam Yeboah
+published: '2023-08-08T00:00:00+00:00'
+url: https://arxiv.org/abs/2308.04333
+source: arxiv
+doi: null
+arxiv_id: '2308.04333'
 categories:
-  - cs.HC
-  - cs.CL
-  - cs.CY
-  - cs.SD
-  - eess.AS
-arxiv_url: https://arxiv.org/abs/2308.04333
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:23:20+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.CL
+- cs.CY
+- cs.HC
+- cs.SD
+- eess.AS
 ---
 
 # Towards an AI to Win Ghana’s National Science and Maths Quiz

@@ -1,25 +1,19 @@
 ---
-arxiv_id: s2:f7373dc1c5db7ff86bde948a3ca7084092abb9f3
-title:
-  "DistillW2N: A Lightweight One-Shot Whisper to Normal Voice Conversion Model
-  Using Distillation of Self-Supervised Features"
+identifier: semantic_scholar:f7373dc1c5db7ff86bde948a3ca7084092abb9f3
+title: 'DistillW2N: A Lightweight One-Shot Whisper to Normal Voice Conversion Model Using Distillation of Self-Supervised Features'
 authors:
-  - Tianyi Tan
-  - Haoxin Ruan
-  - Xin'an Chen
-  - Kai-Jyun Chen
-  - Zhibin Lin
-  - Jing Lu
-submitted: "2025-04-06"
+- Tianyi Tan
+- Haoxin Ruan
+- Xin'an Chen
+- Kai-Jyun Chen
+- Zhibin Lin
+- Jing Lu
+published: '2025-04-06T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/f7373dc1c5db7ff86bde948a3ca7084092abb9f3
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/f7373dc1c5db7ff86bde948a3ca7084092abb9f3
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:04:09+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

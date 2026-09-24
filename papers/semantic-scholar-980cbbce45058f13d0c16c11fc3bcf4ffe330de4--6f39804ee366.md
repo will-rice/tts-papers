@@ -1,24 +1,18 @@
 ---
-arxiv_id: s2:980cbbce45058f13d0c16c11fc3bcf4ffe330de4
-title:
-  Pre-Alignment Guided Attention for Improving Training Efficiency and Model
-  Stability in End-to-End Speech Synthesis
+identifier: semantic_scholar:980cbbce45058f13d0c16c11fc3bcf4ffe330de4
+title: Pre-Alignment Guided Attention for Improving Training Efficiency and Model Stability in End-to-End Speech Synthesis
 authors:
-  - Xiaolian Zhu
-  - Yuchao Zhang
-  - Shan Yang
-  - Liumeng Xue
-  - Lei Xie
-submitted: "2019-04-30"
+- Xiaolian Zhu
+- Yuchao Zhang
+- Shan Yang
+- Liumeng Xue
+- Lei Xie
+published: '2019-04-30T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/980cbbce45058f13d0c16c11fc3bcf4ffe330de4
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/980cbbce45058f13d0c16c11fc3bcf4ffe330de4
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:51:02+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

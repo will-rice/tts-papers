@@ -1,27 +1,23 @@
 ---
-arxiv_id: "2012.02626"
-title: "GraphPB: Graphical Representations of Prosody Boundary in Speech Synthesis"
+identifier: arxiv:2012.02626
+title: 'GraphPB: Graphical Representations of Prosody Boundary in Speech Synthesis'
 authors:
-  - Aolan Sun
-  - Jianzong Wang
-  - Ning Cheng
-  - Huayi Peng
-  - Zhen Zeng
-  - Lingwei Kong
-  - Jing Xiao
-submitted: "2020-12-03"
+- Aolan Sun
+- Jianzong Wang
+- Ning Cheng
+- Huayi Peng
+- Zhen Zeng
+- Lingwei Kong
+- Jing Xiao
+published: '2020-12-03T00:00:00+00:00'
+url: https://arxiv.org/abs/2012.02626
+source: arxiv
+doi: null
+arxiv_id: '2012.02626'
 categories:
-  - eess.AS
-  - cs.CL
-  - cs.SD
-arxiv_url: https://arxiv.org/abs/2012.02626
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:43:20+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.CL
+- cs.SD
+- eess.AS
 ---
 
 # GraphPB: Graphical Representations of Prosody Boundary in Speech Synthesis

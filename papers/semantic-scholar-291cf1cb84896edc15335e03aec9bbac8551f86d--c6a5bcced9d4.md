@@ -1,21 +1,17 @@
 ---
-arxiv_id: s2:291cf1cb84896edc15335e03aec9bbac8551f86d
+identifier: semantic_scholar:291cf1cb84896edc15335e03aec9bbac8551f86d
 title: End-to-end Tibetan Speech Synthesis Based on Phones and Semi-syllables
 authors:
-  - Guanyu Li
-  - Lisai Luo
-  - Chunwei Gong
-  - Shiliang Lv
-submitted: "2019-11-01"
+- Guanyu Li
+- Lisai Luo
+- Chunwei Gong
+- Shiliang Lv
+published: '2019-11-01T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/291cf1cb84896edc15335e03aec9bbac8551f86d
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/291cf1cb84896edc15335e03aec9bbac8551f86d
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:49:13+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

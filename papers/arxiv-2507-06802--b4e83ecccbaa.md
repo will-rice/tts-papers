@@ -1,21 +1,17 @@
 ---
-arxiv_id: "2507.06802"
+identifier: arxiv:2507.06802
 title: Speech Tokenizer is Key to Consistent Representation
 authors:
-  - Wonjin Jung
-  - Sungil Kang
-  - Dong-Yeon Cho
-submitted: "2025-07-09"
+- Wonjin Jung
+- Sungil Kang
+- Dong-Yeon Cho
+published: '2025-07-09T00:00:00+00:00'
+url: https://arxiv.org/abs/2507.06802
+source: arxiv
+doi: null
+arxiv_id: '2507.06802'
 categories:
-  - cs.LG
-arxiv_url: https://arxiv.org/abs/2507.06802
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T15:58:54+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.LG
 ---
 
 Rebuttal for ICASSP 2025 Submission

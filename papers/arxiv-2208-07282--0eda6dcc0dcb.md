@@ -1,23 +1,17 @@
 ---
-arxiv_id: "2208.07282"
-title:
-  Differentiable WORLD Synthesizer-based Neural Vocoder With Application To End-To-End
-  Audio Style Transfer
+identifier: arxiv:2208.07282
+title: Differentiable WORLD Synthesizer-based Neural Vocoder With Application To End-To-End Audio Style Transfer
 authors:
-  - Shahan Nercessian
-submitted: "2022-08-15"
+- Shahan Nercessian
+published: '2022-08-15T00:00:00+00:00'
+url: https://arxiv.org/abs/2208.07282
+source: arxiv
+doi: null
+arxiv_id: '2208.07282'
 categories:
-  - eess.AS
-  - cs.LG
-  - cs.SD
-arxiv_url: https://arxiv.org/abs/2208.07282
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:31:33+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.LG
+- cs.SD
+- eess.AS
 ---
 
 DIFFERENTIABLE WORLD SYNTHESIZER-BASED\

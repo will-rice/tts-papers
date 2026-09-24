@@ -1,26 +1,20 @@
 ---
-arxiv_id: "2411.14013"
-title:
-  Lightweight Model Attribution and Detection of Synthetic Speech via Audio Residual
-  Fingerprints
+identifier: arxiv:2411.14013
+title: Lightweight Model Attribution and Detection of Synthetic Speech via Audio Residual Fingerprints
 authors:
-  - Matías Pizarro
-  - Mike Laszkiewicz
-  - Dorothea Kolossa
-  - Asja Fischer
-submitted: "2024-11-21"
+- Matías Pizarro
+- Mike Laszkiewicz
+- Dorothea Kolossa
+- Asja Fischer
+published: '2024-11-21T00:00:00+00:00'
+url: https://arxiv.org/abs/2411.14013
+source: arxiv
+doi: null
+arxiv_id: '2411.14013'
 categories:
-  - eess.AS
-  - cs.CR
-  - cs.LG
-arxiv_url: https://arxiv.org/abs/2411.14013
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:08:12+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.CR
+- cs.LG
+- eess.AS
 ---
 
 # Lightweight Model Attribution and Detection of Synthetic Speech via Audio Residual Fingerprints

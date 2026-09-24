@@ -1,25 +1,19 @@
 ---
-arxiv_id: s2:6a82214f258258ec3ba02926b0b7b80baa77c2cf
-title:
-  Semi-Supervised Learning Based on Hierarchical Generative Models for End-to-End
-  Speech Synthesis
+identifier: semantic_scholar:6a82214f258258ec3ba02926b0b7b80baa77c2cf
+title: Semi-Supervised Learning Based on Hierarchical Generative Models for End-to-End Speech Synthesis
 authors:
-  - Takato Fujimoto
-  - Shinji Takaki
-  - Kei Hashimoto
-  - Keiichiro Oura
-  - Yoshihiko Nankaku
-  - K. Tokuda
-submitted: "2020-05-01"
+- Takato Fujimoto
+- Shinji Takaki
+- Kei Hashimoto
+- Keiichiro Oura
+- Yoshihiko Nankaku
+- K. Tokuda
+published: '2020-05-01T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/6a82214f258258ec3ba02926b0b7b80baa77c2cf
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/6a82214f258258ec3ba02926b0b7b80baa77c2cf
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:47:30+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

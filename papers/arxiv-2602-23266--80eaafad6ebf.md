@@ -1,29 +1,23 @@
 ---
-arxiv_id: "2602.23266"
-title:
-  Discourse-Aware Dual-Track Streaming Response for Low-Latency Spoken Dialogue
-  Systems
+identifier: arxiv:2602.23266
+title: Discourse-Aware Dual-Track Streaming Response for Low-Latency Spoken Dialogue Systems
 authors:
-  - Siyuan Liu
-  - Jiahui Xu
-  - Feng Jiang
-  - Kuang Wang
-  - Zefeng Zhao
-  - Chu-Ren Huang
-  - Jinghang Gu
-  - Changqing Yin
-  - Haizhou Li
-submitted: "2026-02-26"
+- Siyuan Liu
+- Jiahui Xu
+- Feng Jiang
+- Kuang Wang
+- Zefeng Zhao
+- Chu-Ren Huang
+- Jinghang Gu
+- Changqing Yin
+- Haizhou Li
+published: '2026-02-26T00:00:00+00:00'
+url: https://arxiv.org/abs/2602.23266
+source: arxiv
+doi: null
+arxiv_id: '2602.23266'
 categories:
-  - cs.CL
-arxiv_url: https://arxiv.org/abs/2602.23266
-source: latex
-converter: pandoc
-llm_remediated: false
-citations_resolved: 38/114
-citations_resolved_at: "2026-07-07T15:49:44+00:00"
-references_parsed: 114
-arxiv_version: ""
+- cs.CL
 ---
 
 # Introduction
@@ -491,8 +485,8 @@ For text quality, we focus on logical consistency and discourse coherence. Logic
 14. Global normalization for streaming speech recognition in a modular framework
 15. Unifying Streaming and Non-streaming Zipformer-based ASR
 16. CosyVoice 2: Scalable Streaming Speech Synthesis with Large Language Models
-17. SyncSpeech: Low-Latency and Efficient Dual-Stream Text-to-Speech based on Temporal Masked Transformer [arXiv:2502.11094](../2025/2502.11094.md)
-18. VoXtream: Full-Stream Text-to-Speech with Extremely Low Latency [arXiv:2509.15969](../2025/2509.15969.md)
+17. SyncSpeech: Low-Latency and Efficient Dual-Stream Text-to-Speech based on Temporal Masked Transformer [arXiv:2502.11094](arxiv-2502-11094--ff7c5600657b.md)
+18. VoXtream: Full-Stream Text-to-Speech with Extremely Low Latency [arXiv:2509.15969](arxiv-2509-15969--364be889811a.md)
 19. Combining Incremental Language Generation and Incremental Speech Synthesis for Adaptive Information Presentation
 20. Fast inference from transformers via speculative decoding
 21. Accelerating large language model decoding with speculative sampling [arXiv:2302.01318](https://arxiv.org/abs/2302.01318)
@@ -507,25 +501,25 @@ For text quality, we focus on logical consistency and discourse coherence. Logic
 30. UniSpeaker: A Unified Approach for Multimodality-driven Speaker Generation [doi:10.18653/v1/2025.findings-emnlp.1381](https://doi.org/10.18653/v1/2025.findings-emnlp.1381)
 31. Towards Human-like Multimodal Conversational Agent by Generating Engaging Speech [doi:10.21437/Interspeech.2025-1075](https://doi.org/10.21437/Interspeech.2025-1075)
 32. WavChat: A Survey of Spoken Dialogue Models
-33. Toward Low-Latency End-to-End Voice Agents for Telecommunications Using Streaming ASR, Quantized LLMs, and Real-Time TTS [arXiv:2508.04721](../2025/2508.04721.md)
+33. Toward Low-Latency End-to-End Voice Agents for Telecommunications Using Streaming ASR, Quantized LLMs, and Real-Time TTS [arXiv:2508.04721](arxiv-2508-04721--63e4c609e28a.md)
 34. Anygpt: Unified multimodal llm with discrete sequence modeling
 35. Glm-4-voice: Towards intelligent and human-like end-to-end spoken chatbot [arXiv:2412.02612](https://arxiv.org/abs/2412.02612)
 36. Super-human performance in online low-latency recognition of conversational speech [arXiv:2010.03449](https://arxiv.org/abs/2010.03449)
 37. Robust speech recognition via large-scale weak supervision
 38. Hubert: Self-supervised speech representation learning by masked prediction of hidden units
-39. Mini-Omni: Language Models Can Hear, Talk While Thinking in Streaming [arXiv:2408.16725](../2024/2408.16725.md)
+39. Mini-Omni: Language Models Can Hear, Talk While Thinking in Streaming [arXiv:2408.16725](arxiv-2408-16725--f2f64faa850a.md)
 40. Mini-omni2: Towards open-source gpt-4o with vision, speech and duplex capabilities [arXiv:2410.11190](https://arxiv.org/abs/2410.11190)
 41. Llama-omni: Seamless speech interaction with large language models [arXiv:2409.06666](https://arxiv.org/abs/2409.06666)
-42. Llama-omni2: Llm-based real-time spoken chatbot with autoregressive streaming speech synthesis [arXiv:2505.02625](../2025/2505.02625.md)
+42. Llama-omni2: Llm-based real-time spoken chatbot with autoregressive streaming speech synthesis [arXiv:2505.02625](arxiv-2505-02625--99b381d98898.md)
 43. Freeze-omni: A smart and low latency speech-to-speech dialogue model with frozen llm [arXiv:2411.00774](https://arxiv.org/abs/2411.00774)
-44. Qwen2.5-Omni Technical Report [arXiv:2503.20215](../2025/2503.20215.md)
+44. Qwen2.5-Omni Technical Report [arXiv:2503.20215](arxiv-2503-20215--3f1ce503ae6b.md)
 45. Kimi-Audio Technical Report [arXiv:2504.18425](https://arxiv.org/abs/2504.18425)
 46. Alignment Knowledge Distillation for Online Streaming Attention-Based Speech Recognition [doi:10.1109/TASLP.2021.3133217](https://doi.org/10.1109/TASLP.2021.3133217)
 47. Conformer: Convolution-augmented Transformer for Speech Recognition
 48. An End-to-End Speech Summarization Using Large Language Model
 49. Speculative diffusion decoding: Accelerating language generation through diffusion
 50. Specinfer: Accelerating generative large language model serving with tree-based speculative inference and verification [arXiv:2305.09781](https://arxiv.org/abs/2305.09781)
-51. Toward Low-Latency End-to-End Voice Agents for Telecommunications Using Streaming ASR, Quantized LLMs, and Real-Time TTS [arXiv:2508.04721](../2025/2508.04721.md)
+51. Toward Low-Latency End-to-End Voice Agents for Telecommunications Using Streaming ASR, Quantized LLMs, and Real-Time TTS [arXiv:2508.04721](arxiv-2508-04721--63e4c609e28a.md)
 52. Hierarchical macro discourse parsing based on topic segmentation
 53. Not Just Classification: Recognizing Implicit Discourse Relation on Joint Modeling of Classification and Generation [doi:10.18653/v1/2021.emnlp-main.187](https://doi.org/10.18653/v1/2021.emnlp-main.187)
 54. Improving Dialogue Discourse Parsing via Reply-to Structures of Addressee Recognition [doi:10.18653/v1/2023.emnlp-main.526](https://doi.org/10.18653/v1/2023.emnlp-main.526)
@@ -537,7 +531,7 @@ For text quality, we focus on logical consistency and discourse coherence. Logic
 60. Direct speech-to-speech translation with a sequence-to-sequence model
 61. SeamlessM4T: massively multilingual \& multimodal machine translation [arXiv:2308.11596](https://arxiv.org/abs/2308.11596)
 62. Audiolm: a language modeling approach to audio generation
-63. Neural Codec Language Models are Zero-Shot Text to Speech Synthesizers [arXiv:2301.02111](../2023/2301.02111.md)
+63. Neural Codec Language Models are Zero-Shot Text to Speech Synthesizers [arXiv:2301.02111](arxiv-2301-02111--eb219f8c52a7.md)
 64. Voicebox: Text-guided multilingual universal speech generation at scale
 65. Pauses, gaps and overlaps in conversations [doi:10.1016/j.wocn.2010.08.002](https://doi.org/10.1016/j.wocn.2010.08.002)
 66. Timing in turn-taking and its implications for processing models of language [doi:10.3389/fpsyg.2015.00731](https://doi.org/10.3389/fpsyg.2015.00731)
@@ -552,7 +546,7 @@ For text quality, we focus on logical consistency and discourse coherence. Logic
 75. Moshi: a speech-text foundation model for real-time dialogue [arXiv:2410.00037](https://arxiv.org/abs/2410.00037)
 76. Decoding speculative decoding
 77. Dialogue Response Prefetching Based on Semantic Similarity and Prediction Confidence of Language Model
-78. Qwen3-Omni Technical Report [arXiv:2509.17765](../2025/2509.17765.md)
+78. Qwen3-Omni Technical Report [arXiv:2509.17765](arxiv-2509-17765--3b40d0cc757b.md)
 79. Speaking: From Intention to Articulation
 80. Using uh and um in spontaneous speaking [doi:https://doi.org/10.1016/S0010-0277(02)00017-3](<https://doi.org/https://doi.org/10.1016/S0010-0277(02)00017-3>)
 81. Neural signatures of response planning occur midway through an incoming question in conversation
@@ -582,7 +576,7 @@ For text quality, we focus on logical consistency and discourse coherence. Logic
 105. Unsupervised Mutual Learning of Discourse Parsing and Topic Segmentation in Dialogue
 106. Sd-eval: A benchmark dataset for spoken dialogue understanding beyond words
 107. SpokenNativQA: Multilingual Everyday Spoken Queries for LLMs [arXiv:2505.19163](https://arxiv.org/abs/2505.19163)
-108. Cosyvoice 2: Scalable streaming speech synthesis with large language models [arXiv:2412.10117](../2024/2412.10117.md)
+108. Cosyvoice 2: Scalable streaming speech synthesis with large language models [arXiv:2412.10117](arxiv-2412-10117--7eafa2ab53cc.md)
 109. The T05 System for The VoiceMOS Challenge 2024: Transfer Learning from Deep Image Classifier to Naturalness MOS Prediction of High-Quality Synthetic Speech
 110. The InproTK 2012 release
 111. Incremental Text-to-Speech Synthesis with Prefix-to-Prefix Framework [doi:10.18653/v1/2020.findings-emnlp.346](https://doi.org/10.18653/v1/2020.findings-emnlp.346)

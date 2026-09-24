@@ -1,23 +1,17 @@
 ---
-arxiv_id: "2605.26136"
-title:
-  "Eroding Trust in Real Speech: A Large-Scale Study of Human Audio Deepfake
-  Perception"
+identifier: arxiv:2605.26136
+title: 'Eroding Trust in Real Speech: A Large-Scale Study of Human Audio Deepfake Perception'
 authors:
-  - Nicolas M. Müller
-  - Wei Herng Choong
-submitted: "2026-05-21"
+- Nicolas M. Müller
+- Wei Herng Choong
+published: '2026-05-21T00:00:00+00:00'
+url: https://arxiv.org/abs/2605.26136
+source: arxiv
+doi: null
+arxiv_id: '2605.26136'
 categories:
-  - cs.SD
-  - cs.AI
-arxiv_url: https://arxiv.org/abs/2605.26136
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T15:46:18+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.AI
+- cs.SD
 ---
 
 # Eroding Trust in Real Speech: A Large-Scale Study of Human Audio Deepfake Perception

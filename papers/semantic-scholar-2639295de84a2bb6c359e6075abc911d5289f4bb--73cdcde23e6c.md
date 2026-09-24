@@ -1,20 +1,16 @@
 ---
-arxiv_id: s2:2639295de84a2bb6c359e6075abc911d5289f4bb
+identifier: semantic_scholar:2639295de84a2bb6c359e6075abc911d5289f4bb
 title: A New End-to-End Long-Time Speech Synthesis System Based on Tacotron2
 authors:
-  - Renyuan Liu
-  - Jian Yang
-  - Mengyuan Liu
-submitted: "2019-09-20"
+- Renyuan Liu
+- Jian Yang
+- Mengyuan Liu
+published: '2019-09-20T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/2639295de84a2bb6c359e6075abc911d5289f4bb
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/2639295de84a2bb6c359e6075abc911d5289f4bb
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:49:43+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

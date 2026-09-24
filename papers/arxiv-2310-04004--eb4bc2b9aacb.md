@@ -1,28 +1,22 @@
 ---
-arxiv_id: "2310.04004"
-title:
-  "U-Style: Cascading U-nets with Multi-level Speaker and Style Modeling for
-  Zero-Shot Voice Cloning"
+identifier: arxiv:2310.04004
+title: 'U-Style: Cascading U-nets with Multi-level Speaker and Style Modeling for Zero-Shot Voice Cloning'
 authors:
-  - Tao Li
-  - Zhichao Wang
-  - Xinfa Zhu
-  - Jian Cong
-  - Qiao Tian
-  - Yuping Wang
-  - Lei Xie
-submitted: "2023-10-06"
+- Tao Li
+- Zhichao Wang
+- Xinfa Zhu
+- Jian Cong
+- Qiao Tian
+- Yuping Wang
+- Lei Xie
+published: '2023-10-06T00:00:00+00:00'
+url: https://arxiv.org/abs/2310.04004
+source: arxiv
+doi: null
+arxiv_id: '2310.04004'
 categories:
-  - cs.SD
-  - eess.AS
-arxiv_url: https://arxiv.org/abs/2310.04004
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:20:59+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.SD
+- eess.AS
 ---
 
 # U-Style: Cascading U-nets with Multi-level Speaker and Style Modeling for Zero-Shot Voice Cloning

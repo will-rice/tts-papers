@@ -1,25 +1,19 @@
 ---
-arxiv_id: s2:cdabdb1d602ab0c1e5d9fc45d76057db01f1d2a7
-title:
-  Universal Low-Resource Speech Synthesis Via Phoneme Fusion Coordinating Low-Rank
-  Decomposition
+identifier: semantic_scholar:cdabdb1d602ab0c1e5d9fc45d76057db01f1d2a7
+title: Universal Low-Resource Speech Synthesis Via Phoneme Fusion Coordinating Low-Rank Decomposition
 authors:
-  - Yanliang Li
-  - Zhengtao Yu
-  - Linqin Wang
-  - Shengxiang Gao
-  - Ling Dong
-  - Wenjun Wang
-submitted: "2025-04-06"
+- Yanliang Li
+- Zhengtao Yu
+- Linqin Wang
+- Shengxiang Gao
+- Ling Dong
+- Wenjun Wang
+published: '2025-04-06T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/cdabdb1d602ab0c1e5d9fc45d76057db01f1d2a7
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/cdabdb1d602ab0c1e5d9fc45d76057db01f1d2a7
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:04:09+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

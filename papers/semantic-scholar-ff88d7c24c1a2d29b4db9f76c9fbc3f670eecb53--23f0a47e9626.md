@@ -1,21 +1,17 @@
 ---
-arxiv_id: s2:ff88d7c24c1a2d29b4db9f76c9fbc3f670eecb53
-title: "Wav2wav: Wave-to-Wave Voice Conversion"
+identifier: semantic_scholar:ff88d7c24c1a2d29b4db9f76c9fbc3f670eecb53
+title: 'Wav2wav: Wave-to-Wave Voice Conversion'
 authors:
-  - Changhyeon Jeong
-  - Hyung-Pil Chang
-  - In-Chul Yoo
-  - Dongsuk Yook
-submitted: "2024-05-17"
+- Changhyeon Jeong
+- Hyung-Pil Chang
+- In-Chul Yoo
+- Dongsuk Yook
+published: '2024-05-17T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/ff88d7c24c1a2d29b4db9f76c9fbc3f670eecb53
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/ff88d7c24c1a2d29b4db9f76c9fbc3f670eecb53
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-08T06:59:45+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

@@ -1,24 +1,20 @@
 ---
-arxiv_id: "2606.01677"
-title: "UniVocal: Unified Speech-Singing Code-Switching Synthesis"
+identifier: arxiv:2606.01677
+title: 'UniVocal: Unified Speech-Singing Code-Switching Synthesis'
 authors:
-  - Yufei Shi
-  - Qian Chen
-  - Wen Wang
-  - Xiangang Li
-  - Zhen-Hua Ling
-  - Yang Ai
-submitted: "2026-06-01"
+- Yufei Shi
+- Qian Chen
+- Wen Wang
+- Xiangang Li
+- Zhen-Hua Ling
+- Yang Ai
+published: '2026-06-01T00:00:00+00:00'
+url: https://arxiv.org/abs/2606.01677
+source: arxiv
+doi: null
+arxiv_id: '2606.01677'
 categories:
-  - cs.SD
-arxiv_url: https://arxiv.org/abs/2606.01677
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T15:45:40+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.SD
 ---
 
 # UniVocal: Unified Speech-Singing Code-Switching Synthesis

@@ -1,24 +1,18 @@
 ---
-arxiv_id: s2:b35f6b221571af3691cca88b25109bfa26e2c2d6
-title:
-  Impacts of input linguistic feature representation on Japanese end-to-end speech
-  synthesis
+identifier: semantic_scholar:b35f6b221571af3691cca88b25109bfa26e2c2d6
+title: Impacts of input linguistic feature representation on Japanese end-to-end speech synthesis
 authors:
-  - Takato Fujimoto
-  - Kei Hashimoto
-  - Keiichiro Oura
-  - Yoshihiko Nankaku
-  - K. Tokuda
-submitted: "2019-09-20"
+- Takato Fujimoto
+- Kei Hashimoto
+- Keiichiro Oura
+- Yoshihiko Nankaku
+- K. Tokuda
+published: '2019-09-20T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/b35f6b221571af3691cca88b25109bfa26e2c2d6
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/b35f6b221571af3691cca88b25109bfa26e2c2d6
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:49:43+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

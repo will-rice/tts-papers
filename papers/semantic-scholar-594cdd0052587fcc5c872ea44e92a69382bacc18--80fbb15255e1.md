@@ -1,19 +1,15 @@
 ---
-arxiv_id: s2:594cdd0052587fcc5c872ea44e92a69382bacc18
-title: "ArticulateX: End-to-End Monolingual Speech Translation in Articulator Space"
+identifier: semantic_scholar:594cdd0052587fcc5c872ea44e92a69382bacc18
+title: 'ArticulateX: End-to-End Monolingual Speech Translation in Articulator Space'
 authors:
-  - Vishal Kumar
-  - V. Abrol
-submitted: "2025-08-17"
+- Vishal Kumar
+- V. Abrol
+published: '2025-08-17T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/594cdd0052587fcc5c872ea44e92a69382bacc18
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/594cdd0052587fcc5c872ea44e92a69382bacc18
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T15:56:49+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

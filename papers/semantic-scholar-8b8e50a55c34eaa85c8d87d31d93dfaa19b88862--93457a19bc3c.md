@@ -1,21 +1,17 @@
 ---
-arxiv_id: s2:8b8e50a55c34eaa85c8d87d31d93dfaa19b88862
-title: "CycleDiffusion: Voice Conversion Using Cycle-Consistent Diffusion Models"
+identifier: semantic_scholar:8b8e50a55c34eaa85c8d87d31d93dfaa19b88862
+title: 'CycleDiffusion: Voice Conversion Using Cycle-Consistent Diffusion Models'
 authors:
-  - D. Yook
-  - Geonhee Han
-  - Hyung-Pil Chang
-  - In-Chul Yoo
-submitted: "2024-10-21"
+- D. Yook
+- Geonhee Han
+- Hyung-Pil Chang
+- In-Chul Yoo
+published: '2024-10-21T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/8b8e50a55c34eaa85c8d87d31d93dfaa19b88862
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/8b8e50a55c34eaa85c8d87d31d93dfaa19b88862
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:08:56+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

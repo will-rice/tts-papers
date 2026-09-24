@@ -1,29 +1,23 @@
 ---
-arxiv_id: "2502.12048"
-title:
-  "A Survey on Bridging EEG Signals and Generative AI: From Image and Text to
-  Beyond"
+identifier: arxiv:2502.12048
+title: 'A Survey on Bridging EEG Signals and Generative AI: From Image and Text to Beyond'
 authors:
-  - Shreya Shukla
-  - Jose Torres
-  - Akshaj Murhekar
-  - Christina Liu
-  - Abhijit Mishra
-  - Jacek Gwizdka
-  - Shounak Roychowdhury
-submitted: "2025-02-17"
+- Shreya Shukla
+- Jose Torres
+- Akshaj Murhekar
+- Christina Liu
+- Abhijit Mishra
+- Jacek Gwizdka
+- Shounak Roychowdhury
+published: '2025-02-17T00:00:00+00:00'
+url: https://arxiv.org/abs/2502.12048
+source: arxiv
+doi: null
+arxiv_id: '2502.12048'
 categories:
-  - cs.AI
-  - cs.HC
-  - cs.LG
-arxiv_url: https://arxiv.org/abs/2502.12048
-source: arxiv-html
-converter: pandoc
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:05:18+00:00"
-references_parsed: 0
-arxiv_version: ""
+- cs.AI
+- cs.HC
+- cs.LG
 ---
 
 # A Survey on Bridging EEG Signals and Generative AI: From Image and Text to Beyond

@@ -1,26 +1,20 @@
 ---
-arxiv_id: s2:6cf3630b618be023c348f4c2376c64d6471fcaa2
-title:
-  "StableVC: Style Controllable Zero-Shot Voice Conversion with Conditional Flow
-  Matching"
+identifier: semantic_scholar:6cf3630b618be023c348f4c2376c64d6471fcaa2
+title: 'StableVC: Style Controllable Zero-Shot Voice Conversion with Conditional Flow Matching'
 authors:
-  - Jixun Yao
-  - Yuguang Yang
-  - Yu Pan
-  - Ziqian Ning
-  - Jianhao Ye
-  - Hongbin Zhou
-  - Lei Xie
-submitted: "2025-04-11"
+- Jixun Yao
+- Yuguang Yang
+- Yu Pan
+- Ziqian Ning
+- Jianhao Ye
+- Hongbin Zhou
+- Lei Xie
+published: '2025-04-11T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/6cf3630b618be023c348f4c2376c64d6471fcaa2
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/6cf3630b618be023c348f4c2376c64d6471fcaa2
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-08T06:59:45+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract

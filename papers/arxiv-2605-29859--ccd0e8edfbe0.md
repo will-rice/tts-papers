@@ -1,30 +1,24 @@
 ---
-arxiv_id: "2605.29859"
-title:
-  "MELD: Mel-Spectrogram-Based Speech Language Modeling with Discrete Latent
-  Variables"
+identifier: arxiv:2605.29859
+title: 'MELD: Mel-Spectrogram-Based Speech Language Modeling with Discrete Latent Variables'
 authors:
-  - Sung-Lin Yeh
-  - Wei Zhou
-  - Gil Keren
-  - Duc Le
-  - Zhong Meng
-  - Hao Tang
-  - Jay Mahadeokar
-  - Ozlem Kalinli
-  - Alexandre Mourachko
-submitted: "2026-05-28"
+- Sung-Lin Yeh
+- Wei Zhou
+- Gil Keren
+- Duc Le
+- Zhong Meng
+- Hao Tang
+- Jay Mahadeokar
+- Ozlem Kalinli
+- Alexandre Mourachko
+published: '2026-05-28T00:00:00+00:00'
+url: https://arxiv.org/abs/2605.29859
+source: arxiv
+doi: null
+arxiv_id: '2605.29859'
 categories:
-  - eess.AS
-  - cs.CL
-arxiv_url: https://arxiv.org/abs/2605.29859
-source: latex
-converter: pandoc
-llm_remediated: false
-citations_resolved: 11/60
-citations_resolved_at: "2026-07-07T15:45:57+00:00"
-references_parsed: 60
-arxiv_version: ""
+- cs.CL
+- eess.AS
 ---
 
 ## References
@@ -36,18 +30,18 @@ arxiv_version: ""
 5. Neural codec language models are zero-shot text to speech synthesizers
 6. Simple and controllable music generation
 7. Text-Free Prosody-Aware Generative Spoken Language Modeling
-8. Neural codec language models are zero-shot text to speech synthesizers [arXiv:2301.02111](../2023/2301.02111.md)
-9. Vall-E 2: Neural codec language models are human parity zero-shot text to speech synthesizers [arXiv:2406.05370](../2024/2406.05370.md)
-10. Multimodal latent language modeling with next-token diffusion [arXiv:2412.08635](../2024/2412.08635.md)
+8. Neural codec language models are zero-shot text to speech synthesizers [arXiv:2301.02111](arxiv-2301-02111--eb219f8c52a7.md)
+9. Vall-E 2: Neural codec language models are human parity zero-shot text to speech synthesizers [arXiv:2406.05370](arxiv-2406-05370--4cd21c41710a.md)
+10. Multimodal latent language modeling with next-token diffusion [arXiv:2412.08635](arxiv-2412-08635--43b72afadd2e.md)
 11. High Fidelity Neural Audio Compression
 12. High-fidelity audio compression with improved rvqgan [arXiv:2306.06546](https://arxiv.org/abs/2306.06546)
-13. Continuous speech synthesis using per-token latent diffusion [arXiv:2410.16048](../2024/2410.16048.md)
+13. Continuous speech synthesis using per-token latent diffusion [arXiv:2410.16048](arxiv-2410-16048--8316661e970c.md)
 14. Autoregressive Speech Synthesis without Vector Quantization
 15. Librispeech: an asr corpus based on public domain audio books
 16. Soundstream: An end-to-end neural audio codec
 17. Ella-v: Stable neural codec language modeling with alignment-guided sequence reordering
 18. Codec-asr: Training performant automatic speech recognition systems with discrete speech representations
-19. dMel: Speech tokenization made simple [arXiv:2407.15835](../2024/2407.15835.md)
+19. dMel: Speech tokenization made simple [arXiv:2407.15835](arxiv-2407-15835--525b8b07ca5e.md)
 20. OpusLM: A Family of Open Unified Speech Language Models
 21. ESPnet-SpeechLM: An open speech language model toolkit
 22. MiMo-Audio: Audio Language Models are Few-Shot Learners
@@ -70,7 +64,7 @@ arxiv_version: ""
 39. Fastspeech 2: Fast and high-quality end-to-end text to speech
 40. Attention is all you need
 41. Auto-Encoding Variational Bayes
-42. VoiceStar: Robust Zero-Shot Autoregressive TTS with Duration Control and Extrapolation [arXiv:2505.19462](../2025/2505.19462.md)
+42. VoiceStar: Robust Zero-Shot Autoregressive TTS with Duration Control and Extrapolation [arXiv:2505.19462](arxiv-2505-19462--bd06e725c12b.md)
 43. he concrete distribution: A continuous relaxation of discrete random variables
 44. Continuous relaxation training of discrete latent variable image models
 45. Soft-to-hard vector quantization for end-to-end learning compressible representations
@@ -89,4 +83,4 @@ arxiv_version: ""
     speech quality with a crowdsourcing approach
 58. Enabling beam search for language model-based text-to-speech synthesis
 59. Differentiable K-means for Fully-optimized Discrete Token-based ASR
-60. Voxcpm: Tokenizer-free TTS for context-aware speech generation and true-to-life voice cloning [arXiv:2509.24650](../2025/2509.24650.md)
+60. Voxcpm: Tokenizer-free TTS for context-aware speech generation and true-to-life voice cloning [arXiv:2509.24650](arxiv-2509-24650--e4539f272af1.md)

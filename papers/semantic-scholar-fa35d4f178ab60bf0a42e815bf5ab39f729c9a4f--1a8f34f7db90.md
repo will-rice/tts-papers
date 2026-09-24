@@ -1,19 +1,15 @@
 ---
-arxiv_id: s2:fa35d4f178ab60bf0a42e815bf5ab39f729c9a4f
+identifier: semantic_scholar:fa35d4f178ab60bf0a42e815bf5ab39f729c9a4f
 title: End-to-End Text-To-Speech synthesis for under resourced South African languages
 authors:
-  - Thapelo Nthite
-  - M. Tsoeu
-submitted: "2020-01-01"
+- Thapelo Nthite
+- M. Tsoeu
+published: '2020-01-01T00:00:00+00:00'
+url: https://www.semanticscholar.org/paper/fa35d4f178ab60bf0a42e815bf5ab39f729c9a4f
+source: semantic_scholar
+doi: null
+arxiv_id: null
 categories: []
-arxiv_url: https://www.semanticscholar.org/paper/fa35d4f178ab60bf0a42e815bf5ab39f729c9a4f
-source: metadata-only
-converter: none
-llm_remediated: false
-citations_resolved: 0/0
-citations_resolved_at: "2026-07-07T16:48:35+00:00"
-references_parsed: 0
-arxiv_version: ""
 ---
 
 ## Abstract
