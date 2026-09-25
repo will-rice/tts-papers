@@ -1,15 +1,12 @@
 backfill:
   arxiv:
-    continuation:
-      cursor: eyJjb25zdW1lZCI6MiwicGFnZSI6MSwic3RhcnQiOjJ9
-      window_end: '2004-09-21T23:26:18.831138Z'
-      window_start: '2003-09-22T23:26:18.831138Z'
-    covered_from: '2004-09-21T23:26:18.831138Z'
+    continuation: null
+    covered_from: '1997-09-23T23:26:18.831138Z'
   huggingface:
     continuation:
-      cursor: eyJkYXRlIjoiMjAyNS0xMC0wMSIsInBhZ2UiOjAsInNvdXJjZV9jb25zdW1lZCI6ODIzMX0
-      window_end: '2026-09-16T23:26:18.831138Z'
-      window_start: '2025-09-16T23:26:18.831138Z'
-    covered_from: '2026-09-16T23:26:18.831138Z'
+      cursor: eyJkYXRlIjoiMjAyNS0wOC0wNCIsInBhZ2UiOjAsInNvdXJjZV9jb25zdW1lZCI6NjIzfQ
+      window_end: '2025-09-16T23:26:18.831138Z'
+      window_start: '2024-09-16T23:26:18.831138Z'
+    covered_from: '2025-09-16T23:26:18.831138Z'
 continuations: {}
 failures: {}
