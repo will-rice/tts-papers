@@ -3,42 +3,44 @@
 Standalone paper discovery and conversion for Text-to-speech research papers.
 
 <!-- papers-index:start -->
+
 # Papers
 
-The 30 most recent of 3665 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 3675 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
-| Published | Identifier | Title | Source |
-| --- | --- | --- | --- |
-| 2026-09-25T17:43:21+00:00 | arxiv:2609.31588v1 | [RePlay: Retrieval-Based Voice Playback for Multi-Turn spoken dialogue](papers/arxiv-2609-31588v1--e3f4e4dab2eb.md) | arxiv |
-| 2026-09-25T08:29:14+00:00 | arxiv:2609.30983v1 | [Tracing and Relearning Detection Evidence in Text-to-Speech Systems](papers/arxiv-2609-30983v1--87bb5c84c787.md) | arxiv |
-| 2026-09-25T08:20:56+00:00 | arxiv:2609.30975v1 | [A Comprehensive Study of Content Representations for Speech Synthesis](papers/arxiv-2609-30975v1--34a3ebe59354.md) | arxiv |
-| 2026-09-25T07:38:49+00:00 | arxiv:2609.30924v1 | [Training-Free Pronunciation Transcription via Text-Constrained Acoustic Rescoring](papers/arxiv-2609-30924v1--62fba85faa5a.md) | arxiv |
-| 2026-09-24T17:50:40+00:00 | arxiv:2609.30227v1 | [To Trust or Not to Trust: Retrieval-Augmented Fact Checking in Speech](papers/arxiv-2609-30227v1--36c7fc8ae986.md) | arxiv |
-| 2026-09-24T14:36:30+00:00 | arxiv:2609.29889v1 | [EditVoice: Variable-Length Non-Autoregressive Zero-Shot TTS and Speech Editing with Edit Flows](papers/arxiv-2609-29889v1--0705b0cd45e2.md) | arxiv |
-| 2026-09-24T13:14:50+00:00 | arxiv:2609.29768v1 | [Depth through recurrence: Looped transformers for flow-matching TTS](papers/arxiv-2609-29768v1--75d89e10d9b3.md) | arxiv |
-| 2026-09-24T06:58:26+00:00 | arxiv:2609.29123v1 | [Accent Analogy Guidance: More Speaker Similarity at Equal Accent in Cross-Lingual Voice Cloning](papers/arxiv-2609-29123v1--f8bede46aee7.md) | arxiv |
-| 2026-09-24T05:17:12+00:00 | arxiv:2609.29040v1 | [The Vulnerability of Neural Audio Watermarks under Speech Enhancement](papers/arxiv-2609-29040v1--2bfc42e8f27f.md) | arxiv |
-| 2026-09-24T03:41:28+00:00 | arxiv:2609.28974v1 | [Same Bit Width, Different Outcomes: Post-Training Quantization of Text-to-Speech Across Architectures](papers/arxiv-2609-28974v1--c5eb8c3cdcad.md) | arxiv |
-| 2026-09-24T01:35:36+00:00 | arxiv:2609.28906v1 | [ReaFlow-TTS: Realization-Conditioned Flow Matching for High-Quality and Controllable Speech Synthesis](papers/arxiv-2609-28906v1--63d16445c6a2.md) | arxiv |
-| 2026-09-23T09:15:25+00:00 | arxiv:2609.27599v1 | [EmphTTS: an emphasis-control TTS with reinforcement learning](papers/arxiv-2609-27599v1--2b68ef78ede4.md) | arxiv |
-| 2026-09-23T06:00:38+00:00 | arxiv:2609.27399v1 | [Forget who you Forgot: Speaker Unlearning to Prevent Re-Identification in Zero-Shot Text-to-Speech](papers/arxiv-2609-27399v1--b44617d11e5e.md) | arxiv |
-| 2026-09-23T05:32:59+00:00 | arxiv:2609.27382v1 | [When Entanglement Lower-Bounds Disparity: Auditing and Repairing Demographic Fairness in Audio Understanding Models](papers/arxiv-2609-27382v1--019529d8ff2f.md) | arxiv |
-| 2026-09-23T02:00:23+00:00 | arxiv:2609.27230v1 | [One-Step Voice Conversion by Learning kNN Transport in WavLM Space](papers/arxiv-2609-27230v1--90e3d1964c2d.md) | arxiv |
-| 2026-09-23T01:12:04+00:00 | arxiv:2609.27205v1 | [Phonemizing User-Generated Text: A Benchmark, Taxonomy, and Compositional Approach](papers/arxiv-2609-27205v1--97134c823051.md) | arxiv |
-| 2026-09-23T00:00:00+00:00 | arxiv:2609.27901 | [All modalities are equal, but video is more equal: Closing the Cross-Attention Gap in Joint Video Generation](papers/arxiv-2609-27901--5ed4afa0c97c.md) | huggingface |
-| 2026-09-22T14:24:10+00:00 | arxiv:2609.26486v1 | [Not Quite My Tempo: Voice Activity-aware Speech Synthesis for Lip-Synchronous Dubbing](papers/arxiv-2609-26486v1--d4395250347d.md) | arxiv |
-| 2026-09-22T06:18:20+00:00 | arxiv:2609.25738v1 | [OmniFysics-Nano-V2 Technical Report: Understanding the Physical World Across Modalities](papers/arxiv-2609-25738v1--1df3c59cddb6.md) | arxiv |
-| 2026-09-22T05:25:02+00:00 | arxiv:2609.25707v1 | [Interactive TTS: Dynamic Speaking Style Adaptation for Expressive Speech Synthesis](papers/arxiv-2609-25707v1--e523eceaaa08.md) | arxiv |
-| 2026-09-21T21:09:39+00:00 | arxiv:2609.25411v1 | [Learnable Classifier-Free Guidance Null Embeddings for Enhanced Controllable Speech Synthesis](papers/arxiv-2609-25411v1--6e6277940d0f.md) | arxiv |
-| 2026-09-21T17:46:54+00:00 | arxiv:2609.25197v1 | [SPADE: A Multilingual Dataset for Speech Partial Deepfake Detection and Localization](papers/arxiv-2609-25197v1--e40ee5c5c0cd.md) | arxiv |
-| 2026-09-21T15:38:31+00:00 | arxiv:2609.24771v1 | [CycleSpeech: Reciprocal Alignment for Instruction-Controlled Speech Synthesis and Paralinguistic Understanding](papers/arxiv-2609-24771v1--7b4a3ac7c48a.md) | arxiv |
-| 2026-09-21T14:42:46+00:00 | arxiv:2609.24688v1 | [Understanding Hyperspherical Geometry of ECAPA-TDNN Embedding and Its Impact on Zero-Shot Voice Conversion](papers/arxiv-2609-24688v1--cf76ff94737d.md) | arxiv |
-| 2026-09-21T09:08:09+00:00 | arxiv:2609.24310v1 | [Morpho-VITS: Variational Inference with Morphological Modeling for End-to-End Speech Synthesis of a Tonal Bantu Language](papers/arxiv-2609-24310v1--89592cdd2652.md) | arxiv |
-| 2026-09-21T08:41:07+00:00 | arxiv:2609.24275v1 | [Structure Before Sampling: Community-Aware Core-Set Selection for Data-Efficient Text-to-Speech](papers/arxiv-2609-24275v1--7b5025806fec.md) | arxiv |
-| 2026-09-21T08:30:20+00:00 | arxiv:2609.24267v1 | [StreamTN: A Low-Latency Streaming Chinese Text Normalization Model for Streaming TTS in Dialogue Systems](papers/arxiv-2609-24267v1--48cd2db044aa.md) | arxiv |
-| 2026-09-21T06:28:17+00:00 | arxiv:2609.24163v1 | [Listen, Critique, and Refine: RL-Based Self-Refinement for Instruction-Following Speech Synthesis](papers/arxiv-2609-24163v1--8b7c8e185ddf.md) | arxiv |
-| 2026-09-20T18:52:40+00:00 | arxiv:2609.23807v1 | [Synthetic speech detection in Brazilian Portuguese through accent-related features](papers/arxiv-2609-23807v1--44bb9f1ee876.md) | arxiv |
-| 2026-09-20T16:13:11+00:00 | arxiv:2609.23729v1 | [TTS-Guard: Black-Box Ownership Verification of Text-to-Speech Models via Adaptive Adversarial Speaker-Pair Fingerprints](papers/arxiv-2609-23729v1--88ce4a683abd.md) | arxiv |
+| Published                 | Identifier         | Title                                                                                                                                                                              | Source      |
+| ------------------------- | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| 2026-09-28T00:23:48+00:00 | arxiv:2609.34052v1 | [Towards Interpretable Framework for Neural Audio Codecs via Sparse Autoencoders: Exploration toward Age, Gender, and Accent Steering](papers/arxiv-2609-34052v1--6473b4e1e198.md) | arxiv       |
+| 2026-09-27T18:03:08+00:00 | arxiv:2609.33810v1 | [Controlling Speaking Rate in Autoregressive TTS via Activation Steering](papers/arxiv-2609-33810v1--d3560cb5db6c.md)                                                              | arxiv       |
+| 2026-09-27T08:58:08+00:00 | arxiv:2609.33375v1 | [What Survives the Codec Shift: Pooled No-Vocals Residuals for Speech Deepfake Detection](papers/arxiv-2609-33375v1--916373f7ff88.md)                                              | arxiv       |
+| 2026-09-27T08:37:26+00:00 | arxiv:2609.33362v1 | [From Script to Drama: An Agentic Framework for Controllable Multi-Speaker Dialogue TTS](papers/arxiv-2609-33362v1--454e2c348fcf.md)                                               | arxiv       |
+| 2026-09-26T18:15:33+00:00 | arxiv:2609.32843v1 | [WhisperVC-AV: Audio-Visual Content Restoration for Noise-Robust Whisper-to-Normal Voice Conversion](papers/arxiv-2609-32843v1--4393e9119b3f.md)                                   | arxiv       |
+| 2026-09-26T16:52:32+00:00 | arxiv:2609.32777v1 | [DEFINE: Exemplar-Guided Accent Control for Zero-Shot TTS](papers/arxiv-2609-32777v1--86b67b89b328.md)                                                                             | arxiv       |
+| 2026-09-26T12:35:29+00:00 | arxiv:2609.32560v1 | [How to Reduce Whisper Hallucination](papers/arxiv-2609-32560v1--740e1be6079e.md)                                                                                                  | arxiv       |
+| 2026-09-26T11:47:18+00:00 | arxiv:2609.32504v1 | [Toward Human-Aligned Judgement of Speech Emotion Similarity](papers/arxiv-2609-32504v1--d9336ad5c887.md)                                                                          | arxiv       |
+| 2026-09-25T22:31:39+00:00 | arxiv:2609.32050v1 | [Tracing Decoder Artifacts for Compact Synthetic Speech Screening](papers/arxiv-2609-32050v1--936ac72648d9.md)                                                                     | arxiv       |
+| 2026-09-25T21:28:16+00:00 | arxiv:2609.32016v1 | [VoiceNet: Fine-Grained Voice Understanding Beyond Emotion at Scale](papers/arxiv-2609-32016v1--345188580c6a.md)                                                                   | arxiv       |
+| 2026-09-25T17:43:21+00:00 | arxiv:2609.31588v1 | [RePlay: Retrieval-Based Voice Playback for Multi-Turn spoken dialogue](papers/arxiv-2609-31588v1--e3f4e4dab2eb.md)                                                                | arxiv       |
+| 2026-09-25T08:29:14+00:00 | arxiv:2609.30983v1 | [Tracing and Relearning Detection Evidence in Text-to-Speech Systems](papers/arxiv-2609-30983v1--87bb5c84c787.md)                                                                  | arxiv       |
+| 2026-09-25T08:20:56+00:00 | arxiv:2609.30975v1 | [A Comprehensive Study of Content Representations for Speech Synthesis](papers/arxiv-2609-30975v1--34a3ebe59354.md)                                                                | arxiv       |
+| 2026-09-25T07:38:49+00:00 | arxiv:2609.30924v1 | [Training-Free Pronunciation Transcription via Text-Constrained Acoustic Rescoring](papers/arxiv-2609-30924v1--62fba85faa5a.md)                                                    | arxiv       |
+| 2026-09-24T17:50:40+00:00 | arxiv:2609.30227v1 | [To Trust or Not to Trust: Retrieval-Augmented Fact Checking in Speech](papers/arxiv-2609-30227v1--36c7fc8ae986.md)                                                                | arxiv       |
+| 2026-09-24T14:36:30+00:00 | arxiv:2609.29889v1 | [EditVoice: Variable-Length Non-Autoregressive Zero-Shot TTS and Speech Editing with Edit Flows](papers/arxiv-2609-29889v1--0705b0cd45e2.md)                                       | arxiv       |
+| 2026-09-24T13:14:50+00:00 | arxiv:2609.29768v1 | [Depth through recurrence: Looped transformers for flow-matching TTS](papers/arxiv-2609-29768v1--75d89e10d9b3.md)                                                                  | arxiv       |
+| 2026-09-24T06:58:26+00:00 | arxiv:2609.29123v1 | [Accent Analogy Guidance: More Speaker Similarity at Equal Accent in Cross-Lingual Voice Cloning](papers/arxiv-2609-29123v1--f8bede46aee7.md)                                      | arxiv       |
+| 2026-09-24T05:17:12+00:00 | arxiv:2609.29040v1 | [The Vulnerability of Neural Audio Watermarks under Speech Enhancement](papers/arxiv-2609-29040v1--2bfc42e8f27f.md)                                                                | arxiv       |
+| 2026-09-24T03:41:28+00:00 | arxiv:2609.28974v1 | [Same Bit Width, Different Outcomes: Post-Training Quantization of Text-to-Speech Across Architectures](papers/arxiv-2609-28974v1--c5eb8c3cdcad.md)                                | arxiv       |
+| 2026-09-24T01:35:36+00:00 | arxiv:2609.28906v1 | [ReaFlow-TTS: Realization-Conditioned Flow Matching for High-Quality and Controllable Speech Synthesis](papers/arxiv-2609-28906v1--63d16445c6a2.md)                                | arxiv       |
+| 2026-09-23T09:15:25+00:00 | arxiv:2609.27599v1 | [EmphTTS: an emphasis-control TTS with reinforcement learning](papers/arxiv-2609-27599v1--2b68ef78ede4.md)                                                                         | arxiv       |
+| 2026-09-23T06:00:38+00:00 | arxiv:2609.27399v1 | [Forget who you Forgot: Speaker Unlearning to Prevent Re-Identification in Zero-Shot Text-to-Speech](papers/arxiv-2609-27399v1--b44617d11e5e.md)                                   | arxiv       |
+| 2026-09-23T05:32:59+00:00 | arxiv:2609.27382v1 | [When Entanglement Lower-Bounds Disparity: Auditing and Repairing Demographic Fairness in Audio Understanding Models](papers/arxiv-2609-27382v1--019529d8ff2f.md)                  | arxiv       |
+| 2026-09-23T02:00:23+00:00 | arxiv:2609.27230v1 | [One-Step Voice Conversion by Learning kNN Transport in WavLM Space](papers/arxiv-2609-27230v1--90e3d1964c2d.md)                                                                   | arxiv       |
+| 2026-09-23T01:12:04+00:00 | arxiv:2609.27205v1 | [Phonemizing User-Generated Text: A Benchmark, Taxonomy, and Compositional Approach](papers/arxiv-2609-27205v1--97134c823051.md)                                                   | arxiv       |
+| 2026-09-23T00:00:00+00:00 | arxiv:2609.27901   | [All modalities are equal, but video is more equal: Closing the Cross-Attention Gap in Joint Video Generation](papers/arxiv-2609-27901--5ed4afa0c97c.md)                           | huggingface |
+| 2026-09-22T14:24:10+00:00 | arxiv:2609.26486v1 | [Not Quite My Tempo: Voice Activity-aware Speech Synthesis for Lip-Synchronous Dubbing](papers/arxiv-2609-26486v1--d4395250347d.md)                                                | arxiv       |
+| 2026-09-22T06:18:20+00:00 | arxiv:2609.25738v1 | [OmniFysics-Nano-V2 Technical Report: Understanding the Physical World Across Modalities](papers/arxiv-2609-25738v1--1df3c59cddb6.md)                                              | arxiv       |
+| 2026-09-22T05:25:02+00:00 | arxiv:2609.25707v1 | [Interactive TTS: Dynamic Speaking Style Adaptation for Expressive Speech Synthesis](papers/arxiv-2609-25707v1--e523eceaaa08.md)                                                   | arxiv       |
+
 <!-- papers-index:end -->
 
 ## Architecture
