@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="224.49" height="157.14" overflow="visible"><g transform="translate(0,157.14) scale(1,-1)"><g transform="translate(0,0)"><g transform="translate(0,158.61) scale(1,-1)"><foreignobject width="235.65" height="158.61" overflow="visible"><object type="image/svg+xml" data="2503.04724v1/fig1.svg" id="S1.F1.pic1.g1" class="ltx_graphics ltx_img_landscape" style="width:100%;height:100%;object-fit:contain" width="234" height="165" aria-label="Refer to caption"></object></foreignobject></g></g><g transform="translate(105.23,123.94)"><g transform="scale(1,-1)"><text font="bold" xml:id="S1.F1.pic1.2.1.8.1.1">LLMVoX (Ours)</text></g><g transform="scale(1,-1)"><text font="bold" xml:id="S1.F1.pic1.2.1.8.2.1">6.88</text></g><g transform="scale(1,-1)"><text font="bold" xml:id="S1.F1.pic1.2.1.8.3.1">3.70</text></g><g transform="translate(0,129.12) scale(1,-1)"><foreignobject width="321.06" height="67.88" overflow="visible"><math mode="inline" tex="\uparrow" text="uparrow" xml:id="S1.F1.pic1.m1">
+                    <xmath xml:id="S1.F1.pic1.m1.1">
+                      <xmtok name="uparrow" role="ARROW">↑</xmtok>
+                    </xmath>
+                  </math></foreignobject></g><g transform="translate(0,129.12) scale(1,-1)"><foreignobject width="321.06" height="67.88" overflow="visible"><math mode="inline" tex="\downarrow" text="downarrow" xml:id="S1.F1.pic1.m2">
+                    <xmath xml:id="S1.F1.pic1.m2.1">
+                      <xmtok name="downarrow" role="ARROW">↓</xmtok>
+                    </xmath>
+                  </math></foreignobject></g></g></g></svg>
