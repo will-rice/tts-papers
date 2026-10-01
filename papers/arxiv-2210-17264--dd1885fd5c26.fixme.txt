@@ -1,0 +1,5 @@
+paper: arxiv:2210.17264
+latest_error: conversion input HTTP 404: https://arxiv.org/pdf/2210.17264
+attempt: 2026-10-01T09:00:26.464805+00:00 conversion input HTTP 404: https://arxiv.org/pdf/2210.17264
+attempt: 2026-10-01T09:13:01.123311+00:00 conversion input HTTP 404: https://arxiv.org/pdf/2210.17264
+attempt: 2026-10-01T12:28:22.825348+00:00 conversion input HTTP 404: https://arxiv.org/pdf/2210.17264
