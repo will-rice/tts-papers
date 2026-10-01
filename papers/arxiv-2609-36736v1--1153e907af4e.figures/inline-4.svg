@@ -1,0 +1,238 @@
+<svg id="S8.T2.pic1" class="ltx_picture ltx_centering" height="312.32" overflow="visible" version="1.1" viewbox="0 0 708.27 312.32" width="708.27"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,312.32) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#F2F1EF;" fill="#F2F1EF" fill-opacity="1.0"><path style="stroke:none" d="M 0 6.92 L 0 305.4 C 0 309.22 3.1 312.32 6.92 312.32 L 701.35 312.32 C 705.17 312.32 708.27 309.22 708.27 305.4 L 708.27 6.92 C 708.27 3.1 705.17 0 701.35 0 L 6.92 0 C 3.1 0 0 3.1 0 6.92 Z" /></g><g style="--ltx-fill-color:#F2F1EF;" fill="#F2F1EF" fill-opacity="1.0"><path style="stroke:none" d="M 0 6.92 L 0 305.4 C 0 309.22 3.1 312.32 6.92 312.32 L 701.35 312.32 C 705.17 312.32 708.27 309.22 708.27 305.4 L 708.27 6.92 C 708.27 3.1 705.17 0 701.35 0 L 6.92 0 C 3.1 0 0 3.1 0 6.92 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 24.69 71.88)"><foreignobject style="--ltx-fo-width:59.73em;--ltx-fo-height:15.59em;--ltx-fo-depth:3.41em;font-size:10pt;" height="262.94" overflow="visible" transform="matrix(1 0 0 -1 0 215.75)" width="826.5"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="S8.T2.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:59.73em;"><span id="S8.T2.pic1.1.1" class="ltx_ERROR undefined">\sharpfont</span>
+<span id="S8.T2.pic1.1.2" class="ltx_p"><span id="S8.T2.pic1.1.2.1" class="ltx_text ltx_font_bold" style="font-size:70%;--ltx-fg-color:#000000;">A — Recommended evaluation metrics<span id="S8.T2.pic1.1.2.1.1" class="ltx_text"></span></span></span>
+<span id="S8.T2.pic1.1.3" class="ltx_tabular ltx_guessed_headers ltx_align_middle">
+<span class="ltx_thead">
+<span id="S8.T2.pic1.1.3.1" class="ltx_tr">
+<span id="S8.T2.pic1.1.3.1.1" class="ltx_td ltx_align_left ltx_th ltx_th_column ltx_border_tt" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.3.1.1.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.3.1.1.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.3.1.1.1.1.1" class="ltx_text ltx_font_bold" style="font-size:70%;--ltx-fg-color:#000000;">Metric category</span></span>
+</span></span>
+<span id="S8.T2.pic1.1.3.1.2" class="ltx_td ltx_align_left ltx_th ltx_th_column ltx_border_tt" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.3.1.2.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.3.1.2.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.3.1.2.1.1.1" class="ltx_text ltx_font_bold" style="font-size:70%;--ltx-fg-color:#000000;">Representative measures</span></span>
+</span></span>
+<span id="S8.T2.pic1.1.3.1.3" class="ltx_td ltx_align_left ltx_th ltx_th_column ltx_border_tt" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.3.1.3.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.3.1.3.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.3.1.3.1.1.1" class="ltx_text ltx_font_bold" style="font-size:70%;--ltx-fg-color:#000000;">Why it matters for deployment</span></span>
+</span></span>
+<span id="S8.T2.pic1.1.3.1.4" class="ltx_td ltx_align_left ltx_th ltx_th_column ltx_border_tt" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.3.1.4.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.3.1.4.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.3.1.4.1.1.1" class="ltx_text ltx_font_bold" style="font-size:70%;--ltx-fg-color:#000000;">Common pitfalls</span></span>
+</span></span></span>
+</span>
+<span class="ltx_tbody">
+<span id="S8.T2.pic1.1.3.2" class="ltx_tr">
+<span id="S8.T2.pic1.1.3.2.1" class="ltx_td ltx_align_left ltx_border_t" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.3.2.1.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.3.2.1.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.3.2.1.1.1.1" class="ltx_text" style="font-size:70%;--ltx-fg-color:#000000;">Accuracy</span></span>
+</span></span>
+<span id="S8.T2.pic1.1.3.2.2" class="ltx_td ltx_align_left ltx_border_t" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.3.2.2.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.3.2.2.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.3.2.2.1.1.1" class="ltx_text" style="font-size:70%;--ltx-fg-color:#000000;">WER, CER, phoneme accuracy</span></span>
+</span></span>
+<span id="S8.T2.pic1.1.3.2.3" class="ltx_td ltx_align_left ltx_border_t" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.3.2.3.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.3.2.3.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.3.2.3.1.1.1" class="ltx_text" style="font-size:70%;--ltx-fg-color:#000000;">Measures baseline decoding fidelity</span></span>
+</span></span>
+<span id="S8.T2.pic1.1.3.2.4" class="ltx_td ltx_align_left ltx_border_t" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.3.2.4.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.3.2.4.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.3.2.4.1.1.1" class="ltx_text" style="font-size:70%;--ltx-fg-color:#000000;">Can be inflated by strong language priors and may poorly reflect real-world usability</span></span>
+</span></span></span>
+<span id="S8.T2.pic1.1.3.3" class="ltx_tr">
+<span id="S8.T2.pic1.1.3.3.1" class="ltx_td ltx_align_left" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.3.3.1.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.3.3.1.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.3.3.1.1.1.1" class="ltx_text" style="font-size:70%;--ltx-fg-color:#000000;">Latency</span></span>
+</span></span>
+<span id="S8.T2.pic1.1.3.3.2" class="ltx_td ltx_align_left" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.3.3.2.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.3.3.2.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.3.3.2.1.1.1" class="ltx_text" style="font-size:70%;--ltx-fg-color:#000000;">End-to-end delay, streaming lag</span></span>
+</span></span>
+<span id="S8.T2.pic1.1.3.3.3" class="ltx_td ltx_align_left" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.3.3.3.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.3.3.3.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.3.3.3.1.1.1" class="ltx_text" style="font-size:70%;--ltx-fg-color:#000000;">Determines turn-taking, conversational flow, and perceived responsiveness</span></span>
+</span></span>
+<span id="S8.T2.pic1.1.3.3.4" class="ltx_td ltx_align_left" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.3.3.4.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.3.3.4.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.3.3.4.1.1.1" class="ltx_text" style="font-size:70%;--ltx-fg-color:#000000;">Often underreported or measured without accounting for the full system pipeline</span></span>
+</span></span></span>
+<span id="S8.T2.pic1.1.3.4" class="ltx_tr">
+<span id="S8.T2.pic1.1.3.4.1" class="ltx_td ltx_align_left" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.3.4.1.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.3.4.1.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.3.4.1.1.1.1" class="ltx_text" style="font-size:70%;--ltx-fg-color:#000000;">Information rate</span></span>
+</span></span>
+<span id="S8.T2.pic1.1.3.4.2" class="ltx_td ltx_align_left" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.3.4.2.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.3.4.2.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.3.4.2.1.1.1" class="ltx_text" style="font-size:70%;--ltx-fg-color:#000000;">Characters/min, words/min</span></span>
+</span></span>
+<span id="S8.T2.pic1.1.3.4.3" class="ltx_td ltx_align_left" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.3.4.3.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.3.4.3.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.3.4.3.1.1.1" class="ltx_text" style="font-size:70%;--ltx-fg-color:#000000;">Captures effective communication throughput</span></span>
+</span></span>
+<span id="S8.T2.pic1.1.3.4.4" class="ltx_td ltx_align_left" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.3.4.4.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.3.4.4.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.3.4.4.1.1.1" class="ltx_text" style="font-size:70%;--ltx-fg-color:#000000;">Can obscure the semantic severity and downstream cost of errors</span></span>
+</span></span></span>
+<span id="S8.T2.pic1.1.3.5" class="ltx_tr">
+<span id="S8.T2.pic1.1.3.5.1" class="ltx_td ltx_align_left" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.3.5.1.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.3.5.1.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.3.5.1.1.1.1" class="ltx_text" style="font-size:70%;--ltx-fg-color:#000000;">Robustness</span></span>
+</span></span>
+<span id="S8.T2.pic1.1.3.5.2" class="ltx_td ltx_align_left" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.3.5.2.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.3.5.2.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.3.5.2.1.1.1" class="ltx_text" style="font-size:70%;--ltx-fg-color:#000000;">Cross-session performance, sensitivity to channel dropout</span></span>
+</span></span>
+<span id="S8.T2.pic1.1.3.5.3" class="ltx_td ltx_align_left" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.3.5.3.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.3.5.3.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.3.5.3.1.1.1" class="ltx_text" style="font-size:70%;--ltx-fg-color:#000000;">Reflects resilience to real-world non-stationarity</span></span>
+</span></span>
+<span id="S8.T2.pic1.1.3.5.4" class="ltx_td ltx_align_left" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.3.5.4.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.3.5.4.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.3.5.4.1.1.1" class="ltx_text" style="font-size:70%;--ltx-fg-color:#000000;">Rarely evaluated beyond controlled laboratory conditions</span></span>
+</span></span></span>
+<span id="S8.T2.pic1.1.3.6" class="ltx_tr">
+<span id="S8.T2.pic1.1.3.6.1" class="ltx_td ltx_align_left" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.3.6.1.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.3.6.1.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.3.6.1.1.1.1" class="ltx_text" style="font-size:70%;--ltx-fg-color:#000000;">Calibration and uncertainty</span></span>
+</span></span>
+<span id="S8.T2.pic1.1.3.6.2" class="ltx_td ltx_align_left" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.3.6.2.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.3.6.2.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.3.6.2.1.1.1" class="ltx_text" style="font-size:70%;--ltx-fg-color:#000000;">ECE, confidence–accuracy alignment, abstention rate</span></span>
+</span></span>
+<span id="S8.T2.pic1.1.3.6.3" class="ltx_td ltx_align_left" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.3.6.3.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.3.6.3.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.3.6.3.1.1.1" class="ltx_text" style="font-size:70%;--ltx-fg-color:#000000;">Supports safe interaction, error awareness, and appropriate user trust</span></span>
+</span></span>
+<span id="S8.T2.pic1.1.3.6.4" class="ltx_td ltx_align_left" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.3.6.4.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.3.6.4.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.3.6.4.1.1.1" class="ltx_text" style="font-size:70%;--ltx-fg-color:#000000;">Often omitted despite its importance for clinical deployment</span></span>
+</span></span></span>
+<span id="S8.T2.pic1.1.3.7" class="ltx_tr">
+<span id="S8.T2.pic1.1.3.7.1" class="ltx_td ltx_align_left ltx_border_bb" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.3.7.1.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.3.7.1.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.3.7.1.1.1.1" class="ltx_text" style="font-size:70%;--ltx-fg-color:#000000;">Usability and workload</span></span>
+</span></span>
+<span id="S8.T2.pic1.1.3.7.2" class="ltx_td ltx_align_left ltx_border_bb" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.3.7.2.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.3.7.2.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.3.7.2.1.1.1" class="ltx_text" style="font-size:70%;--ltx-fg-color:#000000;">NASA-TLX, SUS, structured qualitative feedback</span></span>
+</span></span>
+<span id="S8.T2.pic1.1.3.7.3" class="ltx_td ltx_align_left ltx_border_bb" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.3.7.3.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.3.7.3.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.3.7.3.1.1.1" class="ltx_text" style="font-size:70%;--ltx-fg-color:#000000;">Captures burden, learnability, and suitability for sustained daily use</span></span>
+</span></span>
+<span id="S8.T2.pic1.1.3.7.4" class="ltx_td ltx_align_left ltx_border_bb" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.3.7.4.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.3.7.4.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.3.7.4.1.1.1" class="ltx_text" style="font-size:70%;--ltx-fg-color:#000000;">Often treated as anecdotal rather than as a primary outcome</span></span>
+</span></span></span>
+</span>
+</span><span id="S8.T2.pic1.1.4" class="ltx_ERROR undefined">\sharpfont</span>
+<span id="S8.T2.pic1.1.5" class="ltx_p"><span id="S8.T2.pic1.1.5.1" class="ltx_text ltx_font_bold" style="font-size:70%;--ltx-fg-color:#000000;">B — Clinical translation across target populations<span id="S8.T2.pic1.1.5.1.1" class="ltx_text"></span></span></span>
+<span id="S8.T2.pic1.1.6" class="ltx_tabular ltx_guessed_headers ltx_align_middle">
+<span class="ltx_thead">
+<span id="S8.T2.pic1.1.6.1" class="ltx_tr">
+<span id="S8.T2.pic1.1.6.1.1" class="ltx_td ltx_align_left ltx_th ltx_th_column ltx_border_tt" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.6.1.1.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.6.1.1.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.6.1.1.1.1.1" class="ltx_text ltx_font_bold" style="font-size:70%;--ltx-fg-color:#000000;">Target population</span></span>
+</span></span>
+<span id="S8.T2.pic1.1.6.1.2" class="ltx_td ltx_align_left ltx_th ltx_th_column ltx_border_tt" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.6.1.2.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.6.1.2.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.6.1.2.1.1.1" class="ltx_text ltx_font_bold" style="font-size:70%;--ltx-fg-color:#000000;">Clinically feasible modality</span></span>
+</span></span>
+<span id="S8.T2.pic1.1.6.1.3" class="ltx_td ltx_align_left ltx_th ltx_th_column ltx_border_tt" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.6.1.3.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.6.1.3.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.6.1.3.1.1.1" class="ltx_text ltx_font_bold" style="font-size:70%;--ltx-fg-color:#000000;">Primary output form</span></span>
+</span></span>
+<span id="S8.T2.pic1.1.6.1.4" class="ltx_td ltx_align_left ltx_th ltx_th_column ltx_border_tt" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.6.1.4.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.6.1.4.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.6.1.4.1.1.1" class="ltx_text ltx_font_bold" style="font-size:70%;--ltx-fg-color:#000000;">Dominant translational constraints</span></span>
+</span></span></span>
+</span>
+<span class="ltx_tbody">
+<span id="S8.T2.pic1.1.6.2" class="ltx_tr">
+<span id="S8.T2.pic1.1.6.2.1" class="ltx_td ltx_align_left ltx_border_t" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.6.2.1.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.6.2.1.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.6.2.1.1.1.1" class="ltx_text" style="font-size:70%;--ltx-fg-color:#000000;">ALS (progressive)</span></span>
+</span></span>
+<span id="S8.T2.pic1.1.6.2.2" class="ltx_td ltx_align_left ltx_border_t" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.6.2.2.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.6.2.2.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.6.2.2.1.1.1" class="ltx_text" style="font-size:70%;--ltx-fg-color:#000000;">Intracortical arrays, ECoG</span></span>
+</span></span>
+<span id="S8.T2.pic1.1.6.2.3" class="ltx_td ltx_align_left ltx_border_t" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.6.2.3.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.6.2.3.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.6.2.3.1.1.1" class="ltx_text" style="font-size:70%;--ltx-fg-color:#000000;">Text or synthesized speech</span></span>
+</span></span>
+<span id="S8.T2.pic1.1.6.2.4" class="ltx_td ltx_align_left ltx_border_t" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.6.2.4.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.6.2.4.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.6.2.4.1.1.1" class="ltx_text" style="font-size:70%;--ltx-fg-color:#000000;">Rapid onboarding, minimal recalibration, fatigue management, disease progression</span></span>
+</span></span></span>
+<span id="S8.T2.pic1.1.6.3" class="ltx_tr">
+<span id="S8.T2.pic1.1.6.3.1" class="ltx_td ltx_align_left" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.6.3.1.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.6.3.1.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.6.3.1.1.1.1" class="ltx_text" style="font-size:70%;--ltx-fg-color:#000000;">Brainstem stroke / locked-in syndrome</span></span>
+</span></span>
+<span id="S8.T2.pic1.1.6.3.2" class="ltx_td ltx_align_left" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.6.3.2.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.6.3.2.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.6.3.2.1.1.1" class="ltx_text" style="font-size:70%;--ltx-fg-color:#000000;">Intracortical arrays</span></span>
+</span></span>
+<span id="S8.T2.pic1.1.6.3.3" class="ltx_td ltx_align_left" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.6.3.3.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.6.3.3.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.6.3.3.1.1.1" class="ltx_text" style="font-size:70%;--ltx-fg-color:#000000;">Text or synthesized speech</span></span>
+</span></span>
+<span id="S8.T2.pic1.1.6.3.4" class="ltx_td ltx_align_left" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.6.3.4.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.6.3.4.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.6.3.4.1.1.1" class="ltx_text" style="font-size:70%;--ltx-fg-color:#000000;">Surgical risk, chronic signal stability, long-term support</span></span>
+</span></span></span>
+<span id="S8.T2.pic1.1.6.4" class="ltx_tr">
+<span id="S8.T2.pic1.1.6.4.1" class="ltx_td ltx_align_left" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.6.4.1.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.6.4.1.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.6.4.1.1.1.1" class="ltx_text" style="font-size:70%;--ltx-fg-color:#000000;">Spinal cord injury</span></span>
+</span></span>
+<span id="S8.T2.pic1.1.6.4.2" class="ltx_td ltx_align_left" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.6.4.2.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.6.4.2.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.6.4.2.1.1.1" class="ltx_text" style="font-size:70%;--ltx-fg-color:#000000;">Intracortical arrays, ECoG</span></span>
+</span></span>
+<span id="S8.T2.pic1.1.6.4.3" class="ltx_td ltx_align_left" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.6.4.3.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.6.4.3.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.6.4.3.1.1.1" class="ltx_text" style="font-size:70%;--ltx-fg-color:#000000;">Text or synthesized speech</span></span>
+</span></span>
+<span id="S8.T2.pic1.1.6.4.4" class="ltx_td ltx_align_left" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.6.4.4.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.6.4.4.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.6.4.4.1.1.1" class="ltx_text" style="font-size:70%;--ltx-fg-color:#000000;">Sustained independent use, maintenance, software longevity</span></span>
+</span></span></span>
+<span id="S8.T2.pic1.1.6.5" class="ltx_tr">
+<span id="S8.T2.pic1.1.6.5.1" class="ltx_td ltx_align_left" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.6.5.1.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.6.5.1.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.6.5.1.1.1.1" class="ltx_text" style="font-size:70%;--ltx-fg-color:#000000;">Cerebral palsy</span></span>
+</span></span>
+<span id="S8.T2.pic1.1.6.5.2" class="ltx_td ltx_align_left" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.6.5.2.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.6.5.2.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.6.5.2.1.1.1" class="ltx_text" style="font-size:70%;--ltx-fg-color:#000000;">ECoG; EEG (limited feasibility)</span></span>
+</span></span>
+<span id="S8.T2.pic1.1.6.5.3" class="ltx_td ltx_align_left" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.6.5.3.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.6.5.3.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.6.5.3.1.1.1" class="ltx_text" style="font-size:70%;--ltx-fg-color:#000000;">Text</span></span>
+</span></span>
+<span id="S8.T2.pic1.1.6.5.4" class="ltx_td ltx_align_left" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.6.5.4.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.6.5.4.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.6.5.4.1.1.1" class="ltx_text" style="font-size:70%;--ltx-fg-color:#000000;">Anatomical heterogeneity, developmental reorganization, variable motor control</span></span>
+</span></span></span>
+<span id="S8.T2.pic1.1.6.6" class="ltx_tr">
+<span id="S8.T2.pic1.1.6.6.1" class="ltx_td ltx_align_left ltx_border_bb" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.6.6.1.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.6.6.1.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.6.6.1.1.1.1" class="ltx_text" style="font-size:70%;--ltx-fg-color:#000000;">Non-invasive users</span></span>
+</span></span>
+<span id="S8.T2.pic1.1.6.6.2" class="ltx_td ltx_align_left ltx_border_bb" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.6.6.2.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.6.6.2.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.6.6.2.1.1.1" class="ltx_text" style="font-size:70%;--ltx-fg-color:#000000;">EEG, MEG</span></span>
+</span></span>
+<span id="S8.T2.pic1.1.6.6.3" class="ltx_td ltx_align_left ltx_border_bb" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.6.6.3.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.6.6.3.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.6.6.3.1.1.1" class="ltx_text" style="font-size:70%;--ltx-fg-color:#000000;">Text</span></span>
+</span></span>
+<span id="S8.T2.pic1.1.6.6.4" class="ltx_td ltx_align_left ltx_border_bb" style="padding:0.3pt 5.0pt;">
+<span id="S8.T2.pic1.1.6.6.4.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.T2.pic1.1.6.6.4.1.1" class="ltx_p ltx_align_left"><span id="S8.T2.pic1.1.6.6.4.1.1.1" class="ltx_text" style="font-size:70%;--ltx-fg-color:#000000;">Low SNR, setup burden, caregiver dependence, limited throughput</span></span>
+</span></span></span>
+</span>
+</span>
+</span></span></span></foreignobject></g></g></svg>
