@@ -6,10 +6,14 @@ Standalone paper discovery and conversion for Text-to-speech research papers.
 
 # Papers
 
-The 30 most recent of 3686 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 3690 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
 | Published                 | Identifier         | Title                                                                                                                                                                      | Source |
 | ------------------------- | ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| 2026-09-30T17:05:58+00:00 | arxiv:2609.40181v1 | [Index-Translate: A Multilingual Translation Model Family -- Text, Speech, Controlled Dubbing, and Long-Document Translation](https://arxiv.org/abs/2609.40181v1)          | arxiv  |
+| 2026-09-30T16:31:01+00:00 | arxiv:2609.40087v1 | [MeanVoiceFlow2: Joint Optimization of Mean Flow and Content Encoder for Fast One-Step Zero-Shot Voice Conversion](https://arxiv.org/abs/2609.40087v1)                     | arxiv  |
+| 2026-09-29T23:25:21+00:00 | arxiv:2609.38658v1 | [Tacit-TTS: From Autoregressive Decoding to Masked Prediction for Efficient Transcript-Free Voice Cloning](https://arxiv.org/abs/2609.38658v1)                             | arxiv  |
+| 2026-09-29T19:33:58+00:00 | arxiv:2609.38440v1 | [Monotonicity-Guided Semantic Alignment for Zero-shot Multispeaker Image-to-Speech Synthesis](https://arxiv.org/abs/2609.38440v1)                                          | arxiv  |
 | 2026-09-29T17:59:05+00:00 | arxiv:2609.38157v1 | [EmoRES-TTS: Residual-Enhanced Vector Steering for Emotional Speech Generation](https://arxiv.org/abs/2609.38157v1)                                                        | arxiv  |
 | 2026-09-29T13:52:54+00:00 | arxiv:2609.37601v1 | [SENSE: Semantic Neural Speech Synthesis from Brain Dynamics via Spatial Graph Encoding](https://arxiv.org/abs/2609.37601v1)                                               | arxiv  |
 | 2026-09-29T08:42:33+00:00 | arxiv:2609.37028v1 | [RAWD-TTS: Ratio-Free Reward Alignment for Discrete-Diffusion Voice Cloning](https://arxiv.org/abs/2609.37028v1)                                                           | arxiv  |
@@ -36,10 +40,6 @@ The 30 most recent of 3686 papers. Every paper is listed in [papers.csv](papers.
 | 2026-09-25T08:20:56+00:00 | arxiv:2609.30975v1 | [A Comprehensive Study of Content Representations for Speech Synthesis](https://arxiv.org/abs/2609.30975v1)                                                                | arxiv  |
 | 2026-09-25T07:38:49+00:00 | arxiv:2609.30924v1 | [Training-Free Pronunciation Transcription via Text-Constrained Acoustic Rescoring](https://arxiv.org/abs/2609.30924v1)                                                    | arxiv  |
 | 2026-09-24T17:50:40+00:00 | arxiv:2609.30227v1 | [To Trust or Not to Trust: Retrieval-Augmented Fact Checking in Speech](https://arxiv.org/abs/2609.30227v1)                                                                | arxiv  |
-| 2026-09-24T14:36:30+00:00 | arxiv:2609.29889v1 | [EditVoice: Variable-Length Non-Autoregressive Zero-Shot TTS and Speech Editing with Edit Flows](https://arxiv.org/abs/2609.29889v1)                                       | arxiv  |
-| 2026-09-24T13:14:50+00:00 | arxiv:2609.29768v1 | [Depth through recurrence: Looped transformers for flow-matching TTS](papers/arxiv-2609-29768v1--75d89e10d9b3.md)                                                          | arxiv  |
-| 2026-09-24T06:58:26+00:00 | arxiv:2609.29123v1 | [Accent Analogy Guidance: More Speaker Similarity at Equal Accent in Cross-Lingual Voice Cloning](https://arxiv.org/abs/2609.29123v1)                                      | arxiv  |
-| 2026-09-24T05:17:12+00:00 | arxiv:2609.29040v1 | [The Vulnerability of Neural Audio Watermarks under Speech Enhancement](papers/arxiv-2609-29040v1--2bfc42e8f27f.md)                                                        | arxiv  |
 
 <!-- papers-index:end -->
 
