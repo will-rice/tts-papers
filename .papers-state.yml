@@ -7,22 +7,21 @@ backfill:
     covered_from: '2023-05-04T00:00:00Z'
 continuations: {}
 failures:
-  arxiv:2503.20999:
-  - error: 'conversion input HTTP 404: https://arxiv.org/pdf/2503.20999'
-    occurred_at: '2026-10-01T14:09:38.583745Z'
-  - error: 'conversion input HTTP 404: https://arxiv.org/pdf/2503.20999'
-    occurred_at: '2026-10-01T14:14:29.536849Z'
-  arxiv:2505.14351:
-  - error: 'conversion input HTTP 404: https://arxiv.org/pdf/2505.14351'
-    occurred_at: '2026-10-01T14:11:51.095089Z'
-  - error: 'conversion input HTTP 404: https://arxiv.org/pdf/2505.14351'
-    occurred_at: '2026-10-01T14:14:29.536849Z'
   arxiv:2506.08457:
   - error: 'conversion timed out after 1800s: marker_single'
     occurred_at: '2026-10-01T14:15:42.311700Z'
+  - error: 'conversion timed out after 1800s: marker_single'
+    occurred_at: '2026-10-01T15:14:39.097013Z'
   arxiv:2509.19852:
   - error: 'conversion input HTTP 404: https://arxiv.org/pdf/2509.19852'
     occurred_at: '2026-10-01T14:52:31.737936Z'
+  - error: 'conversion input HTTP 404: https://arxiv.org/pdf/2509.19852'
+    occurred_at: '2026-10-01T15:14:39.097013Z'
   arxiv:2509.23147:
   - error: 'conversion input HTTP 404: https://arxiv.org/pdf/2509.23147'
     occurred_at: '2026-10-01T14:52:49.865157Z'
+  - error: 'conversion input HTTP 404: https://arxiv.org/pdf/2509.23147'
+    occurred_at: '2026-10-01T15:14:39.097013Z'
+  arxiv:2603.20686:
+  - error: 'conversion input HTTP 404: https://arxiv.org/pdf/2603.20686'
+    occurred_at: '2026-10-01T15:14:39.097013Z'
