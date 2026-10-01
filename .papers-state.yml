@@ -7,19 +7,13 @@ backfill:
     covered_from: '2023-05-04T00:00:00Z'
 continuations: {}
 failures:
-  arxiv:2407.07728:
-  - error: 'conversion input HTTP 404: https://arxiv.org/pdf/2407.07728'
-    occurred_at: '2026-10-01T11:22:02.362819Z'
-  - error: 'conversion input HTTP 404: https://arxiv.org/pdf/2407.07728'
-    occurred_at: '2026-10-01T13:58:34.156851Z'
-  arxiv:2409.01668:
-  - error: 'conversion input HTTP 404: https://arxiv.org/pdf/2409.01668'
-    occurred_at: '2026-10-01T11:24:42.728983Z'
-  - error: 'conversion input HTTP 404: https://arxiv.org/pdf/2409.01668'
-    occurred_at: '2026-10-01T13:58:34.156851Z'
   arxiv:2503.20999:
   - error: 'conversion input HTTP 404: https://arxiv.org/pdf/2503.20999'
     occurred_at: '2026-10-01T14:09:38.583745Z'
+  - error: 'conversion input HTTP 404: https://arxiv.org/pdf/2503.20999'
+    occurred_at: '2026-10-01T14:14:29.536849Z'
   arxiv:2505.14351:
   - error: 'conversion input HTTP 404: https://arxiv.org/pdf/2505.14351'
     occurred_at: '2026-10-01T14:11:51.095089Z'
+  - error: 'conversion input HTTP 404: https://arxiv.org/pdf/2505.14351'
+    occurred_at: '2026-10-01T14:14:29.536849Z'

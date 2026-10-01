@@ -1,0 +1,5 @@
+paper: arxiv:2407.07728
+latest_error: conversion input HTTP 404: https://arxiv.org/pdf/2407.07728
+attempt: 2026-10-01T11:22:02.362819+00:00 conversion input HTTP 404: https://arxiv.org/pdf/2407.07728
+attempt: 2026-10-01T13:58:34.156851+00:00 conversion input HTTP 404: https://arxiv.org/pdf/2407.07728
+attempt: 2026-10-01T14:14:29.536849+00:00 conversion input HTTP 404: https://arxiv.org/pdf/2407.07728
