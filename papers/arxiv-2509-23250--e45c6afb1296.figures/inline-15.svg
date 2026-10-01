@@ -1,0 +1,45 @@
+<svg id="A1.SS8.SSS3.p1.pic1" class="ltx_picture" height="864.83" overflow="visible" version="1.1" viewbox="0 0 550 864.83" width="550"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,864.83) matrix(1 0 0 -1 0 0)"><clippath id="pgfcp17"><path d="M -22670.54 -22670.54 L 22670.54 -22670.54 L 22670.54 22670.54 L -22670.54 22670.54 Z M 0 4.63 L 0 860.21 C 0 862.76 2.07 864.83 4.63 864.83 L 545.37 864.83 C 547.93 864.83 550 862.76 550 860.21 L 550 4.63 C 550 2.07 547.93 0 545.37 0 L 4.63 0 C 2.07 0 0 2.07 0 4.63 Z" /></clippath><g fill-rule="evenodd"><g style="--ltx-fill-color:#FF8080;" fill="#FF8080" fill-opacity="1.0"><path style="stroke:none" d="M 0 4.63 L 0 860.21 C 0 862.76 2.07 864.83 4.63 864.83 L 545.37 864.83 C 547.93 864.83 550 862.76 550 860.21 L 550 4.63 C 550 2.07 547.93 0 545.37 0 L 4.63 0 C 2.07 0 0 2.07 0 4.63 Z M 0.69 4.63 L 0.69 860.21 C 0.69 862.38 2.45 864.14 4.63 864.14 L 545.37 864.14 C 547.55 864.14 549.31 862.38 549.31 860.21 L 549.31 4.63 C 549.31 2.45 547.55 0.69 545.37 0.69 L 4.63 0.69 C 2.45 0.69 0.69 2.45 0.69 4.63 Z" /></g><g style="--ltx-fill-color:#FFE6E6;" fill="#FFE6E6" fill-opacity="1.0"><path style="stroke:none" d="M 0.69 4.63 L 0.69 860.21 C 0.69 862.38 2.45 864.14 4.63 864.14 L 545.37 864.14 C 547.55 864.14 549.31 862.38 549.31 860.21 L 549.31 4.63 C 549.31 2.45 547.55 0.69 545.37 0.69 L 4.63 0.69 C 2.45 0.69 0.69 2.45 0.69 4.63 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 20.38 12.5)"><foreignobject style="--ltx-fo-width:36.8em;--ltx-fo-height:60.7em;--ltx-fo-depth:0em;font-size:10pt;" height="839.84" overflow="visible" transform="matrix(1 0 0 -1 0 839.84)" width="509.21"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A1.SS8.SSS3.p1.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:36.8em;">
+<span id="A1.SS8.SSS3.p1.pic1.1.1" class="ltx_p"><span id="A1.SS8.SSS3.p1.pic1.1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Incorrect Candidate Solution:<span id="A1.SS8.SSS3.p1.pic1.1.1.1.1" class="ltx_text ltx_font_medium"> 
+<br class="ltx_break"><code id="A1.SS8.SSS3.p1.pic1.1.1.1.1.1" class="ltx_verbatim ltx_font_typewriter">###</code> Step 1: Analyze the Problem and Identify Key Information
+<br class="ltx_break">The problem asks us to determine the </span>per unit manufacturing overhead costs<span id="A1.SS8.SSS3.p1.pic1.1.1.1.2" class="ltx_text ltx_font_medium"> if 30,000 units are produced. Manufacturing overhead includes both </span>fixed manufacturing overhead<span id="A1.SS8.SSS3.p1.pic1.1.1.1.3" class="ltx_text ltx_font_medium"> and </span>variable manufacturing overhead<span id="A1.SS8.SSS3.p1.pic1.1.1.1.4" class="ltx_text ltx_font_medium">.
+<br class="ltx_break">
+<br class="ltx_break">From the table:
+<br class="ltx_break">- </span>Fixed manufacturing overhead<span id="A1.SS8.SSS3.p1.pic1.1.1.1.5" class="ltx_text ltx_font_medium">: $6 per unit
+<br class="ltx_break">- </span>Variable manufacturing overhead<span id="A1.SS8.SSS3.p1.pic1.1.1.1.6" class="ltx_text ltx_font_medium">: $2 per unit
+<br class="ltx_break">
+<br class="ltx_break">The total manufacturing overhead per unit is the sum of these two components:
+<br class="ltx_break">Total manufacturing overhead per unit = Fixed manufacturing overhead per unit + Variable manufacturing overhead per unit
+<br class="ltx_break">
+<br class="ltx_break"><code id="A1.SS8.SSS3.p1.pic1.1.1.1.6.1" class="ltx_verbatim ltx_font_typewriter">###</code> Step 2: Understand the Concept of Fixed and Variable Costs
+<br class="ltx_break">- </span>Fixed manufacturing overhead<span id="A1.SS8.SSS3.p1.pic1.1.1.1.7" class="ltx_text ltx_font_medium"> remains constant per unit regardless of the number of units produced within the relevant range (15,000 to 30,000 units).
+<br class="ltx_break">- </span>Variable manufacturing overhead<span id="A1.SS8.SSS3.p1.pic1.1.1.1.8" class="ltx_text ltx_font_medium"> varies directly with the number of units produced.
+<br class="ltx_break">
+<br class="ltx_break">Since the fixed manufacturing overhead is given as $6 per unit and the variable manufacturing overhead is given as $2 per unit, these values should remain consistent within the relevant range.
+<br class="ltx_break">
+<br class="ltx_break"><code id="A1.SS8.SSS3.p1.pic1.1.1.1.8.1" class="ltx_verbatim ltx_font_typewriter">###</code> Step 3: Calculate Total Manufacturing Overhead per Unit
+<br class="ltx_break">Using the formula:
+<br class="ltx_break">
+<br class="ltx_break">Total manufacturing overhead per unit = Fixed manufacturing overhead per unit + Variable manufacturing overhead per unit
+<br class="ltx_break">
+<br class="ltx_break">Substitute the given values:
+<br class="ltx_break">
+<br class="ltx_break">Total manufacturing overhead per unit = 6 + 2 = 8
+<br class="ltx_break">
+<br class="ltx_break"><code id="A1.SS8.SSS3.p1.pic1.1.1.1.8.2" class="ltx_verbatim ltx_font_typewriter">###</code> Step 4: Verify the Relevant Range
+<br class="ltx_break">The problem specifies that the relevant range of production is between 15,000 and 30,000 units. Since 30,000 units fall within this range, the given cost data (fixed and variable overhead rates) can be applied directly without any adjustments.
+<br class="ltx_break">
+<br class="ltx_break"><code id="A1.SS8.SSS3.p1.pic1.1.1.1.8.3" class="ltx_verbatim ltx_font_typewriter">###</code> Step 5: Match the Answer to the Options
+<br class="ltx_break">The total manufacturing overhead per unit is $8. Comparing this to the provided options:
+<br class="ltx_break">- A. $6
+<br class="ltx_break">- B. $7
+<br class="ltx_break">- C. $8
+<br class="ltx_break">- D. $9
+<br class="ltx_break">
+<br class="ltx_break">The correct answer is 
+<br class="ltx_break"><math id="A1.SS8.SSS3.p1.pic1.m1" class="ltx_Math" alttext="\backslash" display="inline" intent=":literal"><semantics><mo style="--ltx-fg-color:#000000;" mathcolor="#000000">\</mo><annotation encoding="application/x-tex">\backslash</annotation></semantics></math>boxed{C}. 
+<br class="ltx_break">
+<br class="ltx_break"><code id="A1.SS8.SSS3.p1.pic1.1.1.1.8.4" class="ltx_verbatim ltx_font_typewriter">###</code> Final Answer:
+<br class="ltx_break"><math id="A1.SS8.SSS3.p1.pic1.m2" class="ltx_Math" alttext="\backslash" display="inline" intent=":literal"><semantics><mo style="--ltx-fg-color:#000000;" mathcolor="#000000">\</mo><annotation encoding="application/x-tex">\backslash</annotation></semantics></math>boxed{C}</span></span></span>
+<span id="A1.SS8.SSS3.p1.pic1.1.2" class="ltx_p"><span id="A1.SS8.SSS3.p1.pic1.1.2.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">PRM Score: 0.86<span id="A1.SS8.SSS3.p1.pic1.1.2.1.1" class="ltx_text"></span></span></span>
+</span></span></span></foreignobject></g></g></g></svg>
