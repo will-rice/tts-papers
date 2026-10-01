@@ -1,0 +1,36 @@
+<svg class="ltx_picture" height="1243.33" id="S8.p3.pic1" overflow="visible" version="1.1" viewbox="0 0 600 1243.33" width="600"><g fill="#000000" stroke="#000000" stroke-width="0.4pt" style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" transform="translate(0,1243.33) matrix(1 0 0 -1 0 0)"><g fill="#404040" fill-opacity="1.0" style="--ltx-fill-color:#404040;"><path d="M 0 5.91 L 0 1237.42 C 0 1240.68 2.64 1243.33 5.91 1243.33 L 594.09 1243.33 C 597.36 1243.33 600 1240.68 600 1237.42 L 600 5.91 C 600 2.64 597.36 0 594.09 0 L 5.91 0 C 2.64 0 0 2.64 0 5.91 Z" style="stroke:none" /></g><g fill="#F2F2F2" fill-opacity="1.0" style="--ltx-fill-color:#F2F2F2;"><path d="M 1.97 5.91 L 1.97 1219.06 L 598.03 1219.06 L 598.03 5.91 C 598.03 3.73 596.27 1.97 594.09 1.97 L 5.91 1.97 C 3.73 1.97 1.97 3.73 1.97 5.91 Z" style="stroke:none" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 21.65 1228.08)"><foreignobject color="#FFFFFF" height="12.45" overflow="visible" style="--ltx-fg-color:#FFFFFF;--fo_width :40.23em;--fo_height:0.67em;--fo_depth :0.22em;" transform="matrix(1 0 0 -1 0 9.34)" width="556.69"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:43.49em;">
+<span class="ltx_p"><span class="ltx_text" style="font-size:90%;">Illustrative Examples of OmniVerifier LongCoT Patterns (2)</span></span>
+</span></span></span></foreignobject></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 21.65 16.2)"><foreignobject color="#000000" height="1193.47" overflow="visible" style="--ltx-fg-color:#000000;--fo_width :40.23em;--fo_height:86.08em;--fo_depth :0.17em;" transform="matrix(1 0 0 -1 0 1191.05)" width="556.69"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content"><span class="ltx_inline-logical-block ltx_minipage ltx_align_bottom" style="width:43.49em;">
+<span class="ltx_para" id="S8.p3.pic1.p2">
+<span class="ltx_p"><span class="ltx_text ltx_font_bold" style="font-size:90%;">Question: <span class="ltx_text ltx_font_medium">This image was generated from the prompt: &quot;A cartoon girl with a cat’s tail, short curly white hair, and sharp nails <span class="ltx_text" style="--ltx-fg-color:#FF0000;">is smiling</span> with her lips closed. She is wearing a Demon Slayer Corps uniform and a white long - sleeved haori jacket. She is squatting down, looking at a little cat and gently stroking it. There are also many kittens surrounding her. The background features East Asian - style shrine buildings and cherry blossom trees. &quot;</span></span></span>
+<span class="ltx_p"><span class="ltx_text" style="font-size:90%;">Please carefully analyze the image and determine whether all the attributes specified in the prompt (such as color, texture, shape, material, lighting, expression, and motion) are correctly represented in the image. If all the attributes are correctly presented, please answer ‘true’; otherwise, answer ‘false’. Provide your evaluation strictly in the following JSON format:</span></span>
+<span class="ltx_p"><span class="ltx_text" style="font-size:90%;">{
+&quot;answer&quot;: true/false,
+&quot;explanation&quot;: &quot;If the answer is false, briefly summarize the main error.&quot;
+}</span></span>
+</span>
+<span class="ltx_para ltx_noindent" id="S8.p3.pic1.p1"><span class="ltx_rule" style="width:433.6pt;height:0.5pt;--ltx-bg-color:black;display:inline-block;"> </span>
+</span>
+<span class="ltx_para" id="S8.p3.pic1.p3">
+<span class="ltx_p"><span class="ltx_text ltx_font_bold" style="font-size:90%;">OmniVerifier-7B: <span class="ltx_text ltx_font_medium"></span></span></span>
+<span class="ltx_p"><span class="ltx_text ltx_font_typewriter ltx_font_bold" style="font-size:70%;--ltx-fg-color:#0000FF;">&lt;think&gt;</span></span>
+<span class="ltx_p"><span class="ltx_text ltx_font_typewriter" style="font-size:70%;">Let’s break down the attributes mentioned in the prompt and compare them to the image:</span></span>
+<span class="ltx_p"><span class="ltx_text ltx_font_typewriter" style="font-size:70%;">1. **Cartoon girl with a cat’s tail**: The character in the image has a cat’s tail.</span></span>
+<span class="ltx_p"><span class="ltx_text ltx_font_typewriter" style="font-size:70%;">2. **Short curly white hair**: The character has short, curly white hair.</span></span>
+<span class="ltx_p"><span class="ltx_text ltx_font_typewriter" style="font-size:70%;">3. **Sharp nails**: The character’s nails are not explicitly mentioned as sharp, but they appear to be normal.</span></span>
+<span class="ltx_p"><span class="ltx_text ltx_font_typewriter" style="font-size:70%;">4. **Smiling with her lips closed**: The character is not smiling; she appears to be frowning.</span></span>
+<span class="ltx_p"><span class="ltx_text ltx_font_typewriter" style="font-size:70%;">5. **Demon Slayer Corps uniform**: The character is wearing a uniform that resembles the one from the Demon Slayer anime, but it’s not explicitly labeled as such.</span></span>
+<span class="ltx_p"><span class="ltx_text ltx_font_typewriter" style="font-size:70%;">6. **White long-sleeved haori jacket**: The character is wearing a white long-sleeved haori jacket.</span></span>
+<span class="ltx_p"><span class="ltx_text ltx_font_typewriter" style="font-size:70%;">7. **Squatting down**: The character is squatting down.</span></span>
+<span class="ltx_p"><span class="ltx_text ltx_font_typewriter" style="font-size:70%;">8. **Looking at a little cat**: The character is looking at a cat.</span></span>
+<span class="ltx_p"><span class="ltx_text ltx_font_typewriter" style="font-size:70%;">9. **Gently stroking it**: The character is gently stroking a cat.</span></span>
+<span class="ltx_p"><span class="ltx_text ltx_font_typewriter" style="font-size:70%;">10. **Many kittens surrounding her**: There are multiple cats surrounding the character.</span></span>
+<span class="ltx_p"><span class="ltx_text ltx_font_typewriter" style="font-size:70%;">11. **East Asian-style shrine buildings**: The background features East Asian-style shrine buildings.</span></span>
+<span class="ltx_p"><span class="ltx_text ltx_font_typewriter" style="font-size:70%;">12. **Cherry blossom trees**: The background features cherry blossom trees.</span></span>
+<span class="ltx_p"><span class="ltx_text ltx_font_typewriter" style="font-size:70%;">The character is not smiling, which contradicts the prompt. However, the rest of the attributes are correctly represented in the image.</span></span>
+<span class="ltx_p"><span class="ltx_text ltx_font_typewriter ltx_font_bold" style="font-size:70%;--ltx-fg-color:#0000FF;">&lt;/think&gt;
+<br class="ltx_break" /></span></span>
+<span class="ltx_p"><span class="ltx_text ltx_font_typewriter" style="font-size:70%;">{ &quot;answer&quot;: false, &quot;explanation&quot;: &quot;The main error is that the character is not smiling, which contradicts the prompt’s description.&quot;}
+</span><span class="ltx_text" style="font-size:90%;"></span></span>
+</span></span></span></span></foreignobject></g></g></svg>

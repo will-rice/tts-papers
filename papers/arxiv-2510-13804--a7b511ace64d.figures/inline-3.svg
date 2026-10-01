@@ -1,0 +1,12 @@
+<svg class="ltx_picture" height="948.34" id="S4.SS2.p8.pic1" overflow="visible" version="1.1" viewbox="0 0 600 948.34" width="600"><g fill="#000000" stroke="#000000" stroke-width="0.4pt" style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" transform="translate(0,948.34) matrix(1 0 0 -1 0 0)"><g fill="#404040" fill-opacity="1.0" style="--ltx-fill-color:#404040;"><path d="M 0 5.91 L 0 942.44 C 0 945.7 2.64 948.34 5.91 948.34 L 594.09 948.34 C 597.36 948.34 600 945.7 600 942.44 L 600 5.91 C 600 2.64 597.36 0 594.09 0 L 5.91 0 C 2.64 0 0 2.64 0 5.91 Z" style="stroke:none" /></g><g fill="#F2F2F2" fill-opacity="1.0" style="--ltx-fill-color:#F2F2F2;"><path d="M 1.97 5.91 L 1.97 942.44 C 1.97 944.61 3.73 946.37 5.91 946.37 L 594.09 946.37 C 596.27 946.37 598.03 944.61 598.03 942.44 L 598.03 5.91 C 598.03 3.73 596.27 1.97 594.09 1.97 L 5.91 1.97 C 3.73 1.97 1.97 3.73 1.97 5.91 Z" style="stroke:none" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 19.74 925.64)"><foreignobject color="#000000" height="920.78" overflow="visible" style="--ltx-fg-color:#000000;--fo_width :40.51em;--fo_height:0.64em;--fo_depth :65.9em;" transform="matrix(1 0 0 -1 0 8.92)" width="560.52"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content"><span class="ltx_inline-logical-block ltx_minipage ltx_align_bottom" style="width:43.79em;">
+<span class="ltx_theorem ltx_theorem_finding" id="Thmfinding3">
+<h6 class="ltx_title ltx_runin ltx_title_theorem" style="font-size:90%;">
+<span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Finding 3</span></span><span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<span class="ltx_para" id="Thmfinding3.p1">
+<span class="ltx_p"><span class="ltx_text ltx_font_bold ltx_font_italic" style="font-size:90%;">Generalization of Three Visual Verification Atomic Capabilities</span></span>
+</span>
+<span class="ltx_para" id="Thmfinding3.p2">
+<span class="ltx_p"><span class="ltx_text ltx_font_italic" style="font-size:90%;">Reinforcement learning promotes strong generalization within and between Explicit Alignment and Relational Verification, suggesting that a single dataset capturing their shared visual patterns suffices for broad transfer. In contrast, Integrative Reasoning spans heterogeneous domains with little cross-task transfer, thus requiring task-specific datasets.</span></span>
+</span>
+</span></span></span></span></foreignobject></g></g></svg>

@@ -1,0 +1,12 @@
+<svg class="ltx_picture" height="616.25" id="S5.SS3.p3.pic1" overflow="visible" version="1.1" viewbox="0 0 600 616.25" width="600"><g fill="#000000" stroke="#000000" stroke-width="0.4pt" style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" transform="translate(0,616.25) matrix(1 0 0 -1 0 0)"><g fill="#404040" fill-opacity="1.0" style="--ltx-fill-color:#404040;"><path d="M 0 5.91 L 0 610.35 C 0 613.61 2.64 616.25 5.91 616.25 L 594.09 616.25 C 597.36 616.25 600 613.61 600 610.35 L 600 5.91 C 600 2.64 597.36 0 594.09 0 L 5.91 0 C 2.64 0 0 2.64 0 5.91 Z" style="stroke:none" /></g><g fill="#F2F2F2" fill-opacity="1.0" style="--ltx-fill-color:#F2F2F2;"><path d="M 1.97 5.91 L 1.97 610.35 C 1.97 612.52 3.73 614.29 5.91 614.29 L 594.09 614.29 C 596.27 614.29 598.03 612.52 598.03 610.35 L 598.03 5.91 C 598.03 3.73 596.27 1.97 594.09 1.97 L 5.91 1.97 C 3.73 1.97 1.97 3.73 1.97 5.91 Z" style="stroke:none" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 19.74 593.55)"><foreignobject color="#000000" height="588.7" overflow="visible" style="--ltx-fg-color:#000000;--fo_width :40.51em;--fo_height:0.64em;--fo_depth :41.9em;" transform="matrix(1 0 0 -1 0 8.92)" width="560.52"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content"><span class="ltx_inline-logical-block ltx_minipage ltx_align_bottom" style="width:43.79em;">
+<span class="ltx_theorem ltx_theorem_finding" id="Thmfinding4">
+<h6 class="ltx_title ltx_runin ltx_title_theorem" style="font-size:90%;">
+<span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Finding 4</span></span><span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<span class="ltx_para" id="Thmfinding4.p1">
+<span class="ltx_p"><span class="ltx_text ltx_font_bold ltx_font_italic" style="font-size:90%;">Advantages of Sequential OmniVerifier-TTS</span></span>
+</span>
+<span class="ltx_para" id="Thmfinding4.p2">
+<span class="ltx_p"><span class="ltx_text ltx_font_italic" style="font-size:90%;">Equipped with generative verifier, sequential TTS has a higher performance ceiling than Parallel TTS in unified multimodal models.</span></span>
+</span>
+</span></span></span></span></foreignobject></g></g></svg>
