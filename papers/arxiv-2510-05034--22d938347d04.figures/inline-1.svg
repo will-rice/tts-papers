@@ -1,0 +1,20 @@
+<svg id="S1.p9.pic1" class="ltx_picture" height="186.24" overflow="visible" version="1.1" viewbox="0 0 676.77 186.24" width="676.77"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,186.24) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#FF0000;" fill="#FF0000" fill-opacity="1.0"><path style="stroke:none" d="M 0 0 L 0 186.24 L 676.77 186.24 L 676.77 0 Z" /></g><g style="--ltx-fill-color:#FFF2F2;" fill="#FFF2F2" fill-opacity="1.0"><path style="stroke:none" d="M 2.77 0 L 2.77 168.76 L 674 168.76 L 674 0 Z" /></g><g style="--ltx-fill-color:#FFF2F2;" fill="#FFF2F2" fill-opacity="1.0"><path style="stroke:none" d="M 2.77 168.76 L 2.77 186.24 L 674 186.24 L 674 168.76 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 22.45 172.69)"><foreignobject style="--ltx-fo-width:39.71em;--ltx-fo-height:0.69em;--ltx-fo-depth:0em;font-size:10pt;" height="9.61" overflow="visible" transform="matrix(1 0 0 -1 0 9.61)" width="549.47"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="S1.p9.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:39.71em;">
+<span id="S1.p9.pic1.1.1" class="ltx_p"><span id="S1.p9.pic1.1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Contributions</span></span>
+</span></span></span></foreignobject></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 22.45 133.5)"><foreignobject style="--ltx-fo-width:45.67em;--ltx-fo-height:1.69em;--ltx-fo-depth:8.79em;font-size:10pt;" height="145.14" overflow="visible" transform="matrix(1 0 0 -1 0 23.45)" width="631.94"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="S1.p9.pic1.2" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:45.67em;">
+<span id="S1.I1" class="ltx_itemize" style="--ltx-enum-leftmargin:20pt;">
+<span id="S1.I1.i1" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="S1.I1.i1.p1" class="ltx_para">
+<span id="S1.I1.i1.p1.1" class="ltx_p"><span id="S1.I1.i1.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">A comprehensive review of post-training methodologies for Video-LMMs, covering supervised fine-tuning, reinforcement learning, and test-time scaling as integral components of model optimization.</span></span>
+</span></span>
+<span id="S1.I1.i2" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="S1.I1.i2.p1" class="ltx_para">
+<span id="S1.I1.i2.p1.1" class="ltx_p"><span id="S1.I1.i2.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">A structured taxonomy of Video-LMM post-training techniques, clarifying their functional roles and interconnections, with insights into open challenges and future directions.</span></span>
+</span></span>
+<span id="S1.I1.i3" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="S1.I1.i3.p1" class="ltx_para">
+<span id="S1.I1.i3.p1.1" class="ltx_p"><span id="S1.I1.i3.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">Practical guidance introducing essential benchmarks, datasets, and evaluation metrics for assessing Video-LMM post-training effectiveness.</span></span>
+</span></span>
+</span>
+</span></span></span></foreignobject></g></g></svg>
