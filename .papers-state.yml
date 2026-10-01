@@ -7,19 +7,6 @@ backfill:
     covered_from: '2023-05-04T00:00:00Z'
 continuations: {}
 failures:
-  arxiv:2203.16749:
+  arxiv:2206.12040:
   - error: 'conversion timed out after 1800s: marker_single'
-    occurred_at: '2026-09-30T23:45:48.741814Z'
-  - error: 'conversion timed out after 1800s: marker_single'
-    occurred_at: '2026-10-01T00:56:50.052862Z'
-  arxiv:2203.16852:
-  - error: 'conversion timed out after 1800s: marker_single'
-    occurred_at: '2026-09-30T23:45:48.741814Z'
-  - error: 'conversion timed out after 1800s: marker_single'
-    occurred_at: '2026-10-01T00:56:50.052862Z'
-  arxiv:2206.07956:
-  - error: 'conversion timed out after 1800s: marker_single'
-    occurred_at: '2026-10-01T02:40:45.204713Z'
-  arxiv:2206.10256:
-  - error: 'conversion timed out after 1800s: marker_single'
-    occurred_at: '2026-10-01T02:40:45.204713Z'
+    occurred_at: '2026-10-01T03:59:29.736414Z'
