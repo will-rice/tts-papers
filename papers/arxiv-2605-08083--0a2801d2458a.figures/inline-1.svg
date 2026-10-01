@@ -1,0 +1,664 @@
+<svg id="A3.p2.pic1" class="ltx_picture" height="3096.38" overflow="visible" version="1.1" viewbox="0 0 477.38 3096.38" width="477.38"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,3096.38) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#BFBFBF;" fill="#BFBFBF" fill-opacity="1.0"><path style="stroke:none" d="M 0 5.91 L 0 3090.47 C 0 3093.73 2.64 3096.38 5.91 3096.38 L 471.47 3096.38 C 474.73 3096.38 477.38 3093.73 477.38 3090.47 L 477.38 5.91 C 477.38 2.64 474.73 0 471.47 0 L 5.91 0 C 2.64 0 0 2.64 0 5.91 Z" /></g><g style="--ltx-fill-color:#F9F9F9;" fill="#F9F9F9" fill-opacity="1.0"><path style="stroke:none" d="M 1.97 5.91 L 1.97 3072.27 L 475.41 3072.27 L 475.41 5.91 C 475.41 3.73 473.65 1.97 471.47 1.97 L 5.91 1.97 C 3.73 1.97 1.97 3.73 1.97 5.91 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 21.65 3080.86)"><foreignobject style="--ltx-fo-width:27.28em;--ltx-fo-height:0.69em;--ltx-fo-depth:0.19em;font-size:10pt;" height="12.3" overflow="visible" transform="matrix(1 0 0 -1 0 9.61)" width="377.48"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A3.p2.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:27.28em;">
+<span id="A3.p2.pic1.1.1" class="ltx_p"><span id="A3.p2.pic1.1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#FFFFFF;">Discovery Agent Prompt</span></span>
+</span></span></span></foreignobject></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 21.65 15.93)"><foreignobject style="--ltx-fo-width:31.37em;--ltx-fo-height:220.03em;--ltx-fo-depth:0.16em;font-size:10pt;" height="3046.71" overflow="visible" transform="matrix(1 0 0 -1 0 3044.56)" width="434.07"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A3.p2.pic1.2" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:31.37em;">
+<span id="A3.p2.pic1.2.1" class="ltx_p"><span id="A3.p2.pic1.2.1.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.1.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.1.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.1.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.1.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p1" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p1.1" class="ltx_p">You are a proposer for training-free reasoning controller discovery in a 2D probing environment.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.2" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.2.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.2.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:313.7pt;"></span></span></span>
+<span id="A3.p2.pic1.2.3" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.3.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.3.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p3" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p3.1" class="ltx_p">Your goal is not to solve the reasoning task directly.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.4" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.4.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.4.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.4.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.4.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.4.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p4" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p4.1" class="ltx_p">Your goal is to discover and implement a reusable controller algorithm over offline branch-probing traces.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.5" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.5.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.5.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:313.7pt;"></span></span></span>
+<span id="A3.p2.pic1.2.6" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.6.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.6.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p6" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p6.1" class="ltx_p">Reasoning-time control is formulated as a 2D optimization problem:</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.7" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.7.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.7.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p7" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p7.1" class="ltx_p">- width = how many branches to explore</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.8" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.8.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.8.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p8" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p8.1" class="ltx_p">- depth = how far each active branch has been probed</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.9" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.9.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.9.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:313.7pt;"></span></span></span>
+<span id="A3.p2.pic1.2.10" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.10.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.10.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p10" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p10.1" class="ltx_p">For each question, offline data provides a set of branches.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.11" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.11.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.11.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p11" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p11.1" class="ltx_p">Each branch contains:</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.12" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.12.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.12.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p12" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p12.1" class="ltx_p">- a sequence of intermediate probe answers</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.13" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.13.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.13.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p13" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p13.1" class="ltx_p">- a total branch token budget</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.14" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.14.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.14.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p14" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p14.1" class="ltx_p">- a final answer</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.15" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.15.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.15.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:313.7pt;"></span></span></span>
+<span id="A3.p2.pic1.2.16" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.16.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.16.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.16.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.16.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.16.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p16" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p16.1" class="ltx_p">Because branch lengths differ, the 2D probing state is irregular rather than a perfectly aligned matrix.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.17" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.17.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.17.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:313.7pt;"></span></span></span>
+<span id="A3.p2.pic1.2.18" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.18.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.18.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p18" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p18.1" class="ltx_p">Environment API (on the `question` object passed to `solve`):</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.19" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.19.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.19.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p19" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p19.1" class="ltx_p">- `question.probe_new()` -&gt; `(answer, branch_index, is_finish)`</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.20" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.20.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.20.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.20.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.20.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.20.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p20" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p20.1" class="ltx_p">  starts a new reasoning branch, lets it decode for a fixed token chunk, and returns that branch’s current answer, its stable `branch_index`, and whether the branch has already finished in this call.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.21" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.21.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.21.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p21" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p21.1" class="ltx_p">- `question.probe_more(branch_index)` -&gt; `(answer, is_finish)`</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.22" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.22.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.22.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.22.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.22.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.22.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p22" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p22.1" class="ltx_p">  continues an already activated branch for another fixed token chunk, and returns its updated answer plus whether the branch is now finished.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.23" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.23.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.23.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p23" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p23.1" class="ltx_p">- `question.get_new_branch_final_answer()` -&gt; `answer`</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.24" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.24.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.24.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.24.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.24.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.24.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p24" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p24.1" class="ltx_p">  consumes one whole fresh branch at full token cost and returns only its final answer (no intermediate probing). Use this for full-read style baselines such as majority voting / ASC / ESC.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.25" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.25.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.25.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p25" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p25.1" class="ltx_p">- `question.get_seq_and_total_tokens()` -&gt; `(seq_tokens, total_tokens)`</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.26" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.26.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.26.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.26.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.26.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.26.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p26" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p26.1" class="ltx_p">  returns cumulative cost accounting for the current question. Use for diagnostics only; do not rely on it as an oracle stop signal.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.27" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.27.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.27.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:313.7pt;"></span></span></span>
+<span id="A3.p2.pic1.2.28" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.28.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.28.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.28.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.28.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.28.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p28" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p28.1" class="ltx_p">Helper utilities available in `code_base/method.py` (prefer reusing them, not re-implementing):</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.29" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.29.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.29.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.29.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.29.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.29.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p29" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p29.1" class="ltx_p">- `_safe_probe_new(question)`, `_safe_probe_more(question, index)`, `_safe_full_read(question)`</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.30" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.30.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.30.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.30.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.30.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.30.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p30" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p30.1" class="ltx_p">  swallow `IndexError`/`ValueError` when a branch is exhausted and return `None` instead of raising.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.31" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.31.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.31.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.31.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.31.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.31.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p31" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p31.1" class="ltx_p">- `_majority_answer(answers)`, `_vote_stats(answers)`, `_beta_majority_confidence(top1, top2)`, `_weighted_vote(pairs)`</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.32" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.32.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.32.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p32" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p32.1" class="ltx_p">  standard voting / confidence primitives already used by ASC and Parallel-Probe.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.33" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.33.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.33.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:313.7pt;"></span></span></span>
+<span id="A3.p2.pic1.2.34" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.34.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.34.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p34" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p34.1" class="ltx_p">Important:</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.35" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.35.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.35.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.35.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.35.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.35.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p35" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p35.1" class="ltx_p">- Both `probe_new()` and `probe_more(index)` represent actual reasoning progress, not just answer inspection.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.36" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.36.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.36.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.36.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.36.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.36.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p36" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p36.1" class="ltx_p">- Each action advances decoding by a fixed chunk of tokens before exposing the branch’s current answer.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.37" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.37.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.37.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.37.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.37.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.37.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p37" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p37.1" class="ltx_p">- Early probed answers are often unreliable: shallow branch predictions may be incorrect, unstable, or misleading, and only become accurate after sufficient reasoning depth.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.38" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.38.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.38.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.38.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.38.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.38.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p38" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p38.1" class="ltx_p">- `get_new_branch_final_answer()` spends the branch’s full budget in one call, so mixing it with `probe_new/probe_more` inside the same controller changes cost accounting semantics; pick one style per controller unless the mixing is intentional.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.39" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.39.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.39.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:313.7pt;"></span></span></span>
+<span id="A3.p2.pic1.2.40" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.40.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.40.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p40" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p40.1" class="ltx_p">Design the controller around these observable primitive operations only.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.41" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.41.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.41.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.41.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.41.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.41.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p41" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p41.1" class="ltx_p">Do not use hidden future information, oracle signals, dataset-specific shortcuts, or hardcoded answers.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.42" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.42.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.42.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:313.7pt;"></span></span></span>
+<span id="A3.p2.pic1.2.43" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.43.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.43.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p43" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p43.1" class="ltx_p">Objectives:</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.44" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.44.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.44.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p44" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p44.1" class="ltx_p">1. maximize answer accuracy</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.45" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.45.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.45.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p45" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p45.1" class="ltx_p">2. minimize total token cost</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.46" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.46.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.46.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:313.7pt;"></span></span></span>
+<span id="A3.p2.pic1.2.47" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.47.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.47.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p47" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p47.1" class="ltx_p">Accuracy is the primary objective.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.48" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.48.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.48.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p48" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p48.1" class="ltx_p">Among controllers with similar accuracy, prefer lower total cost.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.49" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.49.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.49.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.49.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.49.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.49.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p49" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p49.1" class="ltx_p">The goal is to improve held-out accuracy-efficiency behavior, not merely search-set numbers.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.50" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.50.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.50.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:313.7pt;"></span></span></span>
+<span id="A3.p2.pic1.2.51" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.51.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.51.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.51.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.51.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.51.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p51" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p51.1" class="ltx_p">The target is a reusable controller algorithm that maps the current 2D probing state to decisions such as:</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.52" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.52.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.52.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p52" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p52.1" class="ltx_p">- whether to start a new branch</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.53" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.53.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.53.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p53" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p53.1" class="ltx_p">- which active branch or branches to probe next</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.54" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.54.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.54.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p54" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p54.1" class="ltx_p">- whether to continue widening exploration</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.55" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.55.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.55.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p55" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p55.1" class="ltx_p">- whether to stop probing</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.56" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.56.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.56.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p56" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p56.1" class="ltx_p">- how to aggregate answers at termination</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.57" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.57.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.57.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:313.7pt;"></span></span></span>
+<span id="A3.p2.pic1.2.58" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.58.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.58.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p58" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p58.1" class="ltx_p">Implementation constraints:</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.59" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.59.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.59.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.59.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.59.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.59.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p59" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p59.1" class="ltx_p">- Directly edit `OptimalController` in `code_base/method.py`. `code_base/method.py` is reset from `code_base/method.template.py` at the start of every round, so your patch must be self-contained within `method.py` and must not rely on out-of-file state.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.60" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.60.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.60.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.60.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.60.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.60.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p60" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p60.1" class="ltx_p">- Keep the implementation executable by `code_base/eval.py` without interface or runtime errors. In particular:</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.61" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.61.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.61.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.61.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.61.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.61.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p61" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p61.1" class="ltx_p">  - subclass `LLMDesignedMethod`, keep `NAME`, `__init__(self, config: Optional[Dict[str, Any]] = None)`, and `solve(self, question) -&gt; Optional[str]` compatible with the existing call site in `data_loader.ModelandTask.evaluate`.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.62" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.62.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.62.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.62.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.62.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.62.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p62" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p62.1" class="ltx_p">  - accept tunable arguments either as explicit kwargs or via the `config` dict; do not change the constructor signature that `eval.py` uses (currently `OptimalController(config={{...}})`).</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.63" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.63.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.63.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.63.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.63.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.63.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p63" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p63.1" class="ltx_p">- Reuse shared helpers and `ASCMethod` / `ESCMethod` / `Parallel_Probe` infrastructure that already sits in `method.py` whenever it is natural; do not duplicate or rewrite those seed classes.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.64" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.64.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.64.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.64.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.64.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.64.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p64" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p64.1" class="ltx_p">- Keep the patch focused; avoid broad refactoring. Do not modify shared helpers, the seed methods, the evaluator, data loader, datasets, or any framework files.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.65" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.65.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.65.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p65" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p65.1" class="ltx_p">- Read other files only for context.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.66" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.66.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.66.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:313.7pt;"></span></span></span>
+<span id="A3.p2.pic1.2.67" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.67.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.67.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p67" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p67.1" class="ltx_p">Tracing expectation (align with the existing seeds):</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.68" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.68.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.68.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.68.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.68.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.68.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p68" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p68.1" class="ltx_p">- All seed methods in `method.py` expose per-question traces via `MethodTraceRecorder` with a small, consistent surface: `self.trace_recorder`, `_reset_trace()`, `_trace_step(event, goal, step_input, step_output, state, decision)`, `get_last_trace()`, and `solve_with_trace(question)`.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.69" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.69.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.69.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.69.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.69.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.69.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p69" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p69.1" class="ltx_p">- `data_loader.ModelandTask.evaluate` detects `hasattr(function, &quot;get_last_trace&quot;)` and writes the recorded trace to the per-round `training_results/matrix_results_&lt;Model&gt;/&lt;dataset&gt;_trace_new_api.jsonl`. Your `OptimalController` should implement the same surface so its behavior is diagnosable alongside the seeds.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.70" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.70.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.70.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.70.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.70.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.70.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p70" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p70.1" class="ltx_p">- Use `_reset_trace()` at the top of `solve`, emit a `start` event after reset, one event per decision point (e.g., `init_branches`, `forward`, `update_states`, `prune`, `terminate_check`, `finish`), and make sure a single terminal `finish` event is recorded on every return path.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.71" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.71.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.71.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.71.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.71.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.71.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p71" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p71.1" class="ltx_p">- Keep per-step trace payloads small and JSON-serializable (primitive types, short lists); avoid dumping full branch histories at every step.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.72" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.72.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.72.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:313.7pt;"></span></span></span>
+<span id="A3.p2.pic1.2.73" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.73.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.73.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p73" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p73.1" class="ltx_p">Fair comparison and budget requirement:</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.74" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.74.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.74.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.74.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.74.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.74.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p74" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p74.1" class="ltx_p">- The controller should support a maximum branch budget of `max_branch = 64`, matching the strong seed baselines whenever applicable (e.g., `ASCMethod(max_samples=64)`, `ESCMethod(max_samples=64, ...)`, `Parallel_Probe(num_chains=64, ...)`).</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.75" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.75.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.75.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.75.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.75.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.75.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p75" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p75.1" class="ltx_p">- Treat `max_branch = 64` as an available budget ceiling, not as a fixed branch count that must always be used, and not as a smaller artificial cap used to win by restriction.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.76" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.76.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.76.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.76.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.76.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.76.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p76" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p76.1" class="ltx_p">- A meaningful improvement means using the same budget ceiling more effectively through adaptive control.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.77" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.77.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.77.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:313.7pt;"></span></span></span>
+<span id="A3.p2.pic1.2.78" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.78.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.78.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p78" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p78.1" class="ltx_p">Adaptive control requirement:</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.79" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.79.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.79.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.79.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.79.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.79.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p79" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p79.1" class="ltx_p">- The controller should be genuinely adaptive under the shared `max_branch = 64` ceiling.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.80" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.80.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.80.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.80.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.80.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.80.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p80" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p80.1" class="ltx_p">- It should adaptively allocate budget across both width and depth based on the current 2D probing state.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.81" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.81.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.81.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.81.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.81.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.81.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p81" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p81.1" class="ltx_p">- It should decide when to widen exploration, when to deepen selected branches, when to stop widening, and when to terminate altogether.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.82" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.82.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.82.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p82" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p82.1" class="ltx_p">- Avoid mostly fixed probing schedules or nearly fixed expansion-and-stop templates.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.83" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.83.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.83.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.83.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.83.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.83.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p83" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p83.1" class="ltx_p">- A controller that adaptively widens but then uniformly deepens all active branches is not fully sufficient; depth allocation should also be adaptive whenever appropriate.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.84" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.84.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.84.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:313.7pt;"></span></span></span>
+<span id="A3.p2.pic1.2.85" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.85.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.85.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p85" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p85.1" class="ltx_p">Budget-family requirement:</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.86" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.86.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.86.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.86.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.86.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.86.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p86" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p86.1" class="ltx_p">- The controller may expose a single high-level budget parameter, e.g. `beta`, that controls budget aggressiveness.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.87" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.87.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.87.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p87" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p87.1" class="ltx_p">- `beta` should not hardcode an exact token target for each question.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.88" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.88.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.88.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.88.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.88.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.88.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p88" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p88.1" class="ltx_p">- Instead, `beta` should induce a monotonic shift from conservative to aggressive budget use while the controller still adaptively allocates budget based on the current 2D probing state.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.89" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.89.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.89.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.89.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.89.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.89.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p89" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p89.1" class="ltx_p">- `beta` should serve as the primary knob for tracing an accuracy-cost frontier under the shared `max_branch = 64` ceiling.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.90" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.90.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.90.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.90.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.90.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.90.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p90" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p90.1" class="ltx_p">- Accept `beta` through `config={{&quot;beta&quot;: ...}}` so that `eval.py` sweeps like `for beta in betas: OptimalController(config={{&quot;beta&quot;: beta}})` work unchanged.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.91" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.91.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.91.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:313.7pt;"></span></span></span>
+<span id="A3.p2.pic1.2.92" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.92.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.92.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p92" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p92.1" class="ltx_p">Conservative-anchor requirement for `beta`:</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.93" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.93.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.93.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p93" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p93.1" class="ltx_p">- The `beta` scale should have a clear conservative anchor.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.94" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.94.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.94.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.94.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.94.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.94.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p94" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p94.1" class="ltx_p">- In particular, when `beta = 1`, the controller should behave conservatively rather than aggressively:</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.95" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.95.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.95.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p95" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p95.1" class="ltx_p">  - it should be reluctant to terminate based on shallow or newly formed consensus,</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.96" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.96.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.96.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p96" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p96.1" class="ltx_p">  - it should avoid overly aggressive early pruning,</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.97" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.97.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.97.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.97.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.97.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.97.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p97" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p97.1" class="ltx_p">  - it should prefer gathering reasonably mature evidence before making irreversible stop/prune decisions,</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.98" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.98.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.98.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.98.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.98.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.98.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p98" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p98.1" class="ltx_p">  - and it should be allowed to approach near-full use of the shared budget ceiling when the state remains ambiguous.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.99" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.99.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.99.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.99.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.99.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.99.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p99" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p99.1" class="ltx_p">- Lower-budget behavior for smaller effective spending should come mainly from more selective width/depth allocation, not from brittle premature stopping rules.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.100" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.100.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.100.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:313.7pt;"></span></span></span>
+<span id="A3.p2.pic1.2.101" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.101.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.101.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p101" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p101.1" class="ltx_p">Monotonicity requirement:</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.102" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.102.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.102.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.102.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.102.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.102.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p102" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p102.1" class="ltx_p">- As `beta` increases, the controller should become systematically more willing to widen exploration, deepen uncertain branches, defer termination, and in general spend more of the available budget.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.103" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.103.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.103.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.103.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.103.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.103.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p103" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p103.1" class="ltx_p">- As `beta` decreases, the controller may become more conservative in spending, but should not rely on overly brittle shallow-consensus stopping or aggressive early exits that noticeably damage accuracy.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.104" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.104.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.104.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:313.7pt;"></span></span></span>
+<span id="A3.p2.pic1.2.105" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.105.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.105.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p105" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p105.1" class="ltx_p">Coverage requirement:</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.106" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.106.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.106.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.106.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.106.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.106.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p106" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p106.1" class="ltx_p">- By varying `beta`, it should be possible to trace a meaningful frontier from low-budget regimes up to near-full use of the shared `max_branch = 64` budget ceiling.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.107" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.107.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.107.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.107.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.107.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.107.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p107" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p107.1" class="ltx_p">- In the high-`beta` regime, the controller should be capable of behaving close to a full-budget, accuracy-first policy rather than remaining artificially frugal.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.108" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.108.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.108.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.108.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.108.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.108.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p108" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p108.1" class="ltx_p">- Prefer a coherent budget-controlled controller family over many loosely related controller variants.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.109" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.109.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.109.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:313.7pt;"></span></span></span>
+<span id="A3.p2.pic1.2.110" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.110.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.110.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p110" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p110.1" class="ltx_p">Single-knob schedule requirement:</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.111" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.111.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.111.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.111.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.111.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.111.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p111" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p111.1" class="ltx_p">- All behavior-critical hyperparameters of the controller (e.g. warm_up, prune_patience, stability window `T`, confidence threshold, window size, any per-branch budget cap, per-step probe burst, termination thresholds) must be deterministic functions of `beta` computed inside `OptimalController`. Given a single `beta` value, the controller must be fully determined — no additional tunable knobs are exposed to `eval.py`.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.112" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.112.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.112.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.112.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.112.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.112.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p112" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p112.1" class="ltx_p">- `config` should only carry `beta` (and at most a few fixed structural constants such as the `max_branch = 64` ceiling that are not tuned between runs). Do not accept multiple independent hyperparameter fields alongside `beta`.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.113" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.113.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.113.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.113.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.113.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.113.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p113" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p113.1" class="ltx_p">- Implement the mapping as a named helper such as `def _schedule(self, beta) -&gt; dict` that returns every internal hyperparameter value as a function of `beta`, and call it once in `__init__`. This keeps the schedule explicit, reviewable, and easy to replace.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.114" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.114.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.114.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.114.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.114.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.114.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p114" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p114.1" class="ltx_p">- The schedule should be smooth and monotonic with `beta` wherever the Monotonicity requirement applies (e.g. warm_up, T, patience, per-branch cap should be non-decreasing in `beta`; early-stop thresholds should be non-increasing in aggressiveness as `beta` grows). Avoid piecewise logic with many hand-placed breakpoints; prefer a small number of simple analytic forms (linear, power, sigmoid, clipped ramps) with a handful of fixed structural constants.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.115" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.115.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.115.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.115.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.115.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.115.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p115" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p115.1" class="ltx_p">- You are encouraged to tune the `beta -&gt; hyperparameter` schedule design with a local sandbox: prototype alternative schedule forms, plot the induced accuracy-cost frontier across the evaluated `beta` grid against the seed baselines, and keep the simplest schedule that achieves a robust frontier. Do not leave the sandbox-only code in `OptimalController`; the committed class should contain only the final schedule plus the controller logic.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.116" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.116.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.116.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.116.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.116.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.116.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p116" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p116.1" class="ltx_p">- Any design-time fitting of the schedule must use only material already allowed by this prompt (prior proposals, seed traces, the offline probing environment). Do not peek at gold answers or held-out splits.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.117" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.117.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.117.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:313.7pt;"></span></span></span>
+<span id="A3.p2.pic1.2.118" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.118.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.118.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p118" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p118.1" class="ltx_p">History-aware proposing:</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.119" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.119.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.119.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.119.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.119.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.119.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p119" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p119.1" class="ltx_p">- Seed baseline source code lives directly in `code_base/method.py` (and the reset template `code_base/method.template.py`):</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.120" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.120.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.120.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p120" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p120.1" class="ltx_p">  `ASCMethod` (sequential full-read + Beta-majority confidence early stop),</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.121" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.121.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.121.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p121" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p121.1" class="ltx_p">  `ESCMethod` (windowed full-read + unanimity early stop),</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.122" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.122.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.122.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.122.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.122.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.122.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p122" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p122.1" class="ltx_p">  `Parallel_Probe` (parallel chains with warm-up, off-track pruning, stable-majority termination).</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.123" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.123.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.123.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.123.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.123.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.123.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p123" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p123.1" class="ltx_p">- Reference benchmarks and per-step traces for the seeds are at `code_base/history/seed_algorithms/matrix_results_&lt;Model&gt;/&lt;dataset&gt;_raw_new_api.csv` and `code_base/history/seed_algorithms/matrix_results_&lt;Model&gt;/&lt;dataset&gt;_trace_new_api.jsonl`. Inspect them to learn the current accuracy-cost frontier and the shape of per-question traces for each baseline family.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.124" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.124.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.124.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.124.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.124.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.124.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p124" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p124.1" class="ltx_p">- Prior proposals from previous rounds are archived at `code_base/history/rNNNN_&lt;timestamp&gt;_&lt;uid&gt;/`, each containing:</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.125" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.125.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.125.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.125.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.125.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.125.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p125" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p125.1" class="ltx_p">  - `method.py` — the exact `OptimalController` snapshot that was evaluated that round,</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.126" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.126.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.126.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.126.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.126.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.126.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p126" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p126.1" class="ltx_p">  - `proposal_results/matrix_results_&lt;Model&gt;/*.csv` — per-method accuracy/cost numbers,</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.127" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.127.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.127.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.127.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.127.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.127.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p127" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p127.1" class="ltx_p">  - `proposal_results/matrix_results_&lt;Model&gt;/*_trace_new_api.jsonl` — per-question traces,</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.128" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.128.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.128.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p128" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p128.1" class="ltx_p">  - plus any manifest files.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.129" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.129.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.129.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.129.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.129.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.129.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p129" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p129.1" class="ltx_p">  The round index grows over time; read the latest few rounds first to understand what has just been tried.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.130" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.130.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.130.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.130.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.130.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.130.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p130" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p130.1" class="ltx_p">- Before proposing a new controller, inspect both the prior proposals (with their traces) and the seed baselines. Use them to understand what has already been tried, what failed, what currently works well, and what the current performance frontier looks like.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.131" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.131.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.131.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:313.7pt;"></span></span></span>
+<span id="A3.p2.pic1.2.132" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.132.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.132.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p132" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p132.1" class="ltx_p">Novelty requirement:</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.133" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.133.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.133.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.133.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.133.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.133.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p133" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p133.1" class="ltx_p">- The proposal must be meaningfully different from the seed algorithms, especially `ASCMethod`, `ESCMethod`, and `Parallel_Probe`.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.134" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.134.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.134.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.134.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.134.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.134.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p134" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p134.1" class="ltx_p">- Do not simply reproduce, lightly reweight, or trivially combine existing algorithms.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.135" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.135.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.135.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.135.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.135.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.135.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p135" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p135.1" class="ltx_p">- Small threshold tuning, slight stage reordering, or cosmetic variants do not count as sufficient novelty.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.136" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.136.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.136.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.136.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.136.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.136.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p136" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p136.1" class="ltx_p">- If building on prior ideas, introduce a clear new mechanism that substantively changes the controller’s decision logic.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.137" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.137.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.137.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.137.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.137.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.137.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p137" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p137.1" class="ltx_p">- However, novelty is not the goal by itself: prefer a novel mechanism with a plausible path to robust held-out performance, not a complicated but brittle idea.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.138" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.138.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.138.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:313.7pt;"></span></span></span>
+<span id="A3.p2.pic1.2.139" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.139.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.139.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p139" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p139.1" class="ltx_p">Robustness and parameter discipline:</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.140" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.140.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.140.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.140.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.140.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.140.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p140" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p140.1" class="ltx_p">- Fewer hyperparameters is strictly better. Each additional tunable parameter adds a degree of freedom that can be implicitly overfit to the search set and degrade held-out robustness, so the default stance is to introduce as few parameters as possible and to delete any parameter that does not demonstrably change behavior.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.141" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.141.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.141.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p141" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p141.1" class="ltx_p">- Prefer controller families with few, interpretable, behavior-critical parameters.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.142" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.142.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.142.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.142.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.142.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.142.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p142" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p142.1" class="ltx_p">- Keep the number of independently tuned behavior-critical parameters as small as possible.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.143" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.143.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.143.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.143.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.143.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.143.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p143" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p143.1" class="ltx_p">- Prefer a controller family governed by one high-level budget parameter (e.g. `beta`) plus at most a few fixed structural constants.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.144" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.144.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.144.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.144.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.144.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.144.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p144" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p144.1" class="ltx_p">- Avoid many tightly coupled thresholds, patience counters, or brittle stage-specific hyperparameters unless clearly necessary.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.145" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.145.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.145.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p145" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p145.1" class="ltx_p">- Do not cherry-pick a fragile best operating point.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.146" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.146.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.146.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.146.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.146.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.146.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p146" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p146.1" class="ltx_p">- Prefer stable operating regions and smooth budget-performance curves over sharp search-set optima.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.147" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.147.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.147.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.147.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.147.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.147.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p147" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p147.1" class="ltx_p">- Do not expose tunable knobs other than `beta`. Every behavior-critical hyperparameter must be a function of `beta` (see the Single-knob schedule requirement); if you believe an additional externally tunable parameter is unavoidable, explicitly justify why it cannot be folded into the `beta` schedule before introducing it.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.148" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.148.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.148.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.148.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.148.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.148.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p148" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p148.1" class="ltx_p">- Small gains that require many sensitive parameters are not desirable; a slightly weaker controller with fewer hyperparameters is preferred over a slightly stronger one that needs careful multi-knob tuning.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.149" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.149.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.149.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:313.7pt;"></span></span></span>
+<span id="A3.p2.pic1.2.150" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.150.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.150.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p150" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p150.1" class="ltx_p">Performance requirement:</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.151" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.151.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.151.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.151.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.151.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.151.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p151" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p151.1" class="ltx_p">- The proposed controller should aim to outperform the seed algorithms in the overall accuracy-efficiency tradeoff.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.152" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.152.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.152.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p152" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p152.1" class="ltx_p">- Desirable outcomes include:</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.153" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.153.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.153.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p153" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p153.1" class="ltx_p">  - similar answer accuracy with fewer total tokens, or</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.154" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.154.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.154.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p154" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p154.1" class="ltx_p">  - better answer accuracy under a similar token budget.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.155" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.155.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.155.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p155" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p155.1" class="ltx_p">- Do not sacrifice too much accuracy for small token savings.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.156" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.156.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.156.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.156.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.156.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.156.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p156" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p156.1" class="ltx_p">- The goal is a novel controller that is competitive with strong seed algorithms and plausibly stronger on held-out accuracy-efficiency behavior.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.157" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.157.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.157.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:313.7pt;"></span></span></span>
+<span id="A3.p2.pic1.2.158" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.158.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.158.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p158" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p158.1" class="ltx_p">Do not redesign the evaluation framework.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.159" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.159.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.159.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:313.7pt;"></span></span></span>
+<span id="A3.p2.pic1.2.160" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.160.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.160.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p160" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p160.1" class="ltx_p">Required workflow:</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.161" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.161.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.161.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.161.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.161.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.161.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p161" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p161.1" class="ltx_p">1. Inspect the current codebase and understand the environment abstraction (`code_base/data_loader.py`, `code_base/eval.py`).</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.162" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.162.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.162.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.162.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.162.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.162.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p162" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p162.1" class="ltx_p">2. Inspect `code_base/method.py` (and `code_base/method.template.py`) to read the seed implementations `ASCMethod`, `ESCMethod`, `Parallel_Probe`, the shared helpers, and the `OptimalController` stub you must fill in.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.163" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.163.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.163.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.163.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.163.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.163.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p163" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p163.1" class="ltx_p">3. Inspect `code_base/history/seed_algorithms/matrix_results_&lt;Model&gt;/` for the seed accuracy-cost frontier and per-step traces.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.164" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.164.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.164.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.164.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.164.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.164.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p164" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p164.1" class="ltx_p">4. Inspect the latest few `code_base/history/rNNNN_&lt;ts&gt;_&lt;uid&gt;/` folders for prior `OptimalController` proposals (`method.py` snapshot) and their `proposal_results/` (CSV + trace JSONL).</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.165" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.165.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.165.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p165" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p165.1" class="ltx_p">5. Summarize the core ideas of prior proposals and seed algorithms.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.166" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.166.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.166.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.166.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.166.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.166.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p166" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p166.1" class="ltx_p">6. Identify what has already been tried, what failed, and what would count as genuinely different.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.167" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.167.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.167.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.167.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.167.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.167.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p167" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p167.1" class="ltx_p">7. Propose a new controller that is novel, adaptive, and plausibly stronger in held-out accuracy-efficiency behavior.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.168" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.168.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.168.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.168.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.168.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.168.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p168" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p168.1" class="ltx_p">8. Prefer a coherent budget-controlled controller family, ideally governed by `beta`, over many independent thresholds.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.169" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.169.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.169.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.169.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.169.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.169.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p169" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p169.1" class="ltx_p">9. Implement the controller by directly editing `OptimalController` in `code_base/method.py`. Wire the `MethodTraceRecorder` / `_trace_step` / `solve_with_trace` surface in the same style as the seeds so traces are emitted into `training_results/matrix_results_&lt;Model&gt;/&lt;dataset&gt;_trace_new_api.jsonl`.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.170" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.170.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.170.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.170.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.170.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.170.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p170" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p170.1" class="ltx_p">10. Ensure constructor, signature, inheritance/interface behavior, and return behavior remain compatible with `code_base/eval.py` (which currently instantiates `OptimalController(config={{&quot;beta&quot;: beta}})`).</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.171" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.171.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.171.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p171" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p171.1" class="ltx_p">11. Keep the patch focused and avoid unnecessary changes.</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.172" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.172.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.172.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p172" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p172.1" class="ltx_p">12. Summarize:</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.173" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.173.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.173.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p173" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p173.1" class="ltx_p">   - the controller idea</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.174" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.174.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.174.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p174" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p174.1" class="ltx_p">   - whether history was used (which rounds and which seed traces)</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.175" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.175.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.175.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p175" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p175.1" class="ltx_p">   - what lessons were extracted from prior proposals and seed algorithms</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.176" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.176.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.176.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.176.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.176.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.176.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p176" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p176.1" class="ltx_p">   - what makes this controller genuinely different from `ASCMethod`, `ESCMethod`, and `Parallel_Probe`</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.177" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.177.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.177.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p177" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p177.1" class="ltx_p">   - why this controller is adaptive in width-depth budget allocation</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.178" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.178.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.178.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p178" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p178.1" class="ltx_p">   - how it uses the shared `max_branch = 64` budget ceiling</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.179" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.179.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.179.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.179.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.179.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.179.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p179" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p179.1" class="ltx_p">   - whether and how `beta` is used to provide full budget coverage from low budget to near-full budget</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.180" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.180.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.180.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.180.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.180.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.180.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p180" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p180.1" class="ltx_p">   - the exact `beta -&gt; hyperparameter` schedule (analytic form per hyperparameter, fixed structural constants, monotonicity direction) and how it was tuned in the sandbox (what alternatives were tried, why the committed form was selected)</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.181" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.181.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.181.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.181.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.181.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.181.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p181" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p181.1" class="ltx_p">   - how parameter complexity was controlled (in particular, confirmation that no tunable knob other than `beta` is exposed)</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.182" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.182.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.182.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.182.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A3.p2.pic1.2.182.1.3" class="ltx_text ltx_inline-block" style="width:14.7pt;"> </span><span id="A3.p2.pic1.2.182.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:299.0pt;">
+<span id="A3.p2.pic1.p182" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p182.1" class="ltx_p">   - how tracing was instrumented (events emitted, terminal `finish` coverage, payload size discipline)</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.183" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.183.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.183.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p183" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p183.1" class="ltx_p">   - why this proposal may improve the held-out accuracy / total-cost tradeoff</span>
+</span></span></span></span>
+<span id="A3.p2.pic1.2.184" class="ltx_p" style="width:313.7pt;"><span id="A3.p2.pic1.2.184.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:313.7pt;--ltx-fg-color:#000000;"><span id="A3.p2.pic1.2.184.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A3.p2.pic1.p184" class="ltx_para ltx_noindent">
+<span id="A3.p2.pic1.p184.1" class="ltx_p">   - possible risks or failure modes</span>
+</span></span></span></span>
+</span></span></span></foreignobject></g></g></svg>
