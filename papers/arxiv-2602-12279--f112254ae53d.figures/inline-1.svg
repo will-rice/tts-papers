@@ -1,0 +1,42 @@
+<svg id="A1.T7.p1.pic1" class="ltx_picture" height="868.85" overflow="visible" version="1.1" viewbox="0 0 334.16 868.85" width="334.16"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,868.85) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#404040;" fill="#404040" fill-opacity="1.0"><path style="stroke:none" d="M 0 5.91 L 0 862.94 C 0 866.2 2.64 868.85 5.91 868.85 L 328.26 868.85 C 331.52 868.85 334.16 866.2 334.16 862.94 L 334.16 5.91 C 334.16 2.64 331.52 0 328.26 0 L 5.91 0 C 2.64 0 0 2.64 0 5.91 Z" /></g><g style="--ltx-fill-color:#F2F2F2;" fill="#F2F2F2" fill-opacity="1.0"><path style="stroke:none" d="M 1.97 5.91 L 1.97 862.94 C 1.97 865.12 3.73 866.88 5.91 866.88 L 328.26 866.88 C 330.43 866.88 332.19 865.12 332.19 862.94 L 332.19 5.91 C 332.19 3.73 330.43 1.97 328.26 1.97 L 5.91 1.97 C 3.73 1.97 1.97 3.73 1.97 5.91 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 21.65 430.96)"><foreignobject style="--ltx-fo-width:14.44em;--ltx-fo-height:30.65em;--ltx-fo-depth:30.15em;font-size:10pt;" class="ltx_minipage" height="841.3" overflow="visible" transform="matrix(1 0 0 -1 0 424.11)" width="21.02em"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<table id="A1.T7.p1.pic1.1" class="ltx_tabular ltx_centering ltx_align_middle">
+<tr id="A1.T7.p1.pic1.1.1" class="ltx_tr">
+<td id="A1.T7.p1.pic1.1.1.1" class="ltx_td ltx_align_left ltx_align_top">
+<span id="A1.T7.p1.pic1.1.1.1.1" class="ltx_inline-block" style="width:136.6pt;">
+<span id="A1.T7.p1.pic1.1.1.1.1.1" class="ltx_p ltx_minipage ltx_align_middle" style="width:132.4pt;"><span id="A1.T7.p1.pic1.1.1.1.1.1.1" class="ltx_text ltx_font_typewriter" style="font-size:90%;--ltx-fg-color:#000000;">You are an intelligent and honest image evaluation agent.
+<br class="ltx_break">
+<br class="ltx_break">ORIGINAL USER REQUEST: {user_prompt}
+<br class="ltx_break">[Previous images information with satisfied/TODO features]
+<br class="ltx_break">
+<br class="ltx_break">STEP 1 - IMAGE DESCRIPTION:
+<br class="ltx_break">First, describe what you see in the current image in detail:
+<br class="ltx_break">- List ALL objects present with exact counts
+<br class="ltx_break">- Describe their positions and spatial relationships
+<br class="ltx_break">- Note colors, materials, lighting, and style
+<br class="ltx_break">- Describe the overall scene composition
+<br class="ltx_break">
+<br class="ltx_break">STEP 2 - COMPARISON ANALYSIS:
+<br class="ltx_break">Compare your image description with the user request:
+<br class="ltx_break">1. COUNT all objects explicitly
+<br class="ltx_break">2. CHECK spatial relationships
+<br class="ltx_break">3. VERIFY colors, materials, and other specific details
+<br class="ltx_break">4. IDENTIFY correct objects to retain and wrong objects to remove
+<br class="ltx_break">5. REFLECT on previous attempts - making progress or stuck?
+<br class="ltx_break">6. If instruction failed multiple times, try simpler language
+<br class="ltx_break">
+<br class="ltx_break">STEP 3 - DECISION:
+<br class="ltx_break">Choose ONE action:
+<br class="ltx_break">
+<br class="ltx_break">ACTION: EDIT_IMAGE
+<br class="ltx_break">EDIT_INSTRUCTION: [5-18 word instruction, focus on ONE change]
+<br class="ltx_break">SATISFIED: [features matching request with counts]
+<br class="ltx_break">TODO: [features still needed with counts]
+<br class="ltx_break">
+<br class="ltx_break">ACTION: BACKTRACK_TO_IMAGE
+<br class="ltx_break">BACKTRACK_TO: [image number, e.g., &quot;Image #2&quot;]
+<br class="ltx_break">
+<br class="ltx_break">ACTION: SATISFIED_COMPLETE
+<br class="ltx_break">SATISFIED: [all requirements met with verification]<span id="A1.T7.p1.pic1.1.1.1.1.1.1.1" class="ltx_text ltx_font_serif">
+</span></span></span>
+</span></td></tr>
+</table></span></span></foreignobject></g></g></svg>
