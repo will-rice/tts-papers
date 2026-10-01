@@ -38,8 +38,8 @@ The 30 most recent of 3690 papers. Every paper is listed in [papers.csv](papers.
 | 2026-09-25T17:43:21+00:00 | arxiv:2609.31588v1 | [RePlay: Retrieval-Based Voice Playback for Multi-Turn spoken dialogue](https://arxiv.org/abs/2609.31588v1)                                                                | arxiv  |
 | 2026-09-25T08:29:14+00:00 | arxiv:2609.30983v1 | [Tracing and Relearning Detection Evidence in Text-to-Speech Systems](https://arxiv.org/abs/2609.30983v1)                                                                  | arxiv  |
 | 2026-09-25T08:20:56+00:00 | arxiv:2609.30975v1 | [A Comprehensive Study of Content Representations for Speech Synthesis](https://arxiv.org/abs/2609.30975v1)                                                                | arxiv  |
-| 2026-09-25T07:38:49+00:00 | arxiv:2609.30924v1 | [Training-Free Pronunciation Transcription via Text-Constrained Acoustic Rescoring](https://arxiv.org/abs/2609.30924v1)                                                    | arxiv  |
-| 2026-09-24T17:50:40+00:00 | arxiv:2609.30227v1 | [To Trust or Not to Trust: Retrieval-Augmented Fact Checking in Speech](https://arxiv.org/abs/2609.30227v1)                                                                | arxiv  |
+| 2026-09-25T07:38:49+00:00 | arxiv:2609.30924v1 | [Training-Free Pronunciation Transcription via Text-Constrained Acoustic Rescoring](papers/arxiv-2609-30924v1--62fba85faa5a.md)                                            | arxiv  |
+| 2026-09-24T17:50:40+00:00 | arxiv:2609.30227v1 | [To Trust or Not to Trust: Retrieval-Augmented Fact Checking in Speech](papers/arxiv-2609-30227v1--36c7fc8ae986.md)                                                        | arxiv  |
 
 <!-- papers-index:end -->
 
