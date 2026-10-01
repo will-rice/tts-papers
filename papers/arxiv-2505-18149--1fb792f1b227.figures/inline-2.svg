@@ -1,0 +1,15 @@
+<svg id="S9.T6.pic1" class="ltx_picture" height="253.38" overflow="visible" version="1.1" viewbox="0 0 550 253.38" width="550"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,253.38) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#CCCCCC;" fill="#CCCCCC" fill-opacity="1.0"><path style="stroke:none" d="M 0 8.29 L 0 245.09 C 0 249.67 3.71 253.38 8.29 253.38 L 541.71 253.38 C 546.29 253.38 550 249.67 550 245.09 L 550 8.29 C 550 3.71 546.29 0 541.71 0 L 8.29 0 C 3.71 0 0 3.71 0 8.29 Z" /></g><g style="--ltx-fill-color:#F7F9FC;" fill="#F7F9FC" fill-opacity="1.0"><path style="stroke:none" d="M 0.42 8.29 L 0.42 245.09 C 0.42 249.44 3.94 252.96 8.29 252.96 L 541.71 252.96 C 546.06 252.96 549.58 249.44 549.58 245.09 L 549.58 8.29 C 549.58 3.94 546.06 0.42 541.71 0.42 L 8.29 0.42 C 3.94 0.42 0.42 3.94 0.42 8.29 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 16.16 32.29)"><foreignobject style="--ltx-fo-width:37.41em;--ltx-fo-height:15.09em;--ltx-fo-depth:1.45em;font-size:10pt;" height="228.93" overflow="visible" transform="matrix(1 0 0 -1 0 208.86)" width="517.65"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="S9.T6.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:37.41em;">
+<span id="S9.T6.pic1.1.1" class="ltx_p"><span id="S9.T6.pic1.1.1.1" class="ltx_text ltx_font_sansserif ltx_font_bold" style="--ltx-fg-color:#282828;">Task Template<span id="S9.T6.pic1.1.1.1.1" class="ltx_text ltx_font_medium" style="--ltx-fg-color:#000000;"> 
+<br class="ltx_break" style="--ltx-break-space:5.0pt;">
+<span id="S9.T6.pic1.1.1.1.1.1" class="ltx_text" style="--ltx-fg-color:#5A5A5A;">What is the correct answer to this question:</span> 
+<br class="ltx_break"><span id="S9.T6.pic1.1.1.1.1.2" class="ltx_text" style="--ltx-fg-color:#1E5A8C;">{problem}</span> 
+<br class="ltx_break" style="--ltx-break-space:5.0pt;">
+<span id="S9.T6.pic1.1.1.1.1.3" class="ltx_text" style="--ltx-fg-color:#5A5A5A;">Choices:</span> 
+<br class="ltx_break"> (A) <span id="S9.T6.pic1.1.1.1.1.4" class="ltx_text" style="--ltx-fg-color:#1E5A8C;">{Option 1}</span> 
+<br class="ltx_break"> (B) <span id="S9.T6.pic1.1.1.1.1.5" class="ltx_text" style="--ltx-fg-color:#1E5A8C;">{Option 2}</span> 
+<br class="ltx_break"> (C) <span id="S9.T6.pic1.1.1.1.1.6" class="ltx_text" style="--ltx-fg-color:#1E5A8C;">{Option 3}</span> 
+<br class="ltx_break"> (D) <span id="S9.T6.pic1.1.1.1.1.7" class="ltx_text" style="--ltx-fg-color:#1E5A8C;">{Option 4}</span> 
+<br class="ltx_break" style="--ltx-break-space:5.0pt;">
+<span id="S9.T6.pic1.1.1.1.1.8" class="ltx_text" style="--ltx-fg-color:#5A5A5A;">Answer: (A), (B), (C), or (D). Choose the correct option within <span id="S9.T6.pic1.1.1.1.1.8.1" class="ltx_text ltx_font_typewriter">\boxed{}</span>.</span></span></span></span>
+</span></span></span></foreignobject></g></g></svg>
