@@ -10,6 +10,10 @@ failures:
   arxiv:2407.07728:
   - error: 'conversion input HTTP 404: https://arxiv.org/pdf/2407.07728'
     occurred_at: '2026-10-01T11:22:02.362819Z'
+  - error: 'conversion input HTTP 404: https://arxiv.org/pdf/2407.07728'
+    occurred_at: '2026-10-01T13:58:34.156851Z'
   arxiv:2409.01668:
   - error: 'conversion input HTTP 404: https://arxiv.org/pdf/2409.01668'
     occurred_at: '2026-10-01T11:24:42.728983Z'
+  - error: 'conversion input HTTP 404: https://arxiv.org/pdf/2409.01668'
+    occurred_at: '2026-10-01T13:58:34.156851Z'
