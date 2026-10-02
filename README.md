@@ -6,10 +6,17 @@ Standalone paper discovery and conversion for Text-to-speech research papers.
 
 # Papers
 
-The 30 most recent of 3690 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 3697 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
 | Published                 | Identifier         | Title                                                                                                                                                                              | Source |
 | ------------------------- | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| 2026-10-01T16:16:27+00:00 | arxiv:2610.01961v1 | [Multi-sample Synthetic Supervision for Accent Conversion](papers/arxiv-2610-01961v1--b6db4350d803.md)                                                                             | arxiv  |
+| 2026-10-01T16:12:05+00:00 | arxiv:2610.01952v1 | [Shared-State Local Translations for Training-Free Voice Conversion](papers/arxiv-2610-01952v1--51ace87a0508.md)                                                                   | arxiv  |
+| 2026-10-01T07:52:17+00:00 | arxiv:2610.01259v1 | [A Federated Deepfake Speech Detection Method Based on Layer-Wise Center-Guided Weighting Aggregation](papers/arxiv-2610-01259v1--37ce337b46f0.md)                                 | arxiv  |
+| 2026-10-01T03:57:30+00:00 | arxiv:2610.01012v1 | [Watch Your Speech: Text-aware Video-to-Speech Synthesis with Textual Conditioning](papers/arxiv-2610-01012v1--272b03a502c4.md)                                                    | arxiv  |
+| 2026-09-30T21:27:53+00:00 | arxiv:2610.00735v1 | [Articulatory Source-Filter TTS: Physically Grounded Control through Vocal Tract Kinematics](papers/arxiv-2610-00735v1--9d612579c6d4.md)                                           | arxiv  |
+| 2026-09-30T20:00:52+00:00 | arxiv:2610.00662v1 | [Silence-the-Mimic: Accelerating Imperceptible Perturbation Generation Against Voice Cloning](papers/arxiv-2610-00662v1--efda4556d1ee.md)                                          | arxiv  |
+| 2026-09-30T19:58:11+00:00 | arxiv:2610.00658v1 | [Balalaika-Longform: A Russian Speech Corpus for Continuous Long-Form Text-to-Speech](papers/arxiv-2610-00658v1--7e2f16182655.md)                                                  | arxiv  |
 | 2026-09-30T17:05:58+00:00 | arxiv:2609.40181v1 | [Index-Translate: A Multilingual Translation Model Family -- Text, Speech, Controlled Dubbing, and Long-Document Translation](papers/arxiv-2609-40181v1--ce39dfd0cf74.md)          | arxiv  |
 | 2026-09-30T16:31:01+00:00 | arxiv:2609.40087v1 | [MeanVoiceFlow2: Joint Optimization of Mean Flow and Content Encoder for Fast One-Step Zero-Shot Voice Conversion](papers/arxiv-2609-40087v1--b89eb82ea4e5.md)                     | arxiv  |
 | 2026-09-29T23:25:21+00:00 | arxiv:2609.38658v1 | [Tacit-TTS: From Autoregressive Decoding to Masked Prediction for Efficient Transcript-Free Voice Cloning](papers/arxiv-2609-38658v1--79175eaef007.md)                             | arxiv  |
@@ -33,13 +40,6 @@ The 30 most recent of 3690 papers. Every paper is listed in [papers.csv](papers.
 | 2026-09-26T16:52:32+00:00 | arxiv:2609.32777v1 | [DEFINE: Exemplar-Guided Accent Control for Zero-Shot TTS](papers/arxiv-2609-32777v1--86b67b89b328.md)                                                                             | arxiv  |
 | 2026-09-26T12:35:29+00:00 | arxiv:2609.32560v1 | [How to Reduce Whisper Hallucination](papers/arxiv-2609-32560v1--740e1be6079e.md)                                                                                                  | arxiv  |
 | 2026-09-26T11:47:18+00:00 | arxiv:2609.32504v1 | [Toward Human-Aligned Judgement of Speech Emotion Similarity](papers/arxiv-2609-32504v1--d9336ad5c887.md)                                                                          | arxiv  |
-| 2026-09-25T22:31:39+00:00 | arxiv:2609.32050v1 | [Tracing Decoder Artifacts for Compact Synthetic Speech Screening](papers/arxiv-2609-32050v1--936ac72648d9.md)                                                                     | arxiv  |
-| 2026-09-25T21:28:16+00:00 | arxiv:2609.32016v1 | [VoiceNet: Fine-Grained Voice Understanding Beyond Emotion at Scale](papers/arxiv-2609-32016v1--345188580c6a.md)                                                                   | arxiv  |
-| 2026-09-25T17:43:21+00:00 | arxiv:2609.31588v1 | [RePlay: Retrieval-Based Voice Playback for Multi-Turn spoken dialogue](papers/arxiv-2609-31588v1--e3f4e4dab2eb.md)                                                                | arxiv  |
-| 2026-09-25T08:29:14+00:00 | arxiv:2609.30983v1 | [Tracing and Relearning Detection Evidence in Text-to-Speech Systems](papers/arxiv-2609-30983v1--87bb5c84c787.md)                                                                  | arxiv  |
-| 2026-09-25T08:20:56+00:00 | arxiv:2609.30975v1 | [A Comprehensive Study of Content Representations for Speech Synthesis](papers/arxiv-2609-30975v1--34a3ebe59354.md)                                                                | arxiv  |
-| 2026-09-25T07:38:49+00:00 | arxiv:2609.30924v1 | [Training-Free Pronunciation Transcription via Text-Constrained Acoustic Rescoring](papers/arxiv-2609-30924v1--62fba85faa5a.md)                                                    | arxiv  |
-| 2026-09-24T17:50:40+00:00 | arxiv:2609.30227v1 | [To Trust or Not to Trust: Retrieval-Augmented Fact Checking in Speech](papers/arxiv-2609-30227v1--36c7fc8ae986.md)                                                                | arxiv  |
 
 <!-- papers-index:end -->
 
