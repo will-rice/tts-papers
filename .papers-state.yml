@@ -6,9 +6,4 @@ backfill:
     continuation: null
     covered_from: '2023-05-04T00:00:00Z'
 continuations: {}
-failures:
-  arxiv:2603.20686:
-  - error: 'conversion input HTTP 404: https://arxiv.org/pdf/2603.20686'
-    occurred_at: '2026-10-01T15:14:39.097013Z'
-  - error: 'conversion input HTTP 404: https://arxiv.org/pdf/2603.20686'
-    occurred_at: '2026-10-01T16:47:36.048578Z'
+failures: {}
