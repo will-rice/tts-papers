@@ -6,10 +6,12 @@ Standalone paper discovery and conversion for Text-to-speech research papers.
 
 # Papers
 
-The 30 most recent of 3698 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 3700 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
 | Published                 | Identifier         | Title                                                                                                                                                                              | Source      |
 | ------------------------- | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| 2026-10-02T14:38:59+00:00 | arxiv:2610.03390v1 | [DriftTTS: Few-Step Text-to-Speech Without Distillation via Distribution-Matching Drift](papers/arxiv-2610-03390v1--d02ed3e70922.md)                                               | arxiv       |
+| 2026-10-02T09:42:25+00:00 | arxiv:2610.03058v1 | [Unsupervised Instantaneous Phase and Frequency Tracking by Inverse Voice Synthesis](papers/arxiv-2610-03058v1--4a4b5aa169b3.md)                                                   | arxiv       |
 | 2026-10-01T16:16:27+00:00 | arxiv:2610.01961v1 | [Multi-sample Synthetic Supervision for Accent Conversion](papers/arxiv-2610-01961v1--b6db4350d803.md)                                                                             | arxiv       |
 | 2026-10-01T16:12:05+00:00 | arxiv:2610.01952v1 | [Shared-State Local Translations for Training-Free Voice Conversion](papers/arxiv-2610-01952v1--51ace87a0508.md)                                                                   | arxiv       |
 | 2026-10-01T07:52:17+00:00 | arxiv:2610.01259v1 | [A Federated Deepfake Speech Detection Method Based on Layer-Wise Center-Guided Weighting Aggregation](papers/arxiv-2610-01259v1--37ce337b46f0.md)                                 | arxiv       |
@@ -38,8 +40,6 @@ The 30 most recent of 3698 papers. Every paper is listed in [papers.csv](papers.
 | 2026-09-27T08:58:08+00:00 | arxiv:2609.33375v1 | [What Survives the Codec Shift: Pooled No-Vocals Residuals for Speech Deepfake Detection](papers/arxiv-2609-33375v1--916373f7ff88.md)                                              | arxiv       |
 | 2026-09-27T08:37:26+00:00 | arxiv:2609.33362v1 | [From Script to Drama: An Agentic Framework for Controllable Multi-Speaker Dialogue TTS](papers/arxiv-2609-33362v1--454e2c348fcf.md)                                               | arxiv       |
 | 2026-09-26T18:15:33+00:00 | arxiv:2609.32843v1 | [WhisperVC-AV: Audio-Visual Content Restoration for Noise-Robust Whisper-to-Normal Voice Conversion](papers/arxiv-2609-32843v1--4393e9119b3f.md)                                   | arxiv       |
-| 2026-09-26T16:52:32+00:00 | arxiv:2609.32777v1 | [DEFINE: Exemplar-Guided Accent Control for Zero-Shot TTS](papers/arxiv-2609-32777v1--86b67b89b328.md)                                                                             | arxiv       |
-| 2026-09-26T12:35:29+00:00 | arxiv:2609.32560v1 | [How to Reduce Whisper Hallucination](papers/arxiv-2609-32560v1--740e1be6079e.md)                                                                                                  | arxiv       |
 
 <!-- papers-index:end -->
 
