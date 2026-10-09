@@ -6,14 +6,18 @@ Standalone paper discovery and conversion for Text-to-speech research papers.
 
 # Papers
 
-The 30 most recent of 3724 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 3728 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
 | Published                 | Identifier         | Title                                                                                                                                                                                         | Source      |
 | ------------------------- | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| 2026-10-08T08:12:28+00:00 | arxiv:2610.11461v1 | [Beyond Speech Captions: Speech-Rewarded Style Planning for Conversational Text-to-Speech](papers/arxiv-2610-11461v1--ef1cd381a4e2.md)                                                        | arxiv       |
+| 2026-10-08T07:59:57+00:00 | arxiv:2610.11437v1 | [Edit Who Speaks, Control How They Speak: Global Timbre Editing and Local Instruction Control for TTS](papers/arxiv-2610-11437v1--d90640788929.md)                                            | arxiv       |
+| 2026-10-08T05:38:01+00:00 | arxiv:2610.11275v1 | [Phonological Interference in Multilingual Speech Models](papers/arxiv-2610-11275v1--4c71a526de95.md)                                                                                         | arxiv       |
 | 2026-10-07T16:56:56+00:00 | arxiv:2610.10415v1 | [Steerspeech: Activation Steering For Emotion Control In Generated Speech](papers/arxiv-2610-10415v1--8282c8d5daf9.md)                                                                        | arxiv       |
 | 2026-10-07T10:51:38+00:00 | arxiv:2610.09831v1 | [Training-Free Instruction TTS Gender Bias Calibration Using Model-Adaptive Steering](papers/arxiv-2610-09831v1--4c424c1c5d77.md)                                                             | arxiv       |
 | 2026-10-07T05:00:25+00:00 | arxiv:2610.09448v1 | [Beyond Token Revision: Investigating Mask-and-Replace Diffusion for Zero-Shot Text-to-Speech](papers/arxiv-2610-09448v1--5d7c0ebbbc76.md)                                                    | arxiv       |
 | 2026-10-07T02:25:43+00:00 | arxiv:2610.09321v1 | [Dialect-Robust Speech Language Models with Synthetic Pseudo-Dialect Augmentation](papers/arxiv-2610-09321v1--47ec25003cfa.md)                                                                | arxiv       |
+| 2026-10-07T00:00:00+00:00 | arxiv:2610.09684   | [From Pareto to Preference: Personalized Test-Time Scaling via Amortized Agentic Policy Discovery](papers/arxiv-2610-09684--241c05215eba.md)                                                  | huggingface |
 | 2026-10-06T23:13:22+00:00 | arxiv:2610.09211v1 | [BanglaBox: A Phonetically-Balanced Corpus and Data-Efficient Foundation-Model Adaptation for Bangla Text-to-Speech with Zero-Shot Voice Cloning](papers/arxiv-2610-09211v1--b111a4ebedaa.md) | arxiv       |
 | 2026-10-06T12:47:08+00:00 | arxiv:2610.08276v1 | [Voice Anonymization Made Simple: Training-Free Anonymization with Projected Classifier-Free Guidance](papers/arxiv-2610-08276v1--c9076613a9ca.md)                                            | arxiv       |
 | 2026-10-06T02:41:15+00:00 | arxiv:2610.07647v1 | [Loud and Clear: Dynamic Activation Steering for Improving Speech Intelligibility in Noisy Environments](papers/arxiv-2610-07647v1--6c7fbc7c5a85.md)                                          | arxiv       |
@@ -36,10 +40,6 @@ The 30 most recent of 3724 papers. Every paper is listed in [papers.csv](papers.
 | 2026-10-03T02:57:00+00:00 | arxiv:2610.04235v1 | [Learning to Watermark Speech Synthesis Against Model-Driven Reconstruction](papers/arxiv-2610-04235v1--cc5773c7e125.md)                                                                      | arxiv       |
 | 2026-10-02T14:38:59+00:00 | arxiv:2610.03390v1 | [DriftTTS: Few-Step Text-to-Speech Without Distillation via Distribution-Matching Drift](papers/arxiv-2610-03390v1--d02ed3e70922.md)                                                          | arxiv       |
 | 2026-10-02T09:42:25+00:00 | arxiv:2610.03058v1 | [Unsupervised Instantaneous Phase and Frequency Tracking by Inverse Voice Synthesis](papers/arxiv-2610-03058v1--4a4b5aa169b3.md)                                                              | arxiv       |
-| 2026-10-01T16:16:27+00:00 | arxiv:2610.01961v1 | [Multi-sample Synthetic Supervision for Accent Conversion](papers/arxiv-2610-01961v1--b6db4350d803.md)                                                                                        | arxiv       |
-| 2026-10-01T16:12:05+00:00 | arxiv:2610.01952v1 | [Shared-State Local Translations for Training-Free Voice Conversion](papers/arxiv-2610-01952v1--51ace87a0508.md)                                                                              | arxiv       |
-| 2026-10-01T07:52:17+00:00 | arxiv:2610.01259v1 | [A Federated Deepfake Speech Detection Method Based on Layer-Wise Center-Guided Weighting Aggregation](papers/arxiv-2610-01259v1--37ce337b46f0.md)                                            | arxiv       |
-| 2026-10-01T03:57:30+00:00 | arxiv:2610.01012v1 | [Watch Your Speech: Text-aware Video-to-Speech Synthesis with Textual Conditioning](papers/arxiv-2610-01012v1--272b03a502c4.md)                                                               | arxiv       |
 
 <!-- papers-index:end -->
 
