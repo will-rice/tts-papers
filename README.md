@@ -6,10 +6,12 @@ Standalone paper discovery and conversion for Text-to-speech research papers.
 
 # Papers
 
-The 30 most recent of 3728 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 3730 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
 | Published                 | Identifier         | Title                                                                                                                                                                                         | Source      |
 | ------------------------- | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| 2026-10-09T04:55:49+00:00 | arxiv:2610.12993v1 | [E3-System: Expressive EmoData, Explicitly Controllable, Easy-to-Use TTS](papers/arxiv-2610-12993v1--9e4be369da5c.md)                                                                         | arxiv       |
+| 2026-10-09T03:56:01+00:00 | arxiv:2610.12958v1 | [Emo-BPO: Emotion Bidirectional Preference Optimization for Diffusion-based Emotional TTS](papers/arxiv-2610-12958v1--c9da9d9657ea.md)                                                        | arxiv       |
 | 2026-10-08T08:12:28+00:00 | arxiv:2610.11461v1 | [Beyond Speech Captions: Speech-Rewarded Style Planning for Conversational Text-to-Speech](papers/arxiv-2610-11461v1--ef1cd381a4e2.md)                                                        | arxiv       |
 | 2026-10-08T07:59:57+00:00 | arxiv:2610.11437v1 | [Edit Who Speaks, Control How They Speak: Global Timbre Editing and Local Instruction Control for TTS](papers/arxiv-2610-11437v1--d90640788929.md)                                            | arxiv       |
 | 2026-10-08T05:38:01+00:00 | arxiv:2610.11275v1 | [Phonological Interference in Multilingual Speech Models](papers/arxiv-2610-11275v1--4c71a526de95.md)                                                                                         | arxiv       |
@@ -38,8 +40,6 @@ The 30 most recent of 3728 papers. Every paper is listed in [papers.csv](papers.
 | 2026-10-03T12:59:30+00:00 | arxiv:2610.04500v1 | [VoiceWeaver: Staged Learning of Structured Controls for Expressive Speech and Sound-Event Generation](papers/arxiv-2610-04500v1--dbad3a6665b6.md)                                            | arxiv       |
 | 2026-10-03T12:44:09+00:00 | arxiv:2610.04488v1 | [Can LLM Agents Automate Reinforcement Learning for Text-to-Speech?](papers/arxiv-2610-04488v1--691f9b7311d7.md)                                                                              | arxiv       |
 | 2026-10-03T02:57:00+00:00 | arxiv:2610.04235v1 | [Learning to Watermark Speech Synthesis Against Model-Driven Reconstruction](papers/arxiv-2610-04235v1--cc5773c7e125.md)                                                                      | arxiv       |
-| 2026-10-02T14:38:59+00:00 | arxiv:2610.03390v1 | [DriftTTS: Few-Step Text-to-Speech Without Distillation via Distribution-Matching Drift](papers/arxiv-2610-03390v1--d02ed3e70922.md)                                                          | arxiv       |
-| 2026-10-02T09:42:25+00:00 | arxiv:2610.03058v1 | [Unsupervised Instantaneous Phase and Frequency Tracking by Inverse Voice Synthesis](papers/arxiv-2610-03058v1--4a4b5aa169b3.md)                                                              | arxiv       |
 
 <!-- papers-index:end -->
 
