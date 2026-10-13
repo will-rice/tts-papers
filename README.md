@@ -6,7 +6,7 @@ Standalone paper discovery and conversion for Text-to-speech research papers.
 
 # Papers
 
-The 30 most recent of 3730 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 3731 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
 | Published                 | Identifier         | Title                                                                                                                                                                                         | Source      |
 | ------------------------- | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
@@ -15,6 +15,7 @@ The 30 most recent of 3730 papers. Every paper is listed in [papers.csv](papers.
 | 2026-10-08T08:12:28+00:00 | arxiv:2610.11461v1 | [Beyond Speech Captions: Speech-Rewarded Style Planning for Conversational Text-to-Speech](papers/arxiv-2610-11461v1--ef1cd381a4e2.md)                                                        | arxiv       |
 | 2026-10-08T07:59:57+00:00 | arxiv:2610.11437v1 | [Edit Who Speaks, Control How They Speak: Global Timbre Editing and Local Instruction Control for TTS](papers/arxiv-2610-11437v1--d90640788929.md)                                            | arxiv       |
 | 2026-10-08T05:38:01+00:00 | arxiv:2610.11275v1 | [Phonological Interference in Multilingual Speech Models](papers/arxiv-2610-11275v1--4c71a526de95.md)                                                                                         | arxiv       |
+| 2026-10-08T00:00:00+00:00 | arxiv:2609.38748   | [Hear the World in Stereo: Learning Dynamic Spatial Correspondence for Immersive Joint Video-Audio Generation](papers/arxiv-2609-38748--35c2f2f6788c.md)                                      | huggingface |
 | 2026-10-07T16:56:56+00:00 | arxiv:2610.10415v1 | [Steerspeech: Activation Steering For Emotion Control In Generated Speech](papers/arxiv-2610-10415v1--8282c8d5daf9.md)                                                                        | arxiv       |
 | 2026-10-07T10:51:38+00:00 | arxiv:2610.09831v1 | [Training-Free Instruction TTS Gender Bias Calibration Using Model-Adaptive Steering](papers/arxiv-2610-09831v1--4c424c1c5d77.md)                                                             | arxiv       |
 | 2026-10-07T05:00:25+00:00 | arxiv:2610.09448v1 | [Beyond Token Revision: Investigating Mask-and-Replace Diffusion for Zero-Shot Text-to-Speech](papers/arxiv-2610-09448v1--5d7c0ebbbc76.md)                                                    | arxiv       |
@@ -39,7 +40,6 @@ The 30 most recent of 3730 papers. Every paper is listed in [papers.csv](papers.
 | 2026-10-03T20:48:19+00:00 | arxiv:2610.04757v1 | [Prompt-Consistency Inference for Zero-Shot Flow-Matching Text-to-Speech Models](papers/arxiv-2610-04757v1--c81277a94d4a.md)                                                                  | arxiv       |
 | 2026-10-03T12:59:30+00:00 | arxiv:2610.04500v1 | [VoiceWeaver: Staged Learning of Structured Controls for Expressive Speech and Sound-Event Generation](papers/arxiv-2610-04500v1--dbad3a6665b6.md)                                            | arxiv       |
 | 2026-10-03T12:44:09+00:00 | arxiv:2610.04488v1 | [Can LLM Agents Automate Reinforcement Learning for Text-to-Speech?](papers/arxiv-2610-04488v1--691f9b7311d7.md)                                                                              | arxiv       |
-| 2026-10-03T02:57:00+00:00 | arxiv:2610.04235v1 | [Learning to Watermark Speech Synthesis Against Model-Driven Reconstruction](papers/arxiv-2610-04235v1--cc5773c7e125.md)                                                                      | arxiv       |
 
 <!-- papers-index:end -->
 
