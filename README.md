@@ -6,10 +6,11 @@ Standalone paper discovery and conversion for Text-to-speech research papers.
 
 # Papers
 
-The 30 most recent of 3743 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 3744 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
 | Published                 | Identifier         | Title                                                                                                                                                                                         | Source      |
 | ------------------------- | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| 2026-10-13T00:00:00+00:00 | arxiv:2610.18010   | [Fish Audio Drama 3 Technical Report](papers/arxiv-2610-18010--8f55ac65ca78.md)                                                                                                               | huggingface |
 | 2026-10-12T01:18:14+00:00 | arxiv:2610.16036v1 | [Prime-EVC: One-Step Expressive Emotional Voice Conversion via Emotion-Primed Flow Matching](papers/arxiv-2610-16036v1--7c66c509fee3.md)                                                      | arxiv       |
 | 2026-10-11T06:05:01+00:00 | arxiv:2610.15379v1 | [LiveAnon: Improving Privacy and Utility in Streaming Speaker Anonymization with Codec Language Models](papers/arxiv-2610-15379v1--49be5a43e5ab.md)                                           | arxiv       |
 | 2026-10-11T05:26:28+00:00 | arxiv:2610.15353v1 | [KOMOS: Automatic Mean Opinion Score Estimation for Korean Speech](papers/arxiv-2610-15353v1--76292ab2a51d.md)                                                                                | arxiv       |
@@ -39,7 +40,6 @@ The 30 most recent of 3743 papers. Every paper is listed in [papers.csv](papers.
 | 2026-10-06T00:00:00+00:00 | arxiv:2610.07727   | [HiPLEX: Hierarchical Policy Factorization for Full Duplex Speech Language Models](papers/arxiv-2610-07727--7c6a172e6ef6.md)                                                                  | huggingface |
 | 2026-10-05T23:58:20+00:00 | arxiv:2610.07531v1 | [BVI: Lightweight, Data-Centric Blockchain-Based Verification of Identity Claims](papers/arxiv-2610-07531v1--54875f36626e.md)                                                                 | arxiv       |
 | 2026-10-05T23:46:12+00:00 | arxiv:2610.07524v1 | [Region-Aware Masking for Accent-Robust Cross-Lingual Text-to-Speech](papers/arxiv-2610-07524v1--b7e4a258adad.md)                                                                             | arxiv       |
-| 2026-10-05T17:56:07+00:00 | arxiv:2610.06817v1 | [Paradee: Distilling Kokoro-82M into an 8M-Parameter Single-Voice Text-to-Speech Model](papers/arxiv-2610-06817v1--a92f7ad619ea.md)                                                           | arxiv       |
 
 <!-- papers-index:end -->
 
