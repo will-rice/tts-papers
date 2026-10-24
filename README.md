@@ -6,10 +6,12 @@ Standalone paper discovery and conversion for Text-to-speech research papers.
 
 # Papers
 
-The 30 most recent of 3769 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 3771 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
 | Published                 | Identifier         | Title                                                                                                                                                    | Source      |
 | ------------------------- | ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| 2026-10-21T21:51:23+00:00 | arxiv:2610.30477v1 | [EmoFI-TTS: Face-Conditioned Expressive Voice Synthesis with Intensity Modulation](papers/arxiv-2610-30477v1--b93b5712b848.md)                           | arxiv       |
+| 2026-10-21T21:42:44+00:00 | arxiv:2610.30470v1 | [HeyGen Voice: Scene-Aware Voice Cloning for Talking Videos](papers/arxiv-2610-30470v1--e7bf2e360ac6.md)                                                 | arxiv       |
 | 2026-10-21T14:38:19+00:00 | arxiv:2610.29815v1 | [NeuroCodec: EEG-Guided Latent-Domain Generative Model for High-Fidelity Target Speaker Extraction](papers/arxiv-2610-29815v1--5557f089a4b2.md)          | arxiv       |
 | 2026-10-21T08:57:55+00:00 | arxiv:2610.29434v1 | [RubatoCodec: Budgeted Adaptive Speech Tokenization with Streaming Decoding](papers/arxiv-2610-29434v1--c3668de86d99.md)                                 | arxiv       |
 | 2026-10-21T07:46:22+00:00 | arxiv:2610.29351v1 | [Closed-Loop Dual-Reference Guidance for Accent Control in Cross-Lingual Voice Cloning](papers/arxiv-2610-29351v1--8a0732358d56.md)                      | arxiv       |
@@ -38,8 +40,6 @@ The 30 most recent of 3769 papers. Every paper is listed in [papers.csv](papers.
 | 2026-10-13T00:00:00+00:00 | arxiv:2610.18010   | [Fish Audio Drama 3 Technical Report](papers/arxiv-2610-18010--8f55ac65ca78.md)                                                                          | huggingface |
 | 2026-10-12T01:18:14+00:00 | arxiv:2610.16036v1 | [Prime-EVC: One-Step Expressive Emotional Voice Conversion via Emotion-Primed Flow Matching](papers/arxiv-2610-16036v1--7c66c509fee3.md)                 | arxiv       |
 | 2026-10-11T06:05:01+00:00 | arxiv:2610.15379v1 | [LiveAnon: Improving Privacy and Utility in Streaming Speaker Anonymization with Codec Language Models](papers/arxiv-2610-15379v1--49be5a43e5ab.md)      | arxiv       |
-| 2026-10-11T05:26:28+00:00 | arxiv:2610.15353v1 | [KOMOS: Automatic Mean Opinion Score Estimation for Korean Speech](papers/arxiv-2610-15353v1--76292ab2a51d.md)                                           | arxiv       |
-| 2026-10-10T17:30:02+00:00 | arxiv:2610.15082v1 | [GAMW: Generation-Aware Mel-Domain Watermarking for TTS Traceability](papers/arxiv-2610-15082v1--f87f9903fc90.md)                                        | arxiv       |
 
 <!-- papers-index:end -->
 
