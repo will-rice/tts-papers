@@ -6,40 +6,40 @@ Standalone paper discovery and conversion for Text-to-speech research papers.
 
 # Papers
 
-The 30 most recent of 3771 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 3776 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
-| Published                 | Identifier         | Title                                                                                                                                                    | Source      |
-| ------------------------- | ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
-| 2026-10-21T21:51:23+00:00 | arxiv:2610.30477v1 | [EmoFI-TTS: Face-Conditioned Expressive Voice Synthesis with Intensity Modulation](papers/arxiv-2610-30477v1--b93b5712b848.md)                           | arxiv       |
-| 2026-10-21T21:42:44+00:00 | arxiv:2610.30470v1 | [HeyGen Voice: Scene-Aware Voice Cloning for Talking Videos](papers/arxiv-2610-30470v1--e7bf2e360ac6.md)                                                 | arxiv       |
-| 2026-10-21T14:38:19+00:00 | arxiv:2610.29815v1 | [NeuroCodec: EEG-Guided Latent-Domain Generative Model for High-Fidelity Target Speaker Extraction](papers/arxiv-2610-29815v1--5557f089a4b2.md)          | arxiv       |
-| 2026-10-21T08:57:55+00:00 | arxiv:2610.29434v1 | [RubatoCodec: Budgeted Adaptive Speech Tokenization with Streaming Decoding](papers/arxiv-2610-29434v1--c3668de86d99.md)                                 | arxiv       |
-| 2026-10-21T07:46:22+00:00 | arxiv:2610.29351v1 | [Closed-Loop Dual-Reference Guidance for Accent Control in Cross-Lingual Voice Cloning](papers/arxiv-2610-29351v1--8a0732358d56.md)                      | arxiv       |
-| 2026-10-21T07:38:25+00:00 | arxiv:2610.29345v1 | [Decodability Is Not Controllability: Local and Anisotropic Speaker Control in Continuous-Latent TTS](papers/arxiv-2610-29345v1--2e0d931a896e.md)        | arxiv       |
-| 2026-10-21T03:35:42+00:00 | arxiv:2610.29150v1 | [Where Does Timbre Hide? Localizing Speaker Information in Speech Signals](papers/arxiv-2610-29150v1--b8423d9d1d01.md)                                   | arxiv       |
-| 2026-10-21T03:07:12+00:00 | arxiv:2610.29123v1 | [Character-Level Prosody Control for Mandarin Speech Synthesis:An Architecture-Preserving Approach](papers/arxiv-2610-29123v1--dab2efb4c794.md)          | arxiv       |
-| 2026-10-20T11:23:47+00:00 | arxiv:2610.28035v1 | [LoCA: Local Credit Assignment for Reinforcement Learning of Autoregressive Flow-Matching TTS](papers/arxiv-2610-28035v1--8abbd43b93df.md)               | arxiv       |
-| 2026-10-19T23:51:11+00:00 | arxiv:2610.27403v1 | [Steering intonational tunes in text-to-speech synthesis](papers/arxiv-2610-27403v1--fbfa9166282d.md)                                                    | arxiv       |
-| 2026-10-19T12:11:28+00:00 | arxiv:2610.26252v1 | [SEAM: Spectral Embedding Alignment and Merging for Low-Resource TTS](papers/arxiv-2610-26252v1--eab490585540.md)                                        | arxiv       |
-| 2026-10-19T07:36:52+00:00 | arxiv:2610.25942v1 | [Speech LLMs That Breathe: Modeling Non-Verbal Vocalizations in Dialogue](papers/arxiv-2610-25942v1--14ea81f8acd0.md)                                    | arxiv       |
-| 2026-10-18T16:46:10+00:00 | arxiv:2610.25394v1 | [MixiSpeech: Progressive State Distillation for One-Step Vietnamese TTS](papers/arxiv-2610-25394v1--4f804f2d5e39.md)                                     | arxiv       |
-| 2026-10-18T14:19:54+00:00 | arxiv:2610.25292v1 | [Does Expert Supervision Improve Text-to-Speech? An Empirical Study of Preference Optimization](papers/arxiv-2610-25292v1--34d5c154ab56.md)              | arxiv       |
-| 2026-10-18T13:30:22+00:00 | arxiv:2610.25259v1 | [VoxDub: A Bilingual Lip-Synchronized Audio-Visual Dataset for Automatic Video Dubbing](papers/arxiv-2610-25259v1--6ec77ae43b4a.md)                      | arxiv       |
-| 2026-10-18T00:00:00+00:00 | arxiv:2610.25519   | [ATEST: Adaptive Resource-Aware Test-Time Scaling for LLM Inference](papers/arxiv-2610-25519--26da4cccb9cb.md)                                           | huggingface |
-| 2026-10-17T23:35:41+00:00 | arxiv:2610.24917v1 | [How Well Can LLMs Verbalize Mathematical Formulas? A Multi-Domain Evaluation](papers/arxiv-2610-24917v1--79d88406af04.md)                               | arxiv       |
-| 2026-10-17T05:22:59+00:00 | arxiv:2610.24468v1 | [SENTRY: A Streaming Edge Network Trust Engine for Real-Time Audio Deepfake Detection](papers/arxiv-2610-24468v1--4d23705fd9f7.md)                       | arxiv       |
-| 2026-10-16T16:09:20+00:00 | arxiv:2610.23678v1 | [Beyond the Benchmark: Conditioning, Domains and Failure Modes of Qwen3-TTS](papers/arxiv-2610-23678v1--ff7d487db074.md)                                 | arxiv       |
-| 2026-10-16T14:26:55+00:00 | arxiv:2610.23526v1 | [Interpreting SSL Representations for Spoof Detection: a WavLM Study](papers/arxiv-2610-23526v1--75b4be721ee3.md)                                        | arxiv       |
-| 2026-10-16T05:31:38+00:00 | arxiv:2610.22960v1 | [DriftTTS: One-stage Single Step Text-to-Speech via Generative Drifting](papers/arxiv-2610-22960v1--bd9772441276.md)                                     | arxiv       |
-| 2026-10-16T02:19:40+00:00 | arxiv:2610.22832v1 | [Too Emotional to Be Fake? Intra-Utterance Emotion Shifts Expose Failure Modes in Speech Deepfake Detectors](papers/arxiv-2610-22832v1--d7a2d19a806f.md) | arxiv       |
-| 2026-10-14T19:15:48+00:00 | arxiv:2610.20830v1 | [PEDBench: Can Speech Models Detect Phonetic Errors?](papers/arxiv-2610-20830v1--a51b5020a276.md)                                                        | arxiv       |
-| 2026-10-14T13:29:29+00:00 | arxiv:2610.20181v1 | [Noise-Aware Lombard Speech Synthesis via Flow-GRPO for Intelligibility Optimization](papers/arxiv-2610-20181v1--732baa756e6d.md)                        | arxiv       |
-| 2026-10-14T08:23:44+00:00 | arxiv:2610.19774v1 | [Long-Prompt Zero-Shot TTS: Benchmarking Prosody Reproduction Beyond Voice Cloning](papers/arxiv-2610-19774v1--d79f0438df66.md)                          | arxiv       |
-| 2026-10-14T04:09:01+00:00 | arxiv:2610.19553v1 | [Speaking Longer Than Learned: Training-Free Long-Form Generation for Full-Stream Text-to-Speech](papers/arxiv-2610-19553v1--06a5ffb8d2e0.md)            | arxiv       |
-| 2026-10-14T03:19:03+00:00 | arxiv:2610.19499v1 | [Revise-TTS: A Non-Masking Refinement Framework for Masked Diffusion Models in Text-to-Speech](papers/arxiv-2610-19499v1--8115334c6bd6.md)               | arxiv       |
-| 2026-10-13T00:00:00+00:00 | arxiv:2610.18010   | [Fish Audio Drama 3 Technical Report](papers/arxiv-2610-18010--8f55ac65ca78.md)                                                                          | huggingface |
-| 2026-10-12T01:18:14+00:00 | arxiv:2610.16036v1 | [Prime-EVC: One-Step Expressive Emotional Voice Conversion via Emotion-Primed Flow Matching](papers/arxiv-2610-16036v1--7c66c509fee3.md)                 | arxiv       |
-| 2026-10-11T06:05:01+00:00 | arxiv:2610.15379v1 | [LiveAnon: Improving Privacy and Utility in Streaming Speaker Anonymization with Codec Language Models](papers/arxiv-2610-15379v1--49be5a43e5ab.md)      | arxiv       |
+| Published                 | Identifier         | Title                                                                                                                                                      | Source      |
+| ------------------------- | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| 2026-10-26T03:45:53+00:00 | arxiv:2610.34807v1 | [ImageTTS: Repurposing Pretrained Image Diffusion Transformers for Speech Synthesis](papers/arxiv-2610-34807v1--38d300929399.md)                           | arxiv       |
+| 2026-10-26T01:24:54+00:00 | arxiv:2610.34688v1 | [From Speech Tokens to Stolen Voices: Attacker-Chosen-Text Speaker Impersonation via Representation Inversion](papers/arxiv-2610-34688v1--2931e0b57e4d.md) | arxiv       |
+| 2026-10-26T00:34:30+00:00 | arxiv:2610.34653v1 | [Heard Enough to Act: Early Tool Calling in Spoken Dialogue Systems](papers/arxiv-2610-34653v1--4f9b5b8e498f.md)                                           | arxiv       |
+| 2026-10-25T16:09:53+00:00 | arxiv:2610.34408v1 | [LeanTTS: Efficient Full-Stack Bilingual TTS for Zero-Shot Cloning and Voice Customization](papers/arxiv-2610-34408v1--81065662828e.md)                    | arxiv       |
+| 2026-10-22T18:38:39+00:00 | arxiv:2610.31796v1 | [DRAMA-Eval: A Benchmark for Context-Aware, Multi-Turn, Multi-Speaker Speech Generation](papers/arxiv-2610-31796v1--bc65e410f433.md)                       | arxiv       |
+| 2026-10-21T21:51:23+00:00 | arxiv:2610.30477v1 | [EmoFI-TTS: Face-Conditioned Expressive Voice Synthesis with Intensity Modulation](papers/arxiv-2610-30477v1--b93b5712b848.md)                             | arxiv       |
+| 2026-10-21T21:42:44+00:00 | arxiv:2610.30470v1 | [HeyGen Voice: Scene-Aware Voice Cloning for Talking Videos](papers/arxiv-2610-30470v1--e7bf2e360ac6.md)                                                   | arxiv       |
+| 2026-10-21T14:38:19+00:00 | arxiv:2610.29815v1 | [NeuroCodec: EEG-Guided Latent-Domain Generative Model for High-Fidelity Target Speaker Extraction](papers/arxiv-2610-29815v1--5557f089a4b2.md)            | arxiv       |
+| 2026-10-21T08:57:55+00:00 | arxiv:2610.29434v1 | [RubatoCodec: Budgeted Adaptive Speech Tokenization with Streaming Decoding](papers/arxiv-2610-29434v1--c3668de86d99.md)                                   | arxiv       |
+| 2026-10-21T07:46:22+00:00 | arxiv:2610.29351v1 | [Closed-Loop Dual-Reference Guidance for Accent Control in Cross-Lingual Voice Cloning](papers/arxiv-2610-29351v1--8a0732358d56.md)                        | arxiv       |
+| 2026-10-21T07:38:25+00:00 | arxiv:2610.29345v1 | [Decodability Is Not Controllability: Local and Anisotropic Speaker Control in Continuous-Latent TTS](papers/arxiv-2610-29345v1--2e0d931a896e.md)          | arxiv       |
+| 2026-10-21T03:35:42+00:00 | arxiv:2610.29150v1 | [Where Does Timbre Hide? Localizing Speaker Information in Speech Signals](papers/arxiv-2610-29150v1--b8423d9d1d01.md)                                     | arxiv       |
+| 2026-10-21T03:07:12+00:00 | arxiv:2610.29123v1 | [Character-Level Prosody Control for Mandarin Speech Synthesis:An Architecture-Preserving Approach](papers/arxiv-2610-29123v1--dab2efb4c794.md)            | arxiv       |
+| 2026-10-20T11:23:47+00:00 | arxiv:2610.28035v1 | [LoCA: Local Credit Assignment for Reinforcement Learning of Autoregressive Flow-Matching TTS](papers/arxiv-2610-28035v1--8abbd43b93df.md)                 | arxiv       |
+| 2026-10-19T23:51:11+00:00 | arxiv:2610.27403v1 | [Steering intonational tunes in text-to-speech synthesis](papers/arxiv-2610-27403v1--fbfa9166282d.md)                                                      | arxiv       |
+| 2026-10-19T12:11:28+00:00 | arxiv:2610.26252v1 | [SEAM: Spectral Embedding Alignment and Merging for Low-Resource TTS](papers/arxiv-2610-26252v1--eab490585540.md)                                          | arxiv       |
+| 2026-10-19T07:36:52+00:00 | arxiv:2610.25942v1 | [Speech LLMs That Breathe: Modeling Non-Verbal Vocalizations in Dialogue](papers/arxiv-2610-25942v1--14ea81f8acd0.md)                                      | arxiv       |
+| 2026-10-18T16:46:10+00:00 | arxiv:2610.25394v1 | [MixiSpeech: Progressive State Distillation for One-Step Vietnamese TTS](papers/arxiv-2610-25394v1--4f804f2d5e39.md)                                       | arxiv       |
+| 2026-10-18T14:19:54+00:00 | arxiv:2610.25292v1 | [Does Expert Supervision Improve Text-to-Speech? An Empirical Study of Preference Optimization](papers/arxiv-2610-25292v1--34d5c154ab56.md)                | arxiv       |
+| 2026-10-18T13:30:22+00:00 | arxiv:2610.25259v1 | [VoxDub: A Bilingual Lip-Synchronized Audio-Visual Dataset for Automatic Video Dubbing](papers/arxiv-2610-25259v1--6ec77ae43b4a.md)                        | arxiv       |
+| 2026-10-18T00:00:00+00:00 | arxiv:2610.25519   | [ATEST: Adaptive Resource-Aware Test-Time Scaling for LLM Inference](papers/arxiv-2610-25519--26da4cccb9cb.md)                                             | huggingface |
+| 2026-10-17T23:35:41+00:00 | arxiv:2610.24917v1 | [How Well Can LLMs Verbalize Mathematical Formulas? A Multi-Domain Evaluation](papers/arxiv-2610-24917v1--79d88406af04.md)                                 | arxiv       |
+| 2026-10-17T05:22:59+00:00 | arxiv:2610.24468v1 | [SENTRY: A Streaming Edge Network Trust Engine for Real-Time Audio Deepfake Detection](papers/arxiv-2610-24468v1--4d23705fd9f7.md)                         | arxiv       |
+| 2026-10-16T16:09:20+00:00 | arxiv:2610.23678v1 | [Beyond the Benchmark: Conditioning, Domains and Failure Modes of Qwen3-TTS](papers/arxiv-2610-23678v1--ff7d487db074.md)                                   | arxiv       |
+| 2026-10-16T14:26:55+00:00 | arxiv:2610.23526v1 | [Interpreting SSL Representations for Spoof Detection: a WavLM Study](papers/arxiv-2610-23526v1--75b4be721ee3.md)                                          | arxiv       |
+| 2026-10-16T05:31:38+00:00 | arxiv:2610.22960v1 | [DriftTTS: One-stage Single Step Text-to-Speech via Generative Drifting](papers/arxiv-2610-22960v1--bd9772441276.md)                                       | arxiv       |
+| 2026-10-16T02:19:40+00:00 | arxiv:2610.22832v1 | [Too Emotional to Be Fake? Intra-Utterance Emotion Shifts Expose Failure Modes in Speech Deepfake Detectors](papers/arxiv-2610-22832v1--d7a2d19a806f.md)   | arxiv       |
+| 2026-10-14T19:15:48+00:00 | arxiv:2610.20830v1 | [PEDBench: Can Speech Models Detect Phonetic Errors?](papers/arxiv-2610-20830v1--a51b5020a276.md)                                                          | arxiv       |
+| 2026-10-14T13:29:29+00:00 | arxiv:2610.20181v1 | [Noise-Aware Lombard Speech Synthesis via Flow-GRPO for Intelligibility Optimization](papers/arxiv-2610-20181v1--732baa756e6d.md)                          | arxiv       |
+| 2026-10-14T08:23:44+00:00 | arxiv:2610.19774v1 | [Long-Prompt Zero-Shot TTS: Benchmarking Prosody Reproduction Beyond Voice Cloning](papers/arxiv-2610-19774v1--d79f0438df66.md)                            | arxiv       |
 
 <!-- papers-index:end -->
 

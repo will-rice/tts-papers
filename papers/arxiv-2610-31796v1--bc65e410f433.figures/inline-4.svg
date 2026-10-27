@@ -1,0 +1,342 @@
+<svg id="A1.SS3.p1.pic1" class="ltx_picture" height="1435.55" overflow="visible" version="1.1" viewbox="0 0 653.15 1435.55" width="653.15"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,1435.55) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#A6A6A6;" fill="#A6A6A6" fill-opacity="1.0"><path style="stroke:none" d="M 0 4.49 L 0 1431.06 C 0 1433.54 2.01 1435.55 4.49 1435.55 L 648.66 1435.55 C 651.14 1435.55 653.15 1433.54 653.15 1431.06 L 653.15 4.49 C 653.15 2.01 651.14 0 648.66 0 L 4.49 0 C 2.01 0 0 2.01 0 4.49 Z" /></g><g style="--ltx-fill-color:#FAFAFA;" fill="#FAFAFA" fill-opacity="1.0"><path style="stroke:none" d="M 0.55 4.49 L 0.55 1414.27 L 652.6 1414.27 L 652.6 4.49 C 652.6 2.32 650.83 0.55 648.66 0.55 L 4.49 0.55 C 2.32 0.55 0.55 2.32 0.55 4.49 Z" /></g><g style="--ltx-fill-color:#EBEBEB;" fill="#EBEBEB" fill-opacity="1.0"><path style="stroke:none" d="M 0.55 1414.82 L 0.55 1431.06 C 0.55 1433.23 2.32 1434.99 4.49 1434.99 L 648.66 1434.99 C 650.83 1434.99 652.6 1433.23 652.6 1431.06 L 652.6 1414.82 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 11.41 1421.45)"><foreignobject style="--ltx-fo-width:39.61em;--ltx-fo-height:0.69em;--ltx-fo-depth:0.19em;font-size:10pt;" height="12.3" overflow="visible" transform="matrix(1 0 0 -1 0 9.61)" width="548.09"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A1.SS3.p1.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:39.61em;">
+<span id="A1.SS3.p1.pic1.1.1" class="ltx_p"><span id="A1.SS3.p1.pic1.1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Script Example</span></span>
+</span></span></span></foreignobject></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 11.41 1393.03)"><foreignobject style="--ltx-fo-width:45.55em;--ltx-fo-height:0.75em;--ltx-fo-depth:99.85em;font-size:10pt;" height="1392.02" overflow="visible" transform="matrix(1 0 0 -1 0 10.38)" width="630.28"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A1.SS3.p1.pic1.2" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:45.55em;">
+<span id="A1.SS3.p1.pic1.2.1" class="ltx_p"><span id="A1.SS3.p1.pic1.2.1.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.1.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p1" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p1.1" class="ltx_p">{</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.2" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.2.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.2.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p2" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p2.1" class="ltx_p">  &quot;utt&quot;: &quot;0008&quot;,</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.3" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.3.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.3.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p3" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p3.1" class="ltx_p">  &quot;language&quot;: &quot;中文&quot;,</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.4" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.4.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.4.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p4" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p4.1" class="ltx_p">  &quot;audio_path&quot;: &quot;&quot;,</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.5" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.5.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.5.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p5" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p5.1" class="ltx_p">  &quot;eval_type&quot;: &quot;Contrast&quot;,</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.6" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.6.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.6.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p6" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p6.1" class="ltx_p">  &quot;context_meta&quot;: {</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.7" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.7.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.7.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p7" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p7.1" class="ltx_p">    &quot;total_turns&quot;: 4,</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.8" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.8.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.8.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p8" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p8.1" class="ltx_p">    &quot;total_chars&quot;: 100</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.9" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.9.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.9.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p9" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p9.1" class="ltx_p">  },</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.10" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.10.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.10.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS3.p1.pic1.2.10.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS3.p1.pic1.2.10.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p10" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p10.1" class="ltx_p">  &quot;context_background&quot;: &quot;警局会议室内，白炽灯下烟雾缭绕，几名警务人员围坐在长桌旁，墙上挂着城市地图。气氛凝重，众人正分析一起解款车劫案。&quot;,</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.11" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.11.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.11.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p11" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p11.1" class="ltx_p">  &quot;character&quot;: {</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.12" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.12.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.12.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p12" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p12.1" class="ltx_p">    &quot;汇报男_中年&quot;: {</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.13" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.13.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.13.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p13" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p13.1" class="ltx_p">      &quot;text_info&quot;: &quot;中年男性，声音洪亮，语速偏快，吐字清晰，带有职业性的汇报腔调。&quot;,</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.14" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.14.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.14.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p14" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p14.1" class="ltx_p">      &quot;wav_path&quot;: &quot;&quot;,</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.15" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.15.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.15.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p15" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p15.1" class="ltx_p">      &quot;prompt_slot&quot;: &quot;Middle_Male_Neutral&quot;</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.16" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.16.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.16.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p16" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p16.1" class="ltx_p">    },</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.17" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.17.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.17.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p17" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p17.1" class="ltx_p">    &quot;警官男_中年&quot;: {</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.18" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.18.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.18.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p18" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p18.1" class="ltx_p">      &quot;text_info&quot;: &quot;中年男性，声音坚实低沉，富有权威感，语气果断，带有不容置疑的指令性。&quot;,</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.19" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.19.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.19.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p19" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p19.1" class="ltx_p">      &quot;wav_path&quot;: &quot;&quot;,</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.20" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.20.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.20.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p20" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p20.1" class="ltx_p">      &quot;prompt_slot&quot;: &quot;Middle_Male_Happy&quot;</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.21" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.21.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.21.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p21" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p21.1" class="ltx_p">    }</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.22" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.22.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.22.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p22" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p22.1" class="ltx_p">  },</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.23" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.23.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.23.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p23" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p23.1" class="ltx_p">  &quot;content&quot;: [</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.24" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.24.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.24.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p24" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p24.1" class="ltx_p">    {</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.25" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.25.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.25.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p25" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p25.1" class="ltx_p">      &quot;turn_num&quot;: 1,</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.26" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.26.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.26.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS3.p1.pic1.2.26.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS3.p1.pic1.2.26.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p26" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p26.1" class="ltx_p">      &quot;text&quot;: &quot;解款车的路线图会放在这个信封里面，出发前交给负责押运的经理，他会在上车后才打开信封，也就是说，事前没有人知道行车路线。&quot;,</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.27" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.27.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.27.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p27" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p27.1" class="ltx_p">      &quot;speaker_info&quot;: {</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.28" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.28.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.28.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p28" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p28.1" class="ltx_p">        &quot;speaker_name&quot;: &quot;汇报男_中年&quot;,</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.29" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.29.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.29.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p29" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p29.1" class="ltx_p">        &quot;gender&quot;: &quot;男声&quot;,</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.30" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.30.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.30.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p30" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p30.1" class="ltx_p">        &quot;age&quot;: &quot;中年&quot;</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.31" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.31.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.31.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p31" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p31.1" class="ltx_p">      },</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.32" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.32.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.32.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p32" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p32.1" class="ltx_p">      &quot;audio_assets&quot;: {</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.33" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.33.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.33.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p33" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p33.1" class="ltx_p">        &quot;start_time_ms&quot;: 0,</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.34" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.34.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.34.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p34" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p34.1" class="ltx_p">        &quot;end_time_ms&quot;: 8480,</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.35" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.35.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.35.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p35" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p35.1" class="ltx_p">        &quot;duration_ms&quot;: 8480</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.36" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.36.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.36.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p36" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p36.1" class="ltx_p">      },</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.37" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.37.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.37.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p37" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p37.1" class="ltx_p">      &quot;context&quot;: &quot;他清了清嗓子，目光扫过众人，用洪亮的声音快速而清晰地说明流程，试图强调安保的严密性。&quot;</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.38" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.38.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.38.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p38" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p38.1" class="ltx_p">    },</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.39" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.39.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.39.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p39" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p39.1" class="ltx_p">    {</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.40" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.40.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.40.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p40" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p40.1" class="ltx_p">      &quot;turn_num&quot;: 2,</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.41" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.41.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.41.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p41" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p41.1" class="ltx_p">      &quot;text&quot;: &quot;车没有按指定路线，一定是车上有内鬼。&quot;,</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.42" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.42.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.42.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p42" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p42.1" class="ltx_p">      &quot;speaker_info&quot;: {</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.43" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.43.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.43.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p43" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p43.1" class="ltx_p">        &quot;speaker_name&quot;: &quot;警官男_中年&quot;,</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.44" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.44.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.44.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p44" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p44.1" class="ltx_p">        &quot;gender&quot;: &quot;男声&quot;,</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.45" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.45.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.45.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p45" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p45.1" class="ltx_p">        &quot;age&quot;: &quot;中年&quot;</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.46" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.46.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.46.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p46" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p46.1" class="ltx_p">      },</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.47" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.47.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.47.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p47" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p47.1" class="ltx_p">      &quot;audio_assets&quot;: {</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.48" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.48.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.48.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p48" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p48.1" class="ltx_p">        &quot;start_time_ms&quot;: 11600,</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.49" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.49.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.49.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p49" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p49.1" class="ltx_p">        &quot;end_time_ms&quot;: 14880,</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.50" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.50.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.50.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p50" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p50.1" class="ltx_p">        &quot;duration_ms&quot;: 3280</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.51" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.51.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.51.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p51" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p51.1" class="ltx_p">      },</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.52" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.52.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.52.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p52" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p52.1" class="ltx_p">      &quot;context&quot;: &quot;他眉头紧锁，双手撑在桌沿，身体前倾，用不容置疑的语气果断下结论，目光锐利地扫视众人。&quot;</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.53" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.53.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.53.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p53" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p53.1" class="ltx_p">    {</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.54" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.54.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.54.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p54" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p54.1" class="ltx_p">      &quot;turn_num&quot;: 3,</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.55" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.55.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.55.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p55" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p55.1" class="ltx_p">      &quot;text&quot;: &quot;大家记住，死的人只是线。&quot;,</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.56" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.56.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.56.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p56" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p56.1" class="ltx_p">      &quot;speaker_info&quot;: {</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.57" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.57.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.57.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p57" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p57.1" class="ltx_p">        &quot;speaker_name&quot;: &quot;警官男_中年&quot;,</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.58" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.58.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.58.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p58" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p58.1" class="ltx_p">        &quot;gender&quot;: &quot;男声&quot;,</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.59" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.59.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.59.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p59" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p59.1" class="ltx_p">        &quot;age&quot;: &quot;中年&quot;</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.60" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.60.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.60.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p60" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p60.1" class="ltx_p">      },</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.61" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.61.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.61.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p61" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p61.1" class="ltx_p">      &quot;audio_assets&quot;: {</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.62" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.62.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.62.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p62" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p62.1" class="ltx_p">        &quot;start_time_ms&quot;: 17120,</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.63" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.63.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.63.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p63" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p63.1" class="ltx_p">        &quot;end_time_ms&quot;: 20280,</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.64" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.64.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.64.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p64" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p64.1" class="ltx_p">        &quot;duration_ms&quot;: 3160</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.65" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.65.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.65.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p65" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p65.1" class="ltx_p">      },</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.66" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.66.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.66.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p66" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p66.1" class="ltx_p">      &quot;context&quot;: &quot;他压低声音，眼神变得锐利，带着警告意味，用沉稳有力的语气强调关键，仿佛在敲打每个人的神经。&quot;</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.67" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.67.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.67.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p67" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p67.1" class="ltx_p">    },</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.68" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.68.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.68.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p68" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p68.1" class="ltx_p">    {</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.69" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.69.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.69.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p69" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p69.1" class="ltx_p">      &quot;turn_num&quot;: 4,</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.70" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.70.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.70.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p70" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p70.1" class="ltx_p">      &quot;text&quot;: &quot;现在最重要的是找到他。&quot;,</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.71" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.71.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.71.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p71" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p71.1" class="ltx_p">      &quot;speaker_info&quot;: {</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.72" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.72.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.72.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p72" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p72.1" class="ltx_p">        &quot;speaker_name&quot;: &quot;警官男_中年&quot;,</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.73" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.73.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.73.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p73" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p73.1" class="ltx_p">        &quot;gender&quot;: &quot;男声&quot;,</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.74" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.74.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.74.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p74" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p74.1" class="ltx_p">        &quot;age&quot;: &quot;中年&quot;</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.75" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.75.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.75.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p75" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p75.1" class="ltx_p">      },</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.76" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.76.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.76.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p76" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p76.1" class="ltx_p">      &quot;audio_assets&quot;: {</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.77" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.77.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.77.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p77" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p77.1" class="ltx_p">        &quot;start_time_ms&quot;: 23020,</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.78" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.78.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.78.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p78" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p78.1" class="ltx_p">        &quot;end_time_ms&quot;: 24740,</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.79" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.79.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.79.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p79" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p79.1" class="ltx_p">        &quot;duration_ms&quot;: 1720</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.80" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.80.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.80.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p80" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p80.1" class="ltx_p">      },</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.81" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.81.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.81.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p81" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p81.1" class="ltx_p">      &quot;context&quot;: &quot;他直起身，目光坚定地看向众人，用目标明确的指令语气布置任务，语气中带着不容拖延的紧迫感。&quot;</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.82" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.82.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.82.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p82" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p82.1" class="ltx_p">    }</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.83" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.83.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.83.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p83" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p83.1" class="ltx_p">  ]</span>
+</span></span></span></span>
+<span id="A1.SS3.p1.pic1.2.84" class="ltx_p" style="width:455.5pt;"><span id="A1.SS3.p1.pic1.2.84.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:455.5pt;--ltx-fg-color:#000000;"><span id="A1.SS3.p1.pic1.2.84.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:455.5pt;">
+<span id="A1.SS3.p1.pic1.p84" class="ltx_para ltx_noindent">
+<span id="A1.SS3.p1.pic1.p84.1" class="ltx_p">}</span>
+</span></span></span></span>
+</span></span></span></foreignobject></g></g></svg>
