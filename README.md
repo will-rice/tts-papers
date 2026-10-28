@@ -6,14 +6,16 @@ Standalone paper discovery and conversion for Text-to-speech research papers.
 
 # Papers
 
-The 30 most recent of 3776 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 3778 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
 | Published                 | Identifier         | Title                                                                                                                                                      | Source      |
 | ------------------------- | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| 2026-10-26T18:35:12+00:00 | arxiv:2610.36126v1 | [ConformalMOS: Uncertainty-Aware MOS Prediction with Conformal Intervals and Ordinal Modeling](papers/arxiv-2610-36126v1--51a385521529.md)                 | arxiv       |
 | 2026-10-26T03:45:53+00:00 | arxiv:2610.34807v1 | [ImageTTS: Repurposing Pretrained Image Diffusion Transformers for Speech Synthesis](papers/arxiv-2610-34807v1--38d300929399.md)                           | arxiv       |
 | 2026-10-26T01:24:54+00:00 | arxiv:2610.34688v1 | [From Speech Tokens to Stolen Voices: Attacker-Chosen-Text Speaker Impersonation via Representation Inversion](papers/arxiv-2610-34688v1--2931e0b57e4d.md) | arxiv       |
 | 2026-10-26T00:34:30+00:00 | arxiv:2610.34653v1 | [Heard Enough to Act: Early Tool Calling in Spoken Dialogue Systems](papers/arxiv-2610-34653v1--4f9b5b8e498f.md)                                           | arxiv       |
 | 2026-10-25T16:09:53+00:00 | arxiv:2610.34408v1 | [LeanTTS: Efficient Full-Stack Bilingual TTS for Zero-Shot Cloning and Voice Customization](papers/arxiv-2610-34408v1--81065662828e.md)                    | arxiv       |
+| 2026-10-25T00:00:00+00:00 | arxiv:2610.34415   | [Spatial Audio Generation and Editing with Executable Plans and Self-Distilling Transfusion](papers/arxiv-2610-34415--73e3590befff.md)                     | huggingface |
 | 2026-10-22T18:38:39+00:00 | arxiv:2610.31796v1 | [DRAMA-Eval: A Benchmark for Context-Aware, Multi-Turn, Multi-Speaker Speech Generation](papers/arxiv-2610-31796v1--bc65e410f433.md)                       | arxiv       |
 | 2026-10-21T21:51:23+00:00 | arxiv:2610.30477v1 | [EmoFI-TTS: Face-Conditioned Expressive Voice Synthesis with Intensity Modulation](papers/arxiv-2610-30477v1--b93b5712b848.md)                             | arxiv       |
 | 2026-10-21T21:42:44+00:00 | arxiv:2610.30470v1 | [HeyGen Voice: Scene-Aware Voice Cloning for Talking Videos](papers/arxiv-2610-30470v1--e7bf2e360ac6.md)                                                   | arxiv       |
@@ -38,8 +40,6 @@ The 30 most recent of 3776 papers. Every paper is listed in [papers.csv](papers.
 | 2026-10-16T05:31:38+00:00 | arxiv:2610.22960v1 | [DriftTTS: One-stage Single Step Text-to-Speech via Generative Drifting](papers/arxiv-2610-22960v1--bd9772441276.md)                                       | arxiv       |
 | 2026-10-16T02:19:40+00:00 | arxiv:2610.22832v1 | [Too Emotional to Be Fake? Intra-Utterance Emotion Shifts Expose Failure Modes in Speech Deepfake Detectors](papers/arxiv-2610-22832v1--d7a2d19a806f.md)   | arxiv       |
 | 2026-10-14T19:15:48+00:00 | arxiv:2610.20830v1 | [PEDBench: Can Speech Models Detect Phonetic Errors?](papers/arxiv-2610-20830v1--a51b5020a276.md)                                                          | arxiv       |
-| 2026-10-14T13:29:29+00:00 | arxiv:2610.20181v1 | [Noise-Aware Lombard Speech Synthesis via Flow-GRPO for Intelligibility Optimization](papers/arxiv-2610-20181v1--732baa756e6d.md)                          | arxiv       |
-| 2026-10-14T08:23:44+00:00 | arxiv:2610.19774v1 | [Long-Prompt Zero-Shot TTS: Benchmarking Prosody Reproduction Beyond Voice Cloning](papers/arxiv-2610-19774v1--d79f0438df66.md)                            | arxiv       |
 
 <!-- papers-index:end -->
 
