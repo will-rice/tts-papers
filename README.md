@@ -6,10 +6,11 @@ Standalone paper discovery and conversion for Text-to-speech research papers.
 
 # Papers
 
-The 30 most recent of 3778 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 3779 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
 | Published                 | Identifier         | Title                                                                                                                                                      | Source      |
 | ------------------------- | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| 2026-10-27T00:00:00+00:00 | arxiv:2610.37175   | [MLE-World: Predicting Machine Learning Experiment Outcomes with a Learned World Model](papers/arxiv-2610-37175--612e9f4d1773.md)                          | huggingface |
 | 2026-10-26T18:35:12+00:00 | arxiv:2610.36126v1 | [ConformalMOS: Uncertainty-Aware MOS Prediction with Conformal Intervals and Ordinal Modeling](papers/arxiv-2610-36126v1--51a385521529.md)                 | arxiv       |
 | 2026-10-26T03:45:53+00:00 | arxiv:2610.34807v1 | [ImageTTS: Repurposing Pretrained Image Diffusion Transformers for Speech Synthesis](papers/arxiv-2610-34807v1--38d300929399.md)                           | arxiv       |
 | 2026-10-26T01:24:54+00:00 | arxiv:2610.34688v1 | [From Speech Tokens to Stolen Voices: Attacker-Chosen-Text Speaker Impersonation via Representation Inversion](papers/arxiv-2610-34688v1--2931e0b57e4d.md) | arxiv       |
@@ -39,7 +40,6 @@ The 30 most recent of 3778 papers. Every paper is listed in [papers.csv](papers.
 | 2026-10-16T14:26:55+00:00 | arxiv:2610.23526v1 | [Interpreting SSL Representations for Spoof Detection: a WavLM Study](papers/arxiv-2610-23526v1--75b4be721ee3.md)                                          | arxiv       |
 | 2026-10-16T05:31:38+00:00 | arxiv:2610.22960v1 | [DriftTTS: One-stage Single Step Text-to-Speech via Generative Drifting](papers/arxiv-2610-22960v1--bd9772441276.md)                                       | arxiv       |
 | 2026-10-16T02:19:40+00:00 | arxiv:2610.22832v1 | [Too Emotional to Be Fake? Intra-Utterance Emotion Shifts Expose Failure Modes in Speech Deepfake Detectors](papers/arxiv-2610-22832v1--d7a2d19a806f.md)   | arxiv       |
-| 2026-10-14T19:15:48+00:00 | arxiv:2610.20830v1 | [PEDBench: Can Speech Models Detect Phonetic Errors?](papers/arxiv-2610-20830v1--a51b5020a276.md)                                                          | arxiv       |
 
 <!-- papers-index:end -->
 
