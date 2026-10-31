@@ -6,10 +6,13 @@ Standalone paper discovery and conversion for Text-to-speech research papers.
 
 # Papers
 
-The 30 most recent of 3782 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 3785 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
 | Published                 | Identifier         | Title                                                                                                                                                           | Source      |
 | ------------------------- | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| 2026-10-29T17:21:36+00:00 | arxiv:2610.40505v1 | [Discovering Interpretable Acoustic Features in Autoregressive Voice-Cloning TTS Models](papers/arxiv-2610-40505v1--34bc3ae4ecc5.md)                            | arxiv       |
+| 2026-10-29T16:21:04+00:00 | arxiv:2610.40372v1 | [What Makes a Good Audio Prompt for Zero-Shot TTS? Learning Prompt Selection from Synthesis Outcomes](papers/arxiv-2610-40372v1--f00ff21363ed.md)               | arxiv       |
+| 2026-10-29T06:06:48+00:00 | arxiv:2610.39427v1 | [EmpDPO: Enabling Emphasis Control in TTS via Direct Preference Optimization](papers/arxiv-2610-39427v1--e7eaf93e7c64.md)                                       | arxiv       |
 | 2026-10-28T07:21:45+00:00 | arxiv:2610.38384v1 | [Pronunciation-Supervised Text-to-Speech for Irish (Gaeilge)](papers/arxiv-2610-38384v1--b8f8a9418d38.md)                                                       | arxiv       |
 | 2026-10-28T06:03:29+00:00 | arxiv:2610.38316v1 | [DRC-TTS: A Dual-Resolution Codec-Based Architecture for Lexicon-Free Malay Speech Synthesis](papers/arxiv-2610-38316v1--a6a11e98aee4.md)                       | arxiv       |
 | 2026-10-27T19:55:33+00:00 | arxiv:2610.37912v1 | [Beyond Utterance-Level Speaker Similarity: Perception-Aligned Segmental Evaluation of Accent in Speech Generation](papers/arxiv-2610-37912v1--ddf875951c9b.md) | arxiv       |
@@ -37,9 +40,6 @@ The 30 most recent of 3782 papers. Every paper is listed in [papers.csv](papers.
 | 2026-10-18T14:19:54+00:00 | arxiv:2610.25292v1 | [Does Expert Supervision Improve Text-to-Speech? An Empirical Study of Preference Optimization](papers/arxiv-2610-25292v1--34d5c154ab56.md)                     | arxiv       |
 | 2026-10-18T13:30:22+00:00 | arxiv:2610.25259v1 | [VoxDub: A Bilingual Lip-Synchronized Audio-Visual Dataset for Automatic Video Dubbing](papers/arxiv-2610-25259v1--6ec77ae43b4a.md)                             | arxiv       |
 | 2026-10-18T00:00:00+00:00 | arxiv:2610.25519   | [ATEST: Adaptive Resource-Aware Test-Time Scaling for LLM Inference](papers/arxiv-2610-25519--26da4cccb9cb.md)                                                  | huggingface |
-| 2026-10-17T23:35:41+00:00 | arxiv:2610.24917v1 | [How Well Can LLMs Verbalize Mathematical Formulas? A Multi-Domain Evaluation](papers/arxiv-2610-24917v1--79d88406af04.md)                                      | arxiv       |
-| 2026-10-17T05:22:59+00:00 | arxiv:2610.24468v1 | [SENTRY: A Streaming Edge Network Trust Engine for Real-Time Audio Deepfake Detection](papers/arxiv-2610-24468v1--4d23705fd9f7.md)                              | arxiv       |
-| 2026-10-16T16:09:20+00:00 | arxiv:2610.23678v1 | [Beyond the Benchmark: Conditioning, Domains and Failure Modes of Qwen3-TTS](papers/arxiv-2610-23678v1--ff7d487db074.md)                                        | arxiv       |
 
 <!-- papers-index:end -->
 
