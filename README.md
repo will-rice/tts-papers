@@ -6,10 +6,12 @@ Standalone paper discovery and conversion for Text-to-speech research papers.
 
 # Papers
 
-The 30 most recent of 3786 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 3788 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
 | Published                 | Identifier         | Title                                                                                                                                                           | Source      |
 | ------------------------- | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| 2026-11-02T06:53:41+00:00 | arxiv:2611.02628v1 | [ReplayFactor: Replay-Aware Dual-Attribute Learning for Practical Speech Deepfake Detection](papers/arxiv-2611-02628v1--a6e6bfd72757.md)                        | arxiv       |
+| 2026-10-31T21:08:53+00:00 | arxiv:2611.01268v1 | [EZ-Ar-VC: Robust Arabic Voice Anonymization with Generalization across Dialects and Code-Switching](papers/arxiv-2611-01268v1--227bee13f9bb.md)                | arxiv       |
 | 2026-10-29T20:58:10+00:00 | arxiv:2610.40970v1 | [Nedimo: An Evidence-Grounded Multilingual Pipeline for AI-Generated Sleep Stories](papers/arxiv-2610-40970v1--6578737787ab.md)                                 | arxiv       |
 | 2026-10-29T17:21:36+00:00 | arxiv:2610.40505v1 | [Discovering Interpretable Acoustic Features in Autoregressive Voice-Cloning TTS Models](papers/arxiv-2610-40505v1--34bc3ae4ecc5.md)                            | arxiv       |
 | 2026-10-29T16:21:04+00:00 | arxiv:2610.40372v1 | [What Makes a Good Audio Prompt for Zero-Shot TTS? Learning Prompt Selection from Synthesis Outcomes](papers/arxiv-2610-40372v1--f00ff21363ed.md)               | arxiv       |
@@ -38,8 +40,6 @@ The 30 most recent of 3786 papers. Every paper is listed in [papers.csv](papers.
 | 2026-10-19T12:11:28+00:00 | arxiv:2610.26252v1 | [SEAM: Spectral Embedding Alignment and Merging for Low-Resource TTS](papers/arxiv-2610-26252v1--eab490585540.md)                                               | arxiv       |
 | 2026-10-19T07:36:52+00:00 | arxiv:2610.25942v1 | [Speech LLMs That Breathe: Modeling Non-Verbal Vocalizations in Dialogue](papers/arxiv-2610-25942v1--14ea81f8acd0.md)                                           | arxiv       |
 | 2026-10-18T16:46:10+00:00 | arxiv:2610.25394v1 | [MixiSpeech: Progressive State Distillation for One-Step Vietnamese TTS](papers/arxiv-2610-25394v1--4f804f2d5e39.md)                                            | arxiv       |
-| 2026-10-18T14:19:54+00:00 | arxiv:2610.25292v1 | [Does Expert Supervision Improve Text-to-Speech? An Empirical Study of Preference Optimization](papers/arxiv-2610-25292v1--34d5c154ab56.md)                     | arxiv       |
-| 2026-10-18T13:30:22+00:00 | arxiv:2610.25259v1 | [VoxDub: A Bilingual Lip-Synchronized Audio-Visual Dataset for Automatic Video Dubbing](papers/arxiv-2610-25259v1--6ec77ae43b4a.md)                             | arxiv       |
 
 <!-- papers-index:end -->
 
