@@ -1,0 +1,44 @@
+<svg id="S39.p2.pic1" class="ltx_picture" height="701.02" overflow="visible" version="1.1" viewbox="0 0 531.5 701.02" width="531.5"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,701.02) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#4D4D4D;" fill="#4D4D4D" fill-opacity="1.0"><path style="stroke:none" d="M 0 0.83 L 0 700.19 C 0 700.65 0.37 701.02 0.83 701.02 L 530.67 701.02 C 531.12 701.02 531.5 700.65 531.5 700.19 L 531.5 0.83 C 531.5 0.37 531.12 0 530.67 0 L 0.83 0 C 0.37 0 0 0.37 0 0.83 Z" /></g><g style="--ltx-fill-color:#FFFFFF;" fill="#FFFFFF" fill-opacity="1.0"><path style="stroke:none" d="M 0.83 0.83 L 0.83 680.41 L 530.67 680.41 L 530.67 0.83 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 13.07 687.6)"><foreignobject style="--ltx-fo-width:34.29em;--ltx-fo-height:0.63em;--ltx-fo-depth:0.18em;font-size:10pt;" height="11.07" overflow="visible" transform="matrix(1 0 0 -1 0 8.65)" width="474.48"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="S39.p2.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:34.29em;">
+<span id="S39.p2.pic1.1.1" class="ltx_p"><span id="S39.p2.pic1.1.1.1" class="ltx_text ltx_font_bold" style="font-size:90%;--ltx-fg-color:#FFFFFF;">A minimum listening-test protocol</span></span>
+</span></span></span></foreignobject></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 13.07 647.5)"><foreignobject style="--ltx-fo-width:36.52em;--ltx-fo-height:1.69em;--ltx-fo-depth:46.05em;font-size:10pt;" height="660.65" overflow="visible" transform="matrix(1 0 0 -1 0 23.45)" width="505.33"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="S39.p2.pic1.2" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:36.52em;">
+<span id="S39.I1" class="ltx_enumerate">
+<span id="S39.I1.i1" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">1.</span> 
+<span id="S39.I1.i1.p1" class="ltx_para">
+<span id="S39.I1.i1.p1.1" class="ltx_p"><em id="S39.I1.i1.p1.1.1" class="ltx_emph ltx_font_italic" style="--ltx-fg-color:#000000;">Prompt and item sampling.</em><span id="S39.I1.i1.p1.1.2" class="ltx_text" style="--ltx-fg-color:#000000;"> State how the prompts were chosen and how many outputs each system generated per prompt. Author-written prompts and outputs selected by hand can introduce selection bias. State the sampling procedure and any selection criteria, and fix the sampling seed.</span></span>
+</span></span>
+<span id="S39.I1.i2" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">2.</span> 
+<span id="S39.I1.i2.p1" class="ltx_para">
+<span id="S39.I1.i2.p1.1" class="ltx_p"><em id="S39.I1.i2.p1.1.1" class="ltx_emph ltx_font_italic" style="--ltx-fg-color:#000000;">Listeners.</em><span id="S39.I1.i2.p1.1.2" class="ltx_text" style="--ltx-fg-color:#000000;"> State the number of raters, how they were recruited, their musical training, and whether any rater is an author. Report expert and lay raters separately where both are present.</span></span>
+</span></span>
+<span id="S39.I1.i3" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">3.</span> 
+<span id="S39.I1.i3.p1" class="ltx_para">
+<span id="S39.I1.i3.p1.1" class="ltx_p"><em id="S39.I1.i3.p1.1.1" class="ltx_emph ltx_font_italic" style="--ltx-fg-color:#000000;">Randomization and counterbalancing.</em><span id="S39.I1.i3.p1.1.2" class="ltx_text" style="--ltx-fg-color:#000000;"> Present the items in an order randomized per rater, with the system identity hidden and the order of systems counterbalanced across raters, to reduce the influence of order and fatigue on the comparison.</span></span>
+</span></span>
+<span id="S39.I1.i4" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">4.</span> 
+<span id="S39.I1.i4.p1" class="ltx_para">
+<span id="S39.I1.i4.p1.1" class="ltx_p"><em id="S39.I1.i4.p1.1.1" class="ltx_emph ltx_font_italic" style="--ltx-fg-color:#000000;">Repeated measures.</em><span id="S39.I1.i4.p1.1.2" class="ltx_text" style="--ltx-fg-color:#000000;"> Have each rater judge several items per system and each item judged by several raters, so that rater effects and item effects can be separated.</span></span>
+</span></span>
+<span id="S39.I1.i5" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">5.</span> 
+<span id="S39.I1.i5.p1" class="ltx_para">
+<span id="S39.I1.i5.p1.1" class="ltx_p"><em id="S39.I1.i5.p1.1.1" class="ltx_emph ltx_font_italic" style="--ltx-fg-color:#000000;">Intervals.</em><span id="S39.I1.i5.p1.1.2" class="ltx_text" style="--ltx-fg-color:#000000;"> Report a confidence or credible interval for the contrast between systems, from a model that accounts for raters and items, rather than the standard deviation of the ratings alone. State the interval level and the primary contrast. If the interval for the contrast includes zero, the data do not establish the direction of the difference, and such an interval does not establish equivalence either.</span></span>
+</span></span>
+<span id="S39.I1.i6" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">6.</span> 
+<span id="S39.I1.i6.p1" class="ltx_para">
+<span id="S39.I1.i6.p1.1" class="ltx_p"><em id="S39.I1.i6.p1.1.1" class="ltx_emph ltx_font_italic" style="--ltx-fg-color:#000000;">Rater effects.</em><span id="S39.I1.i6.p1.1.2" class="ltx_text" style="--ltx-fg-color:#000000;"> Account for the dependence among ratings from the same listener and ratings of the same item, with a model or an analysis that fits the design. Report agreement or preference heterogeneity as a separate descriptive result. Low agreement can reflect differences in listeners’ preferences and does not by itself invalidate a system comparison.</span></span>
+</span></span>
+<span id="S39.I1.i7" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">7.</span> 
+<span id="S39.I1.i7.p1" class="ltx_para">
+<span id="S39.I1.i7.p1.1" class="ltx_p"><em id="S39.I1.i7.p1.1.1" class="ltx_emph ltx_font_italic" style="--ltx-fg-color:#000000;">Multiple comparisons.</em><span id="S39.I1.i7.p1.1.2" class="ltx_text" style="--ltx-fg-color:#000000;"> When several systems or several aspects are compared, correct for the number of comparisons or state that no correction was made.</span></span>
+</span></span>
+<span id="S39.I1.i8" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">8.</span> 
+<span id="S39.I1.i8.p1" class="ltx_para">
+<span id="S39.I1.i8.p1.1" class="ltx_p"><em id="S39.I1.i8.p1.1.1" class="ltx_emph ltx_font_italic" style="--ltx-fg-color:#000000;">Playback.</em><span id="S39.I1.i8.p1.1.2" class="ltx_text" style="--ltx-fg-color:#000000;"> State the playback device, the loudness normalization, the sample rate and duration of the excerpts, and whether excerpts were cut from longer outputs. State whether the study compares systems in their native output formats or standardizes the format to isolate other differences, and use the same playback chain and loudness procedure across conditions.</span></span>
+</span></span>
+<span id="S39.I1.i9" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">9.</span> 
+<span id="S39.I1.i9.p1" class="ltx_para">
+<span id="S39.I1.i9.p1.1" class="ltx_p"><em id="S39.I1.i9.p1.1.1" class="ltx_emph ltx_font_italic" style="--ltx-fg-color:#000000;">Independent validation.</em><span id="S39.I1.i9.p1.1.2" class="ltx_text" style="--ltx-fg-color:#000000;"> If the system was post-trained against a learned judge, report the human test on the same items as the judge’s score and never the judge’s score alone. Otherwise the judge’s score measures the optimization target rather than listeners’ judgment (Section </span><a href="#S40" title="40 Gaps and a Reporting Recommendation ‣ Chapter 11 Evaluation ‣ A Tutorial on Generative Models for Music Audio" class="ltx_ref" style="--ltx-fg-color:#000000;"><span class="ltx_text ltx_ref_tag">40</span></a><span id="S39.I1.i9.p1.1.3" class="ltx_text" style="--ltx-fg-color:#000000;">).</span></span>
+</span></span>
+</span>
+</span></span></span></foreignobject></g></g></svg>
