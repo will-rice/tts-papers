@@ -1,0 +1,19 @@
+<svg id="p2.pic1" class="ltx_picture" height="504.62" overflow="visible" version="1.1" viewbox="0 0 645.28 504.62" width="645.28"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,504.62) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#000F46;" fill="#000F46" fill-opacity="1.0"><path style="stroke:none" d="M 0 0 L 0 504.62 L 645.28 504.62 L 645.28 0 Z" /></g><g style="--ltx-fill-color:#F2F3F6;" fill="#F2F3F6" fill-opacity="1.0"><path style="stroke:none" d="M 3.46 0 L 3.46 504.62 L 645.28 504.62 L 645.28 0 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 18.47 14.66)"><foreignobject style="--ltx-fo-width:47.81em;--ltx-fo-height:34.53em;--ltx-fo-depth:0.18em;font-size:10pt;" height="480.15" overflow="visible" transform="matrix(1 0 0 -1 0 477.73)" width="661.56"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="p2.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:47.81em;">
+<span id="p2.pic1.1.1" class="ltx_p"><span id="p2.pic1.1.1.1" class="ltx_text ltx_font_sansserif ltx_font_bold" style="font-size:90%;--ltx-fg-color:#000F46;">Abstract</span></span>
+<span id="p2.pic1.1.2" class="ltx_p"><span id="p2.pic1.1.2.1" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;">A speech deepfake detector reports how likely a recording is synthetic, but a forensic analyst also asks which system
+produced it, whether two recordings share a source, and on what evidence the conclusion rests. We present <span id="p2.pic1.1.2.1.1" class="ltx_text ltx_font_italic">VeriSpoof</span>, an audio language model that unifies five forensic tasks — deepfake detection, generator attribution (generator, acoustic model and vocoder), recording-condition analysis, synthesized-span localisation and source verification — with one set of weights, and supports each decision with grounded rationales whose every statement can be independently verified. Every answer is a sentence whose
+likelihood is read out as a score, so detection and source verification need no separate heads and can be thresholded
+at an operating point. Every explanation consists of statements with an independent check: observations are measured
+on the waveform the model hears, synthesized spans come from labels, and the source profile from generator metadata.
+Counterfactual examples teach the decision to follow the stated evidence. On the 14 test sets of Speech-DF-Arena,
+<span id="p2.pic1.1.2.1.2" class="ltx_text ltx_font_italic">VeriSpoof-Plus</span> reaches 2.14% pooled EER, third of 28 systems and first among open-weight ones, and <span id="p2.pic1.1.2.1.3" class="ltx_text ltx_font_italic">VeriSpoof-Base</span>,
+trained on the official training splits of eight corpora only, reaches 4.43%, less than half the EER of the next
+open-weight detector. With the same weights, <span id="p2.pic1.1.2.1.4" class="ltx_text ltx_font_italic">VeriSpoof-Plus</span> decides whether two recordings from generators unseen in
+training share a source at 6.2% EER. Controlled studies show that the audio representation decides what is
+detected, the LLM how well two recordings are compared, and that source supervision is necessary for neural-codec
+fakes. Rationales can be checked statement by statement, catch partial fakes that the one-step answer misses (99.6
+against 78.4% on PartialEdit), and determine the decision under edits never seen in training (99.5%). Only 29.7 M of the 2.85 B parameters are
+trained, so training fits a single 24 GB GPU with gradient checkpointing. Both models, the inference code, a demo, and
+<span id="p2.pic1.1.2.1.5" class="ltx_text ltx_font_italic">VeriSpoof-Bench</span>, the evaluation suite of all these questions, are released.</span></span>
+</span></span></span></foreignobject></g></g></svg>
