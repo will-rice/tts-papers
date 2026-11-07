@@ -6,7 +6,7 @@ Standalone paper discovery and conversion for Text-to-speech research papers.
 
 # Papers
 
-The 30 most recent of 3801 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 3802 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
 | Published                 | Identifier         | Title                                                                                                                                                                    | Source      |
 | ------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- |
@@ -14,6 +14,7 @@ The 30 most recent of 3801 papers. Every paper is listed in [papers.csv](papers.
 | 2026-11-04T12:05:34+00:00 | arxiv:2611.06403v1 | [Ruby-OPD: Enhancing Pronunciation Controllability and Accuracy for Flow-Matching Text-to-Speech via On-Policy Distillation](papers/arxiv-2611-06403v1--4d47ee4ceb01.md) | arxiv       |
 | 2026-11-04T06:02:38+00:00 | arxiv:2611.06010v1 | [Holistic Parallel Supervision for Expressive Speech to Speech Translation](papers/arxiv-2611-06010v1--652d18948701.md)                                                  | arxiv       |
 | 2026-11-04T05:35:42+00:00 | arxiv:2611.05988   | [LiveFoley: Dynamic Real-Time Video-to-Audio Generation for Immersive Interactive Worlds](papers/arxiv-2611-05988--9c5277e5e29b.md)                                      | huggingface |
+| 2026-11-04T00:00:00+00:00 | arxiv:2611.06982   | [Decode Before You Hear: Speculative Listening for Chunk-Interleaved Full-Duplex Speech Language Models](papers/arxiv-2611-06982--43dd22a380e7.md)                       | huggingface |
 | 2026-11-03T21:21:59+00:00 | arxiv:2611.05638v1 | [VIPBench: A Human-Aligned Benchmark for Voice Identity Perception in the Age of Voice Cloning](papers/arxiv-2611-05638v1--f317ac6a1555.md)                              | arxiv       |
 | 2026-11-03T17:56:42+00:00 | arxiv:2611.05275v1 | [Route Anything: A Study of Model and Policy Routing for General-Purpose AI Systems](papers/arxiv-2611-05275v1--c8326736c4ef.md)                                         | arxiv       |
 | 2026-11-03T12:48:16+00:00 | arxiv:2611.04820v1 | [AI for eGovernance: Leveraging Language Technologies For Digital Inclusion](papers/arxiv-2611-04820v1--ded029cdb059.md)                                                 | arxiv       |
@@ -39,7 +40,6 @@ The 30 most recent of 3801 papers. Every paper is listed in [papers.csv](papers.
 | 2026-10-26T00:34:30+00:00 | arxiv:2610.34653v1 | [Heard Enough to Act: Early Tool Calling in Spoken Dialogue Systems](papers/arxiv-2610-34653v1--4f9b5b8e498f.md)                                                         | arxiv       |
 | 2026-10-25T16:09:53+00:00 | arxiv:2610.34408v1 | [LeanTTS: Efficient Full-Stack Bilingual TTS for Zero-Shot Cloning and Voice Customization](papers/arxiv-2610-34408v1--81065662828e.md)                                  | arxiv       |
 | 2026-10-25T00:00:00+00:00 | arxiv:2610.34415   | [Spatial Audio Generation and Editing with Executable Plans and Self-Distilling Transfusion](papers/arxiv-2610-34415--73e3590befff.md)                                   | huggingface |
-| 2026-10-22T18:38:39+00:00 | arxiv:2610.31796v1 | [DRAMA-Eval: A Benchmark for Context-Aware, Multi-Turn, Multi-Speaker Speech Generation](papers/arxiv-2610-31796v1--bc65e410f433.md)                                     | arxiv       |
 
 <!-- papers-index:end -->
 
