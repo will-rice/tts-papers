@@ -6,11 +6,15 @@ Standalone paper discovery and conversion for Text-to-speech research papers.
 
 # Papers
 
-The 30 most recent of 3802 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 3806 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
 | Published                 | Identifier         | Title                                                                                                                                                                    | Source      |
 | ------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- |
+| 2026-11-06T19:32:16+00:00 | arxiv:2611.10162v1 | [M5-TTS: A Mini-Scale Multilingual and Multi-Dialect Text-to-Speech Language Model with Multi-Token Prediction](papers/arxiv-2611-10162v1--4481426d54f2.md)              | arxiv       |
+| 2026-11-06T10:47:55+00:00 | arxiv:2611.09295v1 | [Bridging Spiking and Continuous Dynamics in Spiking Neural Networks: A Muscle-Inspired Model](papers/arxiv-2611-09295v1--88aa4e6392ed.md)                               | arxiv       |
+| 2026-11-06T06:32:54+00:00 | arxiv:2611.09057v1 | [Real-Time Short-Response Selection for Spoken Dialogue Systems](papers/arxiv-2611-09057v1--738cdb40866f.md)                                                             | arxiv       |
 | 2026-11-05T16:28:02+00:00 | arxiv:2611.08251v1 | [VoxCanvas-41M: A Large-Scale Bilingual Dataset for Instruction-Based Speech Editing and Its Learning Dynamics](papers/arxiv-2611-08251v1--eb0c843b611c.md)              | arxiv       |
+| 2026-11-05T15:07:05+00:00 | arxiv:2611.10035v1 | [Ninada: Sub-Clause Split-Graph VITS Streaming and Capability-Routed 24 kHz Speech Synthesis Across Twelve Scripts](papers/arxiv-2611-10035v1--d18a9c0c96da.md)          | arxiv       |
 | 2026-11-04T12:05:34+00:00 | arxiv:2611.06403v1 | [Ruby-OPD: Enhancing Pronunciation Controllability and Accuracy for Flow-Matching Text-to-Speech via On-Policy Distillation](papers/arxiv-2611-06403v1--4d47ee4ceb01.md) | arxiv       |
 | 2026-11-04T06:02:38+00:00 | arxiv:2611.06010v1 | [Holistic Parallel Supervision for Expressive Speech to Speech Translation](papers/arxiv-2611-06010v1--652d18948701.md)                                                  | arxiv       |
 | 2026-11-04T05:35:42+00:00 | arxiv:2611.05988   | [LiveFoley: Dynamic Real-Time Video-to-Audio Generation for Immersive Interactive Worlds](papers/arxiv-2611-05988--9c5277e5e29b.md)                                      | huggingface |
@@ -36,10 +40,6 @@ The 30 most recent of 3802 papers. Every paper is listed in [papers.csv](papers.
 | 2026-10-27T00:00:00+00:00 | arxiv:2610.37175   | [MLE-World: Predicting Machine Learning Experiment Outcomes with a Learned World Model](papers/arxiv-2610-37175--612e9f4d1773.md)                                        | huggingface |
 | 2026-10-26T18:35:12+00:00 | arxiv:2610.36126v1 | [ConformalMOS: Uncertainty-Aware MOS Prediction with Conformal Intervals and Ordinal Modeling](papers/arxiv-2610-36126v1--51a385521529.md)                               | arxiv       |
 | 2026-10-26T03:45:53+00:00 | arxiv:2610.34807v1 | [ImageTTS: Repurposing Pretrained Image Diffusion Transformers for Speech Synthesis](papers/arxiv-2610-34807v1--38d300929399.md)                                         | arxiv       |
-| 2026-10-26T01:24:54+00:00 | arxiv:2610.34688v1 | [From Speech Tokens to Stolen Voices: Attacker-Chosen-Text Speaker Impersonation via Representation Inversion](papers/arxiv-2610-34688v1--2931e0b57e4d.md)               | arxiv       |
-| 2026-10-26T00:34:30+00:00 | arxiv:2610.34653v1 | [Heard Enough to Act: Early Tool Calling in Spoken Dialogue Systems](papers/arxiv-2610-34653v1--4f9b5b8e498f.md)                                                         | arxiv       |
-| 2026-10-25T16:09:53+00:00 | arxiv:2610.34408v1 | [LeanTTS: Efficient Full-Stack Bilingual TTS for Zero-Shot Cloning and Voice Customization](papers/arxiv-2610-34408v1--81065662828e.md)                                  | arxiv       |
-| 2026-10-25T00:00:00+00:00 | arxiv:2610.34415   | [Spatial Audio Generation and Editing with Executable Plans and Self-Distilling Transfusion](papers/arxiv-2610-34415--73e3590befff.md)                                   | huggingface |
 
 <!-- papers-index:end -->
 
