@@ -6,10 +6,14 @@ Standalone paper discovery and conversion for Text-to-speech research papers.
 
 # Papers
 
-The 30 most recent of 3806 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 3810 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
 | Published                 | Identifier         | Title                                                                                                                                                                    | Source      |
 | ------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- |
+| 2026-11-09T13:40:03+00:00 | arxiv:2611.12406v1 | [REAL: Reward Modeling through Evidence-Linked Analysis of Lifelikeness in Generated Speech](papers/arxiv-2611-12406v1--f58e9ec74464.md)                                 | arxiv       |
+| 2026-11-09T02:36:08+00:00 | arxiv:2611.11777v1 | [Towards Trustworthy Mobile Speech Interaction: Ensuring Voice Authenticity and Transmission Integrity](papers/arxiv-2611-11777v1--f7fcb885773c.md)                      | arxiv       |
+| 2026-11-09T00:00:00+00:00 | arxiv:2611.11994   | [EmoHarness: Boosting Multimodal Emotion Understanding with Meta-Harness Evolving](papers/arxiv-2611-11994--b0996fc55098.md)                                             | huggingface |
+| 2026-11-08T06:41:47+00:00 | arxiv:2611.11179v1 | [Guidance at Pure Noise Erodes Speaker Similarity in Few-Step Token-Conditioned Flow-Matching TTS](papers/arxiv-2611-11179v1--00df3b61c7bc.md)                           | arxiv       |
 | 2026-11-06T19:32:16+00:00 | arxiv:2611.10162v1 | [M5-TTS: A Mini-Scale Multilingual and Multi-Dialect Text-to-Speech Language Model with Multi-Token Prediction](papers/arxiv-2611-10162v1--4481426d54f2.md)              | arxiv       |
 | 2026-11-06T10:47:55+00:00 | arxiv:2611.09295v1 | [Bridging Spiking and Continuous Dynamics in Spiking Neural Networks: A Muscle-Inspired Model](papers/arxiv-2611-09295v1--88aa4e6392ed.md)                               | arxiv       |
 | 2026-11-06T06:32:54+00:00 | arxiv:2611.09057v1 | [Real-Time Short-Response Selection for Spoken Dialogue Systems](papers/arxiv-2611-09057v1--738cdb40866f.md)                                                             | arxiv       |
@@ -36,10 +40,6 @@ The 30 most recent of 3806 papers. Every paper is listed in [papers.csv](papers.
 | 2026-10-28T07:21:45+00:00 | arxiv:2610.38384v1 | [Pronunciation-Supervised Text-to-Speech for Irish (Gaeilge)](papers/arxiv-2610-38384v1--b8f8a9418d38.md)                                                                | arxiv       |
 | 2026-10-28T06:03:29+00:00 | arxiv:2610.38316v1 | [DRC-TTS: A Dual-Resolution Codec-Based Architecture for Lexicon-Free Malay Speech Synthesis](papers/arxiv-2610-38316v1--a6a11e98aee4.md)                                | arxiv       |
 | 2026-10-28T00:00:00+00:00 | arxiv:2610.38252   | [A Tutorial on Generative Models for Music Audio](papers/arxiv-2610-38252--d8e56845d95f.md)                                                                              | huggingface |
-| 2026-10-27T19:55:33+00:00 | arxiv:2610.37912v1 | [Beyond Utterance-Level Speaker Similarity: Perception-Aligned Segmental Evaluation of Accent in Speech Generation](papers/arxiv-2610-37912v1--ddf875951c9b.md)          | arxiv       |
-| 2026-10-27T00:00:00+00:00 | arxiv:2610.37175   | [MLE-World: Predicting Machine Learning Experiment Outcomes with a Learned World Model](papers/arxiv-2610-37175--612e9f4d1773.md)                                        | huggingface |
-| 2026-10-26T18:35:12+00:00 | arxiv:2610.36126v1 | [ConformalMOS: Uncertainty-Aware MOS Prediction with Conformal Intervals and Ordinal Modeling](papers/arxiv-2610-36126v1--51a385521529.md)                               | arxiv       |
-| 2026-10-26T03:45:53+00:00 | arxiv:2610.34807v1 | [ImageTTS: Repurposing Pretrained Image Diffusion Transformers for Speech Synthesis](papers/arxiv-2610-34807v1--38d300929399.md)                                         | arxiv       |
 
 <!-- papers-index:end -->
 
