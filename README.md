@@ -6,10 +6,15 @@ Standalone paper discovery and conversion for Text-to-speech research papers.
 
 # Papers
 
-The 30 most recent of 3810 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 3815 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
 | Published                 | Identifier         | Title                                                                                                                                                                    | Source      |
 | ------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- |
+| 2026-11-10T13:12:34+00:00 | arxiv:2611.14043v1 | [ESDCodec: Ultra-Low Bitrate Speech Codec with Enhanced Semantic Disentanglement and Subband Decoding](papers/arxiv-2611-14043v1--24f17ebdf635.md)                       | arxiv       |
+| 2026-11-10T10:35:48+00:00 | arxiv:2611.13875v1 | [DialInstruct-TTS: Interactive Expressive Speech Generation via Multi-Turn Dialogue with Fine-Grained Temporal Control](papers/arxiv-2611-13875v1--5740714b387f.md)      | arxiv       |
+| 2026-11-10T09:41:21+00:00 | arxiv:2611.13811v1 | [Antalia-2 Mini: A 7.6-million-parameter Turkish text-to-speech model trained entirely on synthetic speech](papers/arxiv-2611-13811v1--eaba2409091b.md)                  | arxiv       |
+| 2026-11-10T05:45:36+00:00 | arxiv:2611.13614v1 | [Emilia2: A Large-Scale Dataset for Controllable Long-Form Speech Generation](papers/arxiv-2611-13614v1--ad4ecb5831a7.md)                                                | arxiv       |
+| 2026-11-09T15:02:29+00:00 | arxiv:2611.12527   | [WaveGen: Truly End-to-End Waveform Generation via Internal Spectral Trajectory Learning](papers/arxiv-2611-12527--107d750beb13.md)                                      | huggingface |
 | 2026-11-09T13:40:03+00:00 | arxiv:2611.12406v1 | [REAL: Reward Modeling through Evidence-Linked Analysis of Lifelikeness in Generated Speech](papers/arxiv-2611-12406v1--f58e9ec74464.md)                                 | arxiv       |
 | 2026-11-09T02:36:08+00:00 | arxiv:2611.11777v1 | [Towards Trustworthy Mobile Speech Interaction: Ensuring Voice Authenticity and Transmission Integrity](papers/arxiv-2611-11777v1--f7fcb885773c.md)                      | arxiv       |
 | 2026-11-09T00:00:00+00:00 | arxiv:2611.11994   | [EmoHarness: Boosting Multimodal Emotion Understanding with Meta-Harness Evolving](papers/arxiv-2611-11994--b0996fc55098.md)                                             | huggingface |
@@ -35,11 +40,6 @@ The 30 most recent of 3810 papers. Every paper is listed in [papers.csv](papers.
 | 2026-10-31T18:58:38+00:00 | arxiv:2611.03718v1 | [NepTTS-Bench: Native-Speaker Benchmarking and NepaliMOS for Nepali Text-to-Speech](papers/arxiv-2611-03718v1--d36df99ba21b.md)                                          | arxiv       |
 | 2026-10-29T20:58:10+00:00 | arxiv:2610.40970v1 | [Nedimo: An Evidence-Grounded Multilingual Pipeline for AI-Generated Sleep Stories](papers/arxiv-2610-40970v1--6578737787ab.md)                                          | arxiv       |
 | 2026-10-29T17:21:36+00:00 | arxiv:2610.40505v1 | [Discovering Interpretable Acoustic Features in Autoregressive Voice-Cloning TTS Models](papers/arxiv-2610-40505v1--34bc3ae4ecc5.md)                                     | arxiv       |
-| 2026-10-29T16:21:04+00:00 | arxiv:2610.40372v1 | [What Makes a Good Audio Prompt for Zero-Shot TTS? Learning Prompt Selection from Synthesis Outcomes](papers/arxiv-2610-40372v1--f00ff21363ed.md)                        | arxiv       |
-| 2026-10-29T06:06:48+00:00 | arxiv:2610.39427v1 | [EmpDPO: Enabling Emphasis Control in TTS via Direct Preference Optimization](papers/arxiv-2610-39427v1--e7eaf93e7c64.md)                                                | arxiv       |
-| 2026-10-28T07:21:45+00:00 | arxiv:2610.38384v1 | [Pronunciation-Supervised Text-to-Speech for Irish (Gaeilge)](papers/arxiv-2610-38384v1--b8f8a9418d38.md)                                                                | arxiv       |
-| 2026-10-28T06:03:29+00:00 | arxiv:2610.38316v1 | [DRC-TTS: A Dual-Resolution Codec-Based Architecture for Lexicon-Free Malay Speech Synthesis](papers/arxiv-2610-38316v1--a6a11e98aee4.md)                                | arxiv       |
-| 2026-10-28T00:00:00+00:00 | arxiv:2610.38252   | [A Tutorial on Generative Models for Music Audio](papers/arxiv-2610-38252--d8e56845d95f.md)                                                                              | huggingface |
 
 <!-- papers-index:end -->
 

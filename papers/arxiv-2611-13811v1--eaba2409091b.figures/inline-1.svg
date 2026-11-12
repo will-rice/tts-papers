@@ -1,0 +1,178 @@
+<svg id="S1.pic1" class="ltx_picture" height="831.62" overflow="visible" version="1.1" viewbox="0 0 519.69 831.62" width="519.69"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,831.62) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#EEF1FB;" fill="#EEF1FB" fill-opacity="1.0"><path style="stroke:none" d="M 0 0 L 0 831.62 L 519.69 831.62 L 519.69 0 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 16.39 412.35)"><foreignobject style="--ltx-fo-width:43.26em;--ltx-fo-height:29.32em;--ltx-fo-depth:28.82em;font-size:10pt;" class="ltx_minipage" height="804.38" overflow="visible" transform="matrix(1 0 0 -1 0 405.65)" width="41.4em"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<table id="S1.pic1.1" class="ltx_tabular ltx_align_middle">
+<tbody class="ltx_tbody">
+<tr id="S1.pic1.1.1" class="ltx_tr">
+<td id="S1.pic1.1.1.1" class="ltx_td ltx_align_left ltx_align_top" style="padding-bottom: 2.0pt;padding-top:0.7pt;padding-bottom:0.7pt;" colspan="2"><span id="S1.pic1.1.1.1.1" class="ltx_text ltx_font_bold" style="font-size:90%;--ltx-fg-color:#13235A;">Terms used in this report</span></td></tr>
+<tr id="S1.pic1.1.2" class="ltx_tr">
+<td id="S1.pic1.1.2.1" class="ltx_td ltx_align_left ltx_align_top" style="padding-top:0.7pt;padding-bottom:0.7pt;">
+<span id="S1.pic1.1.2.1.1" class="ltx_inline-block ltx_align_top" style="width:59.8pt;">
+<span id="S1.pic1.1.2.1.1.1" class="ltx_p ltx_align_left"><span id="S1.pic1.1.2.1.1.1.1" class="ltx_text ltx_font_bold" style="font-size:80%;--ltx-fg-color:#13235A;">Mel</span></span>
+</span></td>
+<td id="S1.pic1.1.2.2" class="ltx_td ltx_nopad_r ltx_align_left" style="padding-top:0.7pt;padding-bottom:0.7pt;">
+<span id="S1.pic1.1.2.2.1" class="ltx_inline-block ltx_align_top">
+<span id="S1.pic1.1.2.2.1.1" class="ltx_p ltx_align_left"><span id="S1.pic1.1.2.2.1.1.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#13235A;">A mel spectrogram, audio as energy per frequency band over time, with bands spaced to follow human pitch perception. Ours has 128 bands and 93.75 frames per second. Real mels come from the teacher’s audio, generated mels from the acoustic model.</span></span>
+</span></td></tr>
+<tr id="S1.pic1.1.3" class="ltx_tr">
+<td id="S1.pic1.1.3.1" class="ltx_td ltx_align_left ltx_align_top" style="padding-top:0.7pt;padding-bottom:0.7pt;">
+<span id="S1.pic1.1.3.1.1" class="ltx_inline-block ltx_align_top" style="width:59.8pt;">
+<span id="S1.pic1.1.3.1.1.1" class="ltx_p ltx_align_left"><span id="S1.pic1.1.3.1.1.1.1" class="ltx_text ltx_font_bold" style="font-size:80%;--ltx-fg-color:#13235A;">Copy synthesis</span></span>
+</span></td>
+<td id="S1.pic1.1.3.2" class="ltx_td ltx_nopad_r ltx_align_left" style="padding-top:0.7pt;padding-bottom:0.7pt;">
+<span id="S1.pic1.1.3.2.1" class="ltx_inline-block ltx_align_top">
+<span id="S1.pic1.1.3.2.1.1" class="ltx_p ltx_align_left"><span id="S1.pic1.1.3.2.1.1.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#13235A;">Computing a mel from existing audio, here the teacher’s, and passing it through the vocoder alone. It shows what the vocoder loses by itself.</span></span>
+</span></td></tr>
+<tr id="S1.pic1.1.4" class="ltx_tr">
+<td id="S1.pic1.1.4.1" class="ltx_td ltx_align_left ltx_align_top ltx_border_t" style="padding-top:0.7pt;padding-bottom:0.7pt;">
+<span id="S1.pic1.1.4.1.1" class="ltx_inline-block ltx_align_top" style="width:59.8pt;">
+<span id="S1.pic1.1.4.1.1.1" class="ltx_p ltx_align_left"><span id="S1.pic1.1.4.1.1.1.1" class="ltx_text ltx_font_bold" style="font-size:80%;--ltx-fg-color:#13235A;">Teacher, student</span></span>
+</span></td>
+<td id="S1.pic1.1.4.2" class="ltx_td ltx_nopad_r ltx_align_left ltx_border_t" style="padding-top:0.7pt;padding-bottom:0.7pt;">
+<span id="S1.pic1.1.4.2.1" class="ltx_inline-block ltx_align_top">
+<span id="S1.pic1.1.4.2.1.1" class="ltx_p ltx_align_left"><span id="S1.pic1.1.4.2.1.1.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#13235A;">The teacher, unmodified VoxCPM2, generated all training audio. The student, Antalia-2 Mini, trained on its clips.</span></span>
+</span></td></tr>
+<tr id="S1.pic1.1.5" class="ltx_tr">
+<td id="S1.pic1.1.5.1" class="ltx_td ltx_align_left ltx_align_top" style="padding-top:0.7pt;padding-bottom:0.7pt;">
+<span id="S1.pic1.1.5.1.1" class="ltx_inline-block ltx_align_top" style="width:59.8pt;">
+<span id="S1.pic1.1.5.1.1.1" class="ltx_p ltx_align_left"><span id="S1.pic1.1.5.1.1.1.1" class="ltx_text ltx_font_bold" style="font-size:80%;--ltx-fg-color:#13235A;">Long set, short set</span></span>
+</span></td>
+<td id="S1.pic1.1.5.2" class="ltx_td ltx_nopad_r ltx_align_left" style="padding-top:0.7pt;padding-bottom:0.7pt;">
+<span id="S1.pic1.1.5.2.1" class="ltx_inline-block ltx_align_top">
+<span id="S1.pic1.1.5.2.1.1" class="ltx_p ltx_align_left"><span id="S1.pic1.1.5.2.1.1.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#13235A;">Training clips of sentences up to about 25 s, and of short utterances, mostly fragments of 2 to 6 words.</span></span>
+</span></td></tr>
+<tr id="S1.pic1.1.6" class="ltx_tr">
+<td id="S1.pic1.1.6.1" class="ltx_td ltx_align_left ltx_align_top" style="padding-top:0.7pt;padding-bottom:0.7pt;">
+<span id="S1.pic1.1.6.1.1" class="ltx_inline-block ltx_align_top" style="width:59.8pt;">
+<span id="S1.pic1.1.6.1.1.1" class="ltx_p ltx_align_left"><span id="S1.pic1.1.6.1.1.1.1" class="ltx_text ltx_font_bold" style="font-size:80%;--ltx-fg-color:#13235A;">Runs</span></span>
+</span></td>
+<td id="S1.pic1.1.6.2" class="ltx_td ltx_nopad_r ltx_align_left" style="padding-top:0.7pt;padding-bottom:0.7pt;">
+<span id="S1.pic1.1.6.2.1" class="ltx_inline-block ltx_align_top">
+<span id="S1.pic1.1.6.2.1.1" class="ltx_p ltx_align_left"><span id="S1.pic1.1.6.2.1.1.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#13235A;">Acoustic model: the main run on the long set, then the short-clip fine-tune on both sets; a sibling run on filtered clips was stopped. Vocoder: the real-mel vocoder, then the first and final vocoder fine-tunes on generated mels (Table </span><a href="#A2.T9" title="Table 9 ‣ Appendix B Reproducing the numbers" class="ltx_ref" style="font-size:80%;--ltx-fg-color:#13235A;"><span class="ltx_text ltx_ref_tag">9</span></a><span id="S1.pic1.1.6.2.1.1.2" class="ltx_text" style="font-size:80%;--ltx-fg-color:#13235A;">).</span></span>
+</span></td></tr>
+<tr id="S1.pic1.1.7" class="ltx_tr">
+<td id="S1.pic1.1.7.1" class="ltx_td ltx_align_left ltx_align_top" style="padding-top:0.7pt;padding-bottom:0.7pt;">
+<span id="S1.pic1.1.7.1.1" class="ltx_inline-block ltx_align_top" style="width:59.8pt;">
+<span id="S1.pic1.1.7.1.1.1" class="ltx_p ltx_align_left"><span id="S1.pic1.1.7.1.1.1.1" class="ltx_text ltx_font_bold" style="font-size:80%;--ltx-fg-color:#13235A;">Versions 1.0.0 and 1.0.1</span></span>
+</span></td>
+<td id="S1.pic1.1.7.2" class="ltx_td ltx_nopad_r ltx_align_left" style="padding-top:0.7pt;padding-bottom:0.7pt;">
+<span id="S1.pic1.1.7.2.1" class="ltx_inline-block ltx_align_top">
+<span id="S1.pic1.1.7.2.1.1" class="ltx_p ltx_align_left"><span id="S1.pic1.1.7.2.1.1.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#13235A;">Two public releases with identical weights. Version 1.0.1 changes only the default output chain, the fixed signal processing after the vocoder.</span></span>
+</span></td></tr>
+<tr id="S1.pic1.1.8" class="ltx_tr">
+<td id="S1.pic1.1.8.1" class="ltx_td ltx_align_left ltx_align_top" style="padding-top:0.7pt;padding-bottom:0.7pt;">
+<span id="S1.pic1.1.8.1.1" class="ltx_inline-block ltx_align_top" style="width:59.8pt;">
+<span id="S1.pic1.1.8.1.1.1" class="ltx_p ltx_align_left"><span id="S1.pic1.1.8.1.1.1.1" class="ltx_text ltx_font_bold" style="font-size:80%;--ltx-fg-color:#13235A;">Final settings</span></span>
+</span></td>
+<td id="S1.pic1.1.8.2" class="ltx_td ltx_nopad_r ltx_align_left" style="padding-top:0.7pt;padding-bottom:0.7pt;">
+<span id="S1.pic1.1.8.2.1" class="ltx_inline-block ltx_align_top">
+<span id="S1.pic1.1.8.2.1.1" class="ltx_p ltx_align_left"><span id="S1.pic1.1.8.2.1.1.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#13235A;">8 sampling steps, guidance 2.0, temperature 0.6, speed 0.95, hidden prefix and suffix, doubling rule 1.3 (Sections </span><a href="#S2" title="2 The model" class="ltx_ref" style="font-size:80%;--ltx-fg-color:#13235A;"><span class="ltx_text ltx_ref_tag">2</span></a><span id="S1.pic1.1.8.2.1.1.2" class="ltx_text" style="font-size:80%;--ltx-fg-color:#13235A;"> and </span><a href="#S6" title="6 The teacher’s ö defect and two reading fixes" class="ltx_ref" style="font-size:80%;--ltx-fg-color:#13235A;"><span class="ltx_text ltx_ref_tag">6</span></a><span id="S1.pic1.1.8.2.1.1.3" class="ltx_text" style="font-size:80%;--ltx-fg-color:#13235A;">).</span></span>
+</span></td></tr>
+<tr id="S1.pic1.1.9" class="ltx_tr">
+<td id="S1.pic1.1.9.1" class="ltx_td ltx_align_left ltx_align_top" style="padding-top:0.7pt;padding-bottom:0.7pt;">
+<span id="S1.pic1.1.9.1.1" class="ltx_inline-block ltx_align_top" style="width:59.8pt;">
+<span id="S1.pic1.1.9.1.1.1" class="ltx_p ltx_align_left"><span id="S1.pic1.1.9.1.1.1.1" class="ltx_text ltx_font_bold" style="font-size:80%;--ltx-fg-color:#13235A;">Alania, Antalia</span></span>
+</span></td>
+<td id="S1.pic1.1.9.2" class="ltx_td ltx_nopad_r ltx_align_left" style="padding-top:0.7pt;padding-bottom:0.7pt;">
+<span id="S1.pic1.1.9.2.1" class="ltx_inline-block ltx_align_top">
+<span id="S1.pic1.1.9.2.1.1" class="ltx_p ltx_align_left"><span id="S1.pic1.1.9.2.1.1.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#13235A;">Our model families: Alania models are closed and sold through an API, and Antalia models have open weights.</span></span>
+</span></td></tr>
+<tr id="S1.pic1.1.10" class="ltx_tr">
+<td id="S1.pic1.1.10.1" class="ltx_td ltx_align_left ltx_align_top ltx_border_t" style="padding-top:0.7pt;padding-bottom:0.7pt;">
+<span id="S1.pic1.1.10.1.1" class="ltx_inline-block ltx_align_top" style="width:59.8pt;">
+<span id="S1.pic1.1.10.1.1.1" class="ltx_p ltx_align_left"><span id="S1.pic1.1.10.1.1.1.1" class="ltx_text ltx_font_bold" style="font-size:80%;--ltx-fg-color:#13235A;">Take</span></span>
+</span></td>
+<td id="S1.pic1.1.10.2" class="ltx_td ltx_nopad_r ltx_align_left ltx_border_t" style="padding-top:0.7pt;padding-bottom:0.7pt;">
+<span id="S1.pic1.1.10.2.1" class="ltx_inline-block ltx_align_top">
+<span id="S1.pic1.1.10.2.1.1" class="ltx_p ltx_align_left"><span id="S1.pic1.1.10.2.1.1.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#13235A;">One render of all 495 benchmark sentences.</span></span>
+</span></td></tr>
+<tr id="S1.pic1.1.11" class="ltx_tr">
+<td id="S1.pic1.1.11.1" class="ltx_td ltx_align_left ltx_align_top" style="padding-top:0.7pt;padding-bottom:0.7pt;">
+<span id="S1.pic1.1.11.1.1" class="ltx_inline-block ltx_align_top" style="width:59.8pt;">
+<span id="S1.pic1.1.11.1.1.1" class="ltx_p ltx_align_left"><span id="S1.pic1.1.11.1.1.1.1" class="ltx_text ltx_font_bold" style="font-size:80%;--ltx-fg-color:#13235A;">Public harness</span></span>
+</span></td>
+<td id="S1.pic1.1.11.2" class="ltx_td ltx_nopad_r ltx_align_left" style="padding-top:0.7pt;padding-bottom:0.7pt;">
+<span id="S1.pic1.1.11.2.1" class="ltx_inline-block ltx_align_top">
+<span id="S1.pic1.1.11.2.1.1" class="ltx_p ltx_align_left"><span id="S1.pic1.1.11.2.1.1.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#13235A;">Our test setup for Freya-TR-Eval with public code: 3 takes, seed 100000 </span><span id="S1.pic1.1.11.2.1.1.2" class="ltx_text ltx_font_italic" style="font-size:80%;--ltx-fg-color:#13235A;">s</span><span id="S1.pic1.1.11.2.1.1.3" class="ltx_text" style="font-size:80%;--ltx-fg-color:#13235A;"> + </span><span id="S1.pic1.1.11.2.1.1.4" class="ltx_text ltx_font_italic" style="font-size:80%;--ltx-fg-color:#13235A;">i</span><span id="S1.pic1.1.11.2.1.1.5" class="ltx_text" style="font-size:80%;--ltx-fg-color:#13235A;"> for sentence </span><span id="S1.pic1.1.11.2.1.1.6" class="ltx_text ltx_font_italic" style="font-size:80%;--ltx-fg-color:#13235A;">i</span><span id="S1.pic1.1.11.2.1.1.7" class="ltx_text" style="font-size:80%;--ltx-fg-color:#13235A;"> of take </span><span id="S1.pic1.1.11.2.1.1.8" class="ltx_text ltx_font_italic" style="font-size:80%;--ltx-fg-color:#13235A;">s</span><span id="S1.pic1.1.11.2.1.1.9" class="ltx_text" style="font-size:80%;--ltx-fg-color:#13235A;">, one NVIDIA L4 each for Mini and EMA Lightning (different VMs).</span></span>
+</span></td></tr>
+<tr id="S1.pic1.1.12" class="ltx_tr">
+<td id="S1.pic1.1.12.1" class="ltx_td ltx_align_left ltx_align_top" style="padding-top:0.7pt;padding-bottom:0.7pt;">
+<span id="S1.pic1.1.12.1.1" class="ltx_inline-block ltx_align_top" style="width:59.8pt;">
+<span id="S1.pic1.1.12.1.1.1" class="ltx_p ltx_align_left"><span id="S1.pic1.1.12.1.1.1.1" class="ltx_text ltx_font_bold" style="font-size:80%;--ltx-fg-color:#13235A;">Own harness</span></span>
+</span></td>
+<td id="S1.pic1.1.12.2" class="ltx_td ltx_nopad_r ltx_align_left" style="padding-top:0.7pt;padding-bottom:0.7pt;">
+<span id="S1.pic1.1.12.2.1" class="ltx_inline-block ltx_align_top">
+<span id="S1.pic1.1.12.2.1.1" class="ltx_p ltx_align_left"><span id="S1.pic1.1.12.2.1.1.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#13235A;">Our second setup, with the same scoring and private code: 3 takes, each with one seed for all its sentences (seeds 0, 1, 2). Mini 1.0.1 ran them on an L40S, an A10G and an A100, EMA Lightning on an H200, and the teacher 1 seed on an A100.</span></span>
+</span></td></tr>
+<tr id="S1.pic1.1.13" class="ltx_tr">
+<td id="S1.pic1.1.13.1" class="ltx_td ltx_align_left ltx_align_top" style="padding-top:0.7pt;padding-bottom:0.7pt;">
+<span id="S1.pic1.1.13.1.1" class="ltx_inline-block ltx_align_top" style="width:59.8pt;">
+<span id="S1.pic1.1.13.1.1.1" class="ltx_p ltx_align_left"><span id="S1.pic1.1.13.1.1.1.1" class="ltx_text ltx_font_bold" style="font-size:80%;--ltx-fg-color:#13235A;">Band matching</span></span>
+</span></td>
+<td id="S1.pic1.1.13.2" class="ltx_td ltx_nopad_r ltx_align_left" style="padding-top:0.7pt;padding-bottom:0.7pt;">
+<span id="S1.pic1.1.13.2.1" class="ltx_inline-block ltx_align_top">
+<span id="S1.pic1.1.13.2.1.1" class="ltx_p ltx_align_left"><span id="S1.pic1.1.13.2.1.1.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#13235A;">Audio is resampled down to 8 kHz and back up to 16 kHz before Whisper hears it, as the benchmark’s card recommends.</span></span>
+</span></td></tr>
+<tr id="S1.pic1.1.14" class="ltx_tr">
+<td id="S1.pic1.1.14.1" class="ltx_td ltx_align_left ltx_align_top" style="padding-top:0.7pt;padding-bottom:0.7pt;">
+<span id="S1.pic1.1.14.1.1" class="ltx_inline-block ltx_align_top" style="width:59.8pt;">
+<span id="S1.pic1.1.14.1.1.1" class="ltx_p ltx_align_left"><span id="S1.pic1.1.14.1.1.1.1" class="ltx_text ltx_font_bold" style="font-size:80%;--ltx-fg-color:#13235A;">WER, CER</span></span>
+</span></td>
+<td id="S1.pic1.1.14.2" class="ltx_td ltx_nopad_r ltx_align_left" style="padding-top:0.7pt;padding-bottom:0.7pt;">
+<span id="S1.pic1.1.14.2.1" class="ltx_inline-block ltx_align_top">
+<span id="S1.pic1.1.14.2.1.1" class="ltx_p ltx_align_left"><span id="S1.pic1.1.14.2.1.1.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#13235A;">Word and character error rate: word or character edit distance between Whisper’s transcript and the reference, over reference length, in percent. On the benchmark, Whisper (large-v3, beam 5) hears band-matched audio and each take gets one score.</span></span>
+</span></td></tr>
+<tr id="S1.pic1.1.15" class="ltx_tr">
+<td id="S1.pic1.1.15.1" class="ltx_td ltx_align_left ltx_align_top" style="padding-top:0.7pt;padding-bottom:0.7pt;">
+<span id="S1.pic1.1.15.1.1" class="ltx_inline-block ltx_align_top" style="width:59.8pt;">
+<span id="S1.pic1.1.15.1.1.1" class="ltx_p ltx_align_left"><span id="S1.pic1.1.15.1.1.1.1" class="ltx_text ltx_font_bold" style="font-size:80%;--ltx-fg-color:#13235A;">Points</span></span>
+</span></td>
+<td id="S1.pic1.1.15.2" class="ltx_td ltx_nopad_r ltx_align_left" style="padding-top:0.7pt;padding-bottom:0.7pt;">
+<span id="S1.pic1.1.15.2.1" class="ltx_inline-block ltx_align_top">
+<span id="S1.pic1.1.15.2.1.1" class="ltx_p ltx_align_left"><span id="S1.pic1.1.15.2.1.1.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#13235A;">Percentage points, our unit for differences: 1.09% against 1.04% is 0.05 points.</span></span>
+</span></td></tr>
+<tr id="S1.pic1.1.16" class="ltx_tr">
+<td id="S1.pic1.1.16.1" class="ltx_td ltx_align_left ltx_align_top" style="padding-top:0.7pt;padding-bottom:0.7pt;">
+<span id="S1.pic1.1.16.1.1" class="ltx_inline-block ltx_align_top" style="width:59.8pt;">
+<span id="S1.pic1.1.16.1.1.1" class="ltx_p ltx_align_left"><span id="S1.pic1.1.16.1.1.1.1" class="ltx_text ltx_font_bold" style="font-size:80%;--ltx-fg-color:#13235A;">Not distinguishable</span></span>
+</span></td>
+<td id="S1.pic1.1.16.2" class="ltx_td ltx_nopad_r ltx_align_left" style="padding-top:0.7pt;padding-bottom:0.7pt;">
+<span id="S1.pic1.1.16.2.1" class="ltx_inline-block ltx_align_top">
+<span id="S1.pic1.1.16.2.1.1" class="ltx_p ltx_align_left"><span id="S1.pic1.1.16.2.1.1.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#13235A;">The paired 95% interval of a difference includes 0. Figures also say not separable or within noise. “Level with” is a stricter test (Section </span><a href="#S7" title="7 Evaluation" class="ltx_ref" style="font-size:80%;--ltx-fg-color:#13235A;"><span class="ltx_text ltx_ref_tag">7</span></a><span id="S1.pic1.1.16.2.1.1.2" class="ltx_text" style="font-size:80%;--ltx-fg-color:#13235A;">).</span></span>
+</span></td></tr>
+<tr id="S1.pic1.1.17" class="ltx_tr">
+<td id="S1.pic1.1.17.1" class="ltx_td ltx_align_left ltx_align_top" style="padding-top:0.7pt;padding-bottom:0.7pt;">
+<span id="S1.pic1.1.17.1.1" class="ltx_inline-block ltx_align_top" style="width:59.8pt;">
+<span id="S1.pic1.1.17.1.1.1" class="ltx_p ltx_align_left"><span id="S1.pic1.1.17.1.1.1.1" class="ltx_text ltx_font_bold" style="font-size:80%;--ltx-fg-color:#13235A;">One seed’s span</span></span>
+</span></td>
+<td id="S1.pic1.1.17.2" class="ltx_td ltx_nopad_r ltx_align_left" style="padding-top:0.7pt;padding-bottom:0.7pt;">
+<span id="S1.pic1.1.17.2.1" class="ltx_inline-block ltx_align_top">
+<span id="S1.pic1.1.17.2.1.1" class="ltx_p ltx_align_left"><span id="S1.pic1.1.17.2.1.1.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#13235A;">About </span><math id="S1.pic1.m1" class="ltx_Math" alttext="\pm" display="inline" intent=":literal"><semantics><mo style="--ltx-fg-color:#13235A;" mathcolor="#13235A" mathsize="0.800em">±</mo><annotation encoding="application/x-tex">\pm</annotation></semantics></math><span id="S1.pic1.1.17.2.1.1.2" class="ltx_text" style="font-size:80%;--ltx-fg-color:#13235A;">0.13 WER points, the standard deviation across Mini 1.0.0’s 3 own-harness seeds. The </span><math id="S1.pic1.m2" class="ltx_Math" alttext="\pm" display="inline" intent=":literal"><semantics><mo style="--ltx-fg-color:#13235A;" mathcolor="#13235A" mathsize="0.800em">±</mo><annotation encoding="application/x-tex">\pm</annotation></semantics></math><span id="S1.pic1.1.17.2.1.1.3" class="ltx_text" style="font-size:80%;--ltx-fg-color:#13235A;">0.27 half-width of Section </span><a href="#S7" title="7 Evaluation" class="ltx_ref" style="font-size:80%;--ltx-fg-color:#13235A;"><span class="ltx_text ltx_ref_tag">7</span></a><span id="S1.pic1.1.17.2.1.1.4" class="ltx_text" style="font-size:80%;--ltx-fg-color:#13235A;"> comes from resampling sentences instead.</span></span>
+</span></td></tr>
+<tr id="S1.pic1.1.18" class="ltx_tr">
+<td id="S1.pic1.1.18.1" class="ltx_td ltx_align_left ltx_align_top" style="padding-top:0.7pt;padding-bottom:0.7pt;">
+<span id="S1.pic1.1.18.1.1" class="ltx_inline-block ltx_align_top" style="width:59.8pt;">
+<span id="S1.pic1.1.18.1.1.1" class="ltx_p ltx_align_left"><span id="S1.pic1.1.18.1.1.1.1" class="ltx_text ltx_font_bold" style="font-size:80%;--ltx-fg-color:#13235A;">Clean rate</span></span>
+</span></td>
+<td id="S1.pic1.1.18.2" class="ltx_td ltx_nopad_r ltx_align_left" style="padding-top:0.7pt;padding-bottom:0.7pt;">
+<span id="S1.pic1.1.18.2.1" class="ltx_inline-block ltx_align_top">
+<span id="S1.pic1.1.18.2.1.1" class="ltx_p ltx_align_left"><span id="S1.pic1.1.18.2.1.1.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#13235A;">The share of sentences with no word error in a take, averaged over takes.</span></span>
+</span></td></tr>
+<tr id="S1.pic1.1.19" class="ltx_tr">
+<td id="S1.pic1.1.19.1" class="ltx_td ltx_align_left ltx_align_top" style="padding-top:0.7pt;padding-bottom:0.7pt;">
+<span id="S1.pic1.1.19.1.1" class="ltx_inline-block ltx_align_top" style="width:59.8pt;">
+<span id="S1.pic1.1.19.1.1.1" class="ltx_p ltx_align_left"><span id="S1.pic1.1.19.1.1.1.1" class="ltx_text ltx_font_bold" style="font-size:80%;--ltx-fg-color:#13235A;">UTMOS</span></span>
+</span></td>
+<td id="S1.pic1.1.19.2" class="ltx_td ltx_nopad_r ltx_align_left" style="padding-top:0.7pt;padding-bottom:0.7pt;">
+<span id="S1.pic1.1.19.2.1" class="ltx_inline-block ltx_align_top">
+<span id="S1.pic1.1.19.2.1.1" class="ltx_p ltx_align_left"><span id="S1.pic1.1.19.2.1.1.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#13235A;">UTMOS22-strong, an automatic estimate of the mean opinion score (MOS), the average rating listeners give, trained on English speech; higher is better. For scale, the teacher scores 3.42 on the benchmark (full band, own harness, 1 seed). It runs on 16 kHz audio, so neither UTMOS nor WER hears anything above 8 kHz. Full-band UTMOS skips band matching and 8 kHz UTMOS includes it.</span></span>
+</span></td></tr>
+<tr id="S1.pic1.1.20" class="ltx_tr">
+<td id="S1.pic1.1.20.1" class="ltx_td ltx_align_left ltx_align_top ltx_border_t" style="padding-top:0.7pt;padding-bottom:0.7pt;">
+<span id="S1.pic1.1.20.1.1" class="ltx_inline-block ltx_align_top" style="width:59.8pt;">
+<span id="S1.pic1.1.20.1.1.1" class="ltx_p ltx_align_left"><span id="S1.pic1.1.20.1.1.1.1" class="ltx_text ltx_font_bold" style="font-size:80%;--ltx-fg-color:#13235A;">RTF, times real time</span></span>
+</span></td>
+<td id="S1.pic1.1.20.2" class="ltx_td ltx_nopad_r ltx_align_left ltx_border_t" style="padding-top:0.7pt;padding-bottom:0.7pt;">
+<span id="S1.pic1.1.20.2.1" class="ltx_inline-block ltx_align_top">
+<span id="S1.pic1.1.20.2.1.1" class="ltx_p ltx_align_left"><span id="S1.pic1.1.20.2.1.1.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#13235A;">Real-time factor is wall-clock synthesis time over audio duration. Times real time is its inverse, so RTF 0.024 is 41×.</span></span>
+</span></td></tr>
+</tbody>
+</table></span></span></foreignobject></g></g></svg>
