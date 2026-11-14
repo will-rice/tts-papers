@@ -6,10 +6,12 @@ Standalone paper discovery and conversion for Text-to-speech research papers.
 
 # Papers
 
-The 30 most recent of 3815 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 3817 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
 | Published                 | Identifier         | Title                                                                                                                                                                    | Source      |
 | ------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- |
+| 2026-11-12T09:24:22+00:00 | arxiv:2611.16525v1 | [ZONOS3-Mini Technical Report](papers/arxiv-2611-16525v1--8a0d63777a8a.md)                                                                                               | arxiv       |
+| 2026-11-11T13:32:32+00:00 | arxiv:2611.15464v1 | [RSE-TTS: Compact Text-to-Speech through Shared Text-Aware Reference Encoding and Generation](papers/arxiv-2611-15464v1--2cda78c6a260.md)                                | arxiv       |
 | 2026-11-10T13:12:34+00:00 | arxiv:2611.14043v1 | [ESDCodec: Ultra-Low Bitrate Speech Codec with Enhanced Semantic Disentanglement and Subband Decoding](papers/arxiv-2611-14043v1--24f17ebdf635.md)                       | arxiv       |
 | 2026-11-10T10:35:48+00:00 | arxiv:2611.13875v1 | [DialInstruct-TTS: Interactive Expressive Speech Generation via Multi-Turn Dialogue with Fine-Grained Temporal Control](papers/arxiv-2611-13875v1--5740714b387f.md)      | arxiv       |
 | 2026-11-10T09:41:21+00:00 | arxiv:2611.13811v1 | [Antalia-2 Mini: A 7.6-million-parameter Turkish text-to-speech model trained entirely on synthetic speech](papers/arxiv-2611-13811v1--eaba2409091b.md)                  | arxiv       |
@@ -38,8 +40,6 @@ The 30 most recent of 3815 papers. Every paper is listed in [papers.csv](papers.
 | 2026-11-02T06:53:41+00:00 | arxiv:2611.02628v1 | [ReplayFactor: Replay-Aware Dual-Attribute Learning for Practical Speech Deepfake Detection](papers/arxiv-2611-02628v1--a6e6bfd72757.md)                                 | arxiv       |
 | 2026-10-31T21:08:53+00:00 | arxiv:2611.01268v1 | [EZ-Ar-VC: Robust Arabic Voice Anonymization with Generalization across Dialects and Code-Switching](papers/arxiv-2611-01268v1--227bee13f9bb.md)                         | arxiv       |
 | 2026-10-31T18:58:38+00:00 | arxiv:2611.03718v1 | [NepTTS-Bench: Native-Speaker Benchmarking and NepaliMOS for Nepali Text-to-Speech](papers/arxiv-2611-03718v1--d36df99ba21b.md)                                          | arxiv       |
-| 2026-10-29T20:58:10+00:00 | arxiv:2610.40970v1 | [Nedimo: An Evidence-Grounded Multilingual Pipeline for AI-Generated Sleep Stories](papers/arxiv-2610-40970v1--6578737787ab.md)                                          | arxiv       |
-| 2026-10-29T17:21:36+00:00 | arxiv:2610.40505v1 | [Discovering Interpretable Acoustic Features in Autoregressive Voice-Cloning TTS Models](papers/arxiv-2610-40505v1--34bc3ae4ecc5.md)                                     | arxiv       |
 
 <!-- papers-index:end -->
 
