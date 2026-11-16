@@ -2,6 +2,9 @@
 
 Standalone paper discovery and conversion for Text-to-speech research papers.
 
+Browse the collection on alphaXiv:
+https://www.alphaxiv.org/shared/folder/019f5653-7a1f-7c43-bf09-6cce5f1541fe
+
 <!-- papers-index:start -->
 
 # Papers
