@@ -9,10 +9,13 @@ https://www.alphaxiv.org/shared/folder/019f5653-7a1f-7c43-bf09-6cce5f1541fe
 
 # Papers
 
-The 30 most recent of 3817 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 3820 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
 | Published                 | Identifier         | Title                                                                                                                                                                    | Source      |
 | ------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- |
+| 2026-11-14T04:06:17+00:00 | arxiv:2611.19145v1 | [A Systematic Study of Cross-Token Transfer for Data-Efficient Non-Verbal Text-to-Speech](papers/arxiv-2611-19145v1--e13d2fc308e6.md)                                    | arxiv       |
+| 2026-11-14T00:09:46+00:00 | arxiv:2611.19030v1 | [Beyond Controllability: Speaker Diversity in Instruction-Guided Text-to-Speech](papers/arxiv-2611-19030v1--c31496a12a0f.md)                                             | arxiv       |
+| 2026-11-13T19:59:57+00:00 | arxiv:2611.18898v1 | [Factorized Self-Supervised Speech Tokenization](papers/arxiv-2611-18898v1--9a8c4f3246fa.md)                                                                             | arxiv       |
 | 2026-11-12T09:24:22+00:00 | arxiv:2611.16525v1 | [ZONOS3-Mini Technical Report](papers/arxiv-2611-16525v1--8a0d63777a8a.md)                                                                                               | arxiv       |
 | 2026-11-11T13:32:32+00:00 | arxiv:2611.15464v1 | [RSE-TTS: Compact Text-to-Speech through Shared Text-Aware Reference Encoding and Generation](papers/arxiv-2611-15464v1--2cda78c6a260.md)                                | arxiv       |
 | 2026-11-10T13:12:34+00:00 | arxiv:2611.14043v1 | [ESDCodec: Ultra-Low Bitrate Speech Codec with Enhanced Semantic Disentanglement and Subband Decoding](papers/arxiv-2611-14043v1--24f17ebdf635.md)                       | arxiv       |
@@ -40,9 +43,6 @@ The 30 most recent of 3817 papers. Every paper is listed in [papers.csv](papers.
 | 2026-11-03T06:22:53+00:00 | arxiv:2611.04390v1 | [Do Multi-Turn Conversational Capabilities Carry Over from Text to Speech? A Parallel Multilingual Benchmark](papers/arxiv-2611-04390v1--e038f5085124.md)                | arxiv       |
 | 2026-11-03T04:08:32+00:00 | arxiv:2611.04282v1 | [TTSonic: A Unified Framework for Composable and Controllable Speech Generation](papers/arxiv-2611-04282v1--c2351222fb67.md)                                             | arxiv       |
 | 2026-11-03T00:00:00+00:00 | arxiv:2611.04634   | [VeriSpoof: Beyond Real or Fake with One Audio LLM](papers/arxiv-2611-04634--04f2de3e3422.md)                                                                            | huggingface |
-| 2026-11-02T06:53:41+00:00 | arxiv:2611.02628v1 | [ReplayFactor: Replay-Aware Dual-Attribute Learning for Practical Speech Deepfake Detection](papers/arxiv-2611-02628v1--a6e6bfd72757.md)                                 | arxiv       |
-| 2026-10-31T21:08:53+00:00 | arxiv:2611.01268v1 | [EZ-Ar-VC: Robust Arabic Voice Anonymization with Generalization across Dialects and Code-Switching](papers/arxiv-2611-01268v1--227bee13f9bb.md)                         | arxiv       |
-| 2026-10-31T18:58:38+00:00 | arxiv:2611.03718v1 | [NepTTS-Bench: Native-Speaker Benchmarking and NepaliMOS for Nepali Text-to-Speech](papers/arxiv-2611-03718v1--d36df99ba21b.md)                                          | arxiv       |
 
 <!-- papers-index:end -->
 
