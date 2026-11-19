@@ -9,10 +9,12 @@ https://www.alphaxiv.org/shared/folder/019f5653-7a1f-7c43-bf09-6cce5f1541fe
 
 # Papers
 
-The 30 most recent of 3825 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 3827 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
 | Published                 | Identifier         | Title                                                                                                                                                                      | Source      |
 | ------------------------- | ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| 2026-11-17T11:45:52+00:00 | arxiv:2611.22628v1 | [Back to Mel: Learning to Bridge Fidelity and Perception in Generative Speech Enhancement](papers/arxiv-2611-22628v1--bf5b6f50b312.md)                                     | arxiv       |
+| 2026-11-17T11:15:39+00:00 | arxiv:2611.22593v1 | [High-Fidelity Binarized Neural Vocoder](papers/arxiv-2611-22593v1--ffed3f05108b.md)                                                                                       | arxiv       |
 | 2026-11-16T10:05:53+00:00 | arxiv:2611.20822v1 | [No-Shot Text-to-Speech: Limitations of Zero-Shot TTS and its Evaluation Methods in Representing Queer and Transgender Voices](papers/arxiv-2611-20822v1--2b6af82f4cce.md) | arxiv       |
 | 2026-11-15T06:29:18+00:00 | arxiv:2611.19832v1 | [ProTTS: End-to-End Prominence-aware Natural and Controllable Text-to-Speech via Automatic Word Stress Discovery](papers/arxiv-2611-19832v1--3540b9715207.md)              | arxiv       |
 | 2026-11-15T06:15:45+00:00 | arxiv:2611.19826v1 | [Where Is Rank-1 DiM Refusal Intervenable in Multimodal LM Derivatives?](papers/arxiv-2611-19826v1--abdc0623f1de.md)                                                       | arxiv       |
@@ -41,8 +43,6 @@ The 30 most recent of 3825 papers. Every paper is listed in [papers.csv](papers.
 | 2026-11-04T06:02:38+00:00 | arxiv:2611.06010v1 | [Holistic Parallel Supervision for Expressive Speech to Speech Translation](papers/arxiv-2611-06010v1--652d18948701.md)                                                    | arxiv       |
 | 2026-11-04T05:35:42+00:00 | arxiv:2611.05988   | [LiveFoley: Dynamic Real-Time Video-to-Audio Generation for Immersive Interactive Worlds](papers/arxiv-2611-05988--9c5277e5e29b.md)                                        | huggingface |
 | 2026-11-04T00:00:00+00:00 | arxiv:2611.06982   | [Decode Before You Hear: Speculative Listening for Chunk-Interleaved Full-Duplex Speech Language Models](papers/arxiv-2611-06982--43dd22a380e7.md)                         | huggingface |
-| 2026-11-03T21:21:59+00:00 | arxiv:2611.05638v1 | [VIPBench: A Human-Aligned Benchmark for Voice Identity Perception in the Age of Voice Cloning](papers/arxiv-2611-05638v1--f317ac6a1555.md)                                | arxiv       |
-| 2026-11-03T17:56:42+00:00 | arxiv:2611.05275v1 | [Route Anything: A Study of Model and Policy Routing for General-Purpose AI Systems](papers/arxiv-2611-05275v1--c8326736c4ef.md)                                           | arxiv       |
 
 <!-- papers-index:end -->
 
