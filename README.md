@@ -9,10 +9,12 @@ https://www.alphaxiv.org/shared/folder/019f5653-7a1f-7c43-bf09-6cce5f1541fe
 
 # Papers
 
-The 30 most recent of 3830 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 3832 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
 | Published                 | Identifier         | Title                                                                                                                                                                                      | Source      |
 | ------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- |
+| 2026-11-19T06:09:41+00:00 | arxiv:2611.25569v1 | [UMelCodec: An Ultra-Low-Bitrate and Lightweight Mel-Domain Neural Speech Codec](papers/arxiv-2611-25569v1--491277cb127a.md)                                                               | arxiv       |
+| 2026-11-19T05:23:16+00:00 | arxiv:2611.25521v1 | [DRVEXO-4B-Unified: Design and Evaluation of a Modular Speech-Vision System](papers/arxiv-2611-25521v1--761ad635a0a5.md)                                                                   | arxiv       |
 | 2026-11-18T18:18:44+00:00 | arxiv:2611.24862v1 | [Gaspard: Expressive unified speech and gesture synthesis with continuous autoregressive flow-matching and decoupled classifier-free guidance](papers/arxiv-2611-24862v1--b1529c973297.md) | arxiv       |
 | 2026-11-18T09:42:23+00:00 | arxiv:2611.24125v1 | [Location Matters: Layer-wise Prompt Conditioning for Voice--Style Disentanglement in Text-to-Speech](papers/arxiv-2611-24125v1--2d788c053d84.md)                                          | arxiv       |
 | 2026-11-18T09:19:33+00:00 | arxiv:2611.24094v1 | [21Codec: Decoder-side Speaker Control for Text-to-Speech](papers/arxiv-2611-24094v1--385b002de7e9.md)                                                                                     | arxiv       |
@@ -41,8 +43,6 @@ The 30 most recent of 3830 papers. Every paper is listed in [papers.csv](papers.
 | 2026-11-06T10:47:55+00:00 | arxiv:2611.09295v1 | [Bridging Spiking and Continuous Dynamics in Spiking Neural Networks: A Muscle-Inspired Model](papers/arxiv-2611-09295v1--88aa4e6392ed.md)                                                 | arxiv       |
 | 2026-11-06T06:32:54+00:00 | arxiv:2611.09057v1 | [Real-Time Short-Response Selection for Spoken Dialogue Systems](papers/arxiv-2611-09057v1--738cdb40866f.md)                                                                               | arxiv       |
 | 2026-11-05T16:28:02+00:00 | arxiv:2611.08251v1 | [VoxCanvas-41M: A Large-Scale Bilingual Dataset for Instruction-Based Speech Editing and Its Learning Dynamics](papers/arxiv-2611-08251v1--eb0c843b611c.md)                                | arxiv       |
-| 2026-11-05T15:07:05+00:00 | arxiv:2611.10035v1 | [Ninada: Sub-Clause Split-Graph VITS Streaming and Capability-Routed 24 kHz Speech Synthesis Across Twelve Scripts](papers/arxiv-2611-10035v1--d18a9c0c96da.md)                            | arxiv       |
-| 2026-11-04T12:05:34+00:00 | arxiv:2611.06403v1 | [Ruby-OPD: Enhancing Pronunciation Controllability and Accuracy for Flow-Matching Text-to-Speech via On-Policy Distillation](papers/arxiv-2611-06403v1--4d47ee4ceb01.md)                   | arxiv       |
 
 <!-- papers-index:end -->
 
