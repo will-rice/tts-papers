@@ -9,10 +9,15 @@ https://www.alphaxiv.org/shared/folder/019f5653-7a1f-7c43-bf09-6cce5f1541fe
 
 # Papers
 
-The 30 most recent of 3832 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 3837 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
 | Published                 | Identifier         | Title                                                                                                                                                                                      | Source      |
 | ------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- |
+| 2026-11-20T20:14:17+00:00 | arxiv:2611.28290v1 | [Preserving Prosody in Speaker Anonymization](papers/arxiv-2611-28290v1--d787ca9f877b.md)                                                                                                  | arxiv       |
+| 2026-11-20T16:11:09+00:00 | arxiv:2611.27784v1 | [Neural Defend ARCAS 290M: A Robust Foundation Model for AI-Generated Audio Detection](papers/arxiv-2611-27784v1--14c9c7c246b7.md)                                                         | arxiv       |
+| 2026-11-20T13:29:30+00:00 | arxiv:2611.27601v1 | [PromptTTSD: Controllable Text to Spoken Dialogue Synthesis with Open-Ended Text Descriptions](papers/arxiv-2611-27601v1--f0e6eb05de7e.md)                                                 | arxiv       |
+| 2026-11-20T07:07:38+00:00 | arxiv:2611.27215v1 | [Neural Defend Ranks #1 in Global Audio Deepfake Detection Benchmark - ARCAS on the Podonos Independent Leaderboard](papers/arxiv-2611-27215v1--086b25c63713.md)                           | arxiv       |
+| 2026-11-20T07:00:18+00:00 | arxiv:2611.27214v1 | [EAF-TTS: Rethinking Codec-Latent Coordinates for Flow TTS](papers/arxiv-2611-27214v1--995278f7eea6.md)                                                                                    | arxiv       |
 | 2026-11-19T06:09:41+00:00 | arxiv:2611.25569v1 | [UMelCodec: An Ultra-Low-Bitrate and Lightweight Mel-Domain Neural Speech Codec](papers/arxiv-2611-25569v1--491277cb127a.md)                                                               | arxiv       |
 | 2026-11-19T05:23:16+00:00 | arxiv:2611.25521v1 | [DRVEXO-4B-Unified: Design and Evaluation of a Modular Speech-Vision System](papers/arxiv-2611-25521v1--761ad635a0a5.md)                                                                   | arxiv       |
 | 2026-11-18T18:18:44+00:00 | arxiv:2611.24862v1 | [Gaspard: Expressive unified speech and gesture synthesis with continuous autoregressive flow-matching and decoupled classifier-free guidance](papers/arxiv-2611-24862v1--b1529c973297.md) | arxiv       |
@@ -38,11 +43,6 @@ The 30 most recent of 3832 papers. Every paper is listed in [papers.csv](papers.
 | 2026-11-09T13:40:03+00:00 | arxiv:2611.12406v1 | [REAL: Reward Modeling through Evidence-Linked Analysis of Lifelikeness in Generated Speech](papers/arxiv-2611-12406v1--f58e9ec74464.md)                                                   | arxiv       |
 | 2026-11-09T02:36:08+00:00 | arxiv:2611.11777v1 | [Towards Trustworthy Mobile Speech Interaction: Ensuring Voice Authenticity and Transmission Integrity](papers/arxiv-2611-11777v1--f7fcb885773c.md)                                        | arxiv       |
 | 2026-11-09T00:00:00+00:00 | arxiv:2611.11994   | [EmoHarness: Boosting Multimodal Emotion Understanding with Meta-Harness Evolving](papers/arxiv-2611-11994--b0996fc55098.md)                                                               | huggingface |
-| 2026-11-08T06:41:47+00:00 | arxiv:2611.11179v1 | [Guidance at Pure Noise Erodes Speaker Similarity in Few-Step Token-Conditioned Flow-Matching TTS](papers/arxiv-2611-11179v1--00df3b61c7bc.md)                                             | arxiv       |
-| 2026-11-06T19:32:16+00:00 | arxiv:2611.10162v1 | [M5-TTS: A Mini-Scale Multilingual and Multi-Dialect Text-to-Speech Language Model with Multi-Token Prediction](papers/arxiv-2611-10162v1--4481426d54f2.md)                                | arxiv       |
-| 2026-11-06T10:47:55+00:00 | arxiv:2611.09295v1 | [Bridging Spiking and Continuous Dynamics in Spiking Neural Networks: A Muscle-Inspired Model](papers/arxiv-2611-09295v1--88aa4e6392ed.md)                                                 | arxiv       |
-| 2026-11-06T06:32:54+00:00 | arxiv:2611.09057v1 | [Real-Time Short-Response Selection for Spoken Dialogue Systems](papers/arxiv-2611-09057v1--738cdb40866f.md)                                                                               | arxiv       |
-| 2026-11-05T16:28:02+00:00 | arxiv:2611.08251v1 | [VoxCanvas-41M: A Large-Scale Bilingual Dataset for Instruction-Based Speech Editing and Its Learning Dynamics](papers/arxiv-2611-08251v1--eb0c843b611c.md)                                | arxiv       |
 
 <!-- papers-index:end -->
 
