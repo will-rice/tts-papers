@@ -9,10 +9,18 @@ https://www.alphaxiv.org/shared/folder/019f5653-7a1f-7c43-bf09-6cce5f1541fe
 
 # Papers
 
-The 30 most recent of 3837 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 3845 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
 | Published                 | Identifier         | Title                                                                                                                                                                                      | Source      |
 | ------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- |
+| 2026-11-23T16:17:10+00:00 | arxiv:2611.30927v1 | [SpeechSplice: Pronunciation Control in Encoder-Decoder LLM-based TTS by Replacing Encoder Hidden States](papers/arxiv-2611-30927v1--4ade422fab8e.md)                                      | arxiv       |
+| 2026-11-23T14:03:02+00:00 | arxiv:2611.30723v1 | [BiSAT: Bidirectionally Aligned Semantic-Acoustic Tokenization for Speech Language Models](papers/arxiv-2611-30723v1--7b34a3a6499c.md)                                                     | arxiv       |
+| 2026-11-23T03:48:08+00:00 | arxiv:2611.29985v1 | [Scoring L2 Pronunciation Without Synthesis: Counterfactual Velocity Contrast in Frozen Flow-Matching TTS](papers/arxiv-2611-29985v1--91b8d7e7fbff.md)                                     | arxiv       |
+| 2026-11-23T00:00:00+00:00 | arxiv:2611.30157   | [UUBench: Understanding the Unspoken toward Full-Duplex Multimodal Interaction](papers/arxiv-2611-30157--9aed33a39ab3.md)                                                                  | huggingface |
+| 2026-11-22T12:54:38+00:00 | arxiv:2611.29455v1 | [PAWP-TTS: Phoneme-Aware Weight Programming for Compact Bilingual English-Nepali Speech Synthesis](papers/arxiv-2611-29455v1--f59b9a1dfd80.md)                                             | arxiv       |
+| 2026-11-22T08:22:17+00:00 | arxiv:2611.29315v1 | [SWIFT: A Handcrafted, Arithmetic-Minimal FPGA Engine for Real-Time Audio Deepfake Detection](papers/arxiv-2611-29315v1--fb314112760f.md)                                                  | arxiv       |
+| 2026-11-22T04:58:09+00:00 | arxiv:2611.29226v1 | [Tenlai-TTS 2.0: Continuous-Representation LLM-Based TTS System with End-to-End Training](https://arxiv.org/abs/2611.29226v1)                                                              | arxiv       |
+| 2026-11-21T16:27:38+00:00 | arxiv:2611.31301v1 | [MOZAIC: An Audio-Video Deepfake Benchmark for Telling What Is Fake](papers/arxiv-2611-31301v1--cf293e7ad2ac.md)                                                                           | arxiv       |
 | 2026-11-20T20:14:17+00:00 | arxiv:2611.28290v1 | [Preserving Prosody in Speaker Anonymization](papers/arxiv-2611-28290v1--d787ca9f877b.md)                                                                                                  | arxiv       |
 | 2026-11-20T16:11:09+00:00 | arxiv:2611.27784v1 | [Neural Defend ARCAS 290M: A Robust Foundation Model for AI-Generated Audio Detection](papers/arxiv-2611-27784v1--14c9c7c246b7.md)                                                         | arxiv       |
 | 2026-11-20T13:29:30+00:00 | arxiv:2611.27601v1 | [PromptTTSD: Controllable Text to Spoken Dialogue Synthesis with Open-Ended Text Descriptions](papers/arxiv-2611-27601v1--f0e6eb05de7e.md)                                                 | arxiv       |
@@ -35,14 +43,6 @@ The 30 most recent of 3837 papers. Every paper is listed in [papers.csv](papers.
 | 2026-11-13T19:59:57+00:00 | arxiv:2611.18898v1 | [Factorized Self-Supervised Speech Tokenization](papers/arxiv-2611-18898v1--9a8c4f3246fa.md)                                                                                               | arxiv       |
 | 2026-11-12T09:24:22+00:00 | arxiv:2611.16525v1 | [ZONOS3-Mini Technical Report](papers/arxiv-2611-16525v1--8a0d63777a8a.md)                                                                                                                 | arxiv       |
 | 2026-11-11T13:32:32+00:00 | arxiv:2611.15464v1 | [RSE-TTS: Compact Text-to-Speech through Shared Text-Aware Reference Encoding and Generation](papers/arxiv-2611-15464v1--2cda78c6a260.md)                                                  | arxiv       |
-| 2026-11-10T13:12:34+00:00 | arxiv:2611.14043v1 | [ESDCodec: Ultra-Low Bitrate Speech Codec with Enhanced Semantic Disentanglement and Subband Decoding](papers/arxiv-2611-14043v1--24f17ebdf635.md)                                         | arxiv       |
-| 2026-11-10T10:35:48+00:00 | arxiv:2611.13875v1 | [DialInstruct-TTS: Interactive Expressive Speech Generation via Multi-Turn Dialogue with Fine-Grained Temporal Control](papers/arxiv-2611-13875v1--5740714b387f.md)                        | arxiv       |
-| 2026-11-10T09:41:21+00:00 | arxiv:2611.13811v1 | [Antalia-2 Mini: A 7.6-million-parameter Turkish text-to-speech model trained entirely on synthetic speech](papers/arxiv-2611-13811v1--eaba2409091b.md)                                    | arxiv       |
-| 2026-11-10T05:45:36+00:00 | arxiv:2611.13614v1 | [Emilia2: A Large-Scale Dataset for Controllable Long-Form Speech Generation](papers/arxiv-2611-13614v1--ad4ecb5831a7.md)                                                                  | arxiv       |
-| 2026-11-09T15:02:29+00:00 | arxiv:2611.12527   | [WaveGen: Truly End-to-End Waveform Generation via Internal Spectral Trajectory Learning](papers/arxiv-2611-12527--107d750beb13.md)                                                        | huggingface |
-| 2026-11-09T13:40:03+00:00 | arxiv:2611.12406v1 | [REAL: Reward Modeling through Evidence-Linked Analysis of Lifelikeness in Generated Speech](papers/arxiv-2611-12406v1--f58e9ec74464.md)                                                   | arxiv       |
-| 2026-11-09T02:36:08+00:00 | arxiv:2611.11777v1 | [Towards Trustworthy Mobile Speech Interaction: Ensuring Voice Authenticity and Transmission Integrity](papers/arxiv-2611-11777v1--f7fcb885773c.md)                                        | arxiv       |
-| 2026-11-09T00:00:00+00:00 | arxiv:2611.11994   | [EmoHarness: Boosting Multimodal Emotion Understanding with Meta-Harness Evolving](papers/arxiv-2611-11994--b0996fc55098.md)                                                               | huggingface |
 
 <!-- papers-index:end -->
 
