@@ -9,10 +9,13 @@ https://www.alphaxiv.org/shared/folder/019f5653-7a1f-7c43-bf09-6cce5f1541fe
 
 # Papers
 
-The 30 most recent of 3845 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 3848 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
 | Published                 | Identifier         | Title                                                                                                                                                                                      | Source      |
 | ------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- |
+| 2026-11-25T12:05:52+00:00 | arxiv:2611.34241v1 | [TigerTTS: Draft-Guided Multi-Frame Parallel Speech-Token Language Model for Fast and Robust Text-to-Speech](https://arxiv.org/abs/2611.34241v1)                                           | arxiv       |
+| 2026-11-25T07:56:16+00:00 | arxiv:2611.33937v1 | [InstructTTS-OPD: On-Policy Distillation for Multi-Objective Instruction-Following TTS](papers/arxiv-2611-33937v1--8d6d1b95a3ea.md)                                                        | arxiv       |
+| 2026-11-25T05:12:42+00:00 | arxiv:2611.33786v1 | [Evaluating Cine and Tagged MRI-to-Speech Synthesis with Complementary Metrics and MRI-Free Controls](papers/arxiv-2611-33786v1--32c74f463689.md)                                          | arxiv       |
 | 2026-11-23T16:17:10+00:00 | arxiv:2611.30927v1 | [SpeechSplice: Pronunciation Control in Encoder-Decoder LLM-based TTS by Replacing Encoder Hidden States](papers/arxiv-2611-30927v1--4ade422fab8e.md)                                      | arxiv       |
 | 2026-11-23T14:03:02+00:00 | arxiv:2611.30723v1 | [BiSAT: Bidirectionally Aligned Semantic-Acoustic Tokenization for Speech Language Models](papers/arxiv-2611-30723v1--7b34a3a6499c.md)                                                     | arxiv       |
 | 2026-11-23T03:48:08+00:00 | arxiv:2611.29985v1 | [Scoring L2 Pronunciation Without Synthesis: Counterfactual Velocity Contrast in Frozen Flow-Matching TTS](papers/arxiv-2611-29985v1--91b8d7e7fbff.md)                                     | arxiv       |
@@ -40,9 +43,6 @@ The 30 most recent of 3845 papers. Every paper is listed in [papers.csv](papers.
 | 2026-11-15T00:00:00+00:00 | arxiv:2611.20254   | [VoxMel TTS Technical Report](papers/arxiv-2611-20254--6cfa777b9091.md)                                                                                                                    | huggingface |
 | 2026-11-14T04:06:17+00:00 | arxiv:2611.19145v1 | [A Systematic Study of Cross-Token Transfer for Data-Efficient Non-Verbal Text-to-Speech](papers/arxiv-2611-19145v1--e13d2fc308e6.md)                                                      | arxiv       |
 | 2026-11-14T00:09:46+00:00 | arxiv:2611.19030v1 | [Beyond Controllability: Speaker Diversity in Instruction-Guided Text-to-Speech](papers/arxiv-2611-19030v1--c31496a12a0f.md)                                                               | arxiv       |
-| 2026-11-13T19:59:57+00:00 | arxiv:2611.18898v1 | [Factorized Self-Supervised Speech Tokenization](papers/arxiv-2611-18898v1--9a8c4f3246fa.md)                                                                                               | arxiv       |
-| 2026-11-12T09:24:22+00:00 | arxiv:2611.16525v1 | [ZONOS3-Mini Technical Report](papers/arxiv-2611-16525v1--8a0d63777a8a.md)                                                                                                                 | arxiv       |
-| 2026-11-11T13:32:32+00:00 | arxiv:2611.15464v1 | [RSE-TTS: Compact Text-to-Speech through Shared Text-Aware Reference Encoding and Generation](papers/arxiv-2611-15464v1--2cda78c6a260.md)                                                  | arxiv       |
 
 <!-- papers-index:end -->
 
